@@ -1,55 +1,51 @@
 **[Alexandre Aquiles]**
 
-Mas é... Então vamos lá pessoal.
-
-Meu nome é Alexandre Aquiles.
+Mas é... Então vamos lá pessoal. Meu nome é Alexandre Aquiles.
 
 > [Twitter do Alexandre Aquiles](https://twitter.com/alex_aquiles)
 
-Eu não vou falar onde eu trabalho, acho que vocês devem saber, né? Porque aqui o negócio é entre a gente mesmo, né? Tipo... Então é... papo nosso aqui mesmo.
+Eu não vou falar onde eu trabalho, acho que vocês devem saber, né? Porque aqui o negócio é entre a gente mesmo. É papo nosso aqui mesmo.
 
-E aí... Eu lancei um livro recentemente, né? Desbravando SOLID. Deixa eu fazer o jabá já, né? Desbravando SOLID.
+Eu lancei um livro recentemente, né? Desbravando SOLID. Deixa eu fazer o jabá já, né? Desbravando SOLID.
 
 > [Livro "Desbravando SOLID"](https://www.casadocodigo.com.br/products/livro-desbravando-solid)
 
-E aí eu fiz esse livro. E, no capítulo final, assim né... eu chego numa Arquitetura Hexagonal. Pelo menos eu acho que eu chego. Então vamos ver se eu cheguei mesmo hoje. Pode ser uma pauta.
+E aí eu fiz esse livro. E, no capítulo final eu chego numa Arquitetura Hexagonal. Pelo menos eu acho que eu chego. Então vamos ver se eu cheguei mesmo hoje. Pode ser uma pauta.
 
-Mas aí... Aí eu postei lá no Twitter referenciando um Hipsters que o Linhares e a Roberta Arcoverde e o Otávio Lemos e o Vinícius Dias e o Rodrigo Ferreira e o Paulo da Caelum, da Alura, eles estavam discutindo sobre Clean Architecture e aí repercutiu.
+Mas aí... eu postei lá no Twitter referenciando um Hipsters que o Linhares e a Roberta Arcoverde e o Otávio Lemos e o Vinícius Dias e o Rodrigo Ferreira e o Paulo da Caelum/Alura, eles estavam discutindo sobre Clean Architecture e aí repercutiu.
 
 > [Episódio do podcast Hipsters sobre Clean Architecture]( https://www.hipsters.tech/clean-architeture-hipsters-ponto-tech-254/)
 
-Então... vários comentários, várias threads diferentes e tal.
+Vários comentários, várias threads diferentes e tal.
 
 > [Tweet original que menciona o famoso episódio](https://twitter.com/alex_aquiles/status/1556657213107732480)
 
-Então é sobre isso que a gente vai falar. E aí eu coloquei um título meio marqueteiro, né?
+É sobre isso que a gente vai falar. E aí eu coloquei um título meio marqueteiro, né?
 "Clean Arch morreu?"
 
 > [Twitter Spaces "Clean Arch morreu?"](https://twitter.com/alex_aquiles/status/1557105442723172354)
 
-Até estava falando com o Aniche e com o Linhares, que tipo, é para fazer uma referência àquele papo lá do "Is TDD Dead", né? Que teve entre o cara do Rails e o Kent Beck.
+Até estava falando com o Aniche e com o Linhares que é para fazer uma referência àquele papo lá do "Is TDD Dead?" que teve entre o cara do Rails e o Kent Beck.
 
 > [Debate "Is TDD Dead?"](https://martinfowler.com/articles/is-tdd-dead/)
 
 Então é uma brincadeira, na verdade, né, pessoal?
 
-Então, se a gente quiser falar assim, "Clean Arch morreu?". Vamos falar que não e aí a gente pode fechar aqui. Mas a brincadeira é a gente discutir um pouco sobre isso e tal.
+Se a gente quiser falar "Clean Arch morreu?" vamos falar que não e aí a gente pode fechar aqui. Mas a brincadeira é a gente discutir um pouco sobre isso.
 
-E aí eu queria que os oradores... Aí, eu vou chamando...
-Eu queria que vocês falassem o nome e... define em uma frase assim, sabe?
-O que é Clean Architecture?
+E aí eu queria que os oradores... falassem o nome e... definissem em uma frase: O que é Clean Architecture?
 
-Então eu vou começar aí com o Linhares. Vamos lá, Linhares. Manda brasa aí.
+Eu vou começar aí com o Linhares. Vamos lá, Linhares. Manda brasa aí.
 
 **[Mauricio Linhares]**
 
 > [Twitter do Mauricio Linhares](https://twitter.com/mauriciojr)
 
-Já, já tá querendo a confusão.
+Já tá querendo a confusão.
 
-Dessa vez eu vou roubar o que eu achei, o comentário que mais representa o que eu senti lendo o livro. É o comentário que o Aniche fez no Twitter, que é conteúdo requentado.
+Dessa vez eu vou roubar o comentário que mais representa o que eu senti lendo o livro. É o comentário que o Aniche fez no Twitter: que é conteúdo requentado.
 
-Pegou o conteúdo que ele tinha dos outros livros, requentou, mudou de nome e botou lá, né?
+Pegou o conteúdo que ele tinha dos outros livros, requentou, mudou de nome e botou lá.
 
 Eu ainda fiquei sem entender o que efetivamente é a tal da Clean Architecture que parece com tudo que a gente já viu antes, só que com coisas com nomes diferentes.
 
@@ -57,7 +53,7 @@ Então eu tô meio confuso ainda.
 
 **[Alexandre Aquiles]**
 
-Boa. Vou na ordem aqui que tá aparecendo pra mim. Então, ô Branas, se apresenta aí pra galera e, tipo, "o que é Clean Architecture" em uma frase.
+Boa. Vou na ordem aqui que tá aparecendo pra mim. Então, ô Branas, se apresenta aí pra galera e "o que é Clean Architecture" em uma frase.
 
 **[Rodrigo Branas]**
 
@@ -65,18 +61,19 @@ Boa. Vou na ordem aqui que tá aparecendo pra mim. Então, ô Branas, se apresen
 
 Ah, beleza cara.
 
-Bom, eu sou só mais um apaixonado por programação que tem um canal no YouTube e, pra mim, eu concordo bastante com o que o Mauricio [Linhares] comentou, é um conteúdo sim um pouco, é uma mescla de óbvio, superficial e requentado.
+Bom, eu sou só mais um apaixonado por programação que tem um canal no YouTube e, pra mim, eu concordo bastante com o que o Mauricio [Linhares] comentou. É um conteúdo que é uma mescla de óbvio, superficial e requentado.
 
 > [Canal do YouTube do Rodrigo Branas](https://www.youtube.com/rodrigobranas)
 
-Mas, de certa forma, faz bastante sentido até a fronteira
-com a camada de domínio que a gente vai discutir aqui hoje, então pra mim ele é um pouco um clone do Ports & Adapters e uma pitada de DDD.
+Mas, de certa forma, faz bastante sentido até a fronteira com a camada de domínio que a gente vai discutir aqui hoje.
+
+Então, pra mim, ele é um pouco um clone do Ports & Adapters e uma pitada de DDD.
 
 Mas por isso que eu acho ele superficial, mas depois eu entro um pouco mais nos detalhes.
 
 **[Alexandre Aquiles]**
 
-Certo, beleza. Aniche, você se apresenta e coloca uma definição sucinta assim.
+Certo, beleza. Aniche, você se apresenta e coloca uma definição sucinta?
 
 Eu sei que essas coisas não são para acadêmicos, mas vai lá.
 
@@ -90,11 +87,11 @@ E definir Clean Architecture em uma frase é difícil, hein?
 
 Mas acho que o que ele tentou naquele livro é mostrar como tentar criar aplicações que vão sobreviver ao tempo, né? Que sejam fáceis de mudar, fáceis de evoluir, fáceis de testar.
 
-Se ele conseguiu isso no livro, é uma coisa que a gente vai discutir, né? Mas acho que a ideia da Clean Architecture é essa.
+Se ele conseguiu isso no livro, é uma coisa que a gente vai discutir. Mas acho que a ideia da Clean Architecture é essa.
 
 **[Alexandre Aquiles]**
 
-Certo. E o próximo que está aparecendo aqui, entrou aqui, é o Ponte. Ô Ponte, você nem sabe o que está acontecendo agora, né?
+Certo. E o próximo que está aparecendo aqui é o Ponte. Ô Ponte, você nem sabe o que está acontecendo agora, né?
 
 **[Rafael Ponte]**
 
@@ -102,20 +99,21 @@ Certo. E o próximo que está aparecendo aqui, entrou aqui, é o Ponte. Ô Ponte
 
 Eu cheguei e peguei o bonde andando aqui, ouvi o comecinho, mas...
 
-Não vou me repetir muito, né? Meu nome é Rafael Ponte, aqui.
+Não vou me repetir muito, né? Meu nome é Rafael Ponte.
 
-Conhecido como Marajá dos Legados, então vim defender os legados. Embora as pessoas não gostem, mas...
+Conhecido como Marajá dos Legados, então vim defender os legados. Embora as pessoas não gostem...
 
-Uma definição rápida de Clean Arch, dado o meu pouco conhecimento, né?
+Uma definição rápida de Clean Arch, dado o meu pouco conhecimento, até o que eu estudo é: um excesso de camadas e de indireção para blindar meia dúzia de classes.
 
-Até o que eu estudo é: um excesso de camadas e de indireção para blindar meia dúzia de classes. Pronto, é assim que eu enxergo na maioria dos projetos que eu tenho visto.
+Pronto, é assim que eu enxergo na maioria dos projetos que eu tenho visto.
 
 **[Alexandre Aquiles]**
 
 Caramba. Essa foi contundente. Eu senti uma mágoa aí.
 
 Mas... Ô Otávio. Otávio Lemos, beleza? Então, diga aí, se apresente e fale aí a sua definição.
-Ah, eu esqueci de falar assim, tipo, façam seu jabás aí também.
+
+Ah, eu esqueci de falar: façam seu jabás aí também.
 
 **[Otávio Lemos]**
 
@@ -128,11 +126,12 @@ E há 3 anos eu comecei um canal no YouTube, mais ou menos na mesma linha do Bra
 > [Canal do YouTube do Otávio Lemos](https://www.youtube.com/channel/UC9cOiXh-RFR7KI61KcyTb0g)
 
 E nessa mesma época que eu conheci essas ideias aí do Bob Martin.
-Bom, pra mim é, de fato, me parece um...
 
-Ele mesmo fala isso, né? Que é um conjunto de ideias que foram se desenvolvendo sobre arquitetura de software no sentido de organização de código e não de arquitetura de solução ou infra, né? Mais no sentido de design mesmo.
+Bom, pra mim é, de fato, me parece um... Ele mesmo fala isso, né?
 
-Mas é um conjunto de ideias antigas, se a gente for ver, porque aparece lá no... Ele fala do Ivar Jacobson lá, que é aquele "Desenvolvimento de software guiado por casos de uso".
+Que é um conjunto de ideias que foram se desenvolvendo sobre arquitetura de software no sentido de organização de código e não de arquitetura de solução ou infra. Mais no sentido de design mesmo.
+
+Mas é um conjunto de ideias antigas, se a gente for ver, porque aparece lá... ele fala do Ivar Jacobson, que é aquele "Desenvolvimento de software guiado por casos de uso".
 
 > [Livro "Object-Oriented Software Engineering: a Use Case Driven Approach", do Ivar Jacobson](https://www.amazon.com/Object-Oriented-Software-Engineering-Approach/dp/0201544350)
 
@@ -142,8 +141,7 @@ E depois tem outras abordagens como Ports & Adapters ou Arquitetura Hexagonal do
 
 Então, assim, é um punhado de ideias. E me parece que o objetivo é esse. Você ter uma arquitetura na qual você promove as suas regras de negócio e tenta desacoplá-las de outros interesses do sistema.
 
-
-Claro que você pode abusar disso, qualquer tecnologia, qualquer abordagem você pode abusar e em vez de ser um benefício, ser uma coisa que vai te atrapalhar.
+Claro que você pode abusar disso. Qualquer tecnologia, qualquer abordagem você pode abusar e em vez de ser um benefício, ser uma coisa que vai te atrapalhar.
 
 **[Alexandre Aquiles]**
 
@@ -151,14 +149,11 @@ Certo, eu vou chamar a Roberta. Ela participou do podcast, do famoso podcast aí
 
 Então Roberta, vou convidar você aqui. Te coloquei aqui numa fria, numa enrascada hein.
 
-Mas eu tinha falado com a Roberta já, deixa eu ver aqui ó, convidar para falar. Ah, apareceu aqui.
-
 **[Roberta Arcoverde]**
 
 > [Twitter da Roberta Arcoverde](https://twitter.com/rla4)
 
-Pois é, Clean Arch pra mim, de acordo também com o que o Otávio falou,
-me parece uma parada que nem é Clean nem é Arch, né?
+Pois é, Clean Arch pra mim, de acordo também com o que o Otávio falou, me parece uma parada que nem é Clean nem é Arch, né?
 
 É design e não é Clean no sentido de não ser simples, né?
 
@@ -172,17 +167,19 @@ Então, talvez seja a melhor forma que eu encontraria de definir por tudo que eu
 
 Beleza. Então só pra colocar uns termos que foram aparecendo aí.
 
-Tipo, tem muito essa coisa de ser algo antigo, né?
+Tem muito essa coisa de ser algo antigo, né?
 
 Eu lembro de fazer diagrama UML, aí tinha o diagrama de robustez, que tinha lá o Entidade, Controller e Boundary, né? O ECB.
 
-E, tipo, tá lá, o Otávio até falou aí do tal do Ivar Jacobson e era isso, né? Tipo, vem lá do UML, inclusive eu acho que antes de existir o UML na verdade.
+E o Otávio até falou aí do tal Ivar Jacobson e era isso, né? Vem lá do UML. Inclusive eu acho que antes de existir o UML, na verdade.
 
-Aí tem essa coisa de... Eu acho que a Roberta falou, o Ponte falou que talvez... Muitas abstrações, muitas indireções. E eu acho que é isso que a Roberta falou, visa flexibilidade.
+Aí tem essa coisa de... eu acho que a Roberta falou, o Ponte falou... Muitas abstrações, muitas indireções.
 
-Tanto o Otávio como a Roberta falaram aí de design. Então talvez o nome arquitetura seja estranho, então arquitetura limpa, talvez seja um design limpo.
+E eu acho que é isso que a Roberta falou, visa flexibilidade.
 
-E aí eu tava vendo aqui, tipo, tava lembrando, né, até coloquei um tweet lá de 2017 que eu tava bem radical, digamos.
+Tanto o Otávio como a Roberta falaram aí de design. Então talvez o nome arquitetura seja estranho. Então arquitetura limpa talvez seja um design limpo.
+
+E aí eu tava vendo aqui, tava lembrando, até coloquei um tweet lá de 2017 que eu tava bem radical, digamos.
 
 > [Tweet de 2017 argumentando que POJO com anotações JPA não é POJO porque depende de framework de persistência](https://twitter.com/alex_aquiles/status/930438070163386370)
 
@@ -192,9 +189,9 @@ E aí tinham 3 livros que estavam sendo... lançados. Um era o "Building Evoluti
 
 > [Livro "Building Evolutionary Architectures", por Neal Ford, Rebecca Parsons e Patrick Kua, então da Thoughtworks publicado em Setembro/2017](https://www.oreilly.com/library/view/building-evolutionary-architectures/9781491986356/)
 
-Que era da ThoughtWorks, que o Aniche chegou a mencionar [nas threads], assim, tem um negócio de fitness function e tal. Eu não li, para falar a verdade.
+Que era da ThoughtWorks, que o Aniche chegou a mencionar [nas threads]. Tem um negócio de fitness function e tal. Eu não li, para falar a verdade.
 
-Aí tinha um que era o "Design It", que é bem sobre arquitetura, sobre trade-offs, estilos arquiteturais e tal, que era da Pragmatic Programmer. Só que ele não tinha arquitetura no nome.
+Aí tinha um que era o "Design It", que é bem sobre arquitetura, sobre trade-offs, estilos arquiteturais e tal, que era da Pragmatic Programmers. Só que ele não tinha arquitetura no nome.
 
 > [Livro "Design It", por Michael Keeling, publicado na Pragmatic Bookshelf em Outubro/2017](https://pragprog.com/titles/mkdsa/design-it/)
 
@@ -210,21 +207,19 @@ Você pulou os dois melhores e pegou o pior.
 
 Tipo isso.
 
-Mas aí eu fui tentar aplicar em um freela. Eu e um camarada de Android assim. A gente estava querendo reaproveitar o modelo.
+Mas aí eu fui tentar aplicar em um freela. Eu e um camarada de Android. A gente estava querendo reaproveitar o modelo.
 
 Foi um desastre nesse caso específico. Porque eu acho que o modelo é diferente de uma aplicação Android e da API, que é o que eu estava fazendo.
 
-E assim, eu não sofri muito porque o negócio não foi para frente.
-Mas eu acho que eu teria sofrido.
+E assim, eu não sofri muito porque o negócio não foi para frente. Mas eu acho que eu teria sofrido.
 
 Aí, pessoal, o que eu queria é fazer uma brincadeira aqui...
-
 
 Ô Linhares, você leu o livro, né? Vamos falar um pouco sobre o livro em si.
 
 > [Um dos tweets em que Linhares comenta o livro Clean Architecture](https://twitter.com/mauriciojr/status/1558277943243284480)
 
-Só que eu quero, foi o Allan Silva que, eu não sei se ele está aqui, mas o Allan Silva que ele deu a ideia assim de, o Linhares falar que ele achou de bom no livro.
+Só que eu quero, foi o Allan Silva que, eu não sei se ele está aqui, mas o Allan Silva que ele deu a ideia do Linhares falar que ele achou de bom no livro.
 
 > [Twitter do Allan Silva](https://twitter.com/__allansilva__)
 
@@ -248,27 +243,25 @@ Você pega o livro do Rod Johnson, que foi o livro que deu nascimento ao Spring,
 
 > [Livro "Expert One–on–One J2EE Development without EJB", de Rod Johnson, publicado em 2004 e considerado a certidão de nascimento do Spring](https://www.amazon.com.br/Expert-One-One-Development-without/dp/0764558315)
 
-Nesse livro, acho que esse é o livro do Rod Johnson. Ele tem muitas das ideias que a gente vê aqui
-de você criar essa separação, de você não deixar o framework ficar dentro da sua aplicação, porque a gente sofria muito para escrever aplicações e testar aplicações por causa do peso que o framework e as coisas do Java tinham em cima da sua plataforma.
+Nesse livro, acho que esse é o livro do Rod Johnson. Ele tem muitas das ideias que a gente vê aqui de você criar essa separação, de você não deixar o framework ficar dentro da sua aplicação, porque a gente sofria muito para escrever aplicações e testar aplicações por causa do peso que o framework e as coisas do Java tinham em cima da sua plataforma.
 
 E daí surge o Spring, e daí surge o jeito que a gente está escrevendo aplicações Enterprise em Java modernas.
 
-E eu acho que essa coisa de você separar... é importante, né? Eu acho que isso, nisso ele acerta no livro que você realmente precisa separar essas coisas.
+E eu acho que essa coisa de você separar... é importante, né? Eu acho que nisso ele acerta no livro que você realmente precisa separar essas coisas.
 
-Isso é uma coisa que a gente vem fazendo, assim, desde o primeiro livro de modelagem e design orientado a objetos que eu lembro de ter lido, que eu acho que é o de UML do Grady Booch.
+Isso é uma coisa que a gente vem fazendo desde o primeiro livro de modelagem e design orientado a objetos que eu lembro de ter lido, que eu acho que é o de UML do Grady Booch.
 
 > [Livro "Object-Oriented Analysis and Design with Applications", por Grady Booch](https://www.amazon.com/Object-Oriented-Analysis-Design-Applications-3rd-dp-020189551X/dp/020189551X)
 
 Que era um dos livros que eram recomendados pra gente na época da faculdade. E era isso... E isso era uma recomendação, né?
 
-Que você não quer que essas coisas elas entrem dentro do seu código, mas você não vai fazer isso de uma forma radical.
+Que você não quer que essas coisas entrem dentro do seu código, mas você não vai fazer isso de uma forma radical.
 
-Como lá no teu tweet que eu coloco, ah, não quero nem botar as anotações no meu objeto. Aí você tá indo longe demais no negócio.
+Como lá no teu tweet que você colocou "Ah, não quero nem botar as anotações no meu objeto". Aí você tá indo longe demais no negócio.
 
-Porque a grande preocupação que a gente tinha na época não era de você ter referência ao framework, era como é que eu consigo testar e usar e fazer operações em cima dessas soluções
-localmente na minha máquina, fazer teste unitário, fazer TDD, você conseguir fazer o design da sua aplicação através dos testes, e eu acho que essa eu vou dizer que é uma das poucas coisas que eu acho que são legais, mas o foda é porque ele é mais radical do que o seu tweet. E é difícil de você separar essas coisas no livro.
+Porque a grande preocupação que a gente tinha na época não era de você ter referência ao framework, era como é que eu consigo testar e usar e fazer operações em cima dessas soluções localmente na minha máquina, fazer teste unitário, fazer TDD, você conseguir fazer o design da sua aplicação através dos testes, e eu acho que essa eu vou dizer que é uma das poucas coisas que eu acho que são legais, mas o foda é porque ele é mais radical do que o seu tweet. E é difícil de você separar essas coisas no livro.
 
-Eu tive muita dificuldade de pegar essas coisas e... ah, porra, isso aqui é importante
+Eu tive muita dificuldade de pegar essas coisas e... ah, porra, isso aqui é importante.
 
 É muito importante a gente não deixar essas coisas vazarem para dentro de camadas para onde elas não deveriam ter vazado. Você tem que tentar separar essas coisas.
 
@@ -283,27 +276,25 @@ Então, o meu primeiro contato com o trabalho dele foi naquele "Agile Principles
 > [Primeira edição do livro "Agile Software Development, Principles, Patterns, and Practices", por Robert Martin, publicada em 2002](https://www.amazon.com/Software-Development-Principles-Patterns-Practices/dp/0135974445)
 
 
-Foi antes do Clean Code, aliás. E eu vim... Eu estava vindo de 3 projetos na sequência.
+Foi antes do Clean Code, aliás. Eu estava vindo de 3 projetos na sequência.
 
-Um deles, o primeiro, onde era uma loja virtual que a galera customizou, a loja virtual aberta em ASP da Locaweb. quem lembra disso aqui, né? E eram aqueles arquivos ASP de 5 mil linhas, e tudo acontecia ali.
+Um deles, o primeiro, onde era uma loja virtual que a galera customizou a loja virtual aberta em ASP da Locaweb. Quem lembra disso aqui? E eram aqueles arquivos ASP de 5 mil linhas e tudo acontecia ali.
 
-Aí eu pulei para um projeto na Sony, onde era o projeto que controlava a venda de DVDs da Sony, era tudo em JSP, e tudo na JSP.
+Aí eu pulei para um projeto na Sony que era o projeto que controlava a venda de DVDs da Sony, era tudo em JSP, e tudo na JSP.
 
 Aí eu fui trabalhar na Verifone, programar em C, tudo num arquivo C completo.
 
-E aí, para mim, não fazia sentido, não é possível que não dava para ser melhor. E quando eu li aquele livro onde ele introduziu o SOLID pela primeira vez lá, etc. e tal, eu falei, porra, até que dá para separar as coisas.
+E aí, para mim, não fazia sentido. Não é possível que não dava para ser melhor. E quando eu li aquele livro onde ele introduziu o SOLID pela primeira vez lá, etc e tal, eu falei "porra, até que dá para separar as coisas".
 
 Dá pra ser um pouquinho melhor, não precisa estar tudo no mesmo lugar. Porque acho que a galera colocava, nos projetos que eu participei, estava tudo sempre no mesmo lugar.
 
-E pra mim foi um divisor de águas, ele dizia, dá pra tentar modelar um pouquinho melhor.
+E pra mim foi um divisor de águas. Ele dizia, dá pra tentar modelar um pouquinho melhor.
 
 Agora, óbvio, ele é muito extremista na maneira de escrever. Acho que é isso que você tem que ignorar quando lê.
 
-Eu falei em algum tweet disso, que se você for seguir a risca ali, o que ele fala, ele é bem extremista.
+Eu falei em algum tweet disso, que se você for seguir a risca ali, o que ele fala, ele é bem extremista. "Banco de dados é um detalhe" Não sei em que mundo que banco de dados é um detalhe, né?
 
-"Banco de dados é um detalhe" Não sei em que mundo que banco de dados é um detalhe, né?
-
-Mas acho que pra mim foi isso que me agradou no trabalho dele lá, sei lá, em 2006, 2007, quando eu comecei a ler o trabalho dele.
+Mas acho que pra mim foi isso que me agradou no trabalho dele lá em 2006, 2007, quando eu comecei a ler o trabalho dele.
 
 Mas eu concordo em tudo que você comentou, Mauricio [Linhares], que é muito extremista, né? Infelizmente é muito extremista, do meu ponto de vista, claro.
 
@@ -313,8 +304,7 @@ Eu ia colocar só 3 pontinhos importantes aqui, tá?
 
 O primeiro ponto que eu acho que todo mundo concorda é que não faz sentido você misturar o inbound driver, ou a inbound port, se a gente pensar em Ports & Adapters, com regra de negócio, que é uma coisa que a gente sempre sofreu ao longo dos últimos 20, 30 anos.
 
-Ou seja, o teu controller tem regra de negócio, a tua tela tem regra de negócio, geralmente o controller e tela, mas se você tivesse um CLI, talvez ele pudesse ter regra de negócio,
-talvez se você tivesse algum outro tipo de driver da aplicação, era muito comum que a gente presenciasse isso.
+Ou seja, o teu controller tem regra de negócio, a tua tela tem regra de negócio, geralmente o controller e tela, mas se você tivesse um CLI, talvez ele pudesse ter regra de negócio, talvez se você tivesse algum outro tipo de driver da aplicação, era muito comum que a gente presenciasse isso.
 
 Então o primeiro ponto-chave aqui do Clean Architecture é a camada de use cases, que seria... aquela API da application que você expõe pra fora, certo?
 
@@ -326,11 +316,11 @@ Então, nesse ponto aí, eu acho que o Clean Architecture está perfeito nas col
 
 Ele tem uma questãozinha em relação a Screaming Architecture, que é sempre difícil você pensar naquele nome Service. Qual é o nome do Service? É Order Service, Client Service, Product Service?
 
-Então, ele diz assim, olha, vamos criar um negócio chamado Use Case, que é a intenção exata do usuário, e a gente dá um nome, então isso pode pulverizar uma grande quantidade de classes, mas até aí eu acho que está tudo bem.
+Então, ele diz assim: "olha, vamos criar um negócio chamado Use Case, que é a intenção exata do usuário, e a gente dá um nome". Então isso pode pulverizar em uma grande quantidade de classes, mas até aí eu acho que está tudo bem.
 
 Para mim, a grande incongruência do Clean Architecture está em um passo para dentro, não um passo para fora.
 
-Tá tudo certo, separar frameworks e drivers, na minha visão, é inviável porque nem sempre os frameworks são intercambiáveis, mas só o fato de você separar porta pra fora, porta pra dentro, já é uma coisa boa.
+Tá tudo certo, separar frameworks e drivers, na minha visão. É inviável porque nem sempre os frameworks são intercambiáveis, mas só o fato de você separar porta pra fora, porta pra dentro, já é uma coisa boa.
 
 O erro pra mim é na camada de Entities, tá?
 
@@ -340,8 +330,7 @@ Basicamente esse é o objetivo da orientação a objetos.
 
 Não é simplesmente criar classe, porque você pode criar classe e continuar sendo procedural.
 
-Então você tem que... expor comportamento e preservar características
-e assim você tem controle de invariância.
+Então você tem que... expor comportamento e preservar características e assim você tem controle de invariância.
 
 Quando você tem um projeto muito orientado a objetos, você tem uma relação entre os objetos. Então você começa a agrupar esses objetos em clusters. Eles começam a ter referência uns pros outros.
 
@@ -349,17 +338,15 @@ Esse é exatamente o conceito do aggregate que o Eric Evans traz em Domain Drive
 
 > [O seminal livro "Domain-Driven Design: Tackling Complexity in the Heart of Software", por Eric Evans, publicado em 2003](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215)
 
-E o aggregate tem que ter um determinado tamanho pra que ele mantenha a consistência transacional
-na hora de você fazer a persistência por meio de repositório.
+E o aggregate tem que ter um determinado tamanho pra que ele mantenha a consistência transacional na hora de você fazer a persistência por meio de repositório.
 
-Para que ele não seja nem muito grande e muito desengonçado e ocupe muito espaço em memória e nem muito pequeno para que a granularidade seja tipo um mapeamento de tabela praticamente, né?]**
+Para que ele não seja nem muito grande e muito desengonçado e ocupe muito espaço em memória e nem muito pequeno para que a granularidade seja tipo um mapeamento de tabela praticamente, né?
 
 Então é uma linha tênue e difícil de obter. E o Bob Martin não cita isso no livro dele.
 
-Tanto que quando eu vou... Eu tenho um curso sobre Clean Architecture, não só sobre isso, né? Sobre DDD, SOLID e outras coisas. E eu sempre faço essa mescla.
+Tanto que quando eu vou... Eu tenho um curso sobre Clean Architecture. Não só sobre isso, né? Sobre DDD, SOLID e outras coisas. E eu sempre faço essa mescla.
 
-Então eu começo explicando pelo Ports & Adapters... trago o conceito de Clean Architecture e substituo a camada de Entity por Domain Driven Design, mas aonde houver um domínio
-suficientemente complexo que pague o custo disso.
+Então eu começo explicando pelo Ports & Adapters... trago o conceito de Clean Architecture e substituo a camada de Entity por Domain Driven Design, mas aonde houver um domínio suficientemente complexo que pague o custo disso.
 
 Porque se eu tenho uma aplicação muito simples, vai ser burocrático, que é um pouco do que foi colocado por vocês logo no início.
 
@@ -375,7 +362,7 @@ Esse é o meu ponto.
 
 **[Alexandre Aquiles]**
 
-Boa. Só queria... Vai lá, Otávio.
+Boa. Vai lá, Otávio.
 
 **[Otávio Lemos]**
 
@@ -387,15 +374,15 @@ Inclusive, você pode ter alguns casos de uso mais simples, nos quais você só 
 
 Eu acho que quando você começa a fazer essas adaptações para o seu contexto, aí a coisa começa a fazer mais sentido. Então deixa eu fazer o jabá aqui.
 
-Eu acho que o meu livro é mais simples, né? O meu livro, "Arquitetura Limpa na Prática", ele resume as ideias e mostra um exemplo.
+Eu acho que o meu livro é mais simples, né? O meu livro "Arquitetura Limpa na Prática" resume as ideias e mostra um exemplo.
 
 > [Site do livro "Arquitetura Limpa na Prática", do Otávio Lemos](https://www.otaviolemos.com.br/)
 
-E em 100 páginas lá você consegue pegar a essência da arquitetura limpa.
+E em 100 páginas lá você consegue pegar a essência da Arquitetura Limpa.
 
 E é isso que o Branas falou também, eu acho interessante essa parte. Ninguém reclama de separar front-end e back-end. Isso é uma coisa que a gente já faz faz muito tempo. Seria a parte esquerda da Arquitetura Hexagonal, ou Ports & Adapters.
 
-O galho fica quando você quer desacoplar coisas como banco de dados e tal, e aí já fica mais difícil de fazer e não faz sentido em todos os sistemas que você desenvolve.
+O galho fica quando você quer desacoplar coisas como banco de dados e aí já fica mais difícil de fazer e não faz sentido em todos os sistemas que você desenvolve.
 
 Tem que ser adaptado ao seu contexto. Então acho que isso vale a pena a gente ter na cabeça, né?
 
@@ -403,7 +390,7 @@ Que o Uncle Bob é muito enfático, né? Então você tem que colocar um filtro 
 
 **[Alexandre Aquiles]**
 
-Sei. Eu acho que assim, a gente está assumindo que use case e vamos dizer, service, ou coisa do gênero, é uma unanimidade. Agora, é de fato uma unanimidade entre nós aqui, pessoal?
+Sei. Eu acho que assim, a gente está assumindo que Use Case e vamos dizer, Service, ou coisa do gênero, é uma unanimidade. Agora, é de fato uma unanimidade entre nós aqui, pessoal?
 
 Eu não sei, por exemplo, a Roberta, eu acho que tem críticas, né, Roberta?
 
@@ -417,8 +404,6 @@ Que tipo de organização que você fala? Distribuído?
 
 Tipo, assim, de separar a camada que está mais próxima da interface com o usuário do resto do sistema.
 
-Porque eu lembro que a gente participou de um...
-
 Tem até um exemplo de um tweet lá que tinha até SQL dentro de um controller, não tinha?
 
 > [Tweet famoso da Roberta que revela um SQL no Controller](https://twitter.com/rla4/status/1302244493329084418)
@@ -429,25 +414,25 @@ Ah, não. Mas isso aí é um pouco indesculpável.
 
 **[Alexandre Aquiles]**
 
-Tá. Mas por que que... Por que aquilo?
+Tá. Mas... Por que aquilo?
 
 **[Roberta Arcoverde]**
 
-Eu acho que o foco da aplicação, quando a gente fala de Clean Architecture, de padrões, de modularidade, o que todo mundo quer, escrever uma aplicação que seja resiliente e fácil de manter a longo prazo.
+Eu acho que o foco da aplicação, quando a gente fala de Clean Architecture, de padrões, de modularidade, o que todo mundo quer é escrever uma aplicação que seja resiliente e fácil de manter a longo prazo.
 
 É isso que a gente quer dizer quando a gente fala de qualidade. Ela é fácil de entender, ela é fácil de modificar, ela é fácil de manter em longo prazo.
 
-E tem... diversas técnicas e princípios e padrões para fazer isso que não necessariamente... cuja modularidade não é necessariamente o único foco.
+E tem diversas técnicas e princípios e padrões para fazer isso que não necessariamente... cuja modularidade não é necessariamente o único foco.
 
-Modularidade é um aspecto muito importante de manutenibilidade, mas não é um único.
+Modularidade é um aspecto muito importante de manutenibilidade, mas não é o único.
 
-Eu acho que quando você tem um Big Ball of Mud, ou seja, um sistema cuja arquitetura não pode sequer ser inferida porque ele é escrito de formas completamente aleatórias e tem muitos padrões e é difícil de entender onde, se você vai escrever código novo, onde aquele código deve ficar, esse não é um mundo que ninguém quer estar.
+Eu acho que quando você tem um Big Ball of Mud, ou seja, um sistema cuja arquitetura não pode sequer ser inferida porque ele é escrito de formas completamente aleatórias e tem muitos padrões e é difícil de entender, se você vai escrever código novo, onde aquele código deve ficar, esse não é um mundo que ninguém quer estar.
 
 > [Artigo "Big Ball of Mud", por Brian Foote e Joseph Yoder, de 1999](http://www.laputan.org/mud/)
 
 Eu gosto de divisões de camadas, eu acho que elas são importantes.
 
-Eu acho que uma organização que permita com que o time de desenvolvimento, sempre que ele quiser alterar o código ou inserir uma nova funcionalidade, ele saiba exatamente aonde esse código tem que entrar.
+Eu acho que uma organização que permita com que o time de desenvolvimento, sempre que quiser alterar o código ou inserir uma nova funcionalidade, saiba exatamente aonde esse código tem que entrar.
 
 Isso é desejável, isso é importante para a manutenibilidade de longo prazo.
 
@@ -457,13 +442,13 @@ Agora, é catastrófico? Também não sei se é catastrófico, acho que depende 
 
 Se é um sistema muito pequeno, que não tem tantas alterações assim.
 
-Nesse exemplo que eu dei era de um trecho de código que tava inalterado há sete anos, então nunca deu dor de cabeça pra ninguém.
+Nesse exemplo que eu dei era de um trecho de código que tava inalterado há 7 anos, então nunca deu dor de cabeça pra ninguém.
 
 Então faz diferença realmente encaixar 3 ou 4 novas classes ali pra separar esses concerns? Não acho que faça, sabe? Não acho que faça.
 
 Eu acho que a coisa que mais me incomoda do tom desse livro e do tom desse autor é, com o perdão do meu francês, a cagação de regra mesmo, sabe?
 
-Parece que existe apenas uma forma de escrever sistemas, essa é a forma, e quem faz assim tá correto, quem não faz assim tá fadado a escrever sistemas ruins, difíceis de manter.
+Parece que existe apenas uma forma de escrever sistemas. Essa é a forma, e quem faz assim tá correto, quem não faz assim tá fadado a escrever sistemas ruins, difíceis de manter.
 
 E é engraçado como comunidade como a gente aceita isso, quando a gente também aceita um princípio que contradiz isso, que é o princípio de que não existe bala de prata, né?
 
@@ -472,9 +457,7 @@ E é engraçado como comunidade como a gente aceita isso, quando a gente também
 É pouco controverso de que em design e arquitetura de software não existam soluções únicas, que tudo depende de contexto, e ao mesmo tempo existe uma resistência a perceber que os designs propostos por Clean Architecture e pelo conjunto da obra do autor, sejam entendidos como os únicos corretos, e que por exemplo, como o Maurício estava falando, como os dois Maurícios
 estavam falando, seja interessante abstrair o seu banco de dados.
 
-Ah não, é uma boa aplicação, bem feita, ela não deve se preocupar com qual é o mecanismo
-de storage, quando na verdade eu acho que isso complexifica e atrapalha a manutenibilidade, ao invés de facilitar, porque a decisão de qual mecanismo de storage você vai usar
-é uma das mais importantes no planejamento de uma arquitetura.
+Ah não, uma boa aplicação, bem feita, ela não deve se preocupar com qual é o mecanismo de storage, quando na verdade eu acho que isso complexifica e atrapalha a manutenibilidade, ao invés de facilitar, porque a decisão de qual mecanismo de storage você vai usar é uma das mais importantes no planejamento de uma arquitetura.
 
 E tentar torná-la invisível traz mais problemas, na minha opinião, do que auxílios.
 
@@ -492,24 +475,25 @@ Mas vai lá, Ponte.
 
 **[Rafael Ponte]**
 
-Show. Vou pegar aqui a tua pergunta, né? 
+Show. Vou pegar aqui a tua pergunta.
 
-Como é que a gente entende o que são use cases, né? Acho que o Clean Arch comenta muito, né?
+Como é que a gente entende o que são Use Cases, né? Acho que o Clean Arch comenta muito.
 
-E de certa forma é algo até aberto, né? Mas para mim, acho que o Mauricio Aniche, o Linhares já... de muita data aí, mais de 10, 15 anos de experiência, a gente já sofreu demais com a ideia de gerar essas camadas indireção, né?
+E de certa forma é algo até aberto. Mas para mim, acho que o Mauricio Aniche, o Linhares já... de muita data aí, mais de 10, 15 anos de experiência, a gente já sofreu demais com a ideia de gerar essas camadas indireção.
 
-Use cases, a gente chama de service, outros chamam de Manager. Então esse nome foi mudando com o tempo, né?
+Use cases, a gente chama de Service, outros chamam de Manager. Então esse nome foi mudando com o tempo.
 
-Mas isso fazia muito sentido há 15 anos atrás, talvez 10 anos atrás, eu falando aqui na plataforma Java, onde é o meu dia a dia, porque os frameworks não eram maduros o suficiente para conseguir tirar todo aquele glue code, aquele código de infra que a gente era obrigado a ter que implementar, escrever, ou copiar e colar de algum lugar.
+Mas isso fazia muito sentido há 15 anos atrás, talvez 10 anos atrás. Eu falando aqui na plataforma Java, que é o meu dia a dia, porque os frameworks não eram maduros o suficiente para conseguir tirar todo aquele glue code, aquele código de infra que a gente era obrigado a ter que implementar, escrever, ou copiar e colar de algum lugar.
 
-Só que isso mudou, isso mudou nos últimos, sei lá, talvez 10 anos para cá, 9, 8 anos para cá. Você pega uma plataforma como Spring, ou mesmo Java EE, que hoje é o Jakarta EE, e você consegue perceber que o controller que antes a gente temia de deixar qualquer tipo de lógica de negócio,
-qualquer if, qualquer coisa relacionada ao nosso modelo de domínio, hoje não tem mais esse problema.
+Só que isso mudou nos últimos, sei lá, talvez 10 anos para cá, 9, 8 anos para cá.
+
+Você pega uma plataforma como Spring, ou mesmo Java EE, que hoje é o Jakarta EE, e você consegue perceber que o controller que antes a gente temia de deixar qualquer tipo de lógica de negócio, qualquer if, qualquer coisa relacionada ao nosso modelo de domínio, hoje não tem mais esse problema.
 
 Hoje você pegar um controller do Spring basicamente é uma classe, um POJO, com algumas anotações. E só!
 
-O controller está tão limpo, tão simples, onde o framework absorveu toda a complexidade, o glue code que a gente... tentou evitar durante anos, que, para mim, na maioria dos casos, eu enxergo ele como meu use case.
+O controller está tão limpo, tão simples, onde o framework absorveu toda a complexidade, o glue code que a gente... tentou evitar durante anos, que, para mim, na maioria dos casos, eu enxergo ele como meu Use Case.
 
-E para muitas pessoas, isso é bem feio, porque se eu enxergo ele como use case, a chance são de que eu vou injetar um repositório, um ou dois repositórios ali.
+E para muitas pessoas, isso é bem feio, porque se eu enxergo ele como Use Case, a chance são de que eu vou injetar um repositório, um ou dois repositórios ali.
 
 E a ideia de que injetar repositório aproxima do banco de dados e está no controller é ainda mais doloroso para muita gente.
 
@@ -1607,4 +1591,3 @@ Eu vou ter que ouvir isso 15 vezes pra absorver todo o conhecimento aqui.
 Então muito obrigado e eu vou finalizar aqui então. Beleza?
 
 Tchau, tchau pessoal! Valeu!
-
