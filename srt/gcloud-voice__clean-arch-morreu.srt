@@ -1,0 +1,403 @@
+1
+00:00:00,100 --> 00:00:59,500
+mas é então vamos lá pessoal meu nome é Alexandre Aquiles eu não vou falar onde eu trabalho eu acho que é porque aqui o negócio é entre a gente mesmo né tipo não é papo Nossa aqui mesmo e aí entrou em um livro recentemente né desbravando Solid de fazer o Jabá já né desbravando sólido E aí eu fiz esse esse livro e no capítulo final assim né eu chego no Marco Antônio agonal Pelo menos eu acho que eu chego Então vamos ver se eu cheguei mesmo a gente pode ser uma falta aí a gente aí eu postei lá né twitter.com referenciando hipster que o
+
+2
+00:01:00,100 --> 00:02:00,000
+e a Roberta Arcoverde e o Otávio Lemos e o Vinícius dias e Rodrigo Ferreira e o Paulo da cara da loira né Eles estavam discutindo saber clínica estética e aí repercutiu né então Várias Vários comentários diferentes e tal então É sobre isso que a gente vai falar e aí eu coloquei um título meio marqueteiro na arca e morreu a tela falando com o xixi com Linhares que tipo é para fazer uma referência aquele aquele papo lá do espírito né que teve entre o cara do Brasil que tem uma brincadeira na verdade é pessoal então se a gente quiser falar se a clínica que morreu vamos falar que não e aí vamos poder
+
+3
+00:02:00,100 --> 00:02:30,100
+a gente pode fechar aqui mas a brincadeira é a gente discutir um pouco né sobre isso e tal e aí eu queria que os oradores aí eu vou chamando eu quero que você fale o nome e defina em uma frase assim sabe o que que é clean architecture vou começar aí com o Linhares celulares manda Brasil
+
+4
+00:02:32,700 --> 00:03:28,000
+mas já já tá querendo conversar mais que mais representa o que eu senti lendo o livro é o comentário planície fez o que é conteúdo o conteúdo que ele tinha dos outros livros retentor mudou de no homem e botou lá eu ainda fiquei sem entender o que é ativamente é que parece com tudo que a gente veio antes só que com coisas com nome diferente então eu tô meio confuso aí vou lá vou na ordem aqui que tá aparecendo para mim então se apresenta aí para galera e tipo que é uma frase assim
+
+5
+00:03:29,000 --> 00:04:21,200
+a beleza cara bom eu sou só mais um apaixonado aí para programação que tem um canal no YouTube e para mim eu concordo bastante ele que o Mauricio comentou é um conteúdo sim Óbvio superficial e requentado tá mas de certa forma faz bastante sentido até a fronteira com a camada de domínio que a gente vai discutir Então para mim ele é um pouco um clone do Corsa e cada DDD mas por isso que eu acho ele superficial mas depois eu dou um pouco mais detalhes da Beleza Vanish você se apresenta e coloca uma definição sucinta se eu sei que essas coisas não é placa dele mas vai lá vai lá
+
+6
+00:04:22,800 --> 00:05:22,700
+tem gente me Maurício e definir Quem é que tá com olhinho uma frase é difícil hein mas acho que é o que ele tentou naquele livre mostrar como tentar criar aplicações para sobreviver o tempo né que sejam fáceis de mudar fáceis de evoluir fáceis de testar se ele conseguiu isso no livro é uma coisa a gente vai discutir né mas acho que a ideia daqui não é que tá certo e o próximo que tá aparecendo aqui entrou aqui é o ponte pontinho você nem sabe o que tá acontecendo agora né E aí ele pegou o bonde andando aqui ouviu comecinho mas não vou me repetir muito não Rafael Pontiac conhecido como Marajá você não gosta mais é uma definição rápida de que parte da da minha pouca conhecimento né até o que estuda um excesso de camada de direção para blindar meia dúzia
+
+7
+00:05:22,800 --> 00:05:52,400
+é assim que eu enxergo na maioria dos projetos que eu tenho visto Caramba essa foi com o dente eu senti uma mago aí mas o Otávio Otávio Lemos Beleza então diga aí Se apresente Fale a sua definição eu esqueci de falar assim que eu faço se eu já bagunça aí também
+
+8
+00:05:53,900 --> 00:06:53,600
+boa com pessoal meu nome é Tarde Lemos pessoa professor universitário seu professor da Universidade Federal de São Paulo a 13 anos e 3 anos eu comecei um canal no YouTube mais ou menos na mesma linha do Brás né falando sobre os movimentos soci engenheiro de software e nessa mesma época que eu conheci essa cidade do Bob Martin não e bom para mim É de fato me parece um com ele mesmo fala isso né que é um conjunto de 10 que foram se desenvolvendo sobre arquitetura de software no sentido de organização de código e não de arquitetura de solução ou incha né mas o sentido de design mesmo é um conjunto de ideias antigas a gente for ver porque aparece lá no ele fala do e acondicionar que é aqueles momentos
+
+9
+00:06:53,900 --> 00:07:53,500
+caso de uso e depois tem outras outras abordagens como posso ir até Trio arquitetura hexagonal do rasther cover então assim é um conjunto de 10 e me parece que objetivo é esse Você você tem uma arquitetura na qual você promove as suas regras de negócio e tenta de outros interesses do sistema claro que você pode abusar disso né Qualquer tecnologia qualquer abordagem você pode abusar e em vez de ser um benefício uma coisa que vai te atrapalhar eu vou chamar a Roberta tá aqui ela ela participou do podcast do famoso podcast aí Roberta vou convidar você aqui e coloquei aqui não há numa fria não mas cadê mas eu tinha falado que a Roberta já
+
+10
+00:07:53,800 --> 00:08:53,200
+convidar para falar apareceu Pois é clinort para mim De acordo também com o Otávio falou nem parece uma parada que nem aqui nem Arte Design e não é Clínica sentido de nossas imples né no sentido de adicionar um pouco de cidade para tentar definir atrações e isolar interesses que na minha opinião tem que se tentar isolar você acaba que você abre mão de coisas mais sofisticadas que você poderia estar utilizando que informa o design do sistema né e abrir mão dessas coisas deliberadamente em nome de uma suposta flexibilidade para que essa estrutura mude no futuro para mim sou um pouco inocente então talvez seja melhor
+
+11
+00:08:53,900 --> 00:08:59,400
+que encontraria de definir por tudo que eu li que a gente tem discutido nesses dias
+
+12
+00:09:01,000 --> 00:10:00,900
+beleza é então só para colocar os termos que foi aparecendo aí tipo tem muita essa coisa de ser algo antigo né eu lembro de fazer diagrama uml diagrama de robustez que tinha lá o entidade controle e receber e tipo tá lá eu tava até falou aí Ivan Jacob era isso né tipo vem lá do do ML eu acho que antes de existir o ML na verdade aí daí tem essa coisa de eu acho que a Roberta falou Pode falou né que talvez muitas habilitação em direções né Eu acho que é isso que ela vai falar avisa flexibilidade tanto Otávio com a Roberto falar aí de designer né então talvez o nome arquitetura
+
+13
+00:10:00,900 --> 00:11:00,000
+estranho então arquitetura limpa Talvez seja um design limpo e aí eu tava vendo aqui que tava lembrando né até coloquei um Twitter de 2017 que eu tava bem radical gigantes E aí eu lembro que eu e o Rodrigo já estava querendo estudar sobre arquitetura e aí tinha três que estavam sendo lançados um a building evolutionary architectures 2017 toque Anitta chegou a mencionar assim tem um negócio de fitdance funk chama e tal eu não ligo para falar a verdade aí tinha um que era o designer bem sobre arquiteturas e estilos arquiteturais e tal que era da Praga minha filha de programa só que ele não tinha que ter o nome e tinha Clinic Tec quê
+
+14
+00:11:00,900 --> 00:11:59,600
+sobre design arquitetura no nome e foi o que eu escolhi ler e aí mas aí eu fui tentar aplicar no frio lá né eu e o camarada de Android assim a gente tava querendo ver modelo e foi um desastre assim nesse caso específico porque eu acho que no modelo é diferente né do mar aplicação Android e da Happy que é o que eu tava fazendo e assim eu não sofri muito por que o negócio não foi para frente assim mas eu acho que eu tô sofrendo aí pessoal o que eu queria fazer uma brincadeira aqui do Linhares você leu o livro nós vamos falar um pouco sobre o livro e se
+
+15
+00:12:00,900 --> 00:12:17,700
+foi uma LAN Silva que eu não sei se ele tá aqui mas o Alan Silva que ele deu a ideia assim de Linhares falar o que ele achou de som no livro tão destaque aí nela o que você achou de bom no livro
+
+16
+00:12:20,600 --> 00:13:20,400
+bicho aí É difícil dar uma forçada é porque é porque tem esse livro Ele me levou para muitos momentos traumáticos do passado né porque muito do que do que está sendo discutido das coisas que estão sendo usadas São coisas que a gente queria matar ali no meio dos anos 2000 no Java você pega o livro do Robson que foi o livro que deu deu nas Spring tem muito essa discussão né de como era complicado de você criar separação Por que a gente tinha toda essa coisa de ar tudo tem um lugar tem um ser também tem uma tem um monte de japa jeans da JB essa porra toda né e ele ele ele vem com essas ideias nesse livro acho que ele ele ele tem muitas
+
+17
+00:13:20,600 --> 00:14:20,400
+vem aqui de você criar essa separação de você não deixar o filme bom que fica dentro da sua aplicação Por que a gente só tinha muito para escrever aplicação de testar aplicações por causa do peso que o fêmur que tava aqui em cima da sua plataforma né E daí surgiu Spring e daí sujeito que a gente tá escrevendo a aplicações entre as modernas e eu acho que essa coisa de você separar é importante né Eu acho que isso nisso ele acerta no livro que você realmente precisa separar essas coisas isso é uma coisa que a gente vem fazendo assim desde o primeiro livro de modelagem orientada a objetos que eu que eu lembro de ter lido de 1ml do Bolt né que era um dos livros que são recomendados para gente na época da faculdade e era isso e isso era uma recomendação neck
+
+18
+00:14:20,500 --> 00:15:12,900
+você não quer que essas coisas elas vem tem dentro do seu código não é mais você não vai fazer isso de uma forma radical que colocou eu não quero anotações aí você tá indo longe demais no negócio né porque a grande preocupação que a gente tinha na época não era de você referência ao fêmur que era como é que eu consigo testar e usar e fazer operações em cima dessas soluções né local a minha marca fazer teste dentário fazer fazer fazer tdd né você conseguir fazer o design da sua aplicação através dos Testes eu acho que essa essa é uma das poucas coisas que eu acho que são legais mas o que o foda é porque ele
+
+19
+00:15:13,300 --> 00:16:13,200
+mais radical do que o seu Twitter né E é difícil de você separar essas coisas não deve ter muita dificuldade de pegar essas coisas e a polícia que é importante não é muito não ter não deixar essas coisas vazarem para dentro da de camadas para onde elas não deveriam ter vazado né você tem que tentar separar essas coisas eu acho que isso é uma imagem que é importante né que é uma coisa que a gente repete modelagem orientada objeto já desde pelo mente desde que existe modelagem Mas é interessante mas você já como experiência né então meu primeiro contato com o trabalho dele foi naquele dia os princípios Para que alguma coisa assim né Eu gosto do King Cole Gerais e eu tava vindo de três projetos e conhecer um deles primeiro onde era uma loja virtual que a galera customizou a loja que tá aberta em ASP
+
+20
+00:16:13,200 --> 00:17:13,200
+Quem lembra disso aqui né E ela que eles aqui no Zap de 5.000 linhas e tudo acontecia ali aí eu falei com projeto na Sony onde era o projeto contra a venda de DVD's da Sony em jsp e tudo na jsp aí eu fui trabalhar na verifone pode amanhecer tudo não aqui você completo E aí para mim não fazer sentido é possível que não dá para ser melhor né Aí quando ele introduziu Solid primeira vez lá e se atritarmos que dá para separar as coisas né dá para você um pouquinho melhor você tá tudo no mesmo lugar né porque acho que a galera que eu participei tava tudo sempre no mesmo lugar para mim foi um divisor de águas ele não dá para tentar moderar um pouquinho melhor agora áudio é muito extremistas da mangueira de escrever né acho que é isso que você tem que ignorar quando lê né eu falei isso em algum triste isso né que se você for seguir à risca o que ele fala ele é bem bem extremistas né banco de dados é um detalhe não sei o quê mundo que banco de dados é um detalhe né
+
+21
+00:17:13,300 --> 00:17:29,800
+para mim foi isso que me agradou no trabalho dele lá e se lá em 2006/2007 para começar o trabalho dele mas eu concordo em tudo que você comentou Maurício aqui entrevista né infelizmente é muito triste do meu ponto de vista Claro
+
+22
+00:17:30,900 --> 00:18:30,300
+palavra colocar só três pontinhos importante Aqui tá primeiro.de todo mundo concorda é que não faz sentido você misturar em balde driver esportes a gente não importa com regra de negócio para uma coisa que a gente tem que sofreu ao longo dos últimos 20 30 anos ou seja o seu controle ou tutela têm regra de negócio de controle tela né mas se você tivesse ah lá então negócio talvez se você tivesse algum outro tipo de aplicação era muito comum que a gente assim faz isso então primeiro ponto chave aqui do Pinhal até que é a camada de gases que seria aquela em que vocês põe para eu acho que esse ponto ninguém discorda aqui só uma coisa super válida a mesma proposta do artista Cuba na mesa para sair do lugar de muitos anos atrás também
+
+23
+00:18:30,900 --> 00:19:30,800
+Kira escrevendo uma aplicação que cresça e que tenha testabilidade e que possa ser conduzida de forma diferente então Deixa pronto aí eu acho que é perfeito nós colocar ele tem uma questãozinha relação a expectativa que é difícil você pensar naquele nome serve e qual o nome do Service Order service service service em todas a senhora vamos lá no negócio de case que a intenção exata dos olhos e a gente dá o nome então você pode pulverizar uma grande quantidade de classes mas até eu acho que tá tudo bem para mim é grande não compro não passa não passa para fora para fora tá tudo certo separar forma que você vai na minha visão é inviável porque nem sempre os primeiros homens também aves fato de você separar porta para fora porta para dentro de uma coisa boa o erro para mim é nada diante que está rapidamente só para transmitir a ideia orientação objeto
+
+24
+00:19:30,900 --> 00:20:30,800
+coisa muito boa porque ela pegava o aliança basicamente sobre o tipo de orientação objeto da classe classe e continua sendo procedural você tem que expor comportamento e preservar as características e assim você tem controle de variância quando você tem um projeto contratado objeto que tem uma relação entre os objetos Então você começa agrupar esses objetos em inglês que começam a ter referência os outros Comente o conceito do que o Eric cadastrais em domingo em design determinado tamanho para que ele mantém a consistência transacional na hora de você fazer a persistência por meio de repositório para que ele não seja nem muito grande e muito desengonçado e ocupe muito espaço e memória e nem muito pequeno para realidade seja tipo 1 tratamento de tabela praticamente né então é difícil de obter e o b ele não cita isso no livro dele tanto que quando eu vou eu tenho curso sobre conectar-se não sabe sobre isso né só obedecer e eu sempre faço
+
+25
+00:20:30,800 --> 00:21:29,500
+então eu começo explicando pelo porcelanatos trago conceito de canaltech e substitua a camada de gente de cordoamento organizarem mais Aonde houver suficientemente complexo que pague o custo disso muito simples vai ser bloqueado O que é um pouco do que foi colocado por vocês Logo no início né Então para mim esse é um tipo de não é um tipo de opção que serve quando você tem o tipo de dominio mais complexo que você pensa na modelagem para festa do Domingo de amizade você separam um domínio sobre domínios uma conta uma história diferente você pode adotar um carro de 5 em 1 e 1 orientação domínio superior em outro usando o DDD mas para mim sempre aquela mescla de porcelana do BBB ela é mais vencedora nesse caso que fica meio que um uma sombra disso esse é o meu ponto tá só queria vai lá vai lá tava
+
+26
+00:21:30,800 --> 00:22:30,100
+só complementando essa ideia do Brás eu acho legal quando você começa a perceber que na verdade tem a ver só também depois que ele falou você não precisa usar todas as camadas para todos os casos de Cruzeiro Você pode ter alguns casos mais simples nos quais se você só tem o próprio caso de uso não entra mais para dentro é o quê quando você começa a fazer essas adaptações seu contexto É a coisa começa a fazer mais sentido né Então deixa eu fazer o Jabá aqui eu acho que meu livro é mais simples né o meu livro arquitetura limpa na prática ele resume as ideias e mostra um aí nem 100 páginas lá você consegue pegar Essência né da arquitetura limpa e é isso que você falou também acho interessante essa parte ninguém reclama de front end back end isso é uma coisa que já faz muito tempo que a parte esquerda da arquitetura hexagonal pode ser o olho fica quando você quer
+
+27
+00:22:30,800 --> 00:23:30,400
+comprar coisas com banco de dados e tal e aí já fica mais difícil de fazer e não faz sentido em todos os todos os sistemas que você desenvolve tem que ser adaptado ao seu contexto que eu acho que vale a pena de ter na cabeça né que o uncle.bob é muito simpático né então você tem que colocar um filtro ali não dá para usar tudo aquilo que ele coloca em todos os sistemas tem que dar para o seu contexto sei eu acho que assim a gente tá assumindo que o se case e vamos dizer uma coisa do gênero é uma unidade agora É de fato uma unanimidade entre nós aqui pessoal eu não sei fazer para Roberta eu acho que tem Zé Roberto isso dependendo do contexto né É qual seria esse contexto para você não usar esse tipo de organização de código que tipo de
+
+28
+00:23:30,800 --> 00:24:00,900
+você fala distribuído tipo assim de separar a a camada que está mais próxima da interface com o usuário do resto do tema que eu lembro que a gente participou de um até um exemplo de um tweet lá que tinha até skelly dentro de um controle não tinha escutado Mas por que que por que aquilo
+
+29
+00:24:01,100 --> 00:25:01,000
+Lígia Eu acho que o foco na verdade da aplicação quando a gente fala de Clean architecture de padrões de mobilidade o que todo mundo quer escrever uma aplicação que seja resiliente fácil de manter a longo prazo né isso que a gente quer dizer que a gente fala de qualidade é fácil entender ela faz uma cara ela é fácil de manter em longo prazo e tem diversas técnicas e princípios e padrões para fazer isso que não será mente de modo a validade não é não esperar o único foco na qualidade é um aspecto muito importante de manutenibilidade mas não é o que eu acho que quando você tem um Big Box mande ou seja um sistema cuja arquitetura não pode sequer sem ferida porque ele
+
+30
+00:25:01,000 --> 00:26:01,000
+escrito de forma completamente aleatória de tem muitos padrões e difícil de entender onde você vai escrever código novo onde que ele código de ficar esse não é o mundo que não está então eu gosto de divisões de camadas eu acho que elas são importante eu acho que uma organização que permita com que time desenvolvimento sempre que ele quiser alterar o código em Nova funcionalidade ele sabe exatamente Aonde esse código tem que entrar isso é desejável é importante para manter a cidade de longo prazo de aplicação web que segue me vencer por exemplo não é legal que você tem acesso a dados no controlador exatamente por isso agora é catastrófico não sei se é catastrófica que depende muito para você já passa aqui não né Sistema muito pequeno que não tem todas as operações assim que esse exemplo que eu dei era de um trecho de
+
+31
+00:26:01,000 --> 00:27:00,400
+tá vindo alterada 7 anos então nunca deu dor de cabeça para ninguém não faz diferença realmente encaixado três ou quatro novas classes ali para separar esses conselhos não acho que fala você sabe não não acho que faça eu acho que a coisa que mais me incomoda do Tom desse livro e do Tom desse autor é com perder precisa a cagação de regra mesmo sabe parece que existe apenas uma forma de escrever sistemas Essa é a forma e quem faz assim tá correto que não faz assim está fadada descrever sistemas ruins difícil de manter e É engraçado como comunidade como a gente aceita isso quando a gente também aceita um princípio que contradizem significa Bala de Prata né pouco controverso de quem design arquitetura de software não existem soluções únicas que tudo depende de contexto
+
+32
+00:27:01,000 --> 00:28:00,800
+tempo existe uma residência a perceber que os slides propostos por climaveneta pelo conjunto da obra do autor sejam entendidos como os únicos corretos e que por exemplo como o mar estava falando como os dois mauricius né tava falando seja interessante abstrair seu banco de dados não sabe não bom é uma boa aplicação bem feita ela não deve se preocupar com qual é o mecanismo de Storage como quando eu acho que que se complexifica e atrapalha a manutenibilidade sabe aí veio facilitar Por que a decisão de qual mecanismo de sódio sem vazar é uma das mais importantes no planejamento de uma arquitetura e tentar tornar invisível traz mais problemas na minha opinião do que do que auxílios responde uma pergunta
+
+33
+00:28:01,200 --> 00:29:01,100
+sim é interessante essa esquecimento É tem bastante gente querendo falar aqui eu vou passar a palavra na ordem assim para o Point Mini Chip Linhares para o beleza mas vai lá ponte show vou pegar aqui a pergunta como é que a gente entende o que são rios e cases né Acho que comenta muito né forma é um álbum até aberto né mas para mim acho que o Maurício em Arujá mais de 10 15 20 de mais uma ideia de gerar essas camadas de direção de queijo que serve se chama o de menos Então esse número foi mudando com o tempo né mas isso fazer muito sentido 15 Anos Atrás só vez 10 anos atrás eu tô aqui na plataforma já é meu dia a dia por que os fungos não era uma duro suficiente para conseguir tirar todo aquele grupo Gold
+
+34
+00:29:01,200 --> 00:30:01,000
+código de empresa que a gente é obrigada a ter que implementar a escrever o copiar e colar de algum lugar só que isso mudou né Isso mudou os últimos Sei lá talvez precisamos para kar98 você pega o Botafogo com Spring o mesmo já veio né que eu jogar carteira e você consegue perceber que o controle que antes a gente tem linha de deixar qualquer tipo de lógica de negócio qualquer coisa relacionada ao nosso modelo de domínio Hoje não tem mais esse problema né hoje você pegar um controle do Springer basicamente uma faz um pouso com algumas anotações e só tá tão Limpo tão simples onde o Freio o que absorveu toda a complexidade o Google ele tentou evitar durante anos para mim na maioria dos casos eu enxergo ele music e para muitas pessoas isso é bem feio né porque eu chego ele comigo de quem a chance que eu vou injetar um repositório 12 repositórios ali e aí
+
+35
+00:30:01,100 --> 00:30:42,300
+injetar repositório aproxima do banco de dados e tá no controle é ainda mais doloroso para muita gente mas se você pensar a camada de persistência ela também foi atraída pelo Supremo outro repositório de Spring Day ter nada mais é que o Inter fácil com algumas poucas anotações Spring o JK internet então você tem uma camada de abstração construir Eita mais uma segunda camada um pouco mais estranho ainda mais a sua persistência na jdbc e até um pouco SQL Então qual é o problema de encarar um controle com música hoje eu encaro ele me diga o contrário e geralmente o que diz o contrário é fácil prestar
+
+36
+00:30:42,400 --> 00:31:37,100
+fácil entender eu consigo escrever um único teste de integração ou tenho que quebrar em vários testes para que fique mais fácil de testar tem uma melhor cobertura e tudo mais não quero não a manutenção é o que me guia junto com os testes então só pra deixar claro eu encaro que é um controle é É sim uma camada de hoje 15 em qualquer literatura de arquitetura que alguém tem ali daí essa minha percepção porque eu abraço os seu uso a primeira regra que eu faço para entrar no projeto é abraçar o senhor eu abraço pelo respeito que ele me pede para fazer em seguida eu abraço a linguagem de programação e a linguagem o Freio entre conflitos por favor isso o senhor tá porque eu vendi a minha alma para o Springer eu quero né os benefícios tem o dia da minha alma para que ele atua de forma
+
+37
+00:31:38,700 --> 00:32:38,700
+hoje em dia é o tamanho tá nessa linha do Ponte aí mas vai lá eu acho que essa Cadê perceber isso mesmo que que a Roberta e o Rafael como você olha para aplicação enterprise né como que ela funciona de maneira bem abstrata como que funciona basicamente grande dos casos de uso usuário mandar da socialmente a cidade que informação que você busca no banco de dados você faz umas validações você muda um pouquinho cidade você manda de volta para o banco de dados para outro serviço grande parte de sua cidade de São Luís para modelar tipo de coisa de coisa muito requentar muito chique entendeu básica separação de responsabilidade os repositórios de spring aqui na validação Zinho chorão que é complicado um pouquinho mais do que suficiente não precisa ir muito mais além de eu acho que esse é o ponto né Mas aí tem sempre aqueles 20% de funcionalidade que não
+
+38
+00:32:38,700 --> 00:33:14,800
+aplicado no sistema aqui vai mudar o tempo inteiro que regra nova entra na regra nova saindo secrecao talvez ali vale a pena os animais rebuscado né Talvez algumas das ideias do livro dele faz sentido é mas acho que seu ponto Nec aplicação de indústria uma grande parte das vezes não precisa de tudo isso aí eu mesmo tempo atual no trabalho na área e hoje não é uma base de código bem grande um negócio bem complicado mas se você realmente quebra ele é isso que eu falei pega dado para vida passada para frente entendeu então não precisa de muito mais separação básica de responsabilidade
+
+39
+00:33:18,200 --> 00:34:17,699.9999999997672
+perfeito Linhares do livro atrapalha não é porque a gente tá tá chegando nesse nesses exemplos mais complexos só que o livro ele não abraço para você para você ter esquisito pensar assim mas o único jeito de você entender pegar as ideias do Clean architecture é se você tiver um monte de literatura anterior Sertralina é porque ele passa exatamente quatro parágrafos definido o que é entidades com quatro parágrafos 4 parágrafo do livro defina o que é entidade e se você for ver o livro do primeiro quinto idade não é uma coisa só não é lá no design entre um pedaço da camada do modelo Sim várias coisas que
+
+40
+00:34:18,199.99999999976717 --> 00:35:17,600
+modelo de uma definição específica para o que é uma entidade né como é que você diferente quantidade de um velho Lopes Tem várias coisas tem que ter várias discussões que eu não sei eu não sei porque é que ele não para para explicar porque a gente vai ter essa ideia não é o ponto falou aquele considere que os dias se quiser o controle né que aí a gente vai em discussão de Balneário dos limites mas ele não dá um bom exemplo de limites de um padrão para dar os casos de alimento que a gente tem né mais uma vez a gente tem vários padrões diferentes e Inclusive tem a opção né que o que o ponto está dizendo que é não faça nada abrace né que tá lá e use o modelo desse jeito Não eu acho que não ter nenhuma dessas discussões não tem nenhum padrão não ter nenhum nenhuma discussão mais profunda
+
+41
+00:35:18,100 --> 00:36:17,900
+são essas coisas como é que você usa essas coisas eu acho que empobrecem muito lindo então se você se você já leu do livro design você não vai ter nada de novo desse livro porque o as ideias nessa ideia de separação a cidade de você e essas camadas Você tem o modelo né inclusive os clones Falou às vezes o modelo é o banco que dá sinal de vida às vezes é isso é só o banco de dados né Você tá brincando você tá pobre mas eu não tenho muita coisa para colocar Então eu acho que essas discussões e definir os padrões definir exemplos melhor exemplos do livro também muito superficiais tem um exemplo lá que me mandou direto para o Java enterprise Edition da ação né O que é um livro lá de 2000 de rolha com múltiplos múltiplos tomada sem entrada e saída e você não pode fazer a identidade de vazar lá para a camada web nem pode fazer em cidades a camada do banco de dados
+
+42
+00:36:18,100 --> 00:36:58,300
+Eu acho que o não ter uma uma discussão mais profunda sobre esses termos não é sobre quem te Dad O que é de queijo com exemplos melhores compara com mostrando os casos onde é que você usa e a o gradiente que a gente está inserido na hora que a gente vai tomar uma decisão dessa é uma coisa que para mim pareceu muito a leitura eu entendo os conceitos porque eu li esses conceitos em outros lugares né mas não livro é muito pouco né uma discussão muito superficial e que é difícil de você tirar essas essas coisas de dentro dele se você não já consumiu muito material no interior
+
+43
+00:37:00,100 --> 00:38:00,000
+perfeito é você tá mexendo aí o DDD né e eu lembro que eu tava conversando com o Hugo sobre qual a diferença entre hexagonal e conector o hexágono é essa casca se ele não tem miolo né E aí o cara que tenta colocar o miolo só que muito superficialmente exatamente cobrando as tava falando né que o dele é de complemento aquilo né concorda com Maurício nesse ponto o Bart ele pegou literalmente carona na obra que também você pcional obra no sentido de se mexer com seu emocional no sentido de trazer um pouco mais de ética para nossa profissão e se responsabilizar pelas ações pelo código que a gente pagamento.do can could e seu grande mérito dele nada então técnico é mais um livro de auto ajuda não sei se muito aqui comprando comigo mas brincou demais uma auto ajuda
+
+44
+00:38:00,100 --> 00:39:00,000
+O que é muito bem-vindo tá do que o tratamento técnico seu nome técnico pegou carona um pouco nessa cama do Clean tanto que ele lançou em áudio e os clientes que são bem menos interessantes aqui ele não pode trazer conceitos assim que ele para trazer por dois motivos primeiro a compra no DD tá o segundo ele tem que escrever um livro três vezes maior como acho que o Maurício falou alguém falou de de um livro que tem mais ou menos 60 páginas por exemplo do governo de de do signo que acha muito legal são livros estante grandes e que dá trabalho você definir a mente de um repositório trabalho e ele tomar ele resolveu falar de um pássaro chamado gato deve ter visto isso lá ele foi escrito pelo mar que fala no patriota enterprise application architecture basicamente uma extração
+
+45
+00:39:00,000 --> 00:40:00,000
+banco de dados externo e ficou muito claro nesse sentido Então o que é um erro assim né o Bob pegou literalmente o nome post de 2012 entre é isso que Maurício citou que tem quatro parágrafos falando sobre antes então ele não deixa muito claro que que ele quer com aquilo Agora vamos pegar alguns anjos aqui apenas um sabe aqui não existe Bala de Prata o que acho que a Roberta comentou One size fits All existe um tipo de design que vai ser para todos os casos assim como o pneu vai ser bom na Terra e no asfalto o pneu vai ser vai ter pirata academia no asfalto e vai ser bom na terra ou vai ser super rápido no asfalto mas vai deslizar na terra design a mesma coisa que colocou o meu controlador ele é o meu uso de queijo e assim por diante daí daí eu boto manutenção da conecta de repente no meu RN e já persisto show
+
+46
+00:40:00,000 --> 00:40:58,600
+Mas isso não aplicação por exemplo de folha de pagamento hoje financiamento imobiliário vai ficar querendo que poderia ser E aí que você tira grande proveito de domingo de bom de conta de você entender Quais são os aggregate você conseguiu criar a preservação das invariância que vai ser o quê vai te dar estabilidade no nível de umidade da cama coisa difícil se você aqui tudo fica dando Controller o que tudo fica dentro do serviço que a gente costuma ver em código extremamente procedural escrito nos últimos 15 20 anos todo mundo aqui já deve ter passado por isso ainda vai passar então tem que separar os mundos quem tem aplicação simples um crud usa alguma coisa perto de um real perto de um Django que digere código seja feliz agora se você não são complexas essas dependências que é exatamente o dedo sólidos né que o Alexandre escreveu o livro A inclusive falando sobre isso né que é de pendão
+
+47
+00:41:00,000 --> 00:41:59,600
+foto de você não acoplar o teu SQL data regra de negócio e não é tão obvio assim a maior parte das pessoas faz isso e qual é o problema Qual é o Malbec Coloca aí ó se você postasse de integração Não é questão de substituir banco de dados a questão é você vai um por ali na necessidade de uso de espaço nos intenso distantes ou testes muito lentos ou desencorajar os testes e assim por diante então assim o trabalho do Bob Martin é bom nutren architecture Definitivamente não 99 são as pessoas não lê o livro e comentam o sangue somente a raiva dele é ruim posso dizer isso tanto falar 10 vezes o que ele escreveu tentando extrair o máximo dos grupos de discussão que ele frequenta principalmente para tentar respostas que todo mundo faz perguntas todo mundo faz que não são respondidas Por que pode usar outro esse negócio que todo mundo se pergunta ele é vazio na resposta e aí você vai ver aqui
+
+48
+00:41:59,900 --> 00:42:59,600
+Design no governo principalmente trazendo orientação eventos pegando uma ideia de irem dormir architecture e de você tentar desacoplar esses rios e cases e simplesmente publicar o evento fato que aconteceu deixar o sistema reage em cima disso Isso gera do acoplamento entendi isso aqui é para todo tipo de sistema que não então não trabalho do Bob especial ele não pode não tá ainda terminado as áreas porque isso eu não era demais o livro e aparece aqui ele tá copiando ainda mais então para mim a grande sacada é força na data eu não vejo como você abrir mão seja pequena sejam aplicação grande porque senão você não tem testabilidade você não tem isolamento da aplicação E você tá sempre preso ou no mecanismo de entrada ou no dispositivo de pequeno grande eu acho que esses Conceição muito vários domínios vou puxar aqui mais o domínio de design é opção para o projeto suficientemente complexo e não só para projetos bom separar
+
+49
+00:42:59,900 --> 00:43:31,700
+entendeu sub-domínio uma coisa projeto empresa é outra você pode ter um boleto conta de 10 que necessitam dessa abordagem Lucas 9 não então eu acho essa linha aí só só para deixar de novo a mesma coisa que idade é uma coisa tabela de banco de dados é outra altura de dado de entrada saída e outra em aplicação simples esses conceitos iguais e aplicação complexas Conceição diferentes valeu
+
+50
+00:43:33,200 --> 00:44:33,100
+Beleza vai lá Otávio não só complementando os comentários que estão excelentes né você deve do Point de quer dizer faz tudo não eu acho que pode ter muitas aplicações em que isso é o melhor mesmo fazer o mais legal ainda que isso essa ideia que eu falei que adaptar né Pode ser que numa mesma aplicação uma funcionalidade basta você fazer tudo no controle aquilo ali não vai atrapalhar Mas aí você tem um outro caso de uso mais complexo no colo aí tudo bem você pode usar uma coisa mais sofisticado Então acho legal tem alguma coisa orgânica e na Copa Você pode adaptar e usar eu acho legal você dentro pode ser um padrão arquitetural que você pode mostrar sua aplicação é preciso usar em todos os lugares elas fossem onde faz sentido tem um cara também que é o time board que ele fala sobre isso nessa ele fala sobre você primeiro você faz
+
+51
+00:44:33,200 --> 00:45:33,100
+faria tudo no controle e quando você começa a perceber as dores né Você pode reparar aquilo para melhorar eu tive uma visão bem positiva também vejo você usar uma coisa escrito Tiba jardines já divide as suas camadas partir das suas dores você vai refatorando tem aquele outro livro em que as entregas em vez de você já os padrões é você vai usar no momento em que você começar a sentir a dor naquele ponto s ponto que eu queria colocar isso para mim uma das maiores vantagens de ideias de maquete arquitetura hexagonal é é você a gente faz para poder testar as coisas de maneira separada você poder testar suas regras de negócio sem se preocupar né como Controller tal então eu acho que isso é um ganho muito grande e eu queria só fazer um link né que o pessoal do mundo funcional
+
+52
+00:45:33,100 --> 00:46:33,100
+coisa bem parecida com cortina depto de arquitetura hexagonal que ele chama o radinho perto e Gel funciona o corte que a ideia de você ter um corpo funcional né que a parte do seu E aí Ali você só tem funções puras e você pode testar mas de maneira separada também e você empurra no Sedex para as partes para para digamos para parte mais externa da aplicação que tem a ver com essa ideia também E aí seria comparável caso de uso que no caso de você de fato você conversaria com coisas externas né então acho legal a gente ver também que essas essas ideias elas aparecem vários lugares na comunidade e elas vão convergindo e óbvio que a gente tem que fazer esse trabalho de saber saber usá-las da melhor maneira adaptada nas né para o nosso contexto OLX Linhares eu posso só para você vocês comentar
+
+53
+00:46:33,100 --> 00:47:33,100
+dê um exemplo então o Fernando Cruz né numa dessas três vezes ele falou o negócio interessante né falou assim você vai fazer um sistema de pagamento e vai ter que escolher a diferentes fatores de decisão aprovação do pagamento taxas Digamos que a Stone tem a taxa de 1% para qualquer bandeira uma promoção de 70% no meio ruim assim né a Cielo tem taxa de 4% é uma taxa meio ruim e aprovação de 95% então ele colocou não tem nada a ver com a realidade Jack Stone ela tem uma provação menores de uma taxa maior se você escolher E aí ele fala disso ele comenta isso E aí você pode integrar com as duas seria uma solução usar Stone como principal e Tal Beck para cielo nessa briga aparece a rede com uma tá
+
+54
+00:47:33,100 --> 00:48:32,500
+de um e meio por cento e aprovação de 97% a mesma taxa da melhor e a produção muito melhor do que todas elas marque te tura bem definida a teoria que é fácil de mudar de crente que você vai usar sem precisar alterar todas as camadas eu acho que assim aqui o lance é essa é uma coisa importante para o negócio né opção que você quer deixar aberta Então eu acho que assim a meu ver a gente tem que ver simplificar o que não tem traz tanta vantagem para o negócio e de flexível aqueles pontos que seria a vantagem para o negócio de flexível então por exemplo no coisa de cursos online fazer para CDN que a gente vai integrar se você flexy isso é caso real no meu caso lá do meu exemplo do livro é os formatos de ebook que vão ser gerados eu quero que sejam flexíveis então
+
+55
+00:48:33,100 --> 00:48:40,600
+manda um abraço aí nesse que você comentou você já deu até a resposta
+
+56
+00:48:41,700 --> 00:49:41,700
+Ai desculpa é aniversário Desse exemplo de quando você fala da CBN na minha cabeça nesse um segundo lugar sei que você tem uma coisa você nunca vai mudar de cm Mas você acabou de falar que muda né É porque o que é o custo é alto sabe é um grande uma grande fonte de curso Então você consegue mais melhor que você conseguir algo é mesmo exemplo aqui do caso da advance nem te conto você precisa de flexibilidade né então por exemplo a gente como assim tá aqui tenho certeza que é mesma coisa disso não próxima de crente tem que ser fácil certo porque o negócio né você quer invadir novos mercados você precisa implementar as diferentes daqueles mercados têm que ser fácil no sistema né você não tem o que a pessoa abre 400 classes implementar um novo adquirente só que tipo de coisa para acionista mais a exceção do que a regra de aplicação
+
+57
+00:49:41,700 --> 00:50:41,400
+muito grande né Como que você já falaram que é um detalhe que eu queria comentado do livro Porque ela tava gritando né eu tava lendo tweets aí a gente comentou o pneu na internet ele tem as versões corte sagital acho que parte do trabalho nosso congresso as coisas é transferir para o nosso contexto né esse trabalho que é mais de engenharia científica na ideia pegar mesmo transferir para nós contexto não me lembro por exemplo tava dando exemplos de EVA sempre como positivos Mas você lembra algo gil.net artex em 2004/2005 quando ele saiu galera colava código fonte de classe ele fala a gente só quer um repositório de acordo com EVA o que importa meu amigo se o Evans acha que ele é um repositório então é difícil realizar mesmo né quando você dá um conteúdo novo e tal é óbvio que o Everton escrever isso muito melhor de uma maneira um pouco mais amigável por isso que não ficam tão putas com ele o ano que o Bob Esponja é um pouquinho mais mais seco na maneira de descrever mas acho que é
+
+58
+00:50:41,700 --> 00:51:41,600
+acho que todo mundo que teve hoje porque nós somos mais mais maduras e tal você tem coisas que você não concordo em absoluto né acho que tem que dar esse como fala em português mas tem que dar um pouquinho ali de um pouquinho de febre para o autor e deixar por aí alguma coisa aí que você não concorda muito a única maneira de conseguir interpretar esses livros eu acho isso me lembra muito ficando com raiva né Se fosse você tem aquela coisa de ser empolgado e depois você se se ferra natural ideias para mim de design de collie Mas vai lá em Linhares então aí eu vou esse cara esse caso é um caso interessante porque quem trabalhou fazendo esse tipo de coisa sabe que toda vez que você vai integrar uma de crente novo Tem várias surpresas que você não planejou
+
+59
+00:51:41,600 --> 00:52:41,600
+textura vai ter modos de trabalho diferente de todos os modos de trabalho que você tem tem gente que trabalha só deu só mandando arquivo via FTP tem gente trabalha só trabalha só viado para ele que você tem que alugar uma linha direta para esse cara você tem que ter uma máquina fisicamente dentro do datacenter desse cara então tem um universo de coisas você vai se surpreender quando você tiver fazendo integrações desse jeito então você vai criar esse modelo né e eu acho que é importante que as pessoas entendam que vocês vão fazer isso é a minha crítica que o livre não fala nenhuma como é que você faz isso a gente fala fala fala do Evans eu vou até o livro é maior nas páginas Mas você vai tirar muito mais do livro do Everson que você não vai conseguir tirar mesmo arrancando o último suco do arquiteto o conteúdo e vai ser
+
+60
+00:52:41,600 --> 00:53:41,400
+é chato é muito chato pra caralho eu não vou dizer que é um livro legal não liga o que é muito chato de ler mas você pode depor pedaço pode ler os parentes que fazem mais para você nesse momento para você entender então eu acho que vale mais a pena do que você ir atrás de ler o tem tem que ter que ele faz uma recomendação de mim fática que são ruim então recomendação e ruim tá entendendo uma daquele daquele faz aqui dentro da sua equipe você vai fazer a gente são do do seu domínio Nella como um já né vai ser 11 já separado mencionado que você vai pegar e você vai botar para todo mundo então imagina né numa empresa que tem lá 1000 desenvolvedores né esses mil desenvolvedores formam aí sem equipes diferentes de cada um produzindo as suas próprias bibliotecas imagina o desespero que é
+
+61
+00:53:41,600 --> 00:54:41,400
+vender a matriz de dependência e diversão cada aplicação e separadas vai estar e você tá distribuindo cada coisinha comum já que a pessoa tem que atualizar dependência mudar o número de versão né é uma das coisas que quando a gente foi fazer o quê peguei foi nada então hoje a gente tomou a decisão de que não ia ter não é biblioteca não tem jeito nenhum biblioteca porque a gente não queria deixar isso como sendo uma dependência né que todo mundo ia ter que ficar atualizando porque a gente sabe que a senhora tem rivel né pessoal dançando de Cláudio teve essa experiência não foi legal pessoal do Twitter experiência não foi legal porque é muito difícil de você fazer uma coisa dessas funcionar quando você tem dependência de regra de negócio imagina que eu tenho um novo método de autenticação Então em vez de eu tenho um lugar Centralizado eu atualizo isso não agora eu tenho 50 aplicações diferentes a diferença do Botox Tem que atualizar imagina o pesadelo que é você fazer uma coisa dessa né então tem coisas realmente lá dentro
+
+62
+00:54:41,500 --> 00:55:41,500
+assim que você não deveria fazer aí você não deveria trabalhar desse jeito uma coisa que o Rodrigo falou que que eu acho que precisa de um também deixar um pouco mais caro né não sei como Rafael Freire não reclamou aí ainda que aplicação rails não é aplicação simples mete né top Fire roda em inglês né Trap hard reset pegando pagamento do mundo todo né só aplicações complexas que dá para você que você precisa é a gente volta para aquela coisa que o Rafael foi lá no início tem a vantagem é que você consegue fazer o simples e o complexo Tudo junto não tem aplicação simples aplicação completa Neto em pedaços simples e pedaços com aplicação Então não é uma coisa aqui felizmente a minha aplicação é complexa Por que é um aplicação de pagamento EB você vai ter lugares na sua aplicação de Concórdia complexo de fazer o que o ponto falou meter
+
+63
+00:55:41,500 --> 00:56:40,800
+foto do controle não vai ficar legal porque você é um é muito código porque você precisa de usar esse código algum outro serviço em algum outro lugar então você vai conseguir separar isso aí ou você pode botar dentro e se foi né pelo menos para mim Lala 2006/2007 O Pulo do Gato quando eu comecei a trabalhar com ele depois de sair do Java e ver que eu não só complicação se eu posso eu tenho casos que são mais simples eu posso fazer simples aqui e se eu tenho casos que são mais complexos eu posso criar um modelo separado posso criar um serviço posso deixar a cidade aonde ela tá então né porque você tá trabalhando Correios com Django com pega porque você só tá escrevendo aplicação simples e você só pode escrever aplicação 5 Você pode escrever escreve muita gente deu muito certo escrevendo aplicações complexas usando essas ferramentas aí chocolate lá rapidinho aqui para reforçar uma coisa que Maurício falou que eu acho que é o principal Desafio na prática
+
+64
+00:56:41,500 --> 00:57:30,900
+você queria saber extração linda maravilhosa a próxima implementação vai ser diferente entendeu vai ter alguma coisa para mudar eu acho que não hipster não que o pessoal gravou com a águia e o pessoal quer brincar quando eu terminar primeiro mês de pagamento do brasileiro parcelamento ninguém parcela os gringos que não entendi o que era parcelamento na entrada extração que tinha para adquirente não funcionava sempre a próxima a cabeça um pouco diferente né Aí quem quer dizer filme Como que você continue evoluindo é subestação de madeira legal sem começar a Polyélle deixar estragar né esse é o circo é o quê seres vivos não tocam tanto presente nos Jogos Olímpicos tem que simplificar por quantos anos tem o livro de 5.000 páginas Mas como que você modifica subtração para entender essas pequenas diferenças que ela sempre acaba acontecendo na cidade no mundo real
+
+65
+00:57:31,500 --> 00:58:30,000
+Pois é nada como muito real para destruir a sua extração Mas vai lá antes de escafoide padrão tá uma linguagem de programação seja qual for desde que ela tem o devido suporte o que você quiser fazer você tem capacidade de comunicar o computador e orientar para aquele processo aquilo que você precisa mas isso qualquer limitação e só falo em todos os momentos que eu posso em que não tem absolutamente nada a ver uma linguagem como pegar pelo um propósito ao qual você é utilizado por questões de performance alguma outra implicação tá então longe longe de mim tem afirmado alguma coisa nesse sentido literal dos Capuchinhos Recife camente a olhar isso como padrão e quando você começa a ter mais regra de negócio que vai acontecer aqui é um jogo de prós e contras única exclusivamente o que o Alisson comentou em relação aos clientes
+
+66
+00:58:31,400 --> 00:59:30,700
+diferente das diferentes e a ideia ali é eu posso levar esse código de uma forma mais procedural e ter uma classe Eu tenho um arquivo muito grande que hora faz uma diferente agora faz o que posso qual é o problema de está funcionando mas eu vou mexer muito nesse mesmo arquivo eu vou ter um acompanhamento um pouco maior que a tecnologia e eventualmente bom para amenizar agora eu tô com padrão como adaptar o engate da dependência isolar-se implementação e Defina um contrato que sirva para 90% deles ou 100% deles pode pode acontecer com o Maurício falou deles serem tão radicalmente diferentes ao ponto dos contatos inválido domínio ele é decomposto em subdomínios simples e complexos os complexos e pode tomar decisão de fazer de um jeito simples e outros e pode fazer todos do mesmo jeito e hora
+
+67
+00:59:31,400 --> 00:59:41,800
+manutenibilidade pior hora tem melhor decisão de cada um sabe funcionar uma coisa eu garanto tudo vai funcionar a questão Em que condições vai funcionar
+
+68
+00:59:46,500 --> 01:00:46,500
+puxa aí ponte de uma distraída aqui sobre sobre completo não é não você usa esse DDD você usa Clean 20 canal que tem o domínio completo filme completo Mas isso é tão subjetivo que que significa até hoje eu tenho uma dúvida do que eu considero complexo domínio complexo sistema Complexo B tá E aí talvez porque eu vinha muito do mundo corporativo né E aí ele até comentou a gente vive 80% mais vale o bom e velho clube e talvez eu atualizo Aline PDF bonitinho ou em.csv tá mas aí a pergunta que quer o que é o que é um demônio completo né então eu acho que o branco já comentou né então eu devo ter muito claro as minhas pontos tem na data lá atrás de seus drivers tudo aí quando eu tenho do hino completo eu quero separar eu quero ter
+
+69
+01:00:46,500 --> 01:01:45,900
+especialmente teste de umidade né acho que ele comentou até isso tá eu não tenho não que é complexo complexo eu acho que não né mas esses temas apareçam Cruz microsserviços é complexo e você pensa cultura daltônico serviço Sim ela é complexa mas o micro serviço é complexa na base de código né Ela é complexa nas bordas na comunicação Então tira toda a complexidade que o governo tinha que manter uma base de Collie com dezenas de milhares de linhas e faz manter apenas algumas poucas centenas e milhares de linhas época O que significa faces e João com a complexidade nas bordas que você disse conversar nas bordas mas se não servisse me deu um luxo a palavra luxo aqui de tem um código mas sempre uma base de código mais simples o que que eu não abraço isso porque só tem um código mais simples né vão pensar que você vê se me permite criar uma personalidade componente que tem uma responsabilidade bem definida
+
+70
+01:01:46,500 --> 01:02:46,300
+O que quer dizer que tudo que ocorre em mim tá tudo intimamente ligado tem ele tem um forte na complemento Porque tudo que mexe com o mesmo contexto se mexe o mesmo contexto porque eu tenho que ficar massa de direção para separar as coisas e se tá tudo íntimo a complexidade está nas bordas geralmente conseguir distribuir botar na entrada na saída querendo ou não eu voltei esse acompanhamento com as bordas saber qual o protocolo de entrada e tem que saber alguma forma com protocolo de saída até porque as regras de negócio né que chama a loja de negócio ela não está em um ponto na aplicação está espalhada por toda aplicação vídeo de como vai entrar que aquilo ali vai o tipo de protocolo de entrada de pajem até um banco de dados quando falamos de gato falando que boa parte das minhas lojas negócio vão estar incomodando o esquema como é que define os tipos como é que tem as constantes a concorrência ignorar isso é dar um tiro no pé tá E aí mas aproveita Havan
+
+71
+01:02:46,400 --> 01:03:46,400
+esse nome completo é que eu escrevo mais teste de unidade mas eu tô dentro do contexto microsserviço não se amarrar quantos que eles aqui tá tentando realizar onde a complexidade das Botas na comunicação é burrice desculpa palavra é burrice ignorar isso tá por isso teste de integração Na minha opinião faz muito mais sentido quando eu trabalho por dois motivos Tá eu vou me exercitar as bolas que é muita complexidade provavelmente a maioria dos bancos eu tenho 115 na regra de negócio ali a nível de código de aplicação porque eu tenho um subdomínio uma cochilada de código muito acoplada muito íntimo pouca coisa faz tá então eu só queria deixar claro que tipo Domingos complexo é difícil definir uma cidade que o contexto de microsserviços quando eu tenho um pouco código eu tenho luxo tempo código Então deveria abraçar abraçar significa diminuir as camadas de interação abraçar o senhor entender que eu estou em 1
+
+72
+01:03:46,400 --> 01:03:55,400
+São remoto e teste de integração acabou sendo muito melhor para manutenção e para a vida último sistema a minha opinião
+
+73
+01:03:58,100 --> 01:04:57,000
+Otávio Quer comentar comentário eu achei interessante você trazer o assunto de micro-serviço porque eu acho que é bem característica uma se a pessoa não souber fazer direito faz muita cagada né então eu acho interessante você tem sempre mente deixa deixa só que tipo um ano antes talvez desse frio lá que eu fiz aí o esquema do XML para matar a gente idade tal tinha um colega que fez um fila com micro serviços de atendimento de dentista foi muito mais desastroso assim e esse realmente cliente queijo e deu certo sabe o terror da manutenção só só um detalhe não exata
+
+74
+01:04:58,000 --> 01:05:46,000
+complementar eu acho que é bom a gente sempre deixar isso claro para você ter benefícios da técnica abordagem você tem que tem que estudar o negócio saber porque senão você vai se ferrar por melhor que seja a ideia por melhor que seja a tecnologia né eu conheço por isso a gente tem muita muita experiência com micro serviço né Tem sempre essa ideia começa com um monolito quebra comprar Micro serviço não cara se o cara manja se o pessoal já teve um monte de atores muito sistema baseado em microsserviços já tem experiência o contexto casa com uso de microsserviços cara pode começar e tem muito então mas é isso eu só queria enfatizar isso é que a pessoa o pessoal tem que dominar essas técnicas essas ideias para poder aplicar bem que senão você vai dar um tiro
+
+75
+01:05:47,300 --> 01:06:47,100
+perfeito o Linhares que a interface no geral ela tem duas coisas ela tem mercado para verificar se se essa transação específica né se essa diferente ela vai ser capaz de processar sua transação então tem várias informações que que você vai usar o tempo do dinheiro né Você tá usando isso aí influencia a decisão Qual o país do cartão o país limite do cartão situação internacional não né então a gente tem esse predicado que define qual vai ser executada a gente tem a implementação da execução mesmo negócio que é aquele padrão estratégia que a gente tá acostumado a esse problema do adquirente é o problema de roteamento que você tem uma aplicação ele né então esse problema é esse problema em se ele é completo
+
+76
+01:06:48,600 --> 01:07:48,500
+é porque parece ser fácil de entender assim esse negócio também é difícil porque a complexidade ela vai entrar né quando começa acontecer aquilo que o Alice falou agora eu tenho que fazer o pagamento em parcela e você caralho nunca vi pagamento em parcela né nunca existiu na minha vida e no Brasil pagamento em parcela é feito de quê né se você vai para outros países da América Latina o pagamento em parcela é feita de outro jeito né então não dá nem para você dizer eu posso usar diretamente aqui o que é do Brasil e nos outros países o parcelamento Por que é outra coisa é outra solução então assim eu acho que quando quando a gente fala né de O que é simples e o que é com
+
+77
+01:07:48,500 --> 01:08:48,500
+onde tem eu acho que onde está complexo é onde você precisa de muito conhecimento né onde tem muita muita coisa sendo definida muita regra que vale para esse sistema funcionar porque você você precisa manter todas essas coisas na sua cabeça né quando é que como é que eu vou conseguir fazer separar essa implementação do da decisão simples é porque você tem um predicado E você tem execução que estratégias são dois padrões aí que a gente conhece desde desde que saiu da faculdade né todo mundo ver essas coisas aí saiu da faculdade mas implementar diretamente definir como essas coisas vão existir dentro do sistema maior aí é que vem a complexidade do negócio né E você entender que vai de coisa que vai quebrar as arquitetura vai ter coisa que vai mudar vai ter coisa que você vai ter que parar porque eu vou ter que rever eu tô entrando no outro país onde as
+
+78
+01:08:48,500 --> 01:09:47,899.9999999995343
+os meus pagamentos são diferentes e aí você vai fazendo a coisa funcionar é só você não entrar nesse negócio eu vou jogar tudo vai ser perfeito não vou conseguir não vou ter mais que vai ter que mandar coisa para ninguém consegue acertar na primeira vez e a sua arquitetura você vai ter que ir lentamente evoluindo né por isso que eu gosto muito dessa ideia de de arquiteturas que são evolutivas que elas vão evoluindo junto com aplicação Por que é mais fácil você ir evoluindo com os problemas e que você tentar entender todos para não sei que você já tem experiência né Eu trabalho com pagamento faz 10 anos eu e o botei filho trabalha com adquirencia em 50 países diferentes podem Então você já viu muita coisa você vai conseguir arquiteturaarquitetura tudo mas é difícil você ser essa pessoa não é meu pai às vezes a gente não tem tanto conhecimento assim para tomar suas decisões e definir essas coisas então é entender que
+
+79
+01:09:48,500 --> 01:10:48,400
+mais conhecimento você precisa para colocar dentro do sistema pronto e vou dizer agora o que eu gostei da porra do livro do Bob Marley tem que escrever só um é como se fosse um experimento científico né isso e isso isso tá pronto aí foi uma coisa que me marcou né Gostei dessa dessa definição de visão Por que é exatamente isso podia ser um Twitter a gente vai com pequenos experimentos construindo o conhecimento é construído o entendimento do que é que tá acontecendo ali e você vai você vai sempre nesse caminho de pequenos experimentos faz um pequeno experimento aqui agora você que tá apertando outra coisa Vai lá melhores a outra coisa melhor textura Coloca mais uma opção lá você vai lentamente fazendo o negócio crescer né com essa ideia de que escrever software
+
+80
+01:10:48,500 --> 01:10:51,200
+trabalhar com experimentos científicos
+
+81
+01:10:51,900 --> 01:11:49,000
+e assim Alguém já leu building evolutionary architecture Eu acho que o Atlético de Rap Parte tem uma pegada também né que vocês postaram ali parece que tem essa essa ideia né de ser descobrindo e mudando tem isso para você comentar que você já leu tem tem tem isso é acho que hoje não vale mais a pena ler ele não não é ele que hoje o fundamentals of software architecture software architecture the hard parts eles cobrem mais mas eles peguem muito essa ideia quem tá com tempo livro meu livro tem essa ideia mas esses dois livros eles abordam também essa essa essa ideia legal vai lá
+
+82
+01:11:51,900 --> 01:12:51,600
+para mim o princípio mais importante do que isso né então eu acho que eu tô muito aí com continuando Maurício né só que o experimento sabe em alguns casos a consorte sabe de você pegar o caminho certo para você não tem no seu trabalho depois então para mim a melhor alternativa sempre foi no teu sócio mais simples possível e dando passos que a gente consiga manter uma boa ou de aprendizado por equipe um bom clima e em gerenciador pode doer por dois motivos não é mais comum às vezes até escolher entre aspas arquitetura ou entre aspas o design errado e aquilo tá se forçando uma burocracia sem fim do q u e pela manuteno idade para prejudicada às vezes é melhor então talvez se você conseguir perceber essa dor no momento certo tomar as decisões certas com coragem e aí pode ter um teste de integração ali como pode-se tomar pode perguntar substituem o teste só para
+
+83
+01:12:51,900 --> 01:13:34,900
+você tem a coragem necessária e o Tácio chegar antes para você tomar ração na hora certa na hora que precisa você me tira muito ache sono e muita coisa que você talvez não e assim você consegue estabelecer a melhor experiência possível para as pessoas estão trabalhando e o melhor fluxo de valor de negócio para o cliente final Então para mim é o melhor caminho segue sendo esse que a gente coisa muito específica de de ganhar mas vamos Passos atrás eu acho que o que vale muito essa postura de humildade frente ao problema que você não conhece e aí você tem a cidade de ao longo do trajeto de coragem para tomar as ações do seu ponto
+
+84
+01:13:37,900 --> 01:14:37,200
+boa perfeito muito bem colocado o que é isso pessoal vamos encerrando assim vamos fazer uma rodada de tipo tava pensando assim fazer uma liminar que morreu e aí sim ou não mas não é uma pergunta que faça sentido né então pode ser considerações finais tá bem aí Eu queria assim eu queria abrir a palavra para muita gente que tá aqui que eu admiro e tal e muito obrigado por ter comparecido tá bem pessoal mais muita gente mesmo e mas não dá né então vamos fazer essa rodada Roberta você tem alguma coisa colocar sim configurações aí você aprendeu a algo aqui a 100 preço entre essas discussões são muito ricas eu acho que uma coisa que eu tava pensando
+
+85
+01:14:37,800 --> 01:15:37,400
+desenrolando que fica sempre muito na minha cabeça é questão de desperdício sou um pouco cria da época se discute muito tentar evitar desperdício e tal e eu lembrei quando a polícia falou de experimento de fermentação eu lembrei de um artigo de pesquisa né da área de engenheiro Só trabalhei que pesquisa grande em curto espaço durante o mestrado e era um artigo que se debruçava sobre o quão a quantidade de código morto - projetos quanto código a gente escreve que no fim ou não quer dizer Estadual muito pouco é executado acaba não servindo para nada em um dos que mais me marcou Nesse artigo era justamente investigação e vários repositórios de código da smed aplicações que horas eles mostrando que mais de 80%
+
+86
+01:15:37,800 --> 01:16:37,200
+parâmetros de configuração de comandos e serviços nunca eram utilizados pelos usuários de serviços e o código na gente toda linha de código que você aciona o sistema não aplicação ela ela vem com custo né não é de graça nela adiciona tempo que alguém vai precisar parar para ler para entender é aquela máxima de que o melhor código aquele que a gente não escreve né e eu acho que esse caso é muito bem com a discussão por que é sempre a gente tem que sempre esse trem do final do quando a gente está complexificando nosso código nosso software por opções e flexibilidade que a gente acabar a não de fato utilizando enquanto existem concorrentes existem outras outras pessoas outros times Outras aplicações sendo construídas que estão mais focadas em delivery em entregar
+
+87
+01:16:37,800 --> 01:16:51,700
+funcionando e o pelo menos a minha filosofia como a desenvolvedora sempre foi fazer a coisa mais simples que puder funcionar e adaptá-la quantos cifras precisa adaptar para isso
+
+88
+01:16:52,700 --> 01:17:52,600
+uau muito muito muito bom vamos lá Linhares tem alguma consideração final leão por favor né para vocês verem essa discussão de uma forma mais profunda Leão fundamentals of software architecture não entendeu o que é arquitetura de software para ver os fundamentos questões de tipos de arquitetura né quais são os tipos de comunicação Quais são os como a gente tá produzindo a pregação né então tem a gente tem muito material incrível olhar a Bíblia que a gente tem de material disponível hoje para você entender um pouco mais sobre sobre perguntar no Twitter mas eu posso posso dizer que o clima aqui tá com uma merda sem ter ido não você não pode você não leu a cor do livro você não fala domingo agora se você não entende o que é que
+
+89
+01:17:52,700 --> 01:18:52,600
+O que é problemático não é o as ideias que estão lá dentro então é melhor você não dizer não é a mesma coisa que ele tava lá na todo mundo ver no blog lá que que o clinort e fica falando as coisas não sei o que que tá escrito lá fazer o quê aqui quais são as ideias que estão sendo definidos lá para você poder entender o que vai usar e o que não vai usar Então a gente tem muito material a gente muita coisa que ajuda Inclusive a gente tem que agradecer não é porque não é porque eu e o ponto m é o ponto que ele querendo pagar de jovem aí ele não é jovem o ponto tem a mesma idade começou a trabalhar junto praticamente né e nessa época não tinha toda toda toda essa oportunidade de discutir essas coisas né você pega um livro Como o design a gente tivesse esse livro há 15 anos atrás assim que evitar de fazer muita merda que a gente escreveu a gente fez muita merda nesse nesse 16 18 anos que tá escrevendo soft
+
+90
+01:18:52,600 --> 01:19:52,500
+porque a gente tava aprendendo né as pessoas estavam aprendendo aí eu quero as merdas estão escrevendo os livros e mostrar todas as moedas que a gente fez a pena não fazer essas medidas não então pega esse material também o livro do Aquiles né Pega e vamos vamos estudar um pouquinho mais vamos entender um pouquinho mais para gente escrever só ser melhor para hoje para o futuro porque eu fui mas é você que vai se rasgar dando manutenção essa merda que você produziu hoje né então e o jeito de outro jeito que vai ter que pagar essa conta né então vamos fazer um pouquinho melhor para a gente não ter tanta dor de cabeça e duas lições então Roberto falou que nosso código 80% é inútil e que o Maurício falou que eu tô fazendo aqui e o Maurício falou que a gente vai sofrer com o código que a gente mesmo produz Essa É segunda aí realmente é isso
+
+91
+01:19:52,600 --> 01:20:52,000
+Ô Bruna considerações finais Sigam o conselho do keep it Simple nas compras do legado vai ser teu lado vai ser tua então aprenda a lidar com ela da melhor forma possível e tenta sempre tão passa frente nem que seja para não usar Então vale muito conselho com Maurício colocou cara você pode estudar domingo que vem Designer em que seja para dizer aqui não se aplica mas pelo menos se tira esse peso do teu coração e tira essa síndrome às vezes de tá pegando o caminho errado na maior parte das vezes o caminho simples é o melhor um pouco não falou ali eu concordo boa parte das vezes os e o direto vai atender vai resolver vai ser a melhor saída e o teste de integração vai ser o mais assistivo então
+
+92
+01:20:52,600 --> 01:21:50,000
+esteja sempre um passo à frente nem que seja para saber que você não precisa daquilo e o seu curso como é que eu pego o branco Fala aí o meu corpo vai ficar mente ele reúne desde então não pode andar discutindo com o arquitecto Antonio de de sólido e muito desse diário está assim aonde você talvez precise usar isso E como você faria uma agulha para trazer essa clareza para as pessoas mas vai desde a escrita de código até a estruturação disso seja em microsserviços lá então você vai encontrar bastante boa Abril é a Nice vamos lá considerações finais e fala do seu livro também eu comprei muito bom
+
+93
+01:21:50,800 --> 01:22:50,800
+ela é louca deixa aqui não Alexandre Mas eu quero a Siri é muito mais sobre design arquitetura né Muito mais sobre como organizar classe código flexível e 7 8 e B menos de arquitetura e o brilho de um livro muito legal quando se fala de design mas acho que não que influenciou de verdade foi o grande objeto de sistemas grade B os dois autores eles como eles programa E como eles deixam as Abstrações emergirem F influenciou bastante é o livro que fala bem pouco esse filme no Netflix no são tão populares aí na comunidade mas é um bicho bem bom dói um pouco ler porque eu monte código em swing ele que ninguém gosta mais na 3 páginas colocar um botão na tela mas a ideia ali e como eles programa bem legal influenciou bastante então fica essa recomendação de boa noite aí gente inclusive esse livro
+
+94
+01:22:50,800 --> 01:23:50,600
+chegam a uma estrutura hexagonal a gente pode dizer que que chega nesse ponto não eu acho que eles não usam o termo cortina de Deus no livro Boa pergunta mas ele tem bastante discussão sobre como mudar a classe como fazer com que parte do sistema sejam fáceis de serem trocadas entre tal mas acho que eles são um pouco mais pragmáticos ali né na discussão deles sim sim o Point vamos lá considerações finais sobre o link porque eu não li o livro que deixar aqui mais uma reflexão que eu tenho na minha carreira quer o cuidado de ser bom de matico né ou pragmático né Eu já iniciei minha carreira ali jovem sendo atendimento do mundo da do mercado Dia 9 de março né Já segui Bob's a seguir 2013 design a pé da letra e vi que
+
+95
+01:23:50,800 --> 01:24:50,700
+sofrimento tá então Ele pintou Balancear isso com um pouco mais de pragmatismo né e um dos pilares pragmatismo É que eu uso é dom Supremo não brinca os seus já dizia Marte Paulo em seu livro de 2002 já dizer Eric seu livro de 2004 Não brinque com seus filhos né hoje não há qualquer motivo de brigar com meu Reis obrigado laravel e obrigar o que estão fazendo mais de 80% do trabalho sujo eu só tenho que me preocupar com a regra de negócio e é isso que a gente tenta fazer a mais de 20 anos deixar o desenvolvedor desenvolvedor só se preocupar de negócio mas como tá a cinta de hoje né a gente gosta de complicar Então eu não sei se vale Talvez no início da sua carreira investir tanto em estilos arquiteturais não é que você não vai estudar objeto ou um paradigma funcional ou mesmo só de alguns padrões de projeto né só acho que talvez não vale a pena você investir nessa briga e dogmática de estilos arquiteturais hexágono
+
+96
+01:24:50,800 --> 01:25:02,700
+clino qualquer outro né quando boa parte do seu trabalho vai ser dormir vai se usar um Facebook então domingo aquele senhor tá bom então acho que deixo aí essa sessão com isso
+
+97
+01:25:03,900 --> 01:26:03,900
+perfeita aprenda o seu primeiro amor que não se não tem tem porque o Fernando que não há um detalhe Otávio ou o detalhe brincadeira considerações finais Otávio obrigado não achei bem legal discussão e isso né Eu sou muito sucesso do estudo é professor universitário Então eu fico muito feliz na linha de frente que deve mesmo recomendado que se lê se leia mais livros que o pessoal Studio que vale a pena esse tipo de recomendação Porque como o Bruno falou mesmo que seja para você saber onde não usar certas coisas então é só esse recado que eu acho que vale a pena a gente se aprofundar nas coisas por isso não se acaba sendo uma espécie de robô né fazendo as coisas sem pensar sem saber
+
+98
+01:26:03,900 --> 01:27:03,800
+tu tá fazendo então acho legal essa profundidade que a gente pegar esses livros né eu gosto muito do livro que o que o recomendou também é espaço não ele não pode ser os primeiros livros que é que fala não sei nem se ele não sei se ele fala o termo mas no próprio clinitec ele fala desse livro como se fosse um dos primeiros a utilizar esse tipo de escrita Eu lembro que chega Aparecido mesmo esse Google Now de testes eu tenho seguiu o exemplo sabe tipo eu fiz lá não trabalho frango mas foi bem legal e eles chegam e algo parecido né eu tava sim é isso eu não tenho Espetacular né para eu ser mais gostar mais do estilo mais clássico do estilo Kent Beck mesmo mas então é isso né acho que é legal
+
+99
+01:27:03,900 --> 01:28:03,300
+todos os tipos de estilos de programação de desenvolvimento e de cetera e saber isso também tem vai ter sistema e também assim tem muito a cultura é muito diversa dependendo da empresa que você tá na empresa está fechada com o Primer que é então por exemplo eu tenho amigos eu tenho Otoni que é meu amigão que é o principal líder da buser é abusar ela é feita em cima do frango né então assim tem problema não tem problema né funciona muito bem o aplicativo você fechou para o Freio né Pode ser que tem algum risco nisso que é meu primo aqui ele pode ser que não seja menos estável do que a linguagem né dependendo de uma coisa que talvez seja menos estável mas é um tritongo sempre tem essas esses territórios na vida né então acho que vale a pena só queria deixar esse recado final
+
+100
+01:28:03,800 --> 01:29:03,800
+dá mesmo estudar através de livros que realmente aprofundar nesses temas para não fazer as coisas de qualquer jeito nas coxas e e fazer cada vez melhor Linhares falou não é você que vai ter que cuidar do legado depois Valeu galera Pois é eu o Otávio tem um livro aí muito bom eu tô lendo e é sucinto mas consegue ser mais poderosa do que o livro tem 400 páginas representante legal então é isso pessoal aí a gente não falou um monte de coisa que tu tiver a gente abordou na credilar é tipo o que é design O que é que te tura e o Otávio sofre alguma
+
+101
+01:29:03,800 --> 01:29:51,600
+tirou carne perto do céu tem tanta coisa interessante assim né mas é isso senão a gente vai ficar aqui para sempre conversando né mas muito obrigado desculpa aí Hugo Rua Lopes A Gleice no Rinaldo e várias outras pessoas aí que eu não consegui dar a palavra né que senão não aparecendo aqui e várias outras que eu não vou mexer não porque senão vou ficar falando aqui para sempre mas muito obrigado por comparecer aí pessoal eu vou ter que ir ouvir isso 15 vezes para absorver né todo conhecimento aqui então muito obrigado eu vou finalizar aqui então beleza tchau tchau pessoal valeu

@@ -1,0 +1,3308 @@
+1
+00:00:00,232 --> 00:00:05,749
+Aquiles:  Mas é... Então vamos lá, pessoal!
+
+2
+00:00:05,749 --> 00:00:08,732
+Aquiles:  Meu nome é Alexandre Aquiles.
+
+3
+00:00:08,804 --> 00:00:13,026
+Aquiles:  Eu não vou falar onde eu trabalho. Acho que vocês devem saber, né?
+
+4
+00:00:12,966 --> 00:00:16,480
+Aquiles: Por que aqui o negócio é entre a gente mesmo, né?
+
+5
+00:00:16,480 --> 00:00:25,880
+Aquiles: Tipo... Então, é papo nosso aqui mesmo.
+
+6
+00:00:25,880 --> 00:00:31,520
+Aquiles: Eu lancei um livro recentemente, né? "Desbravando SOLID". Deixa eu fazer o jabá já, né?
+
+7
+00:00:31,520 --> 00:00:39,000
+Aquiles: "Desbravando SOLID". E aí, eu fiz esse esse livro e, no capítulo final assim, né?
+
+8
+00:00:39,000 --> 00:00:45,320
+Aquiles: Eu chego numa Arquitetura Hexagonal. Pelo menos, eu acho que eu chego.
+
+9
+00:00:45,320 --> 00:00:52,200
+Aquiles: Então, vamos ver se eu cheguei mesmo.Pode ser uma pauta.
+
+10
+00:00:52,200 --> 00:01:05,800
+Aquiles: Mas aí eu postei lá no twitter referenciando um Hipsters que o Linhares e a Roberta Arcoverde
+
+11
+00:01:05,800 --> 00:01:13,200
+Aquiles: e o Otávio Lemos e o Vinícius Dias e Rodrigo Ferreira e o
+
+12
+00:01:13,200 --> 00:01:21,760
+Aquiles: Paulo da Caelum e da Alura, né? Eles tavam discutindo sobre Clean Architecture.
+
+13
+00:01:21,760 --> 00:01:28,240
+Aquiles: E aí repercutiu, né? Então, várias comentários e várias threads diferentes e tal.
+
+14
+00:01:28,240 --> 00:01:37,520
+Aquiles: Então, é sobre isso que a gente vai falar. E aí, eu coloquei um título meio marqueteiro, né?
+
+15
+00:01:37,520 --> 00:01:43,960
+Aquiles: "Clean Arch morreu?". Até, eu tava falando com o Aniche e com o Linhares
+
+16
+00:01:43,960 --> 00:01:50,440
+Aquiles: que, tipo, é para fazer uma referência quele papo lá do "Is TDD dead", né? Que teve
+
+17
+00:01:50,440 --> 00:01:56,880
+Aquiles: entre o cara do Rails e o Kent Beck. Então, é uma brincadeira na verdade, né, pessoal?
+
+18
+00:01:56,880 --> 00:02:02,240
+Aquiles: Então, se agente quiser falar assim "Clean Arch morreu?". Vamos falar que não e aí
+
+19
+00:02:02,240 --> 00:02:07,760
+Aquiles: a gente pode fechar aqui. Mas a brincadeira é a gente discutir um pouco, né, sobre isso e tal.
+
+20
+00:02:07,760 --> 00:02:15,960
+Aquiles: E aí, eu queria que os oradores aí, eu vou chamando, e eu queria que vocês falassem o nome e
+
+21
+00:02:15,960 --> 00:02:27,120
+Aquiles: e aí e defina em uma frase assim, sabe? O que é Clean Architecture?
+
+22
+00:02:27,120 --> 00:02:32,240
+Aquiles: Então, eu vou começar aí com o Linhares. Vamos lá, Linhares. Manda brasa, aí!
+
+23
+00:02:33,160 --> 00:02:46,800
+Linhares: Dessa vez eu vou roubar. Por que eu achei o comentário
+
+24
+00:02:46,800 --> 00:02:52,960
+Linhares: que mais representa o que eu senti lendo o livro é o comentário que o Aniche fez no Twitter
+
+25
+00:02:52,960 --> 00:03:01,480
+Linhares: Que é conteúdo requentado. Ele pegou o conteúdo que ele tinha dos outros livros
+
+26
+00:03:01,480 --> 00:03:08,360
+Linhares: Requentou, mudou de nome e botou lá, né? Eu ainda fiquei sem entender o que
+
+27
+00:03:08,360 --> 00:03:14,440
+Linhares: efetivamente é a tal da Clean Architecture que parece com tudo que a gente já viu antes.
+
+28
+00:03:14,440 --> 00:03:19,680
+Linhares: só que com coisas com um nome diferente. Então, eu tô meio confuso ainda.
+
+29
+00:03:19,680 --> 00:03:28,240
+Aquiles: Boa! Vou na ordem aqui que tá aparecendo pra mim. Então, Branas. Se apresenta aí pra galera e tipo o que é que Clean Architecture e uma frase, assim.
+
+30
+00:03:28,240 --> 00:03:36,000
+Branas: Ah, beleza, cara! Bom, eu sou só mais uma apaixonado aí, por programação que tem um canal no YouTube.
+
+31
+00:03:36,000 --> 00:03:41,800
+Branas: E, pra mim, eu concordo bastante lhe com que o Maurício [Linhares] comentou. É um
+
+32
+00:03:41,960 --> 00:03:50,840
+Branas: sim um pouco... É uma mescla de óbvio, superficial e requentado, tá? Mas, de certa forma, faz bastante
+
+33
+00:03:50,840 --> 00:03:56,800
+Branas: sentido até a fronteira com a camada de domínio que a gente vai discutir aqui hoje, tá? Então, pra
+
+34
+00:03:56,800 --> 00:04:04,800
+Branas: mim, ele é um pouco um clone do Ports & Adapters e uma pitada de DDD. Mas por isso que eu acho ele
+
+35
+00:04:04,800 --> 00:04:13,960
+Branas: superficial. Mas depois eu entro um pouco mais nos detalhes.
+
+36
+00:04:13,960 --> 00:04:23,280
+Aquiles:  Certo! Beleza! Ô, Aniche! Você se apresenta e coloca uma definição suscinta, assim? Eu sei que essas coisas não é pra acadêmico, né? Mas vai lá, vai lá!
+
+37
+00:04:26,280 --> 00:04:32,000
+Aniche: E aí, gente! Meu nome é Maurício [Aniche] e definir Clean Architecture em uma frase é difícil, hein. Mas acho
+
+38
+00:04:32,000 --> 00:04:37,920
+Aniche: que o que ele tentou naquele livro é mostrar como tentar criar aplicações que vão sobreviver
+
+39
+00:04:37,920 --> 00:04:44,240
+Aniche: ao tempo, né? Que sejam fáceis de mudar, fáceis de evoluir, fáceis de testar. Se ele conseguiu isso no
+
+40
+00:04:44,240 --> 00:04:51,360
+Aniche: livro é uma coisa que a gente pode discutir, né? Mas acho que a ideia da Clean Architecture é essa.
+
+41
+00:04:51,360 --> 00:04:57,160
+Aquiles: Certo. E o próximo que tá aparecendo aqui é o [Rafael] Ponte. Ô, Ponte. Você nem sabe que tá acontecendo agora, né?
+
+42
+00:04:57,160 --> 00:05:05,680
+Ponte: E aí, eu cheguei, peguei o bonde andando aqui. Ouviu o comecinho. Mas, não vou me repetir muito, né?
+
+43
+00:05:05,680 --> 00:05:10,160
+Ponte: Meu nome é Rafael Ponte aqui. Conhecido como Marajá dos Legados. Então, vim defender os legados, tá? 
+
+44
+00:05:10,160 --> 00:05:17,640
+Ponte: Embora as pessoas não gostem. Mas uma definição rápida de Clean Arch dado o meu pouco conhecimento, né? Até o que eu estudo.
+
+45
+00:05:17,640 --> 00:05:23,680
+Ponte: É um excesso de camadas de indireção pra blindar meia dúzia de classes.
+
+46
+00:05:23,680 --> 00:05:29,680
+Ponte: Pronto. É assim que eu enxergo na maioria dos projetos que eu tenho visto.
+
+47
+00:05:29,680 --> 00:05:45,280
+Aquiles: Caramba, essa foi contundente. Eu senti uma mágoa, aí. Mas, ô Otávio! Otávio Lemos! Beleza?
+
+48
+00:05:45,280 --> 00:05:52,920
+Aquiles: Então, diga aí! Se apresente e fale aí a sua definição! Ah, eu esqueci de falar assim... É, tipo, façam os seus jabás aí também.
+
+49
+00:05:52,920 --> 00:06:01,920
+Lemos: Bom pessoal, meu nome é Otávio Lemos. Eu sou professor universitário.
+
+50
+00:06:01,920 --> 00:06:09,520
+Lemos: Sou professor da Universidade Federal de São Paulo há 13 anos e há 3 anos eu comecei um
+
+51
+00:06:09,520 --> 00:06:14,640
+Lemos: canal no YouTube mais ou menos na mesma linha do Branas, né? Falando sobre desenvolvimento de software
+
+52
+00:06:14,640 --> 00:06:23,520
+Lemos: Engenharia de software e nessa mesma época que eu conheci essas ideias aí do Bob Martin, né?
+
+53
+00:06:23,520 --> 00:06:32,720
+Lemos: Bom, pra mim é, de fato. Me parece e ele mesmo fala isso, né? Que é um conjunto de ideias que foram
+
+54
+00:06:32,720 --> 00:06:38,160
+Lemos: se desenvolvendo sobre a arquitetura de software no sentido de organização de código e não de
+
+55
+00:06:38,440 --> 00:06:48,720
+Lemos: arquitetura de solução ou infra, né? Mais o sentido de design mesmo. Mas é um conjunto de ideias antigas, se a gente
+
+56
+00:06:48,720 --> 00:06:55,920
+Lemos: for ver. Porque aparece lá, ele fala do do Ivar Jacobson lá, que é aquele desenvolvimento
+
+57
+00:06:55,920 --> 00:07:03,000
+Lemos: software guiado por casos de uso e depois tem outras outras abordagens como Ports & Adapters ou
+
+58
+00:07:03,000 --> 00:07:11,240
+Lemos: Arquitetura Hexagonal do Alistair Cockburn. Então, assim, é um conjunto, um punhado de ideias e me parece que o
+
+59
+00:07:11,240 --> 00:07:19,360
+Lemos: objetivo é esso. Você tem uma Arquitetura na qual você promove as suas regras de negócio e
+
+60
+00:07:19,360 --> 00:07:26,480
+Lemos: tenta desacoplá-las de outros interesses do sistema. Claro, que você pode abusar disso, né? Qualquer
+
+61
+00:07:26,480 --> 00:07:34,200
+Lemos: tecnologia, qualquer abordagem, você pode abusar e em vez de ser um benefício ser uma coisa que vai te atrapalhar, certo?
+
+62
+00:07:34,200 --> 00:07:43,000
+Aquiles: Certo! Eu vou chamar... a Roberta [Arcoverde] tá aqui. Ela participou do podcast. Do famoso
+
+63
+00:07:43,000 --> 00:07:53,040
+Aquiles: podcast aí, né? Então, Roberta vou convidar você aqui e te coloquei aqui numa numa fria numa enrascada, hein.
+
+64
+00:07:53,040 --> 00:07:58,400
+Aquiles: Mas eu tinha falado com a Roberta, já. Deixa eu ver aqui ó. Convidar para falar. Ah, apareceu aqui.
+
+65
+00:07:58,400 --> 00:08:10,160
+Arcoverde: Pois é, Clean Arch pra mim. De acordo também com o que o Otávio falou, me parece uma
+
+66
+00:08:10,160 --> 00:08:17,280
+Arcoverde: parada que nem é Clean nem Arch, né? É design e não é clean no sentido de não ser simples, né?
+
+67
+00:08:17,280 --> 00:08:23,960
+Arcoverde: No sentido de de adicionar um pouco de complexidade para tentar definir abstrações e isolar
+
+68
+00:08:23,960 --> 00:08:32,800
+Arcoverde: interesses que, na minha opinião, sempre que se tenta isolar, o trade-off é que você
+
+69
+00:08:32,800 --> 00:08:39,760
+Arcoverde: abre mão de coisas mais sofisticadas que você poderia estar utilizando e que informa o design
+
+70
+00:08:39,760 --> 00:08:46,960
+Arcoverde: do sistema, né? E abrir mão dessas coisas deliberadamente em nome de uma suposta flexibilidade
+
+71
+00:08:46,960 --> 00:08:55,480
+Arcoverde: para que essa estrutura mude no futuro, pra mim, soa um pouco inocente. Então, talvez seja a melhor
+
+72
+00:08:55,480 --> 00:09:01,480
+Arcoverde: forma que eu encontraria de definir por tudo que eu li, que a gente tem discutido nesses dias.
+
+73
+00:09:03,160 --> 00:09:11,440
+Aquiles: Beleza! Então ó, só pra colocar uns termos que foram aparecendo aí. Tipo... Tem muita essa coisa de ser
+
+74
+00:09:11,440 --> 00:09:18,800
+Aquiles: algo antigo, né? Eu lembro de fazer diagrama UML. Aí, tinha o diagrama de robustez que tinha
+
+75
+00:09:18,800 --> 00:09:27,680
+Aquiles: lá o Entidade, Controller e Boundary, né? O ECB. E tipo, tá lá. O Otávio até falou aí do tal do
+
+76
+00:09:27,680 --> 00:09:33,760
+Aquiles: Ivar Jacobson e era isso, né? Tipo vem lá do UML. Inclusive, eu acho que antes de existir UML, na verdade.
+
+77
+00:09:33,760 --> 00:09:48,600
+Aquiles: Daí, tem essa coisa de, eu acho que a roberta falou, o Ponte falou, né? Que talvez
+
+78
+00:09:48,600 --> 00:09:56,120
+Aquiles: muitas abstrações,muitas indireções, né? Eu acho que é isso que a Roberta falou, né? Visa flexibilidade.
+
+79
+00:09:56,600 --> 00:10:03,160
+Aquiles: E tanto o Otávio como a Roberta falaram aí de design, né? Então, talvez o nome arquitetura
+
+80
+00:10:03,160 --> 00:10:10,680
+Aquiles: seja estranho. Então, arquitetura limpa talvez seja um design limpo. E aí, eu tava vendo aqui
+
+81
+00:10:10,680 --> 00:10:21,640
+Aquiles: tava lembrando, né? Até coloquei um tweet lá de 2017 que eu tava bem radical, digamos...  E aí,
+
+82
+00:10:21,640 --> 00:10:27,440
+Aquiles: eu e o Rodrigo, a gente tava querendo estudar sobre Arquitetura. E aí, tinham 3 livros que
+
+83
+00:10:27,440 --> 00:10:39,240
+Aquiles: estavam sendo lançados. Um era o "Building Evolutionary Architectures", lá em 2017. Que é da
+
+84
+00:10:39,240 --> 00:10:44,920
+Aquiles: ThoughtWorks, né? O Aniche chegou a mencionar. Assim, tem um negócio de fitness function e tal.
+
+85
+00:10:45,320 --> 00:10:52,960
+Aquiles: Eu não li. Pra falar a verdade. Aí, tinha um que era o "Design It" que é bem sobre a arquitetura, assim.
+
+86
+00:10:52,960 --> 00:10:58,560
+Aquiles: Sobre trade offs, estilos arquiteturais. Que era da [editora] Pragmatic Programmers. Só que ele não tinha
+
+87
+00:10:58,560 --> 00:11:05,960
+Aquiles: arquitetura no nome. E tinha o Clean Architecture que era sobre design mas tinha arquitetura no nome.
+
+88
+00:11:05,960 --> 00:11:18,440
+Aquiles: E foi o que eu escolhi ler. Linhares: Você pulou os dois melhores e pegou o pior. Aquiles: Mas aí eu fui tentar
+
+89
+00:11:18,440 --> 00:11:28,040
+Aquiles: aplicar em um freela, né? Eu e um camarada de Android. Assim, a gente tava querendo reaproveitar o modelo
+
+90
+00:11:28,440 --> 00:11:36,600
+Aquiles: E foi um desastre assim, nesse caso específico, porque eu acho que o modelo é diferente, né?
+
+91
+00:11:36,600 --> 00:11:48,240
+Aquiles: De uma aplicação Android e da API, que é o que eu tava fazendo. Assim, eu não sofri muito porque
+
+92
+00:11:48,240 --> 00:11:55,040
+Aquiles: o negócio não foi pra frente. Mas eu acho que eu teria sofrido. Aí pessoal, o que eu queria
+
+93
+00:11:55,040 --> 00:12:01,440
+Aquiles: é fazer uma brincadeira aqui. Ô Linhares, você leu o livro, né? Vamos falar um pouco sobre o livro em si.
+
+94
+00:12:01,440 --> 00:12:11,360
+Aquiles: Foi o Allan Silva, eu não sei se ele tá aqui, mas o Allan Silva que ele deu a ideia, assim.
+
+95
+00:12:11,360 --> 00:12:18,160
+Aquiles: Do Linhares falar o que ele achou de BOM no livro.
+
+96
+00:12:18,160 --> 00:12:20,160
+Aquiles: Então, destaque aí Linhares o que você achou de BOM no livro.
+
+97
+00:12:23,120 --> 00:12:35,560
+Linhares: Bicho, aí é difícil... Aquiles: Dá uma forçada, aí! Pensa um pouquinho!
+
+98
+00:12:35,560 --> 00:12:45,040
+Linhares: É porque esse livro me levou pra pra muitos momentos traumáticos do passado, né? Por que muito do que tá
+
+99
+00:12:45,040 --> 00:12:51,040
+Linhares: sendo discutido, das coisas que estão sendo faladas, são coisas que a gente queria matar ali no meio dos anos 2000 no Java, né?
+
+100
+00:12:51,040 --> 00:12:57,720
+Linhares: Você pega o livro do Rod Johnson que foi o livro que deu o nascimento ao Spring.
+
+101
+00:12:57,720 --> 00:13:04,720
+Linhares: Tem muito essa discussão de como era complicado, de você criar essa separação
+
+102
+00:13:04,720 --> 00:13:10,160
+Linhares: Porque todo tinha um lugar, tinha o Session Bean, o Entity Bean
+
+103
+00:13:10,400 --> 00:13:19,240
+Linhares: um monte de Java Beans, EJB, essa porra toda, né? E ele vem com essas ideias, né?
+
+104
+00:13:19,240 --> 00:13:25,040
+Linhares: Esse livro do Rod Johnson ele tem muitas das ideias que a gente vê aqui de você
+
+105
+00:13:25,040 --> 00:13:28,840
+Linhares: criar essa separação, de você não deixar o framework ficar dentro da sua aplicação, porque a gente
+
+106
+00:13:28,840 --> 00:13:34,720
+Linhares: sofria muito para escrever aplicações e testar aplicações por causa do peso que o framework
+
+107
+00:13:34,840 --> 00:13:42,400
+Linhares: e as coisas do Java tinham em cima da sua plataforma, né? E daí, surge o Spring e daí surge o jeito que a gente tá
+
+108
+00:13:42,400 --> 00:13:51,880
+Linhares: escrevendo aplicações Enterprise em Java modernas e eu acho que essa coisa de você separar é
+
+109
+00:13:51,880 --> 00:13:59,880
+Linhares: importante, né? Eu acho que nisso ele acerta no livro. Que você realmente precisa separar essas coisas.
+
+110
+00:13:59,880 --> 00:14:07,360
+Linhares: E isso é uma coisa que a gente vem fazendo, assim, desde o primeiro livro de modelagem e
+
+111
+00:14:07,360 --> 00:14:12,880
+Linhares: design orientado a objetos que eu lembro de ter lido. Que eu acho que é o de UML do
+
+112
+00:14:12,880 --> 00:14:19,120
+Linhares: Grady Booch, né? Que era um dos livros que que eram recomendados para gente na época da faculdade.
+
+113
+00:14:19,120 --> 00:14:26,240
+Linhares: E isso era uma recomendação, né? Que você não quer que essas coisas elas entrem dentro
+
+114
+00:14:26,240 --> 00:14:33,480
+Linhares: do seu código, né? Mas você não vai fazer isso de uma forma radical, né? Como lá no teu
+
+115
+00:14:33,480 --> 00:14:41,960
+Linhares: Twitter, tu colocou "Ah, não quero nem botar as anotações no meu app". Aí, você tá indo longe demais no
+
+116
+00:14:41,960 --> 00:14:47,000
+Linhares: no negócio, né? Porque a grande preocupação que a gente tinha na época não era de você ter
+
+117
+00:14:47,000 --> 00:14:55,760
+Linhares: referência ao framework, né? Era como é que eu consigo testar e usar e fazer operações em cima
+
+118
+00:14:55,760 --> 00:15:03,360
+Linhares: dessas soluções localmente, na minha máquina. Fazer teste unitário, fazer TDD, né?
+
+119
+00:15:03,360 --> 00:15:10,520
+Linhares: Você conseguir fazer o design da sua aplicação através dos testes.
+
+120
+00:15:10,520 --> 00:15:15,120
+Linhares: Vou dizer que é uma das poucas coisas que eu acho que são legais. Mas o foda é porque ele é
+
+121
+00:15:15,120 --> 00:15:21,840
+Linhares: ele é mais radical do que o seu tweet, né? E é difícil de você separar essas coisas no livro.
+
+122
+00:15:21,840 --> 00:15:28,200
+Linhares: Eu tive muita dificuldade de pegar essas coisas. "Ah, isso que é importante" Muito importante a gente não
+
+123
+00:15:28,200 --> 00:15:34,480
+Linhares: deixar essas coisas vazarem para dentro de camadas para onde elas não deveriam ter
+
+124
+00:15:34,480 --> 00:15:41,280
+Linhares: vazado, né? Você tem que tentar separar essas coisas. Eu acho que isso é uma mensagem que é importante, né?
+
+125
+00:15:41,280 --> 00:15:46,400
+Linhares: Que é uma coisa que a gente repete em modelagem orientada a objetos já desde... Provavelmente desde que
+
+126
+00:15:46,400 --> 00:15:56,440
+Linhares: existe modelagem orientada a objetos.
+
+127
+00:15:56,440 --> 00:16:01,480
+Aniche: Mas olha como varia de experiência para experiência, né? Então, o meu primeiro contato com o trabalho dele foi naquele Agile Principles Practices and Patterns.
+
+128
+00:16:01,480 --> 00:16:07,920
+Aniche: Alguma coisa assim, né? Foi antes do Clean Code, aliás.
+
+129
+00:16:07,920 --> 00:16:12,840
+Aniche: Eu tava vindo de 3 projetos na sequência. Um deles, o primeiro, onde era uma loja virtual que a galera customizou.
+
+130
+00:16:12,840 --> 00:16:18,640
+Aniche:  A loja virtual aberta em ASP da Locaweb. Quem lembra disso aqui, né?
+
+131
+00:16:18,640 --> 00:16:24,960
+Aniche:  Eram aqueles arquivos ASP de cinco mil linhas. E tudo acontecia ali.
+
+132
+00:16:24,960 --> 00:16:32,160
+Aniche: Aí, eu pulei para um projeto na Sony. Era o projeto que controlava a venda de DVDs da Sony. Era tudo em JSP e TUDO na JSP.
+
+133
+00:16:32,160 --> 00:16:37,840
+Aniche: Aí, eu fui trabalhar na Verifone, programar em C. TUDO em um arquivo C completo.
+
+134
+00:16:37,840 --> 00:16:41,760
+Aniche: E aí, pra mim, não fazia sentido. Não é possível que não dá pra ser melhor, né? E quando eu lia aquele livro onde ele introduziu SOLID pela primeira vez lá, etc e tal.
+
+135
+00:16:41,760 --> 00:16:46,400
+Aniche: Eu falei "Porra, até que dá pra separar as coisas, né?" Dá pra ser um pouquinho melhor. Não precisa tá tudo no mesmo lugar.
+
+136
+00:16:46,400 --> 00:16:52,600
+Aniche: Porque acho que, nos projetos que eu participei, tava tudo sempre no mesmo lugar.
+
+137
+00:16:52,600 --> 00:16:56,560
+Aniche: Pra mim, foi um divisor de águas. Não, dá pra tentar modelar um pouquinho melhor.
+
+138
+00:16:56,560 --> 00:17:01,920
+Aniche: Agora, óbvio ele é muito extremista na maneira de escrever, né?
+
+139
+00:17:01,920 --> 00:17:07,320
+acho que é isso que você tem que ignorar quando ler né eu falei em algum tweet disso né se você
+
+140
+00:17:07,320 --> 00:17:13,240
+diga a risca ali o que ele fala ele é bem bem extremista né banco de dados é um detalhe não
+
+141
+00:17:13,240 --> 00:17:18,040
+sei em que mundo que banco de dados é um detalhe né mas acho que pra mim foi isso que me agradou
+
+142
+00:17:18,040 --> 00:17:25,640
+um trabalho dele lá esse lá em 2006 2007 quando comecei a trabalhar mas eu concordo em tudo que
+
+143
+00:17:25,640 --> 00:17:31,320
+você comentou maior isso que é muito extremista né infelizmente é muito extremista do meu ponto
+
+144
+00:17:31,320 --> 00:17:41,160
+é a palavra é eu ia colocar só três pontinhos importantes aqui tá o primeiro ponto que eu acho
+
+145
+00:17:41,160 --> 00:17:48,360
+que todo mundo concorda é que não faz sentido você misturar o embound driver ou a embound ports
+
+146
+00:17:48,360 --> 00:17:52,680
+se a gente pensar em portas adapters com regra de negócio que é uma coisa que a gente sempre sofreu
+
+147
+00:17:52,680 --> 00:17:58,080
+ao longo dos últimos 20 30 anos ou seja o teu controller tem regra de negócio a tua tela tem
+
+148
+00:17:58,080 --> 00:18:04,920
+um negócio a geralmente controla e tela né mas se você tivesse um cia lá e talvez ele pudesse ter
+
+149
+00:18:04,920 --> 00:18:10,360
+regra de negócio talvez se você tivesse algum outro tipo de driver da aplicação era muito comum que a
+
+150
+00:18:10,360 --> 00:18:16,760
+gente assim presenciasse isso então o primeiro ponto chave aqui do que o arquitector é a camada de
+
+151
+00:18:16,760 --> 00:18:22,960
+use cases seria aquela API da application que você expõe pra fora certo então eu acho que nesse
+
+152
+00:18:23,000 --> 00:18:28,360
+e ninguém discorda que isso é uma coisa super válida né é a mesma proposta do alistar cuba
+
+153
+00:18:28,360 --> 00:18:34,120
+na mesma proposta do do do evar Jacobson de muitos anos atrás também e de qualquer um que
+
+154
+00:18:34,120 --> 00:18:40,800
+queira escrever uma aplicação que cresça e que tenha testabilidade e que possa ser conduzida
+
+155
+00:18:40,800 --> 00:18:46,480
+de forma diferente então nesse ponto aí eu acho que o arquitecto está perfeito nas colocações ele
+
+156
+00:18:46,480 --> 00:18:51,520
+tem uma questãozinho em relação a screamer arquitecto que é sempre difícil você pensar
+
+157
+00:18:51,520 --> 00:18:58,080
+em service e qual o nome do serviço é order service client service a product service então eles
+
+158
+00:18:58,080 --> 00:19:03,080
+assim olha vamos criar um negócio chamado music case que é intenção exata do usuário e a gente
+
+159
+00:19:03,080 --> 00:19:06,800
+dá um nome então isso pode pulverizar uma grande quantidade de classes mas até aí eu acho que
+
+160
+00:19:06,800 --> 00:19:11,920
+tá tudo bem pra mim é grande uma congruência do client arquitecto tá um passo lá dentro não
+
+161
+00:19:11,920 --> 00:19:17,120
+passo pra fora pra fora tá tudo certo separar frameworks e drivers na minha visão é inviável
+
+162
+00:19:17,120 --> 00:19:23,520
+e nem sempre os frameworks são intercambiáveis mas só o fato de você separar porta pra fora porta
+
+163
+00:19:23,520 --> 00:19:29,360
+pra dentro já é uma coisa boa o erro pra mim é na camada de entities tá rapidamente só pra pra
+
+164
+00:19:29,360 --> 00:19:34,800
+pra transmitir aqui a minha ideia orientação objeto é uma coisa muito boa porque ela preserva
+
+165
+00:19:34,800 --> 00:19:38,400
+em variança basicamente esse objetivo de orientação objeto não é simplesmente criar
+
+166
+00:19:38,400 --> 00:19:43,120
+classe você pode criar classe continuação do procedural então você tem que expor comportamento
+
+167
+00:19:43,120 --> 00:19:47,840
+para cultivar características e assim você tem controle de variança quando você tem um projeto
+
+168
+00:19:47,840 --> 00:19:51,920
+muito orientado do objeto você tem uma relação entre os objetos então você começa a agrupar esses
+
+169
+00:19:51,920 --> 00:19:56,880
+objetos em clusters eles começam a ter referência uns pros outros esse é exatamente o conceito do
+
+170
+00:19:56,880 --> 00:20:03,680
+agregate que o Eric Evans traz em domain design e o agregate tem que ele tem que ter um determinado
+
+171
+00:20:03,680 --> 00:20:08,000
+tamanho para que ele mantém a consistência transacional na hora de você fazer a persistência
+
+172
+00:20:08,000 --> 00:20:14,000
+impositório para que ele não seja nem muito grande e muito desengonçado e ocupe muito espaço
+
+173
+00:20:14,000 --> 00:20:20,240
+em memória e nem muito pequeno pra pra granularidade seja tipo um mapeamento de tabela praticamente
+
+174
+00:20:20,240 --> 00:20:26,000
+né então uma linha teno e difícil de obter e o Bob Martin ele não cita isso no livro dele tanto
+
+175
+00:20:26,000 --> 00:20:31,200
+que quando eu vou eu tenho um curso sobre arquitectura não falo sobre isso né sobre ddd só
+
+176
+00:20:31,600 --> 00:20:38,320
+e eu sempre faço essa mescla então eu começo explicando pelo Portion Adapters trago o conceito
+
+177
+00:20:38,320 --> 00:20:44,960
+de arquitectura e substitua a camada de ente de pôr o domínio do design mas aonde houver um domínio
+
+178
+00:20:44,960 --> 00:20:51,280
+suficientemente complexo que pague o custo disso porque se tem aplicação muito simples vai ser
+
+179
+00:20:51,280 --> 00:20:56,400
+burocrático que é um pouco do que foi colocado por vocês logo no início né então pra mim esse é
+
+180
+00:20:56,400 --> 00:21:03,360
+um tipo de de design né um tipo de opção que serve quando você tem um tipo de domínio mais complexo
+
+181
+00:21:03,360 --> 00:21:08,720
+se você pensa na modulagem estratégica do domínio de design você separa um domínio sobre domínios
+
+182
+00:21:08,720 --> 00:21:13,200
+mapea bounded context e cada bounded context é uma história diferente você pode adutar um um
+
+183
+00:21:13,200 --> 00:21:19,560
+scaffold em simples em um e uma orientação domínio super rica em outros anos ddd mas pra mim sempre
+
+184
+00:21:19,560 --> 00:21:25,040
+aquela mescla de porcene adapters e ddd ela é mais vencedora nesse caso clenar que fica meio que
+
+185
+00:21:25,040 --> 00:21:31,200
+um numa sombra disso esse é o meu ponto tá boa só queria vai lá vai lá o tava
+
+186
+00:21:32,320 --> 00:21:39,120
+não só só complementando essa ideia do branas eu acho legal quando você começa a perceber que na
+
+187
+00:21:39,120 --> 00:21:44,000
+verdade tem a ver exatamente com isso que ele falou você não precisa usar todas as camadas para
+
+188
+00:21:44,000 --> 00:21:50,640
+seus casos de uso inclusive você pode ter alguns casos de uso mais simples nos quais você só tem
+
+189
+00:21:50,640 --> 00:21:56,320
+um caso de uso não entra mais pra dentro né eu acho que quando você começa a fazer essas adaptações
+
+190
+00:21:56,320 --> 00:22:01,120
+para o seu contexto aí é coisa que começa a fazer mais sentido né então deixa eu fazer o jabá
+
+191
+00:22:01,120 --> 00:22:06,400
+que eu acho que o meu livro é mais simples né o meu livro arquitetura limpa na prática ele resume as
+
+192
+00:22:06,400 --> 00:22:15,040
+ideias e mostra um exemplo né e em 100 páginas lá você consegue pegar a essência né da arquitetura
+
+193
+00:22:15,440 --> 00:22:19,280
+e é isso que o branço falou também acho interessante essa parte ninguém reclama
+
+194
+00:22:19,280 --> 00:22:25,040
+de separar separar front end back end isso é uma coisa que a gente já faz faz muito tempo seria a
+
+195
+00:22:25,040 --> 00:22:32,000
+parte esquerda da da arquitetura exagonal ou por ser na adapters o o galho fica quando você quer
+
+196
+00:22:32,000 --> 00:22:39,120
+desacoplar coisas como banco de dados e tal e aí aí já fica mais difícil de fazer e não faz sentido
+
+197
+00:22:39,120 --> 00:22:44,400
+em todos os sim os todos os sistemas que você desenvolve tem que ser adaptado ao seu contexto
+
+198
+00:22:44,480 --> 00:22:51,120
+isso vale a pena a gente ter na cabeça né que o ancobob ele é muito enfático né então você tem
+
+199
+00:22:51,120 --> 00:22:56,720
+que colocar um filtro ali não dá pra usar tudo aquilo que ele coloca em todos os sistemas tem
+
+200
+00:22:56,720 --> 00:23:07,040
+que adaptar pro seu contexto sei é eu acho que assim a gente tá assumindo que use case e
+
+201
+00:23:07,760 --> 00:23:15,920
+vamos dizer serve se é o coisa do gênero é uma unanimidade agora é de fato uma unanimidade entre
+
+202
+00:23:15,920 --> 00:23:24,160
+nós aqui pessoal eu não sei por exemplo a roberta eu acho que tem críticas né roberta é isso dependendo
+
+203
+00:23:24,160 --> 00:23:30,080
+do contexto né é qual seria esse contexto pra você não usar esse tipo de de organização de código
+
+204
+00:23:30,080 --> 00:23:41,360
+que tipo de organização que você fala distribuído tipo é assim de separar a a camada que está mais
+
+205
+00:23:41,360 --> 00:23:47,680
+próxima da interface com o usuário do resto do sistema porque eu lembro que a gente participou de um
+
+206
+00:23:47,680 --> 00:23:54,000
+tem até um exemplo de um tweet lá que tinha até sql dentro de um controller não tinha
+
+207
+00:23:54,720 --> 00:24:02,480
+ah mas isso aí é um pouco desculpável tá mas porque aqui porque é aquilo
+
+208
+00:24:04,880 --> 00:24:13,040
+leja eu acho que o foco na verdade da da aplicação quando a gente fala de clina arquitectura de
+
+209
+00:24:13,040 --> 00:24:18,560
+padrões de modularidade é o que todo mundo quer escrever uma aplicação que seja
+
+210
+00:24:18,560 --> 00:24:24,560
+resiliante fácil de manter a longo prazo né isso que a gente quer dizer quando a gente fala de
+
+211
+00:24:24,560 --> 00:24:32,720
+qualidade ela é fácil de entender ela faz de modificar ela é fácil de manter em longo prazo e tem
+
+212
+00:24:32,720 --> 00:24:44,880
+diversas técnicas e princípios e padrões para fazer isso que não necessariamente cujo modularidade
+
+213
+00:24:44,880 --> 00:24:50,160
+não é necessariamente o único foco na verdade é um aspecto muito importante de monitorabilidade
+
+214
+00:24:50,160 --> 00:24:59,040
+mas não é um único eu acho que quando você tem um big ball of mud ou seja um sistema cuja
+
+215
+00:24:59,040 --> 00:25:06,720
+arquitetura não pode sequer ser inferida porque ele é escrito de formas completamente aleatórias
+
+216
+00:25:06,720 --> 00:25:12,160
+e tem muitos padrões e é difícil de entender onde se você vai escrever código novo onde aquele
+
+217
+00:25:12,160 --> 00:25:18,480
+código deve ficar esse não é um mundo que ninguém quer estar né então eu gosto de divisões
+
+218
+00:25:18,480 --> 00:25:23,040
+de camadas eu acho que elas são importantes eu acho que uma organização que permita com que o
+
+219
+00:25:23,040 --> 00:25:27,680
+time de desenvolvimento sempre que ele quiser alterar o código inserir uma nova funcionalidade
+
+220
+00:25:27,680 --> 00:25:34,240
+ele sabe exatamente aonde esse código tem que entrar isso é desejável isso é importante para
+
+221
+00:25:34,240 --> 00:25:42,560
+manter a idade de longo prazo se você está falando de aplicação web que segue mvc por exemplo
+
+222
+00:25:42,560 --> 00:25:49,600
+não é legal que você tenha acesso a dados no controlador exatamente por isso agora é
+
+223
+00:25:49,600 --> 00:25:54,880
+catastrófico também não sei se é catastrófico acho que depende muito para que seja para você que
+
+224
+00:25:54,880 --> 00:26:02,240
+não né o sistema muito pequeno que não tem tantas alterações assim que nesse exemplo que eu dei
+
+225
+00:26:02,240 --> 00:26:06,960
+um trecho de código que estava inalterado há sete anos então nunca deu dor de cabeça para ninguém
+
+226
+00:26:06,960 --> 00:26:14,240
+então faz diferença realmente encaixar três ou quatro novas classes ali para separar estes
+
+227
+00:26:14,240 --> 00:26:21,760
+concerns não acho que faça sabe não acho que faça eu acho que a coisa que mais me incomoda
+
+228
+00:26:21,760 --> 00:26:29,120
+é do tom desse livro e do tom desse autor é com perdão do meu francês a cagação de regra
+
+229
+00:26:29,360 --> 00:26:38,240
+parece que existe apenas uma forma de escrever sistemas essa é a forma e quem faz assim está
+
+230
+00:26:38,240 --> 00:26:44,880
+correto quem não faz assim está fadado a escrever sistemas ruins e difíceis de manter e é engraçado
+
+231
+00:26:44,880 --> 00:26:51,120
+como comunidade como a gente aceita isso quando a gente também aceita um princípio que contradiz
+
+232
+00:26:51,120 --> 00:26:59,520
+de que não existe bala de prata né é pouco controverso de que em design a atua de software não
+
+233
+00:26:59,520 --> 00:27:05,280
+exista soluções únicas que tudo depende de que tudo te conteste e ao mesmo tempo existe uma resistência
+
+234
+00:27:05,280 --> 00:27:15,200
+a perceber que os designs propostos por por clina arquitectura e pelo conjunto da obra do autor né
+
+235
+00:27:15,920 --> 00:27:22,080
+sejam entendidos como os únicos cohetos e que por exemplo como o marido estava falando como
+
+236
+00:27:22,080 --> 00:27:29,760
+os dois Maurícius né estavam falando seja interessante abstrair o seu banco de dados sabe
+
+237
+00:27:29,760 --> 00:27:37,040
+ah não bom é uma boa aplicação bem feita ela não deve se preocupar em qual é o mecanismo de storage
+
+238
+00:27:37,040 --> 00:27:43,200
+como quando na verdade eu acho que que isso complexifica e atrapalha a mantenibilidade sabe
+
+239
+00:27:43,200 --> 00:27:48,800
+ao invés de facilitar porque a decisão de qual o mecanismo de storage você vai usar é uma das mais
+
+240
+00:27:48,800 --> 00:27:56,960
+importantes no no planejamento de uma arquitetura e tentar torná-la invisível traz mais problemas
+
+241
+00:27:56,960 --> 00:28:06,640
+na minha opinião do que do que auxílio se eu respondi tu a pergunta mais sim sim é interessante
+
+242
+00:28:06,640 --> 00:28:13,120
+essa questionamento é tem bastante gente querendo falar aqui eu vou passar a palavra na ordem assim
+
+243
+00:28:13,120 --> 00:28:20,800
+de ponte por anixe por linhales por branos beleza mas vai lá ponte show eu vou pegar aqui a sua pergunta
+
+244
+00:28:20,800 --> 00:28:26,880
+né como é que a gente entende o que são e os e cases né acho que o clínico comenta muito né
+
+245
+00:28:26,880 --> 00:28:34,320
+e de certa forma é um é algo até aberto né mas para mim acho que o Mauriça Niche o linhado já
+
+246
+00:28:34,720 --> 00:28:42,720
+muita data aí mais de dez quinze anos a experiência a gente já sofreu demais com a ideia de gerar
+
+247
+00:28:42,720 --> 00:28:48,160
+essas camadas de geração né o use case a time de service eu chamo de manager então esse nome
+
+248
+00:28:48,160 --> 00:28:54,240
+foi mudando com o tempo né mas isso fazia muito sentido há 15 anos atrás talvez dez anos atrás
+
+249
+00:28:54,240 --> 00:29:00,160
+falando aqui na plataforma java onde é o meu dia a dia porque os frameworks não eram maduros
+
+250
+00:29:00,240 --> 00:29:06,000
+para conseguir tirar toda aquele glue code né aquele código de infra que a gente era obrigado a
+
+251
+00:29:06,000 --> 00:29:12,800
+ter que implementar escrever o copiar e colar de algum lugar só que isso mudou né isso mudou os
+
+252
+00:29:12,800 --> 00:29:17,680
+últimos sei lá talvez dez anos pra cá nove ou oito anos pra cá que você pega uma plataforma como
+
+253
+00:29:17,680 --> 00:29:23,920
+spring ou mesmo já vê né que hoje eu já cartei e você consegue perceber que o controle que antes
+
+254
+00:29:23,920 --> 00:29:29,200
+a gente tem ia de deixar qualquer tipo de lógico de negócio qualquer if ou qualquer coisa relacionada
+
+255
+00:29:29,200 --> 00:29:34,160
+com o modelo de domínio hoje não tem mais esse problema né hoje você pegar um controle do spring
+
+256
+00:29:34,160 --> 00:29:41,920
+que basicamente é uma classe um pojo com algumas anotações e só o controle está tão limpo tão
+
+257
+00:29:41,920 --> 00:29:47,520
+simples onde o framework absorveu toda a complexidade o glue code que a gente tentou evitar durante anos
+
+258
+00:29:47,520 --> 00:29:55,440
+que pra mim na maioria dos casos eu enxergo ele como meu use case e para muitas pessoas isso é bem
+
+259
+00:29:55,440 --> 00:30:01,200
+complicado né porque se eu enxergo ele como use case a chance é que eu vou injetar o repositório
+
+260
+00:30:01,200 --> 00:30:07,920
+um dois repositórios ali e a ideia de que injetar repositório aproxima do banco de dados e tá no
+
+261
+00:30:07,920 --> 00:30:13,040
+controle é ainda mais doloroso para muita gente mas se você pensar a camada de persistência ela
+
+262
+00:30:13,040 --> 00:30:18,080
+também foi abstraída pelos frameworks o repositório de spring data nada mais é do que um interface
+
+263
+00:30:18,080 --> 00:30:24,080
+com algumas poucas anotações e se você usa o spring o jpeu e benete então você tem uma camada de
+
+264
+00:30:24,080 --> 00:30:29,040
+uma coisa spring data mas uma segunda camada um pouco mais fundo que a jpeu e benete que abstra ainda
+
+265
+00:30:29,040 --> 00:30:36,400
+mais a sua persistência o jdbc e até um pouco sql ali então qual é o problema de encarar o controle
+
+266
+00:30:36,400 --> 00:30:41,920
+como use case hoje eu encaro ele como use case até que algo me diga o contrário e geralmente o que me
+
+267
+00:30:41,920 --> 00:30:49,760
+diz o contrário é tá fácil testar tá fácil entender eu consigo escrever um único teste que
+
+268
+00:30:49,760 --> 00:30:55,760
+eu tenho quebrar em vários testes para que isso fique mais fácil de de testar tem uma melhor cobertura
+
+269
+00:30:55,760 --> 00:31:02,960
+e tudo mais não querendo não a manutenção é o que me guia junto com os testes então só para deixar
+
+270
+00:31:02,960 --> 00:31:10,560
+claro eu encaro que um controle é sim uma camada de use case em qualquer literatura de arquitetura
+
+271
+00:31:10,560 --> 00:31:16,320
+que alguém tem ali daí né essa é minha percepção porque eu abraço os frameworks que eu uso né a primeira
+
+272
+00:31:16,320 --> 00:31:22,720
+coisa que eu faço a entrar no projeto é abraçar o framework eu abraço o framework e respeito o que ele
+
+273
+00:31:22,720 --> 00:31:28,400
+me pede para fazer em seguida eu abraço a linguagem de programação se a linguagem e o framework
+
+274
+00:31:28,400 --> 00:31:35,680
+entra em conflitos eu favoreço o framework tá porque eu vendi a minha alma pro spring e eu quero
+
+275
+00:31:35,680 --> 00:31:39,520
+né os benefícios de ter medida minha alma para aquele da plataforma
+
+276
+00:31:40,240 --> 00:31:47,520
+e hoje em dia eu eu tô muito nessa linha do ponte aí mas o anixi vai lá
+
+277
+00:31:48,880 --> 00:31:53,920
+eu acho que essa cada percebe isso mesmo que a robeta e o rafael comentaram né porque se você
+
+278
+00:31:53,920 --> 00:32:03,040
+olha para aplicação enterprise né é como que ela funciona né de maneira bem abstrata como
+
+279
+00:32:03,040 --> 00:32:08,520
+funciona basicamente grande parte dos casos de uso o usuário manda dado você aumenta esse
+
+280
+00:32:08,520 --> 00:32:13,240
+tipo de informação que você busca no banco de dados você faz umas varidações você muda um
+
+281
+00:32:13,240 --> 00:32:16,920
+pouquinho esse dado você manda de volta para o banco de dados ou manda para um outro serviço web
+
+282
+00:32:18,280 --> 00:32:22,200
+uma grande parte das funcionalidades são isso e para modelar esse tipo de coisa você não precisa
+
+283
+00:32:22,200 --> 00:32:27,640
+de coisa muito recantar muito chique entendeu uma básica separação de responsabilidade o
+
+284
+00:32:27,640 --> 00:32:32,440
+repositório do spring aqui né foi uma varidaçãozinha foi um pouquinho complicado um pouquinho ali
+
+285
+00:32:32,440 --> 00:32:37,800
+etc e tal isso é mais o que o suficiente não precisa ir muito mais além eu acho que esse é o ponto né
+
+286
+00:32:37,800 --> 00:32:43,480
+sempre aqueles 20% de funcionalidade que é muito mais complicado no seu sistema que vai mudar o
+
+287
+00:32:43,480 --> 00:32:48,520
+tempo inteiro que regra nova entra regra nova site etc e tal talvez ali vale a pena um design mais
+
+288
+00:32:48,520 --> 00:32:54,200
+robustado né e talvez algumas das ideias ali do livro dele faz sentido né mas eu acho que esse é o
+
+289
+00:32:54,200 --> 00:32:59,880
+ponto né que a aplicação de indústria uma grande parte das vezes não precisa de tudo isso né e o
+
+290
+00:32:59,880 --> 00:33:06,440
+meu exemplo atual né eu trabalho na ad em hoje né uma base de código bem grande um negócio bem
+
+291
+00:33:06,440 --> 00:33:12,600
+legal mas se você realmente quebra ele é isso que eu falei pega dado valida passa dado pra frente
+
+292
+00:33:12,600 --> 00:33:16,600
+entendeu então não precisa de muito mais do que uma separação básica de responsabilidade
+
+293
+00:33:20,360 --> 00:33:32,120
+perfeito é o linhares vai lá então aí aí que eu acho que a a superficialidade do livro atrapalha
+
+294
+00:33:32,120 --> 00:33:40,520
+mais né porque a gente tá chegando nesses nesses exemplos mais complexos só que o livro ele não
+
+295
+00:33:40,520 --> 00:33:47,560
+abraça esses exemplos né pra você pra você ter até até esquisito pensar assim mas o único jeito
+
+296
+00:33:47,560 --> 00:33:54,120
+de você entender e pegar as ideias do clínio arquitecture é se você tiver lido um monte
+
+297
+00:33:54,120 --> 00:33:59,000
+de literatura anterior se você tiver lido de uma design né porque ele passa exatamente quatro
+
+298
+00:33:59,240 --> 00:34:05,480
+definindo que entidades são quatro parágrafos né ele pega quatro parágrafos do livro e define
+
+299
+00:34:05,480 --> 00:34:12,120
+o que a entidade e se você for ver o o livro do erick evans né primeiro que a entidade não é
+
+300
+00:34:12,120 --> 00:34:19,000
+uma coisa só né no no lá no no domain design entidade é um pedaço da camada do modelo tem
+
+301
+00:34:19,000 --> 00:34:23,960
+várias coisas que que forma a camada do modelo tem uma definição específica pra o que é uma
+
+302
+00:34:23,960 --> 00:34:28,040
+entidade né como é que você diferencia uma entidade de um velho object então tem várias
+
+303
+00:34:28,280 --> 00:34:34,280
+discussões que o livro não sei eu não sei porque é que ele se furta não sei porque é que ele não
+
+304
+00:34:34,280 --> 00:34:40,360
+não para pra explicar porque a gente vai ter essa ideia né o que o ponte falou aquele considera
+
+305
+00:34:40,360 --> 00:34:45,320
+que os use cases é o controle né que aí a gente vai entrar naquela discussão de boundaries né
+
+306
+00:34:45,320 --> 00:34:53,480
+do dos limites mas ele não dá bons exemplos de limites né cadê o padrão pra dar os casos
+
+307
+00:34:53,480 --> 00:34:59,000
+de limites que a gente tem né mais uma vez a gente volta lá no domain design tem vários padrões
+
+308
+00:34:59,000 --> 00:35:05,560
+diferentes e inclusive tem a opção né que o que o que o ponto está dizendo que é não faça
+
+309
+00:35:05,560 --> 00:35:13,560
+nada abraça né abraça o que tá lá e use o modelo desse jeito então eu acho que não ter
+
+310
+00:35:13,560 --> 00:35:19,560
+nenhuma dessas discussões não ter nenhum padrão não ter nenhum nenhuma discussão mais profunda
+
+311
+00:35:19,640 --> 00:35:24,440
+sobre o que são essas coisas como é que você usa essas coisas né eu acho que empobrece muito
+
+312
+00:35:24,440 --> 00:35:29,960
+livro então se você e se você já leu o domain design você não vai ter a nada de novo desse
+
+313
+00:35:29,960 --> 00:35:36,360
+livro porque o as ideias nessa ideia de separação essa ideia de você criar essas camadas você tem
+
+314
+00:35:36,360 --> 00:35:41,400
+o modelo né inclusive isso que o aniche falou de às vezes seu modelo é só o banco de dados
+
+315
+00:35:41,400 --> 00:35:46,680
+e lá no design vai dizer às vezes é isso mesmo é só o banco de dados né você tá tá ali por
+
+316
+00:35:46,760 --> 00:35:52,680
+enquanto você tá pobre né você não tem muita coisa pra colocar então eu acho que essas discussões
+
+317
+00:35:52,680 --> 00:35:59,400
+de definir os padrões definir exemplos melhores né eu achei os exemplos do do do livro também
+
+318
+00:35:59,400 --> 00:36:06,040
+muito superficie tem um exemplo lá que que me mandou direto pra o java enterprise edition da san né
+
+319
+00:36:06,040 --> 00:36:13,080
+o que é o que é um livro lá de 2000 guaraná de rolha com múltiplos né múltiplas camadas em entrar
+
+320
+00:36:13,080 --> 00:36:18,920
+e sair de você não pode fazer a entidade vazar lá pra camada web nem pode fazer a entidade vazar
+
+321
+00:36:18,920 --> 00:36:27,320
+pra camada do banco de dados então eu acho que o não ter uma uma discussão mais profunda sobre
+
+322
+00:36:27,320 --> 00:36:32,840
+esses termos né sobre o que é entidade o que é use case um exemplo os melhores comparam com padrões
+
+323
+00:36:32,840 --> 00:36:38,840
+né mostrando os casos onde é que você usa e a o gradiente que a gente tá inserido na hora que a
+
+324
+00:36:38,840 --> 00:36:45,000
+gente vai tomar uma decisão dessas é uma coisa que pra mim pobreceu muito a leitura do livro né
+
+325
+00:36:45,000 --> 00:36:51,000
+eu entendo os conceitos porque eu li esses conceitos em outros lugares né mas no livro é muito pouco
+
+326
+00:36:51,000 --> 00:36:57,800
+né é uma discussão muito superficial e que é difícil de você tirar essas essas coisas de de
+
+327
+00:36:57,800 --> 00:37:06,120
+dentro dele se você não já consumiu muito material anterior perfeito é ser você tá
+
+328
+00:37:06,120 --> 00:37:13,880
+falando aí o ddd né e eu lembro que eu tava conversando com o ugo sobre qual a diferença entre
+
+329
+00:37:13,880 --> 00:37:21,760
+exagonal e clina e que tá aqui o exagonal ele é nessa casca se ele não tem miolo né e aí o
+
+330
+00:37:21,760 --> 00:37:27,960
+clina que tem que colocar o miolo só que muito superficialmente né e é exatamente que o brano
+
+331
+00:37:27,960 --> 00:37:34,920
+estava falando né que o ddd complementa aquilo né é concordo ali com Maurício nesse ponto o Bob
+
+332
+00:37:34,920 --> 00:37:44,160
+e ele pegou literalmente carona na obra que encode é uma excepcional obra no sentido de te mexer com
+
+333
+00:37:44,160 --> 00:37:50,200
+o seu emocional no sentido de trazer um pouco mais de ética pra nossa profissão e se responsabilizar
+
+334
+00:37:50,200 --> 00:37:54,760
+mais pelas ações pelo código que a gente implementa esse é o grande ponto do que encode esse é o
+
+335
+00:37:54,760 --> 00:37:59,920
+grande mérito dele nada tão técnico é mais um livro de auto ajuda não sei se muito aqui concordo
+
+336
+00:37:59,920 --> 00:38:05,920
+mas clínico de mais uma auto ajuda e é muito bem-vindo tá do que propriamente um livro técnico
+
+337
+00:38:05,920 --> 00:38:10,920
+extremamente técnico clínico arquitectura pegou carona um pouco nessa fama do clín tanto que ele
+
+338
+00:38:10,920 --> 00:38:18,760
+lançou também o clín craftsmanship o clín adio e outros clín que são bem menos interessantes tá o
+
+339
+00:38:18,760 --> 00:38:26,800
+bambar que ele não pode trazer conceitos assim que ele deveria ter trazido por dois motivos o primeiro
+
+340
+00:38:26,800 --> 00:38:34,240
+e o segundo ele teria que escrever um livro três vezes maior como acho que o Maurício falou alguém
+
+341
+00:38:34,240 --> 00:38:40,360
+falou ddd é um livro que tem mais ou menos 600 páginas você pega ddd por exemplo do bom verão ddd
+
+342
+00:38:40,360 --> 00:38:44,920
+do steve miller que eu acho muito legal são livros extremamente grandes e que dá trabalho você
+
+343
+00:38:44,920 --> 00:38:50,480
+definir o que é uma agregate que é uma entity que é um velho óbvio que é um repositor e é muito
+
+344
+00:38:50,480 --> 00:38:55,520
+trabalho e aí o Bob Martin ele se resumiu a falar de um pattern chamado gateway vocês devem ter visto
+
+345
+00:38:55,520 --> 00:39:00,760
+o gateway ele foi descrito pelo martin follower no patterns of enterprise application arquitectura
+
+346
+00:39:00,760 --> 00:39:05,120
+que basicamente é uma abstração para um sistema externo bom banco de dados é um sistema externo
+
+347
+00:39:05,120 --> 00:39:12,720
+e ficou muito cru nesse sentido então o erro assim né o bobo pegou literalmente o blog post dele
+
+348
+00:39:12,720 --> 00:39:19,840
+de 2012 imprimiu e é isso que o Maurício citou que tem quatro parágrafos sobre a entity então ele
+
+349
+00:39:19,840 --> 00:39:25,120
+deixa muito claro o que que ele quer com aquilo agora vamos pegar alguns ganjos aqui apenas né
+
+350
+00:39:25,120 --> 00:39:33,040
+ponto chave aqui não existe bala de prata o que acho que a roberta comentou there's no one size fits
+
+351
+00:39:33,040 --> 00:39:39,520
+all existe um tipo de de design que vai servir para todos os casos assim como existe um pneu que vai
+
+352
+00:39:39,520 --> 00:39:44,800
+ser bom na terra e no asfalto o pneu vai ser vai ter pidar para caramba no asfalto vai ser bom na
+
+353
+00:39:44,800 --> 00:39:50,560
+terra vai ser super rápido no asfalto mas vai deslizar na terra design a mesma coisa então que o
+
+354
+00:39:50,560 --> 00:39:58,080
+ponte colocou o meu controller ele é o meu use case e assim por diante daí dali eu boto uma
+
+355
+00:39:58,080 --> 00:40:04,240
+notation já conecto de repente no meu rm já persisto show mas isso por uma aplicação por
+
+356
+00:40:04,240 --> 00:40:09,360
+exemplo de folha de pagamento ou de financiamento imobiliário vai ficar quem do que poderia ser
+
+357
+00:40:09,440 --> 00:40:15,760
+você tira grande proveito de domain design de bounded context de você entender quais são os
+
+358
+00:40:15,760 --> 00:40:21,360
+aggregates de você conseguir criar a preservação dessa invariância que vai ser o que vai te dar
+
+359
+00:40:21,360 --> 00:40:28,240
+testabilidade no nível de unidade tá que é uma coisa difícil se você encarar que tudo fica dando
+
+360
+00:40:28,240 --> 00:40:32,880
+o controller ou que tudo fica dando o service que é o que a gente costuma ver em código extremamente
+
+361
+00:40:32,880 --> 00:40:37,680
+procedural escrito nos últimos 15 20 anos todo mundo aqui já deve ter passado por isso ainda vai
+
+362
+00:40:38,000 --> 00:40:43,680
+então tem que separar os mundos quem tem uma aplicação simples um crude usa alguma coisa perto
+
+363
+00:40:43,680 --> 00:40:49,920
+de um rails perto de um jungle algo que tigere código seja feliz agora se você vai para uma aplicação
+
+364
+00:40:49,920 --> 00:40:55,520
+complexa essas dependências que é exatamente o dedo sólido né que o alexandro escreveu o livro
+
+365
+00:40:55,520 --> 00:41:02,080
+inclusive falando sobre isso né que é high level modus se não dependam low level modus é o fato
+
+366
+00:41:02,080 --> 00:41:08,000
+de você não acoplar o teu o teu sql da tua regra de negócio e não é tão óbvio assim a morda das
+
+367
+00:41:08,000 --> 00:41:12,880
+pessoas faz isso e qual é o problema qual é o drawback qual é o tradeoff é que se você for
+
+368
+00:41:12,880 --> 00:41:17,200
+testar você vai ter que testar sempre no nível de integração não é questão de substituir o banco
+
+369
+00:41:17,200 --> 00:41:24,320
+de dados a questão é você vai impor ali uma necessidade de uso de test patterns uso intenso
+
+370
+00:41:24,320 --> 00:41:31,840
+de estubs ou ter testes muito lentos ou desencorajar os testes e assim por diante então assim o trabalho
+
+371
+00:41:31,840 --> 00:41:38,720
+do bob martin é bom no clínio de tetra definitivamente não 99% das pessoas não ler o livro e comentam
+
+372
+00:41:38,720 --> 00:41:44,400
+ou seguem somente a hype o trabalho dele é ruim posso dizer isso tendo lido sei lá dez vezes o que
+
+373
+00:41:44,400 --> 00:41:49,120
+ele escreveu e tentando extrair ao máximo dos grupos de discussão que ele frequenta principalmente
+
+374
+00:41:49,120 --> 00:41:53,920
+para tentar ver as respostas que todo mundo faz as perguntas todo mundo faz que não são respondidas
+
+375
+00:41:53,920 --> 00:41:58,800
+por exemplo um use case pode usar o outro esse negócio que todo mundo se pergunta ele é vazivo
+
+376
+00:41:58,800 --> 00:42:04,720
+na resposta né e aí você vai ver que o domingo e design no vão ver no principalmente trazendo
+
+377
+00:42:04,720 --> 00:42:11,120
+a orientação eventos pegando uma ideia de ir em direção e de você tentar desacoplar esses use
+
+378
+00:42:11,120 --> 00:42:16,480
+cases e simplesmente publicar o evento o fato que aconteceu e deixar o sistema reagir em cima
+
+379
+00:42:16,480 --> 00:42:22,640
+disso e isso gera desacoplamento entende só que é para todo tipo de sistema claro que não
+
+380
+00:42:22,640 --> 00:42:28,720
+então o trabalho do bob ele é especial ele não pode entrar em determinadas áreas porque isso
+
+381
+00:42:28,720 --> 00:42:34,000
+irá admirar demais o livro e aparecer que ele está copiando ainda mais então para mim a grande sacada
+
+382
+00:42:34,000 --> 00:42:39,600
+é torta na data eu não vejo como você abrir mão seja uma aplicação pequena seja uma aplicação
+
+383
+00:42:39,600 --> 00:42:45,280
+grande porque senão você não tem testabilidade você não tem isolamento da aplicação e você
+
+384
+00:42:45,280 --> 00:42:51,600
+sempre preso ou no mecanismo de entrada ou no dispositivo de aiou então pequeno grande eu acho
+
+385
+00:42:51,600 --> 00:42:56,800
+que esses conceitos são muito vários a orientação domínio vou puxar aqui mais o domingo design é
+
+386
+00:42:56,800 --> 00:43:02,240
+opção para projetos suficientemente complexos e não só para projetos vamos separar projeto de
+
+387
+00:43:02,240 --> 00:43:08,080
+bounded context entendeu subdomina uma coisa projeto a empresa é outra você pode ter um
+
+388
+00:43:08,080 --> 00:43:14,320
+bounded context de dez que necessitam dessa abordagem os outros nove não então eu acho que eu vou um
+
+389
+00:43:14,800 --> 00:43:22,960
+nessa linha e só só para puxar sobre o dto de novo a mesma coisa é entidade é uma coisa tabela de
+
+390
+00:43:22,960 --> 00:43:29,680
+banco de dados é outra é é estrutura de dado de entrada e saída é outra em aplicação simples
+
+391
+00:43:29,680 --> 00:43:33,840
+esses conceitos são iguais em aplicação complexa esses conceitos são diferentes valeu
+
+392
+00:43:34,640 --> 00:43:44,560
+Beleza vai lá o tábu boa não só complementando os comentários que estão excelentes né essa
+
+393
+00:43:44,560 --> 00:43:51,440
+ideia do ponte de quer dizer faz tudo no controle eu acho que pode ter muitas aplicações em que isso é o
+
+394
+00:43:51,440 --> 00:43:56,160
+melhor mesmo a fazer e o mais legal ainda eu acho que isso é essa ideia que eu falei de adaptar né
+
+395
+00:43:56,160 --> 00:44:02,560
+pode ser que numa mesma aplicação para uma funcionalidade basta você fazer tudo no
+
+396
+00:44:02,560 --> 00:44:07,760
+controle aquilo ali não vai atrapalhar mas aí você tem um outro caso de uso mais complexo no qual
+
+397
+00:44:07,760 --> 00:44:12,880
+aí tudo bem você pode usar uma coisa mais sofisticada então eu acho legal também o sistema como uma
+
+398
+00:44:12,880 --> 00:44:20,160
+coisa orgânica e na qual você pode adaptar e usar eu acho legal a ideia de um padrão
+
+399
+00:44:20,160 --> 00:44:25,520
+arquitetural que você pode usar os pontos da sua aplicação eu preciso usar em todos os lugares
+
+400
+00:44:25,840 --> 00:44:31,680
+você usa onde faz sentido tem um cara também que é o Jimmy Bogard que ele fala sobre isso né
+
+401
+00:44:31,680 --> 00:44:38,000
+ele fala sobre você primeiro você faz por exemplo você faria tudo no controle e aí quando você
+
+402
+00:44:38,000 --> 00:44:44,400
+começa a perceber as dores né você pode refatorar aquilo para melhorar eu acho isso uma visão bem
+
+403
+00:44:44,400 --> 00:44:50,960
+positiva também em vez de você usar uma coisa mais prescritiva já de início já dividir as suas
+
+404
+00:44:50,960 --> 00:44:58,240
+coisas a partir das suas dores você vai refatorando tem aquele outro livro Refactoring to Patterns também
+
+405
+00:44:58,240 --> 00:45:04,080
+que é essa ideia de você em vez de você já usar os padrões né você vai usar no momento em que você
+
+406
+00:45:04,080 --> 00:45:10,400
+começar a sentir a dor naquele ponto o segundo ponto que eu queria colocar isso para mim uma das
+
+407
+00:45:10,400 --> 00:45:18,560
+mais vantagens de dessas ideias né desse de Clean Architecture, arquitetura exacional é você de
+
+408
+00:45:18,560 --> 00:45:25,680
+testar as coisas de maneira separada você poder testar suas regras de negócio é sem se preocupar
+
+409
+00:45:25,680 --> 00:45:33,040
+né com o controller e tal então eu acho que isso é um ganho muito grande e eu queria só fazer um link
+
+410
+00:45:33,040 --> 00:45:37,920
+né que o pessoal do mundo funcional já tem uma coisa bem parecida com ports and adapters
+
+411
+00:45:37,920 --> 00:45:43,600
+arquiteturas agonal que eles chamam lá de Imperative Shell Functional Core que a ideia de você ter um
+
+412
+00:45:43,600 --> 00:45:51,840
+core funcional né que é a parte do seu domínio e aí ali você só tem funções puras e você pode
+
+413
+00:45:51,840 --> 00:46:00,320
+testá-las de maneira separada também e você impor os side effects para as partes pra pra digamos
+
+414
+00:46:00,320 --> 00:46:06,240
+a parte mais externa da aplicação que tem a ver com essa ideia também e aí seria comparável
+
+415
+00:46:06,240 --> 00:46:12,640
+caso de uso que no caso de uso você de fato você conversaria com coisas externas né então eu
+
+416
+00:46:12,640 --> 00:46:18,640
+acho que a gente vê também que essas essas ideias elas aparecem em vários lugares na comunidade
+
+417
+00:46:18,640 --> 00:46:25,040
+e elas vão convergindo e óbvio que a gente tem que fazer esse trabalho de saber filtrar e saber usá-las
+
+418
+00:46:25,040 --> 00:46:34,400
+da melhor maneira adaptá-las né para o nosso contexto o Anish e Linhares eu posso só pra você
+
+419
+00:46:34,400 --> 00:46:40,800
+comentar em cima de um exemplo então o Fernando Cruz né numa dessas threads ele falou um negócio
+
+420
+00:46:40,800 --> 00:46:46,720
+bastante né falou assim você vai fazer um sistema de pagamento e vai ter que escolher adquirentes
+
+421
+00:46:46,720 --> 00:46:55,360
+fatores de decisão aprovação do pagamento taxas digamos que a Stony tem a taxa de 1,5%
+
+422
+00:46:55,360 --> 00:47:02,000
+para qualquer bandeira uma aprovação de 70% uma aprovação meio ruim assim né a Cielo tem taxa de
+
+423
+00:47:02,000 --> 00:47:10,200
+4% que é uma taxa meio ruim e aprovação de 95% então ele colocou é não tem nada a ver com a
+
+424
+00:47:10,200 --> 00:47:18,520
+equipe só viu é Stony ela tem uma aprovação menor e a Cielo tem uma taxa maior se você escolher
+
+425
+00:47:18,520 --> 00:47:26,680
+e aí ele fala disso é ele comenta isso e aí você pode integrar com as duas seria uma solução
+
+426
+00:47:26,680 --> 00:47:36,840
+é usar Stony como principal e fallback pra Cielo nessa briga parece a rede com uma taxa de 1,5%
+
+427
+00:47:36,840 --> 00:47:44,200
+a aprovação de 97% então a mesma taxa da melhor e uma aprovação muito melhor que todas elas
+
+428
+00:47:44,200 --> 00:47:51,400
+uma arquitetura bem definida teria que ser extremamente fácil de mudar adquirente que você vai usar
+
+429
+00:47:51,400 --> 00:47:58,160
+sem precisar alterar todas as camadas eu acho que assim aqui o lance é essa é uma coisa importante
+
+430
+00:47:58,160 --> 00:48:04,240
+para o negócio né é uma opção que você quer deixar aberta então acho assim a meu ver a gente
+
+431
+00:48:04,240 --> 00:48:12,320
+pode ver é simplificar o que é não tem tais tanta vantagem para o negócio e deixar flexível
+
+432
+00:48:12,320 --> 00:48:19,040
+aqueles pontos que teria vantagem para o negócio ser flexível então por exemplo não há coisa de
+
+433
+00:48:19,040 --> 00:48:24,880
+cursos online por exemplo a CDN que a gente vai integrar precisa ser flexível isso é caso real
+
+434
+00:48:24,880 --> 00:48:31,880
+meu no meu caso lá do meu exemplo do livro é os formatos de ebook vão ser gerados eu quero que seja
+
+435
+00:48:31,880 --> 00:48:42,440
+flexível então é mais o Anish manda brazo aí nesse exemplo que você comentou você já deu até
+
+436
+00:48:42,440 --> 00:48:53,000
+a resposta ai desculpa é o engraçado desse exemplo da chance quando você fala da CDN na minha cabeça
+
+437
+00:48:53,000 --> 00:48:57,440
+nesse um segundo veia cdn é uma coisa que você nunca vai mudar quem que muda de cdn mas você acabou de
+
+438
+00:48:57,440 --> 00:49:06,720
+mudar né é porque o é o custo é alto sabe é um grande uma grande fonte de custo sabe então
+
+439
+00:49:06,720 --> 00:49:12,480
+você consegue uma eficiência melhor se você conseguir algo é mesmo exemplo aqui do caso das
+
+440
+00:49:12,480 --> 00:49:18,800
+adquirentes né exato nesse ponto você precisa de flexibilidade né então por exemplo a aden como
+
+441
+00:49:18,800 --> 00:49:23,560
+fintech tem certeza que na strep é a mesma coisa adicionar um próximo adquirente tem que ser fácil
+
+442
+00:49:23,600 --> 00:49:29,160
+é o negócio né você quer invadir novos mercados você precisa implementar os adquirentes daqueles
+
+443
+00:49:29,160 --> 00:49:34,600
+mercados tem que ser fácil no sistema né você não tem que fazer a pessoa abrir 400 classes
+
+444
+00:49:34,600 --> 00:49:42,680
+para implementar um novo adquirente só que esse tipo de coisa é pra ser honesta mas acho que a exceção
+
+445
+00:49:42,680 --> 00:49:47,280
+do que arrega esse tipo de aplicação é porque a gente tem muito crude né como todos vocês já
+
+446
+00:49:47,920 --> 00:49:54,000
+e um detalhe que eu queria comentar do do livro porque a galera tava tweetando né eu tava lendo
+
+447
+00:49:54,000 --> 00:49:59,120
+os tweets né e a gente comentou que o livro ele é opinionado né ele tem as gestões fortes ali
+
+448
+00:49:59,120 --> 00:50:06,400
+tal acho que parte do do trabalho nosso quando lhe essas coisas é transferir pro nosso contexto né
+
+449
+00:50:06,400 --> 00:50:10,240
+esse trabalho que é mais de engenharia e não é tão científico né ideia é pegar mesmo transferir
+
+450
+00:50:10,240 --> 00:50:15,120
+pro nosso contexto né eu me lembro por exemplo tava nos exemplos do evan sempre como positivos
+
+451
+00:50:15,120 --> 00:50:20,760
+mas você lembra da lago de dotnet architect em 2004 2005 quando o livro saiu a galera colava
+
+452
+00:50:20,760 --> 00:50:25,760
+código fonte de classe ele falava gente aqui é um repositório de acordo com evans um pouco importa
+
+453
+00:50:25,760 --> 00:50:30,160
+meu amigo se o evans acho que aquele é um repositório né então é difícil de analisar mesmo né
+
+454
+00:50:30,160 --> 00:50:35,600
+quando você lê um conteúdo novo e tal é óbvio que o evans escreve isso muito melhor é de uma maneira
+
+455
+00:50:35,600 --> 00:50:39,760
+um pouco mais amigável por isso as pessoas não ficam tão putas com ele o ancobob foi ali um
+
+456
+00:50:39,760 --> 00:50:45,680
+pouco mais mais seco né na maneira de descrever mas acho que esse é um acho que todo o livro que
+
+457
+00:50:45,680 --> 00:50:51,320
+a gente lê hoje porque nós somos mais mais maduros e tal você tem coisas que você não concorda em
+
+458
+00:50:51,320 --> 00:50:57,040
+absoluto né acho que tem que dar esse como fala em português lipo feita né você tem que dar um
+
+459
+00:50:57,040 --> 00:51:02,960
+pouquinho ali de um pouquinho de fé ali para o autor e deixar pular ali alguma coisa ali que
+
+460
+00:51:02,960 --> 00:51:06,800
+você não concorda muito a única maneira de conseguir interpretar esses livros eu acho
+
+461
+00:51:06,800 --> 00:51:14,560
+isso me lembra muito o ciclo do hype né tipo você tem aquela coisa de ser empolgar e depois
+
+462
+00:51:14,560 --> 00:51:24,160
+você se ferra né é natural isso acontece com ideias também de design de colho mas vai lá olhar isso
+
+463
+00:51:25,920 --> 00:51:33,800
+então aí eu vou esse caso esse caso é um caso interessante porque quem trabalhou fazendo esse
+
+464
+00:51:33,800 --> 00:51:41,480
+vídeo de coisa sabe que toda vez que você vai integrar uma decadente novo tem várias surpresas
+
+465
+00:51:41,480 --> 00:51:47,560
+né que você não planejou lá na sua arquitetura né vai ter modos de trabalho que são diferentes
+
+466
+00:51:47,560 --> 00:51:52,520
+de todos os modos de trabalho que você tem tem gente que trabalha só de onde só mandando arquivo
+
+467
+00:51:52,520 --> 00:51:59,240
+vftp tem gente trabalha só via é a pay web de gente que trabalha só via pay que você tem que alugar
+
+468
+00:51:59,240 --> 00:52:04,200
+a linha direta para esse cara às vezes você tem que ter uma máquina fisicamente dentro do data
+
+469
+00:52:04,200 --> 00:52:11,400
+centre desse cara então tem um universo de coisas né que você vai vai se surpreender quando você
+
+470
+00:52:11,400 --> 00:52:18,080
+estiver fazendo integrações desse jeito então você vai criar esse modelo né e eu acho que é
+
+471
+00:52:18,080 --> 00:52:23,800
+importante que as pessoas entendam que vocês vão fazer isso né a minha crica é que o livro ele
+
+472
+00:52:23,800 --> 00:52:29,640
+não fala nenhuma como é que você faz isso né a gente fala fala fala do Evans é eu vou até até
+
+473
+00:52:29,640 --> 00:52:36,360
+dizer o livro é maior né são 600 páginas mas você vai tirar muito mais do livro do Evans do que
+
+474
+00:52:36,360 --> 00:52:43,320
+você vai conseguir tirar mesmo arrancando o último suco do clino arquitectura né o conteúdo ele
+
+475
+00:52:43,320 --> 00:52:48,720
+vai ser muito melhor é chato é um livro chato pra caralho né eu não vou dizer que é um livro
+
+476
+00:52:48,720 --> 00:52:53,480
+legal de ler o domingo design é um livro que é muito chato de ler mas você pode ver por pedaça
+
+477
+00:52:53,480 --> 00:52:58,760
+os patterns que fazem mais sentido pra você nesse momento pra você entender então eu acho que
+
+478
+00:52:58,760 --> 00:53:07,200
+que vale mais a pena do que você ir atrás de ler o o arquitectura e eu acho que sim tem
+
+479
+00:53:07,200 --> 00:53:13,240
+tem recomendações que ele faz meio umas recomendações meio enfáticas que são ruins são
+
+480
+00:53:13,240 --> 00:53:18,600
+recomendações ruins tá entendendo uma daqueles daquele faz aqui a dentro da sua equipe você vai
+
+481
+00:53:18,600 --> 00:53:25,680
+receber a distribuição do do seu do seu domínio né lá como um já né vai ser um já separado
+
+482
+00:53:25,680 --> 00:53:30,920
+versionado que você vai pegar e você vai botar pra todo mundo então imagina né numa empresa
+
+483
+00:53:30,920 --> 00:53:37,880
+que tem lá mil desenvolvedores né esses mil desenvolvedores formam aí sem equipes diferentes
+
+484
+00:53:37,880 --> 00:53:44,920
+e cada um produzindo as suas próprias bibliotecas imagina o desespero que é você entender a matriz
+
+485
+00:53:44,920 --> 00:53:50,280
+da dependência e que versão cada aplicação é separada vai tá se você tá distribuindo cada
+
+486
+00:53:50,280 --> 00:53:55,320
+coisinha como um já que a pessoa tem que atualizar a dependência mudar o número de versão né
+
+487
+00:53:55,320 --> 00:54:02,080
+isso é isso é até uma das coisas que quando a gente foi fazer o IP a gateway na digital ocean a
+
+488
+00:54:02,080 --> 00:54:07,960
+gente tomou a decisão de que não ia ter né biblioteca não ia ter de jeito nenhum biblioteca né
+
+489
+00:54:07,960 --> 00:54:13,400
+porque a gente não queria deixar isso como sendo uma dependência né que todo mundo ia ter que
+
+490
+00:54:13,400 --> 00:54:17,880
+atualizando porque a gente saber que isso era terrível né pessoal da samba clado teve essa
+
+491
+00:54:17,880 --> 00:54:22,040
+experiência não foi legal pessoal do twitter teve essa experiência não foi legal porque é muito
+
+492
+00:54:22,040 --> 00:54:27,240
+difícil de você fazer uma coisa dessas funcionar quando você tem dependência de regra de negócio
+
+493
+00:54:27,240 --> 00:54:31,480
+imagina que eu tenho um novo método de autenticação então em vez de eu ter um lugar centralizado
+
+494
+00:54:31,480 --> 00:54:35,960
+onde eu atualizo isso não agora eu tenho 50 aplicações diferentes né de equipes diferentes
+
+495
+00:54:35,960 --> 00:54:41,960
+que vão todos ter que atualizar imagina o pesadelo que é você fazer uma coisa dessas né então tem
+
+496
+00:54:42,040 --> 00:54:47,800
+realmente lá dentro que são assim que você não deveria fazer né você não deveria trabalhar
+
+497
+00:54:47,800 --> 00:54:53,880
+desse jeito tem uma coisa que o Rodrigo falou que eu acho que precisa de um também assim de deixar
+
+498
+00:54:53,880 --> 00:55:01,000
+um pouco mais claro né não sei como o Rafael Freire não reclamou aí ainda que aplicação rails
+
+499
+00:55:01,000 --> 00:55:10,040
+não é aplicação simples minha gente né shop file rodin rails né o stripe rodin rails né pegando
+
+500
+00:55:10,040 --> 00:55:16,280
+o pagamento do mundo todo né são aplicações complexas que dá pra você se você precisa é
+
+501
+00:55:16,280 --> 00:55:23,960
+a gente volta pra aquela coisa que o o o rafael ponte falou lá no início tem a vantagem é que
+
+502
+00:55:23,960 --> 00:55:28,920
+você consegue fazer o simples e o complexo tudo junto não tem aplicação simples e aplicação
+
+503
+00:55:28,920 --> 00:55:33,720
+complexa né tem pedaços simples e pedaços complexos dentro da aplicação então não é uma
+
+504
+00:55:33,720 --> 00:55:38,040
+coisa que simplesmente a minha aplicação é complexa porque é uma aplicação de pagamento
+
+505
+00:55:38,120 --> 00:55:43,720
+você vai ter lugares na sua aplicação onde é complexa onde fazer o que o ponte falou meter
+
+506
+00:55:43,720 --> 00:55:49,560
+tudo dentro do controle não vai ficar legal porque você é um é muito código porque você precisa
+
+507
+00:55:49,560 --> 00:55:53,480
+re usar esse código em algum outro serviço em algum outro lugar então você vai conseguir separar
+
+508
+00:55:53,480 --> 00:55:59,640
+isso aí ou você pode simplesmente botar dentro do controle e esse foi né pelo menos pra mim lá lá
+
+509
+00:55:59,640 --> 00:56:07,160
+2006 2007 o pulo do gato quando eu comecei a trabalhar com rails depois de sair do java e ver que
+
+510
+00:56:07,240 --> 00:56:11,720
+eu não preciso de toda essa complicação se eu posso se eu tenho casos que são mais simples eu
+
+511
+00:56:11,720 --> 00:56:16,200
+posso fazer simples aqui e se eu tenho casos que são mais complexos eu posso criar um modelo
+
+512
+00:56:16,200 --> 00:56:22,920
+separado posso criar um serviço posso posso deixar essa complexidade aonde ela tá né então não é
+
+513
+00:56:22,920 --> 00:56:27,880
+porque você tá trabalhando com rails com Django com PHP que você só tá escrevendo aplicação
+
+514
+00:56:27,880 --> 00:56:32,360
+simples e você só pode escrever aplicação simples você pode escrever muita gente escreve
+
+515
+00:56:32,360 --> 00:56:36,440
+muita gente deu muito certo escrevendo aplicações complexas usando essas ferramentas aí
+
+516
+00:56:37,400 --> 00:56:41,160
+deixa eu pular fila rapidinho aqui pra reforçar uma coisa que o Maurício falou que eu acho que
+
+517
+00:56:41,160 --> 00:56:47,400
+é o principal desafio na prática que você criou a sua abstração linda maravilhosa a próxima
+
+518
+00:56:47,400 --> 00:56:51,400
+implementação vai ser diferente entendeu vai ter alguma coisa pra mudar eu acho que no hipster
+
+519
+00:56:51,400 --> 00:56:56,680
+sim que o pessoal gravou com com a ade o pessoal o tefe brincou né que quando foi implementar o
+
+520
+00:56:56,680 --> 00:57:02,280
+primeiro meio de pagamento brasileiro parcelamento ninguém parcela os gringo aqui não entendia que
+
+521
+00:57:02,280 --> 00:57:07,000
+o primeiro meio de pagamento né então a abstração que tinha pra adquirente não funcionava sempre
+
+522
+00:57:07,000 --> 00:57:10,760
+a próxima implementação vai ser um pouco diferente né e aí que o desafio é como que você
+
+523
+00:57:10,760 --> 00:57:15,960
+continue evoluindo essa abstração de maneira legal sem começar a poluir ela e deixar ela estragar
+
+524
+00:57:15,960 --> 00:57:21,560
+acho que esse é o desafio cruel que esses livros não tocam tanto né nos exemplinhos obviamente
+
+525
+00:57:21,560 --> 00:57:25,400
+eles têm que simplificar porque se não eles vão escrever um livro de cinco mil páginas mas como
+
+526
+00:57:25,400 --> 00:57:30,440
+que você modifica a sua abstração pra entender essas pequenas diferenças que ela sempre acaba
+
+527
+00:57:30,440 --> 00:57:36,920
+tendo né acho que essa é a chave no mundo real pois é nada como mundo real pra destruir a sua
+
+528
+00:57:36,920 --> 00:57:43,160
+abstração mas vai lá abrança não se eu reporçar uma coisa é até em cima do que mario isso falou
+
+529
+00:57:43,160 --> 00:57:49,800
+eu me referi única exclusivamente ao processo de scaffolding padrão tá uma linguagem de programação
+
+530
+00:57:49,800 --> 00:57:55,720
+seja qual for desde que ela tenha o debido suporte ao que você precisa fazer você tem a capacidade de
+
+531
+00:57:55,720 --> 00:58:01,160
+comunicar o computador e orientar para que ele processe aquilo que você precisa não existe
+
+532
+00:58:01,160 --> 00:58:07,080
+qualquer limitação isso eu falo em todos os momentos que eu posso em que não tem absolutamente nada
+
+533
+00:58:07,080 --> 00:58:13,160
+a ver uma linguagem como php ruby python java com o proposto ao qual você utiliza salvo com questões
+
+534
+00:58:13,160 --> 00:58:18,600
+de performance alguma outra implicação tá então longe longe de mim ter afirmado alguma coisa nesse
+
+535
+00:58:18,600 --> 00:58:25,000
+sentido me virar os scaffolding especificamente a olhar isso como padrão e quando você começa
+
+536
+00:58:25,000 --> 00:58:29,480
+a fazer as regras de negócio que vai acontecer aqui é um jogo de prós e contras única exclusivamente
+
+537
+00:58:29,480 --> 00:58:35,080
+o que o alecino comentou em relação aos adquirentes já implementei muita aplicação com adquirente com
+
+538
+00:58:35,080 --> 00:58:42,840
+sei lá 10 15 adquirentes e a ideia ali é eu posso levar esse código de uma forma mais procedural
+
+539
+00:58:42,840 --> 00:58:48,120
+e ter uma classe ou tem um arquivo muito grande cheio de files que hora faz um adquirente hora faz
+
+540
+00:58:48,120 --> 00:58:53,160
+outro posso qual é o problema disso vai funcionar vai mas eu vou mexer muito nesse mesmo arquivo eu
+
+541
+00:58:53,160 --> 00:58:57,640
+vou implementar um pouco maior com a tecnologia e eu eventualmente vou fragilizar agora eu posso
+
+542
+00:58:57,640 --> 00:59:02,760
+usar um padrão como um adaptor engertar dependência isolar a se implementação e definir um contrato
+
+543
+00:59:02,760 --> 00:59:09,640
+que sirva para 90% deles ou 100% deles pode pode acontecer como moris falou dele serem tão radicalmente
+
+544
+00:59:09,640 --> 00:59:15,000
+diferentes ao ponto desse contrato sem válido pode se não deram a faca de outra forma entendeu
+
+545
+00:59:15,000 --> 00:59:19,880
+então o tempo todo aqui é baulet context o que moris se refere à aplicação tem partes simples
+
+546
+00:59:19,880 --> 00:59:27,480
+complexas na verdade o domínio ele é decomposto em subdomínios simples e complexos os complexos você
+
+547
+00:59:27,480 --> 00:59:32,840
+pode tomar decisão de fazer de um jeito os simples de outros pode fazer todos do mesmo jeito e hora
+
+548
+00:59:32,840 --> 00:59:40,040
+ter uma manutenibilidade pior hora ter melhor decisão de cada um sabe funcionar uma coisa
+
+549
+00:59:40,040 --> 00:59:44,680
+tudo vai funcionar a questão é em que condições vai funcionar só isso
+
+550
+00:59:48,680 --> 00:59:55,640
+pode puxar aí ponte deu uma distraída aqui foi uma legal legal de boa eu vou aproveitar que o gancho
+
+551
+00:59:55,640 --> 01:00:02,440
+Maurício né aqui é que ele falou sobre sobre domínios complexos né a gente continuou falar não
+
+552
+01:00:02,440 --> 01:00:07,320
+você usa esse ddd você usa clínio você usa hexanal você tem um domínio complexo então
+
+553
+01:00:07,320 --> 01:00:13,480
+é certo mas isso é tão subjetivo o que significa né até hoje eu tenho a dúvida o que é o que é que eu
+
+554
+01:00:13,480 --> 01:00:19,080
+considero complexo um domínio complexo um sistema complexo o tipo tá e aí talvez porque eu venha
+
+555
+01:00:19,080 --> 01:00:25,560
+muito do mundo corporativo né e aí aonde a nicha até comentou a gente vive de crude né então ali
+
+556
+01:00:25,560 --> 01:00:33,800
+80% ou mais ali é o bom e velho crude talvez um relatóriozinho ali em pdf bonitinho um ponto csv tá
+
+557
+01:00:33,800 --> 01:00:39,640
+mas aí a pergunta que fica o que o que é o que é um domínio complexo né então eu acho que o branco
+
+558
+01:00:39,640 --> 01:00:45,880
+até comentou né então eu devo ter muito clara as minhas portas ainda adapte lá adapte os drives
+
+559
+01:00:45,880 --> 01:00:50,040
+tudo ali quando eu tenho um domínio complexo eu quero separar eu quero testar especialmente teste de
+
+560
+01:00:50,040 --> 01:00:55,000
+unidade né acho que ele comentou até isso tá e eu me perguntar o que é complexo crude é complexo eu
+
+561
+01:00:55,000 --> 01:01:00,360
+acho que não né mas 80% dos sistemas corporativos são crudes micro serviços é complexo se você
+
+562
+01:01:00,360 --> 01:01:06,520
+tem uma comunicação como tudo adotando micro serviço sim ela é complexa né mas o micro serviço
+
+563
+01:01:06,520 --> 01:01:13,040
+ela não é complexa na base de código né ela é complexa nas bordas na comunicação então micro
+
+564
+01:01:13,040 --> 01:01:17,480
+serviço tirou toda a complexidade ali que o desenvolvedor tinha que manter uma base de code com
+
+565
+01:01:17,480 --> 01:01:23,600
+dezenas de milhares de linhas e fez o desenvolvedor manter apenas algumas poucas centenas ou milhares de
+
+566
+01:01:23,600 --> 01:01:27,920
+linhas né poucas linhas pouquíssimas classes e jogou a complexidade nas bordas então o
+
+567
+01:01:27,920 --> 01:01:34,760
+que está nas bordas mas se micro serviço me deu o luxo a palavra luxo aqui de ter um código mais
+
+568
+01:01:34,760 --> 01:01:40,000
+simples uma base de código mais simples porque que eu não abraço isso porque se eu ter um código
+
+569
+01:01:40,000 --> 01:01:45,040
+mais simples né vamos pensar micro serviço me permite criar uma uma funcionalidade um componente
+
+570
+01:01:45,040 --> 01:01:50,520
+que tem uma responsabilidade bem definida responsabilidade bem definida quer dizer que tudo
+
+571
+01:01:50,520 --> 01:01:56,200
+que ocorre ali tá tudo intimamente ligado tem um eles tem um fortíssimo acoplamento que tudo mexe
+
+572
+01:01:56,200 --> 01:02:00,720
+no mesmo contexto se mexe o mesmo contexto para que eu tenho que criar in e camada de indireção
+
+573
+01:02:00,720 --> 01:02:07,080
+para separar as coisas e se tá tudo íntimo e a complexidade está nas bordas que geralmente
+
+574
+01:02:07,080 --> 01:02:12,080
+o serviço é distribuído tá na entrada e na saída querendo ou não eu vou ter esse acoplamento
+
+575
+01:02:12,080 --> 01:02:15,760
+com as bordas tem que saber qual o protocolo de entrada e tem que saber de alguma forma qual
+
+576
+01:02:15,760 --> 01:02:20,680
+protocolo de saída até porque as regras de negócio né que a gente chama a lógica de negócio ela
+
+577
+01:02:20,680 --> 01:02:25,480
+não está em um ponto na aplicação ela está espalhada por toda a aplicação desde o de como
+
+578
+01:02:25,480 --> 01:02:32,360
+colocar se aquilo ali vai com o tipo de protocolo de entrada esse tipo de pagem até o banco de dados
+
+579
+01:02:32,360 --> 01:02:35,600
+né quando fala de banco de dados eu tô falando que boa parte das minhas lógicas de negócio vão
+
+580
+01:02:35,600 --> 01:02:39,360
+estar em como eu definir meu esquema como é que eu definir os tipos como é que eu definir as
+
+581
+01:02:39,360 --> 01:02:46,560
+constrentes a concorrência e ignorar isso é dar um tiro no pé tá e aí alguém ou o branco falou
+
+582
+01:02:46,560 --> 01:02:52,040
+ah mas aproveita a vantagem de portas e adapte nesses domínio complexo é que eu escrevo mais testes
+
+583
+01:02:52,040 --> 01:02:55,480
+que você pode mas se eu tô dentro do contexto de microservices vamos se amarrar o contexto de
+
+584
+01:02:55,480 --> 01:03:00,000
+microservices aqui tá até para no generalizar onde a complexidade está nas bordas está na
+
+585
+01:03:00,000 --> 01:03:08,000
+comunicação remota é burrice desculpa a palavra é burrice e ignorar isso tá por isso testes de
+
+586
+01:03:08,000 --> 01:03:13,680
+integração na minha opinião faz muito mais sentido quando eu trabalho com microserviços por
+
+587
+01:03:13,680 --> 01:03:18,480
+dois motivos tá eu vou sempre exercitar as bordas que é onde está a complexidade provavelmente a
+
+588
+01:03:18,480 --> 01:03:24,120
+mais bugs e eu tenho pouquíssima regra de negócio ali a nível de código de aplicação porque eu
+
+589
+01:03:24,120 --> 01:03:29,920
+tenho um domínio um subdomínio uma quantidade de código muito acoplada muito ítimo e que pouca
+
+590
+01:03:29,920 --> 01:03:36,080
+coisa faz tá então eu só queria deixar claro que tipo domínio complexo é difícil definir mas
+
+591
+01:03:36,080 --> 01:03:39,760
+dado que eu estou num contexto de microserviço onde eu tenho pouco código eu tenho luxo de ter
+
+592
+01:03:39,760 --> 01:03:45,760
+pouco código então eu deveria abraçar abraçar significa diminuir as camadas de direção abraçar
+
+593
+01:03:45,760 --> 01:03:51,920
+o que entender que eu estou em uma comunicação remota e que teste de integração acaba sendo
+
+594
+01:03:51,920 --> 01:03:57,520
+muito melhor para a manutenção e para a vida útil do sistema só deixando claro que é minha opinião
+
+595
+01:04:00,160 --> 01:04:08,880
+o Otávio quer comentar é só um comentário eu achei interessante você trazer o assunto de
+
+596
+01:04:08,880 --> 01:04:14,640
+microserviço porque eu acho que é bem característico uma coisa que se a pessoa não souber fazer direito
+
+597
+01:04:14,640 --> 01:04:22,800
+mas muita cagada né então eu acho interessante você ter sempre em mente o Otávio deixa só
+
+598
+01:04:22,800 --> 01:04:31,280
+deixa só comentar aqui tipo um ano antes talvez desse frila que eu fiz aí usando esse esquema do
+
+599
+01:04:31,280 --> 01:04:42,240
+xml para mapear a entidade tal tinha um colega que fez um frila com microserviços de atendimento de
+
+600
+01:04:42,480 --> 01:04:48,560
+dentista não sei que lá foi muito mais desastrosa assim e esse realmente o cliente
+
+601
+01:04:48,560 --> 01:04:59,680
+que e deu certo sabe e foi o terror da manutenção só só um detalhe não é exato é só isso que eu
+
+602
+01:04:59,680 --> 01:05:05,440
+estava querendo complementar é e eu acho que é bom a gente sempre deixar isso claro para você
+
+603
+01:05:05,440 --> 01:05:11,280
+poder obter benefícios desse tipo de técnica abordagem você tem que você tem que estudar o
+
+604
+01:05:11,280 --> 01:05:16,640
+negócio saber usar porque senão você vai se ferrar por melhor que seja a ideia por melhor que seja
+
+605
+01:05:16,640 --> 01:05:22,160
+tecnologia né eu conheço por exemplo gente que tem muita muita experiência com microserviço né tem
+
+606
+01:05:22,160 --> 01:05:28,000
+sempre essa ideia começa com o monolid depois quebra comprar microserviço não cara se o cara manja se
+
+607
+01:05:28,000 --> 01:05:32,320
+o pessoal já teve um monte já fez um monte de sistema baseado microserviço já tem experiência o
+
+608
+01:05:32,320 --> 01:05:38,080
+que é feito casa com o uso de microserviço o cara pode começar e ter muito sucesso então mas é isso
+
+609
+01:05:38,080 --> 01:05:45,120
+eu só queria enfatizar isso é que a pessoa o pessoal tem que dominar essas técnicas essas ideias
+
+610
+01:05:45,120 --> 01:05:53,680
+para poder aplicar bem que senão você vai dar um tiro no pé perfeito o linhares ela
+
+611
+01:05:54,560 --> 01:06:01,520
+vamos voltar para o caso das adquirentes né que a interface no geral ela tem duas coisas ela tem um
+
+612
+01:06:01,520 --> 01:06:09,200
+pedicado né que é para verificar se essa transação específica né se essa adquirente ela vai ser
+
+613
+01:06:09,200 --> 01:06:13,360
+capaz de processar essa transação então tem várias informações que que você vai usar você vai usar
+
+614
+01:06:13,360 --> 01:06:20,000
+o o tipo do dinheiro né você tá usando real tá usando dólar isso aí influencia a decisão qual país
+
+615
+01:06:20,000 --> 01:06:24,400
+do cartão o país emitido do cartão ser cartão internacional ou não né então a gente tem esse
+
+616
+01:06:24,400 --> 01:06:31,760
+problema que define qual vai ser executada né e a gente tem a implementação da da execução
+
+617
+01:06:31,760 --> 01:06:38,720
+mesmo do negócio que é aquele padrão estratégia que a gente tá acostumado né isso é isso é esse
+
+618
+01:06:38,720 --> 01:06:45,840
+problema do adquirente é o problema de roteamento que você tem numa aplicação web né então esse
+
+619
+01:06:45,840 --> 01:06:57,520
+problema é esse problema em si ele é complexo né é porque parece fácil de entender assim é ele é
+
+620
+01:06:57,520 --> 01:07:03,680
+um problema que ele é por isso que eu gosto eu gosto do desse negócio do ponto porque o que é complexo
+
+621
+01:07:03,680 --> 01:07:11,120
+que é que não é complexo também né é difícil porque a complexidade ela vai entrar né quando
+
+622
+01:07:11,200 --> 01:07:18,800
+começa a acontecer aquilo que o anis te falou agora eu tenho que fazer o pagamento em parcela
+
+623
+01:07:18,800 --> 01:07:25,360
+e você caralho nunca vi pagamento em parcela né nunca existiu na minha vida e no brasil o
+
+624
+01:07:25,360 --> 01:07:30,400
+pagamento em parcela é feito de um jeito né se você vai para outros países da América Latina
+
+625
+01:07:30,400 --> 01:07:36,400
+o pagamento em parcela é feito de outro jeito né então não dá nem pra você dizer eu posso
+
+626
+01:07:36,400 --> 01:07:41,920
+ir diretamente aqui o que é do brasil e que é dos outros países do parcelamento porque é outra
+
+627
+01:07:41,920 --> 01:07:50,160
+coisa é outra solução então assim eu acho que quando quando a gente fala né de de o que é simples
+
+628
+01:07:50,160 --> 01:07:56,880
+e o que é complexo é o que tem eu acho que onde tá complexo é onde você precisa de muito
+
+629
+01:07:56,880 --> 01:08:04,080
+conhecimento né onde tem muita muita coisa sendo definida muita regra que precisa existir ali para
+
+630
+01:08:04,080 --> 01:08:11,440
+o sistema é funcionar porque você você precisa manter todas essas coisas na sua cabeça né onde
+
+631
+01:08:11,440 --> 01:08:19,280
+é que como é que eu vou conseguir fazer separar essa aí a implementação do da decisão né é
+
+632
+01:08:19,280 --> 01:08:24,480
+simples né porque você tem um predicado e você tem a execução que é estratégia são são dois
+
+633
+01:08:24,480 --> 01:08:29,520
+padrões aí que a gente conhece desde desde que saiu da faculdade né todo mundo vê essas coisas
+
+634
+01:08:29,520 --> 01:08:34,720
+na faculdade mas implementar as regras diretamente definir como essas coisas vão existir dentro do
+
+635
+01:08:34,720 --> 01:08:43,360
+sistema maior aí é que vem a complexidade do do negócio né e você entender que vai ter coisa
+
+636
+01:08:43,360 --> 01:08:46,880
+que vai quebrar sua arquitetura vai ter coisa que vai mudar vai ter coisa que você vai ter que parar
+
+637
+01:08:46,880 --> 01:08:51,840
+por aqui eu vou ter que rever eu tô entrando no outro país onde as coisas são diferentes os meus
+
+638
+01:08:51,840 --> 01:08:58,160
+pagamentos são diferentes e aí você vai fazendo a coisa funcionar só é só você não entrar nesse
+
+639
+01:08:58,160 --> 01:09:03,280
+lugar eu vou isolar tudo vai ser perfeito não vou conseguir não vou ter mais que mudar nada não
+
+640
+01:09:03,280 --> 01:09:08,800
+você vai ter que mudar coisa pra caralho né ninguém consegue acertar na na primeira vez e a sua
+
+641
+01:09:08,800 --> 01:09:14,560
+arquitetura você vai ter que ir lentamente evoluindo né por isso que eu eu gosto muito dessa ideia de
+
+642
+01:09:14,560 --> 01:09:20,800
+de arquiteturas que são evolutivas que elas vão evoluindo junto com a aplicação porque é mais fácil
+
+643
+01:09:20,800 --> 01:09:25,520
+você ir evoluindo com os problemas do que você tentar entender todos os pra não ser que você já
+
+644
+01:09:25,520 --> 01:09:31,120
+conhece né se for uma pessoa aí eu trabalho com pagamentos faz dez anos eu botei fiz trabalhei
+
+645
+01:09:31,120 --> 01:09:36,800
+com adquirência em 50 países diferentes foda então você já provavelmente já viu muita coisa você
+
+646
+01:09:36,800 --> 01:09:41,360
+vai conseguir arquiteturar arquiteturar tudo mas é difícil você ser essa pessoa né na minha parte
+
+647
+01:09:41,360 --> 01:09:45,840
+às vezes a gente não tem tanto conhecimento assim pra tomar essas decisões e definir essas coisas
+
+648
+01:09:46,000 --> 01:09:55,120
+é é é é entender que quanto mais conhecimento você precisa pra pra colocar dentro do sistema né
+
+649
+01:09:55,120 --> 01:10:01,600
+pronto e vou vou dizer agora o que eu gostei da porra do livro do bob martin que escrever soft
+
+650
+01:10:01,600 --> 01:10:10,320
+é um é como se fosse um experimento científico né isso e isso isso tá pronto aí foi uma coisa
+
+651
+01:10:10,320 --> 01:10:16,320
+que ficou né gostei dessa dessa definição dele ter essa visão porque é exatamente isso
+
+652
+01:10:16,320 --> 01:10:24,320
+podia ser um tweet é isso não dá pra você discutir isso de de uma forma mais longa dentro do
+
+653
+01:10:24,320 --> 01:10:28,080
+livro eu acho que isso é uma parada muito válida eu acho que é assim que a gente escreve software né
+
+654
+01:10:28,080 --> 01:10:33,600
+a gente vai com pequenos experimentos construindo o conhecimento né construindo o entendimento
+
+655
+01:10:33,600 --> 01:10:38,240
+do que que tá acontecendo ali e você vai né você vai sempre nesse caminho de pequenos experimentos
+
+656
+01:10:38,240 --> 01:10:42,000
+você faz um pequeno experimento aqui agora isso aqui tá afetando outra coisa vai lá melhor
+
+657
+01:10:42,000 --> 01:10:46,480
+essa outra coisa melhor a sua arquitetura coloca mais uma opção lá você vai lentamente fazendo
+
+658
+01:10:46,480 --> 01:10:52,240
+um negócio crescer né com essa ideia de que a escrever software é trabalhar com experimentos
+
+659
+01:10:52,240 --> 01:11:01,760
+científicos e é assim alguém já leu o building evolutionary architecture eu acho que o
+
+660
+01:11:01,760 --> 01:11:07,600
+arquitetura de hard parts tem uma pegada também né dessa pelo que vocês postaram ali
+
+661
+01:11:07,600 --> 01:11:18,560
+é parece que tem essa essa ideia né de de sair descobrindo e mudando tem isso só só pra
+
+662
+01:11:18,560 --> 01:11:24,880
+você comentar eu acho que você já leu né tem tem tem isso é acho que hoje não vale mais a pena
+
+663
+01:11:25,040 --> 01:11:30,880
+ler ele não né ele já tá meio velhinho na época na época valia mais a pena acho que hoje o
+
+664
+01:11:30,880 --> 01:11:38,080
+fundamentals of software architecture e o software architecture the hard parts eles cobrem mais mas
+
+665
+01:11:38,080 --> 01:11:43,440
+eles seguem muito essa ideia quem tá com tempo livro e ler o livro né vale a pena ter essa essa
+
+666
+01:11:43,440 --> 01:11:52,400
+ideia mas esses dois livros eles abordam também essa essa essa ideia legal o branas vai lá não
+
+667
+01:11:52,400 --> 01:11:57,920
+só pra fechar aqui pra mim o princípio mais importante é o tal do que isso né que é o que
+
+668
+01:11:57,920 --> 01:12:04,880
+sempre então eu acho que tô muito aí com a opinião do do Maurício né é software um grande
+
+669
+01:12:04,880 --> 01:12:11,120
+experimento sabe envolve em alguns casos até sorte sabe de você pegar o caminho certo pra você não
+
+670
+01:12:11,120 --> 01:12:16,640
+ter um grande retrabado depois então pra mim a melhor alternativa sempre foi manter o software mais
+
+671
+01:12:16,640 --> 01:12:21,680
+simples possível e ir dando passos pra gente conseguir manter uma boa curva de aprendizado
+
+672
+01:12:21,680 --> 01:12:30,080
+um bom clima e gerenciando a dor pode doer por dois motivos né e é mais comum às vezes até
+
+673
+01:12:30,080 --> 01:12:35,760
+mesmo do seu escolheu a entre aspas a arquitetura ou entre aspas o design errado e aquilo tá te
+
+674
+01:12:35,760 --> 01:12:41,120
+forçando numa burocracia sem fim do que doer pela manutenibilidade que tá prejudicado às
+
+675
+01:12:41,120 --> 01:12:46,320
+vezes também dói então talvez se você conseguir perceber essa dor no momento certo tomar as
+
+676
+01:12:46,320 --> 01:12:52,000
+questões certas com coragem e aí pode ter um teste de integração ali como o ponto citou pode
+
+677
+01:12:52,000 --> 01:12:57,600
+ter um teste onde o teste só pode estar coragem se você tem a coragem necessária e o teste
+
+678
+01:12:57,600 --> 01:13:03,360
+te garante isso pra você tomar a ação na hora certa em a hora que precisa você mitiga muito
+
+679
+01:13:03,360 --> 01:13:09,280
+achismo e muita coisa que você talvez não vai precisar e assim você consegue estabelecer a
+
+680
+01:13:09,280 --> 01:13:13,600
+melhor experiência possível para as pessoas estão trabalhando e o melhor fluxo de valor de negócio
+
+681
+01:13:13,840 --> 01:13:18,560
+então pra mim o melhor caminho segue sendo esse é que às vezes a gente tá discutindo uma coisa
+
+682
+01:13:18,560 --> 01:13:24,080
+muito específica né falando de dvd falando de clinhar mas dando uns passos atrás eu acho que o
+
+683
+01:13:24,080 --> 01:13:30,000
+que vale muito é essa postura de humildade frente ao problema que você não conhece e aí você tem
+
+684
+01:13:30,000 --> 01:13:36,640
+a capacidade de ao longo do trajeto ter é coragem para tomar as ações pra mim é seu ponto
+
+685
+01:13:36,640 --> 01:13:49,360
+e boa perfeito muito bem colocado branas é isso é pessoal vamos encerrando assim vamos fazer uma
+
+686
+01:13:49,360 --> 01:13:59,320
+rodada de tipo tava pensando assim fazer uma clinar que morreu e aí e sim ou não mas não é uma
+
+687
+01:13:59,320 --> 01:14:07,240
+coisa do nosso sentido né então pode ter considerações finais tá bem o aí eu queria assim
+
+688
+01:14:07,240 --> 01:14:12,640
+eu queria abrir a palavra pra muita gente que tá aqui que eu admiro e tal e muito obrigado por ter
+
+689
+01:14:12,640 --> 01:14:23,080
+comparecido tá bem pessoal mas muita gente mesmo e mas não dá né então vamos fazer essa rodada
+
+690
+01:14:23,080 --> 01:14:29,000
+ou roberta é você tem alguma coisa a colocar assim em considerações finais você aprendeu
+
+691
+01:14:29,000 --> 01:14:39,120
+algo aqui a sempre sempre essas discussões são muito ricas eu acho que uma coisa que eu tava
+
+692
+01:14:39,120 --> 01:14:43,960
+pensando à medida que a discussão estava se desenrolando é que fica sempre muito na minha
+
+693
+01:14:43,960 --> 01:14:50,800
+cabeça é a questão de desperdício eu sou um pouco cria da época que se discutia muito
+
+694
+01:14:50,800 --> 01:14:56,360
+sobre o desenvolvimento e tentar evitar desperdício e tal e eu lembrei quando isso falou de
+
+695
+01:14:56,360 --> 01:15:03,480
+experimento de experimentação eu lembrei de um artigo de de pesquisa né da área de engenharia
+
+696
+01:15:03,480 --> 01:15:10,280
+de software eu trabalhei com pesquisa durante um curto espaço durante o mestrado e era um artigo
+
+697
+01:15:10,280 --> 01:15:20,920
+que eu sabe sobre o quão a quantidade de código morto né meus projetos né quanto código a gente
+
+698
+01:15:20,920 --> 01:15:26,240
+escreve que no fim ou não quer executado muito pouco é executado acaba não servindo pra nada
+
+699
+01:15:26,240 --> 01:15:32,640
+e um dos exemplos que mais me marcou nesse artigo era justamente uma investigação em vários
+
+700
+01:15:32,640 --> 01:15:40,400
+repositórios de código de selis né de aplicações que eram feliz mostrando que mais de 80% dos
+
+701
+01:15:40,400 --> 01:15:47,200
+parâmetros de configuração de comandos em selis nunca eram utilizados para os usuários selis e
+
+702
+01:15:47,200 --> 01:15:54,840
+isso é código né gente toda linha de código que você adiciona num sistema num aplicação ela
+
+703
+01:15:55,360 --> 01:16:01,680
+ela vem com custo né não é de graça né ela adiciona tempo que alguém vai precisar parar
+
+704
+01:16:01,680 --> 01:16:06,120
+para ler para entender aquela aquela vara máxima de que o melhor código é aquele que a gente não
+
+705
+01:16:06,120 --> 01:16:15,080
+escreve né e eu acho que os casas muito bem com com a discussão porque é sempre a gente tem que
+
+706
+01:16:15,080 --> 01:16:21,800
+sempre avaliar esse trade off né do quanto a gente está complexificando nosso código nosso software
+
+707
+01:16:22,040 --> 01:16:30,120
+opções e flexibilidades que a gente acabará não de fato utilizando enquanto isso existem
+
+708
+01:16:30,120 --> 01:16:35,520
+concorrentes existem outros outras pessoas outros times outras aplicações sendo construídas que
+
+709
+01:16:35,520 --> 01:16:42,920
+estão mais focadas em deliverables né em entregar o software funcionando e o pelo menos a minha
+
+710
+01:16:42,920 --> 01:16:49,720
+filosofia como desenvolvedora sempre foi fazer a coisa mais simples que pudesse funcionar e adaptá-la
+
+711
+01:16:49,720 --> 01:17:03,760
+e se fosse preciso adaptá-la então era isso uau muito muito bom é vamos lá linheiris tem alguma
+
+712
+01:17:03,760 --> 01:17:15,280
+consideração final leiam o design favor né para vocês verem essa discussão de de uma forma mais
+
+713
+01:17:15,280 --> 01:17:20,400
+legal leiam fundamenta os of software architecture né para entender o que é arquitetura de software
+
+714
+01:17:20,400 --> 01:17:26,440
+né para ver os fundamentos questões de os tipos de arquitetura né quais são os tipos de comunicação
+
+715
+01:17:26,440 --> 01:17:34,640
+quais são os como a gente está produzindo aplicações hoje né então tem a gente tem muito
+
+716
+01:17:34,640 --> 01:17:41,080
+material é incrível olhar a bibliografia que a gente tem de material disponível hoje para você
+
+717
+01:17:41,080 --> 01:17:48,160
+falar um pouco mais sobre sobre se perguntaram no twitter mas eu posso é posso dizer que o clina
+
+718
+01:17:48,160 --> 01:17:52,360
+arquitectural merda sem ter lido não você não pode se você não leu a porra do livro você não
+
+719
+01:17:52,360 --> 01:17:56,440
+fala do livro né se você não entende o que é que tá lá você não sabe porque é que é problemático
+
+720
+01:17:56,440 --> 01:18:01,880
+né o as ideias que estão lá dentro então é melhor você não dizer né é a mesma coisa que ele
+
+721
+01:18:01,880 --> 01:18:06,840
+estava falando a todo mundo viu no blog lá que o clina art e fica falando das coisas você pega o
+
+722
+01:18:06,840 --> 01:18:11,520
+bicho vai ver o que está escrito lá vai ver o que é que quais são as ideias que estão sendo
+
+723
+01:18:11,520 --> 01:18:16,960
+definidas lá para você poder entender o que vai usar e o que não vai usar então a gente tem muito
+
+724
+01:18:16,960 --> 01:18:22,320
+material a gente tem muita coisa que ajuda né a gente tem inclusive a gente tem que agradecer né
+
+725
+01:18:22,320 --> 01:18:28,000
+porque na época que que eu e o ponte né o ponto que querendo pagar de jovem aí não é jovem o ponte
+
+726
+01:18:28,000 --> 01:18:35,200
+tem a mesma idade é velho igual a mim né a gente começou a trabalhar junto praticamente né e nessa
+
+727
+01:18:35,200 --> 01:18:40,040
+época você não tinha toda essa toda essa bibliografia toda essa oportunidade de discutir
+
+728
+01:18:40,040 --> 01:18:45,320
+essas coisas né você pega um livro como o design data intensive applications se a gente tivesse esse
+
+729
+01:18:45,320 --> 01:18:50,760
+livro 15 anos atrás a gente tem evitado fazer muita merda que a gente escreveu né a gente fez muita
+
+730
+01:18:50,760 --> 01:18:57,040
+merda nesses 16 18 anos que a gente está escrevendo software porque a gente estava aprendendo né as
+
+731
+01:18:57,040 --> 01:19:02,080
+pessoas estavam aprendendo essas merdas e estão escrevendo os livros e mostrando olha olha todas as
+
+732
+01:19:02,080 --> 01:19:07,680
+coisas que a gente fez aprenda não fazer essas merdas né então peguem esse material leiam também
+
+733
+01:19:07,680 --> 01:19:14,400
+o livro do Aquiles né peguem e vamos vamos estudar um pouquinho mais vamos entender um pouquinho
+
+734
+01:19:14,400 --> 01:19:19,760
+mais pra gente escrever software melhor pra hoje e pro futuro porque no fim das contas é você que vai
+
+735
+01:19:19,760 --> 01:19:24,880
+se rasgar dando uma lutenção essa merda que você produziu hoje né então de um jeito ou de outra
+
+736
+01:19:24,880 --> 01:19:29,840
+gente que vai ter que pagar essa conta né então vamos fazer um pouquinho melhor pra gente não ter tanta
+
+737
+01:19:29,840 --> 01:19:37,840
+beleza aí no longo prazo duas lições então roberto falou que o nosso código 80% é inútil e que o
+
+738
+01:19:37,840 --> 01:19:50,880
+mariz falou que o mariz falou que a gente vai sofrer com o código que a gente mesmo produz
+
+739
+01:19:51,840 --> 01:19:57,520
+essa é a segunda e realmente é isso mesmo né pessoal o branas considerações sinais
+
+740
+01:19:59,920 --> 01:20:04,720
+considerações sinais basicamente agradecer a todos aí obrigado acho que é a discussão sempre
+
+741
+01:20:04,720 --> 01:20:13,200
+nossa muito muito válido o minha sigam o conselho do kipit simple né do fim das contas o legado vai
+
+742
+01:20:13,200 --> 01:20:20,000
+ser teu o ador vai ser tu então aprenda a lidar com ela da melhor forma possível e tenta sempre
+
+743
+01:20:20,080 --> 01:20:27,280
+a sua frente nem que seja pra não usar né então vale muito o conselho que o mariz colocou cara você
+
+744
+01:20:27,280 --> 01:20:32,480
+pode estudar domain design nem que seja pode dizer aqui não se aplica mas pelo menos você tira esse
+
+745
+01:20:32,480 --> 01:20:38,480
+peso do teu coração e tira essa síndrome às vezes de tá pegando o caminho errado na maior parte
+
+746
+01:20:38,480 --> 01:20:43,760
+das vezes o caminho simples é o melhor um pouco não um pouco do que o ponte falou ali eu concordo
+
+747
+01:20:44,000 --> 01:20:50,960
+boa parte das vezes o e o direto vai atender vai resolver e vai ser a melhor saída e o teste
+
+748
+01:20:50,960 --> 01:20:58,320
+de integração vai ser o mais acertivo então kipit simple esteja sempre um passo a frente nem que
+
+749
+01:20:58,320 --> 01:21:04,720
+seja pra saber que você não precisa daquilo e o seu seu curso como é que eu pego o brança fala aí
+
+750
+01:21:04,720 --> 01:21:12,160
+é a gente tá na turma número 8 meu curso basicamente ele reúne desde o refactor e o test
+
+751
+01:21:12,480 --> 01:21:20,720
+e entrando em portão adapters discutindo com arquitecto entrando ddd sólidos e páginas cts e muito
+
+752
+01:21:20,720 --> 01:21:28,400
+nesse viés tá assim é aonde você talvez precise usar isso e como você faria mas muito pra trazer
+
+753
+01:21:28,400 --> 01:21:34,480
+essa clareza para as pessoas que a gente vai desde da escrita de código até a estruturação disso
+
+754
+01:21:34,480 --> 01:21:39,680
+seja em microserviços né então é só entrar aí no meu canal no youtube você vai encontrar bastante
+
+755
+01:21:40,480 --> 01:21:52,080
+boa anishi valeu é anishi vamos lá considerações finais e fala do seu livro também eu comprei muito
+
+756
+01:21:52,080 --> 01:22:00,240
+bom e eu não vou fazer tabac aqui não alexandre mas o que eu acho esse livro esse livro é muito
+
+757
+01:22:00,240 --> 01:22:05,680
+mais sobre design de arquitetura né muito mais sobre como organizar classes e criar código
+
+758
+01:22:05,920 --> 01:22:12,560
+e tal e bem menos de arquitetura né e o ddd é um livro muito legal quando se fala de design
+
+759
+01:22:12,560 --> 01:22:18,240
+mas acho que um que me influenciou de verdade foi o growing object oriented systems guided by tests
+
+760
+01:22:18,880 --> 01:22:23,680
+e quando eu via a pegar dos dois autores ali em como eles programam e como eles deixam as
+
+761
+01:22:23,680 --> 01:22:27,920
+abstrações emergirem acho que me influenciou bastante é um livro que a gente fala bem pouco
+
+762
+01:22:28,640 --> 01:22:32,720
+né porque eu se fui em night price não são tão populares aí na comunidade mas é um livro bem
+
+763
+01:22:32,720 --> 01:22:38,960
+bom dói um pouco ler porque o monte de código em swing ali que ninguém gosta mais na três páginas
+
+764
+01:22:38,960 --> 01:22:44,640
+para colocar um botão na tela mas a ideia ali de como eles programam é bem legal me influenciou
+
+765
+01:22:44,640 --> 01:22:52,080
+bastante então fica aí essa recomendação e boa noite aí gente e inclusive o anishi esse
+
+766
+01:22:52,080 --> 01:22:57,200
+livro eles chegam a uma arquitetura hexagonal a gente pode dizer que que chega nesse ponto não
+
+767
+01:22:58,000 --> 01:23:04,160
+eu acho que eles não usam o termo porto sen adapters no livro boa boa pergunta mas a gente tem
+
+768
+01:23:04,160 --> 01:23:08,960
+bastante discussões sobre como modelar a classe que são flexíveis como fazer com que parte dos
+
+769
+01:23:08,960 --> 01:23:14,080
+sistemas sejam fáceis de serem trocados etc e tal mas eu acho que eles são um pouco mais pragmáticos
+
+770
+01:23:14,080 --> 01:23:26,960
+ali na discussão deles é sim sim é o ponte vamos lá considerações finais eita é não vou falar
+
+771
+01:23:26,960 --> 01:23:33,120
+de livro porque eu não li o livro do clinhar que tá então é mais para deixar aqui um mais uma
+
+772
+01:23:33,120 --> 01:23:39,680
+reflexão que eu tenho de tipo a minha carreira que é o cuidado de ser dogmático né o pragmático
+
+773
+01:23:39,680 --> 01:23:46,000
+né eu já fui o ministro da minha carreira ali jovem sem muito entendimento do mundo do mercado
+
+774
+01:23:46,000 --> 01:23:52,800
+já fui dogmático né já segui anco bob já segui do me entrevi design ali a pé da letra e vi que
+
+775
+01:23:52,800 --> 01:23:58,960
+foi o sofrimento tá então eu tento né balancear isso com um pouco mais de pragmatismo né e um dos
+
+776
+01:23:58,960 --> 01:24:05,280
+os pilaros do pragmatismo é que eu uso é don't fight of frameworks né não briga os seus frameworks
+
+777
+01:24:05,280 --> 01:24:11,400
+já dizia Mark Fallon seu livro de 2002 já dizia era que iva de seu livro de 2004 não briga os seus
+
+778
+01:24:11,400 --> 01:24:16,320
+frameworks né hoje não há qualquer motivo de obrigar com meu reis obrigar com meu laravel eu
+
+779
+01:24:16,320 --> 01:24:21,520
+obrigar aqui com meu spring bolt né porque estão fazendo mais de 80% do trabalho sujo eu só tenho
+
+780
+01:24:21,520 --> 01:24:26,000
+que se preocupar com a reira de negócio e é isso que a gente tenta fazer há mais de 20 anos
+
+781
+01:24:26,000 --> 01:24:30,760
+deixar o desenvolvedor a desenvolvedora só se preocupar com a reira de negócio mas quando
+
+782
+01:24:30,760 --> 01:24:35,400
+tá simples de hoje né a gente gosta de complicar então eu não sei se vale talvez no início da
+
+783
+01:24:35,400 --> 01:24:40,880
+sua carreira investir tanto em estilos arquiteturais não é que você não vai estudar fundamentos
+
+784
+01:24:40,880 --> 01:24:47,080
+orientação objeto algum paradigma funcional ou mesmo só de alguns padrões de projeto né só acho
+
+785
+01:24:47,080 --> 01:24:52,360
+que não vale tanto a pena você investir nessa briga e dogmático de estilos arquiteturais
+
+786
+01:24:52,360 --> 01:24:58,640
+hexagonal clín ou qualquer outro né quando boa parte do seu trabalho vai ser domina vai-se usar
+
+787
+01:24:58,640 --> 01:25:04,840
+um framework então domina aquele framework tá bom então acho que deixou aí essa sessão com isso
+
+788
+01:25:06,400 --> 01:25:13,800
+perfeito aprendam seu framework não se não tem tem porque o framework não é um detalhe
+
+789
+01:25:14,800 --> 01:25:22,280
+é o Otávio ou o framework é um detalhe brincadeira é consideração de sinais Otávio
+
+790
+01:25:23,600 --> 01:25:31,120
+o pessoal obrigado nossa achei bem legal discussão e isso né eu sou um entusiasco do
+
+791
+01:25:31,120 --> 01:25:35,880
+estudo eu sou professor universitário então eu fico muito feliz né de ver o pessoal na linha
+
+792
+01:25:35,880 --> 01:25:41,520
+de frente que é deve mesmo é recomendando que se lê que se leia mais livros que o pessoal
+
+793
+01:25:41,520 --> 01:25:47,680
+mesmo acho que vale a pena esse tipo de recomendação porque é como o branas falou mesmo
+
+794
+01:25:47,680 --> 01:25:54,800
+que seja para você saber onde não usar certas coisas então é só esse recado final mesmo acho
+
+795
+01:25:54,800 --> 01:26:03,040
+que vale a pena a gente se aprofundar nas coisas é porque senão se acaba sendo um é vir uma espécie
+
+796
+01:26:03,040 --> 01:26:09,240
+robô né fazendo as coisas sem pensar sem saber exatamente o que está fazendo então acho legal
+
+797
+01:26:09,240 --> 01:26:13,760
+que a gente tem a solidariedade da gente pegar esses livros né eu gosto muito do livro que o que o
+
+798
+01:26:13,760 --> 01:26:19,000
+Anish recomendou também é e de fato não eles não podem ser adapters mesmo acho que foram
+
+799
+01:26:19,000 --> 01:26:24,800
+os primeiros livros que que fala não sei nem se ele não sei se ele fala o termo mas é no próprio
+
+800
+01:26:24,800 --> 01:26:31,400
+Clean Architecture ele ele fala desse livro como se fosse um dos primeiros a utilizar esse tipo
+
+801
+01:26:31,400 --> 01:26:38,640
+de estilo arquiteto é eu lembro que chega parecido mesmo esse esse é growing object
+
+802
+01:26:38,640 --> 01:26:45,960
+granted by by test eu tenho eu segui o exemplo sabe tipo eu fiz lá de um trabalho caramba
+
+803
+01:26:45,960 --> 01:26:55,000
+mas foi bem legal e eles chegam e é algo parecido né eu tava sim é isso mesmo e o livro
+
+804
+01:26:55,000 --> 01:27:01,480
+é muito popular né apesar de eu eu ser mais gostar mais do estilo de TDD mais clássico do
+
+805
+01:27:01,480 --> 01:27:08,360
+estilo can't back mesmo mas então é isso né acho que é legal de conhecer todos os estilos de
+
+806
+01:27:08,360 --> 01:27:15,560
+programação de desenvolvimento TDD etcétera é e saber isso também tem vai ter sistemas também
+
+807
+01:27:15,560 --> 01:27:21,320
+assim tem muito a cultura é muito diversa dependendo da empresa que você tá né empresa tá fechada
+
+808
+01:27:21,320 --> 01:27:28,680
+com o framework né então por exemplo eu tenho amigos eu tenho um o Tony que é meu amigão que
+
+809
+01:27:28,680 --> 01:27:37,160
+é principal engineer da da buzzer né a buzzer ela é feita em cima né do do do Django né então
+
+810
+01:27:37,160 --> 01:27:42,920
+assim tem problema isso não tem problema né funciona muito bem o aplicativo é claro você
+
+811
+01:27:42,920 --> 01:27:49,720
+você fechou com o framework né talvez pode ser que tem algum risco nisso é quer dizer o framework
+
+812
+01:27:49,720 --> 01:27:55,240
+pode ser que ele seja menos estável do que a linguagem né então se tá dependendo de uma coisa
+
+813
+01:27:55,240 --> 01:28:02,520
+que talvez seja menos estável mas é um trade-off sempre tem essas esses trade-offs na vida né então
+
+814
+01:28:02,520 --> 01:28:07,480
+acho que vale a pena é só queria deixar esse recado final o pessoal se aprofundar mesmo estudar
+
+815
+01:28:07,480 --> 01:28:13,480
+através de livros né que realmente aprofundam esses temas pra não fazer as coisas de qualquer
+
+816
+01:28:13,480 --> 01:28:21,320
+nível nas coxas e e e fazer cada vez melhor como o Linhares falou né você que vai ter que cuidar
+
+817
+01:28:21,320 --> 01:28:30,200
+e do do legado depois valeu galera pois é e o Otav tem um livro aí muito bom eu tô lendo e é
+
+818
+01:28:30,200 --> 01:28:38,200
+é sussinto mas consegue ser mais ponderado do que o livro do acobago tem 400 páginas é impressionante
+
+819
+01:28:38,200 --> 01:28:44,360
+e o termo port sem adapters aparece mesmo no livro Alexandre tocou ele aparece é legal
+
+820
+01:28:44,360 --> 01:28:56,760
+legal é e então é isso pessoal aí a gente não falou um monte de coisas que a gente abordou na
+
+821
+01:28:56,760 --> 01:29:06,680
+trade lá né tipo é o que é design e o que é a arquitetura e o Otav só chegou a mencionar a
+
+822
+01:29:06,680 --> 01:29:13,720
+cor em pertil shell tem tanta coisa interessante assim né mas é isso senão a gente vai ficar
+
+823
+01:29:13,720 --> 01:29:24,120
+aqui pra sempre conversando né mas muito obrigado desculpa aí o ruan lopes a glace o rinaldo e
+
+824
+01:29:24,120 --> 01:29:31,880
+várias outras pessoas aí que eu não consegui dar a palavra né porque senão é que estão aparecendo
+
+825
+01:29:32,200 --> 01:29:37,320
+e várias outras que eu não vou mencionar porque senão vou ficar falando aqui pra sempre mas muito
+
+826
+01:29:37,320 --> 01:29:44,760
+obrigado por comparecer aí pessoal eu vou ter que ouvir isso 15 vezes pra absorver né todo
+
+827
+01:29:44,760 --> 01:29:53,880
+conhecimento aqui então muito obrigado eu vou finalizar aqui então beleza tchau tchau pessoal valeu
+

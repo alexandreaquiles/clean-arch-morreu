@@ -1,0 +1,9256 @@
+0
+00:00:00,960 --> 00:00:01,410
+Mas
+
+1
+00:00:03,150 --> 00:00:04,750
+então vamos natação,
+
+2
+00:00:06,190 --> 00:00:08,050
+meu nome Alexandre Aquiles,
+
+3
+00:00:08,580 --> 00:00:09,530
+eu
+
+4
+00:00:09,660 --> 00:00:12,410
+não vou falar do trabalho às cidades-sede deve saber
+
+5
+00:00:13,000 --> 00:00:15,780
+por que é que o negócio é para entre a gente mesmo
+
+6
+00:00:15,900 --> 00:00:16,460
+tipo
+
+7
+00:00:18,710 --> 00:00:20,130
+papo nossa que mesmo?
+
+8
+00:00:21,010 --> 00:00:22,620
+E aí entra.
+
+9
+00:00:23,370 --> 00:00:25,890
+Eu lancei um livro recentemente
+
+10
+00:00:26,410 --> 00:00:29,940
+desbravando solide de show, fazer o jabá já
+
+11
+00:00:30,130 --> 00:00:31,810
+desbravando sólido.
+
+12
+00:00:32,720 --> 00:00:34,100
+Eu fiz esse
+
+13
+00:00:34,450 --> 00:00:35,870
+livro e
+
+14
+00:00:36,110 --> 00:00:37,680
+no capítulo final, assim
+
+15
+00:00:38,640 --> 00:00:41,240
+eu chego numa arquitetura hexagonal,
+
+16
+00:00:42,030 --> 00:00:43,290
+pelo menos eu acho que eu cheguei,
+
+17
+00:00:44,060 --> 00:00:47,070
+então vamos ver se eu cheguei mesmo hoje pode ser uma pauta,
+
+18
+00:00:47,710 --> 00:00:48,570
+mas aí
+
+19
+00:00:49,260 --> 00:00:54,810
+a gente aí eu postei lá é um twitter com
+
+20
+00:00:55,580 --> 00:00:58,030
+referenciando ritmistas
+
+21
+00:00:58,390 --> 00:00:58,930
+que
+
+22
+00:00:59,130 --> 00:01:00,820
+o Linhares
+
+23
+00:01:01,940 --> 00:01:02,620
+que
+
+24
+00:01:03,160 --> 00:01:09,610
+a Roberta Verde e Otávio Lemos e o Vinícius Dias e Rodrigo Ferreira
+
+25
+00:01:10,530 --> 00:01:12,600
+e o Paulo Daca, ela
+
+26
+00:01:12,890 --> 00:01:13,530
+da loura.
+
+27
+00:01:13,710 --> 00:01:15,000
+Eles
+
+28
+00:01:16,400 --> 00:01:17,820
+estavam discutindo sobre o clima
+
+29
+00:01:19,230 --> 00:01:20,410
+e aí repercutiu, né?
+
+30
+00:01:21,260 --> 00:01:26,130
+Então várias vários comentários, vários trailers diferentes e tal
+
+31
+00:01:26,930 --> 00:01:29,270
+Então é sobre isso que a gente
+
+32
+00:01:29,730 --> 00:01:30,410
+vai falar.
+
+33
+00:01:30,960 --> 00:01:32,570
+E aí eu coloquei um
+
+34
+00:01:33,450 --> 00:01:35,780
+um título meio marqueteiro
+
+35
+00:01:36,040 --> 00:01:36,910
+Lira que morreu
+
+36
+00:01:37,510 --> 00:01:39,440
+estava falando com o
+
+37
+00:01:39,740 --> 00:01:40,560
+Nixie
+
+38
+00:01:40,680 --> 00:01:42,170
+com olhares que estipulou
+
+39
+00:01:42,730 --> 00:01:46,660
+para fazer uma referência que aquele papo lado e sinceridade
+
+40
+00:01:47,390 --> 00:01:49,930
+que teve entre o cara do rails e o que é
+
+41
+00:01:51,370 --> 00:01:53,270
+uma brincadeira na verdade dá para Só
+
+42
+00:01:53,800 --> 00:01:55,290
+então se a gente quiser
+
+43
+00:01:55,470 --> 00:01:55,840
+falar
+
+44
+00:01:56,080 --> 00:01:56,400
+clima,
+
+45
+00:01:56,560 --> 00:01:59,230
+morreu. Vamos falar que não, e aí
+
+46
+00:02:00,050 --> 00:02:01,210
+a gente pode fechar aqui.
+
+47
+00:02:01,880 --> 00:02:05,440
+Mas a brincadeira é a gente discutir um pouco sobre isso e tal.
+
+48
+00:02:06,330 --> 00:02:07,050
+E aí
+
+49
+00:02:07,240 --> 00:02:10,660
+eu queria que os oradores eu vou chamando
+
+50
+00:02:11,190 --> 00:02:12,610
+a crescer, falar seu nome
+
+51
+00:02:13,420 --> 00:02:14,640
+e
+
+52
+00:02:17,780 --> 00:02:20,300
+definem uma frase assim Sabe
+
+53
+00:02:21,470 --> 00:02:22,100
+o que quer
+
+54
+00:02:24,040 --> 00:02:26,940
+começar aí com Linhares
+
+55
+00:02:27,400 --> 00:02:28,370
+regulares
+
+56
+00:02:29,120 --> 00:02:29,900
+uma da brasileira
+
+57
+00:02:33,710 --> 00:02:34,220
+já
+
+58
+00:02:35,130 --> 00:02:36,980
+-- está querendo a confusão
+-- começa,
+
+59
+00:02:40,120 --> 00:02:42,720
+eu vou, eu vou dessa vez eu vou roubar
+
+60
+00:02:43,510 --> 00:02:44,760
+o comentário mais
+
+61
+00:02:45,370 --> 00:02:49,630
+mas o que mais representa o que eu sentir lendo o livro é o comentário.
+
+62
+00:02:49,630 --> 00:02:51,090
+Quando se fez a estatueta
+
+63
+00:02:51,810 --> 00:02:52,710
+que
+
+64
+00:02:53,720 --> 00:02:54,600
+contra o deputado,
+
+65
+00:02:56,360 --> 00:02:59,720
+ele pegou o conteúdo que ele tinha nos outros livros,
+
+66
+00:03:00,500 --> 00:03:01,970
+frequentou, mudou de nome
+
+67
+00:03:02,420 --> 00:03:02,570
+e
+
+68
+00:03:02,900 --> 00:03:03,520
+botou lá
+
+69
+00:03:03,880 --> 00:03:04,150
+eu
+
+70
+00:03:04,620 --> 00:03:07,410
+fiquei sem entendeu que efetivamente é
+
+71
+00:03:08,110 --> 00:03:09,790
+a tal da culinária que tem que ser aqui para
+
+72
+00:03:10,970 --> 00:03:12,220
+tudo que a gente ouviu antes,
+
+73
+00:03:12,450 --> 00:03:12,700
+só
+
+74
+00:03:12,930 --> 00:03:15,750
+-- com coisas, com um nome diferente. Então dou meu confusão em
+-- boa.
+
+75
+00:03:16,510 --> 00:03:21,090
+Vou na ordem aqui que está parecendo para mim. Então obra nas
+
+76
+00:03:21,800 --> 00:03:25,090
+se apresenta para a galera. E tipo o que é
+
+77
+00:03:25,650 --> 00:03:25,810
+que
+
+78
+00:03:25,960 --> 00:03:27,820
+tem alguma uma frase?
+
+79
+00:03:29,550 --> 00:03:31,060
+A beleza cara bom,
+
+80
+00:03:31,410 --> 00:03:31,670
+sou
+
+81
+00:03:31,810 --> 00:03:34,540
+mais uma apaixonada por programação que tem um canal no YouTube
+
+82
+00:03:35,210 --> 00:03:35,660
+e
+
+83
+00:03:35,880 --> 00:03:38,440
+para mim eu concordo bastante de como que uma hora isso comentou
+
+84
+00:03:39,100 --> 00:03:41,270
+um controlo, sim, pouco
+
+85
+00:03:41,890 --> 00:03:44,990
+uma mescla de onde vem o superficial e requentado,
+
+86
+00:03:45,920 --> 00:03:46,560
+mas
+
+87
+00:03:46,770 --> 00:03:48,990
+de certa forma faz bastante sentido
+
+88
+00:03:49,530 --> 00:03:50,210
+até
+
+89
+00:03:50,570 --> 00:03:53,380
+a fronteira com a tomada de domínio que a gente vai discutir aqui hoje está
+
+90
+00:03:53,920 --> 00:03:56,590
+então para mim é um pouco um clone do
+
+91
+00:03:57,120 --> 00:03:58,190
+quando posta na data
+
+92
+00:03:59,070 --> 00:03:59,470
+e
+
+93
+00:03:59,620 --> 00:04:00,310
+uma pitada
+
+94
+00:04:00,610 --> 00:04:00,640
+a
+
+95
+00:04:01,280 --> 00:04:03,030
+mais. Por isso que eu acho é especial. Mas
+
+96
+00:04:04,760 --> 00:04:05,810
+entre um pouco mais não
+
+97
+00:04:06,090 --> 00:04:06,600
+passa
+
+98
+00:04:07,140 --> 00:04:07,800
+beleza
+
+99
+00:04:08,470 --> 00:04:08,730
+quando
+
+100
+00:04:10,670 --> 00:04:11,510
+se apresenta,
+
+101
+00:04:12,100 --> 00:04:13,250
+coloca uma definição
+
+102
+00:04:13,760 --> 00:04:15,780
+sucinta. Se eu sei que essas coisas
+
+103
+00:04:15,900 --> 00:04:16,829
+para acadêmica,
+
+104
+00:04:17,630 --> 00:04:18,350
+mas
+
+105
+00:04:20,310 --> 00:04:21,040
+vai lá lá lá,
+
+106
+00:04:24,460 --> 00:04:25,940
+a gente Maurício,
+
+107
+00:04:26,580 --> 00:04:27,570
+e define que tinha que
+
+108
+00:04:27,770 --> 00:04:28,280
+tinha uma
+
+109
+00:04:28,420 --> 00:04:29,910
+vida difícil. Mas acho que é
+
+110
+00:04:30,440 --> 00:04:32,330
+o que ele tem. Então, equilíbrio mostrar
+
+111
+00:04:32,870 --> 00:04:35,900
+como tentar criar aplicações que vão sobreviver ao tempo
+
+112
+00:04:36,120 --> 00:04:37,490
+que sejam fáceis de mudar.
+
+113
+00:04:38,160 --> 00:04:40,170
+Faces de evoluir, facilita. Esta
+
+114
+00:04:40,730 --> 00:04:43,110
+seria conseguir isso no livro, não conhece a gente, vai discutir,
+
+115
+00:04:43,110 --> 00:04:43,950
+mas acho que a ideia
+
+116
+00:04:45,810 --> 00:04:46,550
+é certo
+
+117
+00:04:47,980 --> 00:04:51,840
+e o próximo está para ser aqui. Entrou aqui é o Ponte,
+
+118
+00:04:52,690 --> 00:04:54,860
+ao ponto de serem, sabe, está acontecendo.
+
+119
+00:04:55,670 --> 00:04:56,260
+Agora.
+
+120
+00:04:58,530 --> 00:05:01,690
+Cheguei a pegar o bonde andando aqui ouviu com esse, sim, mas
+
+121
+00:05:02,460 --> 00:05:03,520
+não vou me repetir muito
+
+122
+00:05:03,690 --> 00:05:04,770
+não. Rafael Pontes,
+
+123
+00:05:05,600 --> 00:05:08,280
+conhecido como a Batalha dos Legados do Bovino, defendeu os legados,
+
+124
+00:05:10,160 --> 00:05:11,590
+embora as pessoas não gosto, mas
+
+125
+00:05:12,840 --> 00:05:14,680
+uma definição rápida de que nem
+
+126
+00:05:15,220 --> 00:05:16,260
+da minha pouca
+
+127
+00:05:16,410 --> 00:05:17,070
+conhecimento
+
+128
+00:05:17,330 --> 00:05:18,250
+até uma costura,
+
+129
+00:05:18,770 --> 00:05:20,890
+um excesso de camadas de direção
+
+130
+00:05:21,020 --> 00:05:22,680
+para a banda. Meia dúzia de
+
+131
+00:05:23,060 --> 00:05:23,750
+classes,
+
+132
+00:05:24,370 --> 00:05:24,850
+assim como
+
+133
+00:05:25,170 --> 00:05:27,290
+na maioria dos projetos que eu tenho visto,
+
+134
+00:05:28,320 --> 00:05:28,770
+cara,
+
+135
+00:05:29,380 --> 00:05:30,170
+essa foi com
+
+136
+00:05:30,400 --> 00:05:31,420
+contundente
+
+137
+00:05:32,380 --> 00:05:34,520
+eu sentia uma água e
+
+138
+00:05:35,280 --> 00:05:35,930
+mas
+
+139
+00:05:36,090 --> 00:05:37,450
+Otávio
+
+140
+00:05:38,790 --> 00:05:39,790
+Lemos
+
+141
+00:05:42,110 --> 00:05:42,880
+Beleza
+
+142
+00:05:43,040 --> 00:05:43,360
+Então
+
+143
+00:05:44,220 --> 00:05:44,840
+diga aí
+
+144
+00:05:45,350 --> 00:05:46,640
+se apresente falha e
+
+145
+00:05:46,780 --> 00:05:48,010
+a sua definição
+
+146
+00:05:48,570 --> 00:05:49,560
+eu esqueci de
+
+147
+00:05:49,770 --> 00:05:52,200
+falar. Sete Por façam, já basa e também
+
+148
+00:05:55,040 --> 00:05:55,300
+boa
+
+149
+00:05:55,760 --> 00:05:57,330
+com pessoal, meu nome à tarde Lemos,
+
+150
+00:05:57,650 --> 00:06:00,310
+Sou professor universitário, professor da
+
+151
+00:06:00,810 --> 00:06:02,550
+Universidade Federal de São Paulo
+
+152
+00:06:03,240 --> 00:06:04,470
+há treze anos
+
+153
+00:06:05,360 --> 00:06:08,010
+e há três anos eu comecei um canal no YouTube,
+
+154
+00:06:08,740 --> 00:06:10,150
+mais ou menos na mesma linha do branco,
+
+155
+00:06:10,700 --> 00:06:13,470
+com falando sobre desenvolvimento, sócio, engenharia de software
+
+156
+00:06:14,450 --> 00:06:16,590
+e nessa mesma época que eu conheci
+
+157
+00:06:17,090 --> 00:06:18,950
+essas ideias e do
+
+158
+00:06:20,140 --> 00:06:20,880
+O Bob Martin
+
+159
+00:06:23,140 --> 00:06:23,810
+Bom, para mim é
+
+160
+00:06:24,540 --> 00:06:29,000
+de fato, me parece um com ele mesmo. Fala isso, que é um conjunto de ideias
+
+161
+00:06:29,860 --> 00:06:30,320
+que foram
+
+162
+00:06:30,880 --> 00:06:33,770
+se desenvolvendo sobre a arquitetura, de só ter no sentido de
+
+163
+00:06:34,060 --> 00:06:37,200
+organização de código e não de arquitetura, de solução
+
+164
+00:06:37,770 --> 00:06:38,420
+ou infra,
+
+165
+00:06:39,160 --> 00:06:40,750
+mas o sentido de design mesmo,
+
+166
+00:06:41,540 --> 00:06:43,130
+mas é um conjunto de ideias
+
+167
+00:06:44,540 --> 00:06:45,510
+antigas.
+
+168
+00:06:46,040 --> 00:06:48,080
+Se a gente for ver porque apareci lá, não.
+
+169
+00:06:49,110 --> 00:06:50,150
+Ele fala do
+
+170
+00:06:50,630 --> 00:06:51,040
+River
+
+171
+00:06:51,270 --> 00:06:52,140
+e a comissão,
+
+172
+00:06:52,330 --> 00:06:54,290
+que é aquele desenvolvimento, só foi nomeado para o
+
+173
+00:06:54,410 --> 00:06:55,110
+caso de uso
+
+174
+00:06:56,030 --> 00:06:57,290
+e depois em outras
+
+175
+00:06:57,740 --> 00:07:01,710
+outras abordagens. Como pode ser adeptos ou arquitetura hexagonal do
+
+176
+00:07:01,960 --> 00:07:02,820
+Master Comando?
+
+177
+00:07:03,570 --> 00:07:05,990
+Então assim é um conjunto, um punhado de ideias
+
+178
+00:07:07,460 --> 00:07:08,020
+e
+
+179
+00:07:08,260 --> 00:07:10,100
+me parece como se tivesse você.
+
+180
+00:07:11,480 --> 00:07:12,810
+Você tem uma arquitetura
+
+181
+00:07:12,910 --> 00:07:14,740
+na qual você promove
+
+182
+00:07:15,580 --> 00:07:18,390
+as suas regras de negócio e tenta desacoplar las
+
+183
+00:07:19,070 --> 00:07:20,550
+de outros interesses do sistema.
+
+184
+00:07:21,070 --> 00:07:22,400
+Claro que você pode
+
+185
+00:07:22,690 --> 00:07:26,310
+abusar disso, Qualquer tecnologia, qualquer abordagem, você pode
+
+186
+00:07:26,550 --> 00:07:27,180
+abusar.
+
+187
+00:07:27,870 --> 00:07:29,660
+E em vez de ser um benefício ser
+
+188
+00:07:30,400 --> 00:07:32,330
+uma coisa que vai te atrapalhar,
+
+189
+00:07:33,930 --> 00:07:36,800
+eu vou chamar a Roberta que ela
+
+190
+00:07:37,120 --> 00:07:38,470
+participou.
+
+191
+00:07:38,880 --> 00:07:41,240
+Pode querer se do famoso Pode querer se
+
+192
+00:07:42,800 --> 00:07:44,090
+interroga Roberta,
+
+193
+00:07:44,550 --> 00:07:45,310
+vou
+
+194
+00:07:45,540 --> 00:07:47,110
+convidar, vão ser aqui
+
+195
+00:07:48,010 --> 00:07:49,640
+título que aqui não há
+
+196
+00:07:49,790 --> 00:07:51,240
+uma fria mais arriscada.
+
+197
+00:07:51,830 --> 00:07:53,200
+Mas eu tinha falado que a Roberta já
+
+198
+00:07:53,360 --> 00:07:53,700
+chove. É
+
+199
+00:07:54,020 --> 00:07:54,990
+convidado para falar
+
+200
+00:07:56,050 --> 00:07:56,420
+parece.
+
+201
+00:08:00,970 --> 00:08:01,390
+Pois é,
+
+202
+00:08:01,520 --> 00:08:02,010
+treinar
+
+203
+00:08:02,220 --> 00:08:02,850
+para mim,
+
+204
+00:08:03,190 --> 00:08:05,610
+de acordo também com
+
+205
+00:08:05,790 --> 00:08:06,580
+Otávio falou
+
+206
+00:08:07,210 --> 00:08:09,390
+Me parece uma parada que nem a culinária e arte
+
+207
+00:08:10,080 --> 00:08:10,870
+design,
+
+208
+00:08:11,770 --> 00:08:13,890
+e não é crime no sentido de nossa simples,
+
+209
+00:08:14,690 --> 00:08:15,680
+no sentido de
+
+210
+00:08:16,090 --> 00:08:18,420
+de adicionar um pouco de complexidade
+
+211
+00:08:19,050 --> 00:08:21,680
+para tentar definir abstrações e isolar
+
+212
+00:08:22,990 --> 00:08:25,310
+interesses que na minha opinião,
+
+213
+00:08:25,960 --> 00:08:29,020
+sempre que se tenta isolar você, acaba
+
+214
+00:08:29,320 --> 00:08:30,900
+outra idosa é que você abre mão
+
+215
+00:08:31,400 --> 00:08:34,100
+de coisas mais sofisticadas
+
+216
+00:08:34,770 --> 00:08:38,100
+que você poderia estar autorizando, que informam o desenho do sistema
+
+217
+00:08:38,890 --> 00:08:41,490
+e abre mão dessas coisas deliberadamente
+
+218
+00:08:42,150 --> 00:08:43,120
+em nome de uma
+
+219
+00:08:43,280 --> 00:08:45,220
+suposta flexibilidade para que essa
+
+220
+00:08:45,560 --> 00:08:46,140
+estrutura
+
+221
+00:08:46,310 --> 00:08:47,840
+mude no futuro. Para mim,
+
+222
+00:08:48,100 --> 00:08:49,310
+só um pouco inocente.
+
+223
+00:08:49,920 --> 00:08:50,200
+Então
+
+224
+00:08:52,170 --> 00:08:55,680
+talvez seja melhor, melhor forma que encontraria de definir
+
+225
+00:08:56,170 --> 00:08:56,910
+por tudo que
+
+226
+00:08:57,250 --> 00:08:59,190
+ele que a gente tem discutido nestes dias.
+
+227
+00:09:01,250 --> 00:09:01,940
+Beleza,
+
+228
+00:09:02,140 --> 00:09:02,970
+Então,
+
+229
+00:09:03,270 --> 00:09:04,640
+só para
+
+230
+00:09:04,910 --> 00:09:07,030
+colocar os termos que for aparecendo tipo
+
+231
+00:09:07,710 --> 00:09:10,210
+tem muito essa coisa de ser algo antigo.
+
+232
+00:09:10,880 --> 00:09:13,070
+Eu tenho de fazer coisas.
+
+233
+00:09:14,520 --> 00:09:16,820
+O diagrama de robustez que tinha ou
+
+234
+00:09:17,520 --> 00:09:19,950
+entidade, controle,
+
+235
+00:09:21,420 --> 00:09:21,690
+bbb-
+
+236
+00:09:22,340 --> 00:09:27,290
+e tipo tá lá outro até falou aí do tal do euro. Jacobson era isso.
+
+237
+00:09:27,480 --> 00:09:28,460
+Vem lá do
+
+238
+00:09:29,520 --> 00:09:31,670
+inclusive, eu acho que antes de existir a miséria, na verdade,
+
+239
+00:09:32,420 --> 00:09:33,160
+aí
+
+240
+00:09:35,180 --> 00:09:36,120
+daí tem
+
+241
+00:09:36,690 --> 00:09:38,450
+essa coisa de
+
+242
+00:09:39,140 --> 00:09:39,920
+eu Acho que
+
+243
+00:09:42,870 --> 00:09:45,960
+Roberta falou, Ponte falou é que talvez
+
+244
+00:09:47,760 --> 00:09:50,080
+muitas administrações, muitas em direções.
+
+245
+00:09:50,810 --> 00:09:53,940
+Eu acho que é isso que vai, falou, avisa. Flexibilidade
+
+246
+00:09:54,720 --> 00:09:57,630
+entanto, Otávio com a Roberto Falar aí de design,
+
+247
+00:09:58,030 --> 00:09:58,610
+então
+
+248
+00:09:58,860 --> 00:10:01,920
+talvez o nome Arquitetura seja estranho. Então,
+
+249
+00:10:02,350 --> 00:10:03,410
+até pela limpa,
+
+250
+00:10:04,230 --> 00:10:05,010
+talvez sejam
+
+251
+00:10:05,470 --> 00:10:06,210
+design limpo.
+
+252
+00:10:06,770 --> 00:10:08,020
+E aí eu estava vendo
+
+253
+00:10:08,560 --> 00:10:10,700
+estava lembrando, né? Até coloque um twitter
+
+254
+00:10:10,960 --> 00:10:13,100
+de dois mil e dezessete que eu estava bem
+
+255
+00:10:14,980 --> 00:10:15,930
+radical de
+
+256
+00:10:17,450 --> 00:10:22,720
+E aí eu lembro que eu e o Rodrigo estava querendo estudar sobre arquitetura
+
+257
+00:10:23,370 --> 00:10:23,750
+e aí tinha
+
+258
+00:10:24,150 --> 00:10:26,790
+três livros que estavam sendo
+
+259
+00:10:28,580 --> 00:10:30,690
+lançadas com era o bigode
+
+260
+00:10:30,800 --> 00:10:31,170
+Valor
+
+261
+00:10:31,710 --> 00:10:32,450
+Texas
+
+262
+00:10:33,380 --> 00:10:34,370
+lá em dois mil e dezessete
+
+263
+00:10:36,210 --> 00:10:36,800
+queda,
+
+264
+00:10:37,780 --> 00:10:42,090
+eu Anny chegou a mencionar sim ter uma base feito nesse Funchal e tal
+
+265
+00:10:42,420 --> 00:10:42,900
+Eu não li
+
+266
+00:10:43,580 --> 00:10:43,950
+para falar,
+
+267
+00:10:45,870 --> 00:10:47,630
+aí tinha um que era o designer,
+
+268
+00:10:48,580 --> 00:10:52,110
+que é bem sobre arquitetura, sem sal e traidor, resistido daqui.
+
+269
+00:10:52,140 --> 00:10:54,660
+Naturais, então a queda da pragmático programa.
+
+270
+00:10:55,380 --> 00:10:57,010
+Só que ele não tinha cobertura do nome
+
+271
+00:10:57,610 --> 00:10:58,290
+e tinha Lino
+
+272
+00:10:58,390 --> 00:10:58,790
+tec,
+
+273
+00:10:59,470 --> 00:11:00,090
+que
+
+274
+00:11:00,550 --> 00:11:03,480
+era sobre design, mas sem a arquitetura no nome
+
+275
+00:11:04,060 --> 00:11:06,420
+e foi o que eu escolhi,
+
+276
+00:11:07,520 --> 00:11:08,230
+e aí,
+
+277
+00:11:09,670 --> 00:11:11,850
+sem ser, pulou de dois melhores e pegou.
+
+278
+00:11:14,930 --> 00:11:18,540
+Mas aí eu fui tentar aplicar no frio
+
+279
+00:11:19,370 --> 00:11:20,020
+Eu e
+
+280
+00:11:21,250 --> 00:11:25,670
+thamara de Android, assim, a gente estava querendo reaproveitar o modelo.
+
+281
+00:11:26,580 --> 00:11:29,170
+E foi onde África. Fim nesse
+
+282
+00:11:29,320 --> 00:11:30,450
+caso específico,
+
+283
+00:11:31,480 --> 00:11:34,110
+porque eu acho que no modelo é diferente
+
+284
+00:11:34,860 --> 00:11:36,310
+de uma aplicação
+
+285
+00:11:37,940 --> 00:11:38,630
+Android
+
+286
+00:11:39,150 --> 00:11:41,900
+e da Apple, que é o que estava fazendo.
+
+287
+00:11:42,810 --> 00:11:43,880
+E
+
+288
+00:11:44,020 --> 00:11:47,260
+assim eu não sofri muito, porque o negócio não foi para frente assim,
+
+289
+00:11:47,990 --> 00:11:49,330
+mas eu acho que eu teria sofrido
+
+290
+00:11:50,340 --> 00:11:51,580
+aí pessoal,
+
+291
+00:11:51,710 --> 00:11:52,800
+o que eu queria
+
+292
+00:11:54,050 --> 00:11:56,810
+fazer uma brincadeira que do Linhares
+
+293
+00:11:57,080 --> 00:11:59,380
+seu livro, vamos falar um pouco sobre o livro em si
+
+294
+00:12:00,480 --> 00:12:04,700
+Só que eu quero foi o Alan Silva que há. Não sei se ele está aqui,
+
+295
+00:12:05,630 --> 00:12:07,110
+mas
+
+296
+00:12:07,460 --> 00:12:10,270
+o Alan Silva, que deu a ideia sim, de
+
+297
+00:12:10,850 --> 00:12:13,750
+o Linhares falar o que ele achou de bom no livro.
+
+298
+00:12:14,140 --> 00:12:17,410
+Então, o destaque, a ideia de que você achou de bom no livro,
+
+299
+00:12:21,270 --> 00:12:22,460
+deixa aí
+
+300
+00:12:29,210 --> 00:12:31,160
+porque é porque tem. São
+
+301
+00:12:32,000 --> 00:12:34,360
+muito esse livro, ele
+
+302
+00:12:34,550 --> 00:12:37,490
+me levou para muitos momentos dramáticos
+
+303
+00:12:38,320 --> 00:12:38,950
+no passado,
+
+304
+00:12:40,000 --> 00:12:44,860
+porque muito do que no que está sendo discutido, das coisas que estão sendo faladas,
+
+305
+00:12:45,570 --> 00:12:47,620
+são coisas que a gente queria matar
+
+306
+00:12:47,810 --> 00:12:49,560
+além, no meio dos anos dois mil,
+
+307
+00:12:49,660 --> 00:12:50,170
+no Java,
+
+308
+00:12:50,670 --> 00:12:52,120
+você pega o
+
+309
+00:12:52,700 --> 00:12:55,590
+livro do rock Johnson que foi lembra que deu
+
+310
+00:12:55,750 --> 00:12:57,210
+do nascimento ou Espanha.
+
+311
+00:12:58,070 --> 00:12:59,680
+Tem muito essa discussão
+
+312
+00:12:59,950 --> 00:13:02,440
+de como era complicada de você
+
+313
+00:13:03,030 --> 00:13:06,550
+criar separação, porque a gente tinha toda essa coisa de a tudo. Tem um lugar
+
+314
+00:13:09,290 --> 00:13:11,600
+muito de jardins, a jovem dessa porra toda,
+
+315
+00:13:12,500 --> 00:13:13,260
+E
+
+316
+00:13:13,580 --> 00:13:14,310
+ele
+
+317
+00:13:15,090 --> 00:13:18,660
+vem com essas ideias nesse livro, Acho que esse livro do rock Johnson
+
+318
+00:13:19,110 --> 00:13:21,450
+ele ele tem muitas das ideias que a gente vê aqui
+
+319
+00:13:22,040 --> 00:13:24,040
+de você criar essa separação de você não
+
+320
+00:13:24,040 --> 00:13:25,900
+deixar de Pernambuco ficar dentro da sua aplicação.
+
+321
+00:13:25,900 --> 00:13:27,100
+Porque a gente sofria muito
+
+322
+00:13:27,380 --> 00:13:29,530
+para escrever a aplicação de terça- aplicações
+
+323
+00:13:29,810 --> 00:13:33,790
+por causa do peso que o formou. Que as coisas do Java tinham em cima
+
+324
+00:13:34,200 --> 00:13:36,020
+da sua plataforma.
+
+325
+00:13:36,630 --> 00:13:38,090
+E daí surge, desprende.
+
+326
+00:13:38,390 --> 00:13:41,930
+E daí? Sujeito que a gente está escrevendo a aplicações
+
+327
+00:13:42,370 --> 00:13:44,140
+dá pra desejava modernas.
+
+328
+00:13:44,490 --> 00:13:47,020
+E eu acho que essa coisa de você
+
+329
+00:13:47,420 --> 00:13:48,590
+separar
+
+330
+00:13:49,080 --> 00:13:50,210
+é importante.
+
+331
+00:13:50,430 --> 00:13:51,590
+Eu acho que isso
+
+332
+00:13:51,900 --> 00:13:53,200
+nisso era certa
+
+333
+00:13:53,330 --> 00:13:55,170
+no livro que você realmente precisa
+
+334
+00:13:55,500 --> 00:13:56,450
+separar
+
+335
+00:13:57,330 --> 00:13:57,970
+as coisas,
+
+336
+00:13:58,250 --> 00:14:00,550
+e isso é uma coisa que a gente vem fazendo
+
+337
+00:14:01,080 --> 00:14:01,610
+assim,
+
+338
+00:14:01,960 --> 00:14:06,350
+desde o primeiro livro de modelagem dezanove, orientado a objetos que eu,
+
+339
+00:14:06,920 --> 00:14:11,020
+que eu lembro de ter lido, que eu acho que é o de uma mérito do gari Bolt,
+
+340
+00:14:11,690 --> 00:14:13,190
+que era um dos membros que
+
+341
+00:14:13,430 --> 00:14:15,790
+eram recomendados para a gente na época da faculdade.
+
+342
+00:14:16,480 --> 00:14:17,580
+E era isso
+
+343
+00:14:18,390 --> 00:14:22,880
+e isso era uma recomendação que você você não quer que essas coisas, elas entrem
+
+344
+00:14:23,390 --> 00:14:25,170
+dentro do seu código. Mas
+
+345
+00:14:25,420 --> 00:14:26,930
+você não vai fazer isso
+
+346
+00:14:27,240 --> 00:14:29,980
+de uma forma radical,
+
+347
+00:14:30,100 --> 00:14:33,830
+como acumulado até o turismo colocou no cargo deputados anotações
+
+348
+00:14:34,340 --> 00:14:34,680
+no meu
+
+349
+00:14:35,370 --> 00:14:36,220
+Raí,
+
+350
+00:14:36,660 --> 00:14:38,880
+aí você está indo longe demais
+
+351
+00:14:39,130 --> 00:14:40,630
+negócio, porque
+
+352
+00:14:40,890 --> 00:14:44,770
+a grande preocupação que a gente tinha na época não era de você ter
+
+353
+00:14:45,060 --> 00:14:46,730
+referência ao famoso.
+
+354
+00:14:48,020 --> 00:14:51,650
+Era como é que eu consigo testar e usar e fazer
+
+355
+00:14:52,470 --> 00:14:54,030
+operações em cima dessas
+
+356
+00:14:54,310 --> 00:14:55,320
+soluções
+
+357
+00:14:55,580 --> 00:14:58,390
+localmente na minha marca, fazer solitário,
+
+358
+00:14:58,600 --> 00:15:00,750
+fazer fazer, fazer entender,
+
+359
+00:15:00,860 --> 00:15:01,800
+você conseguir
+
+360
+00:15:02,220 --> 00:15:05,900
+fazer o desenho da sua aplicação através dos Texas. Eu acho que
+
+361
+00:15:07,060 --> 00:15:10,590
+essa vou dizer que é uma das poucas coisas claras que são legais
+
+362
+00:15:11,210 --> 00:15:12,680
+que o fora, porque ele é
+
+363
+00:15:13,910 --> 00:15:15,490
+mais radical do que o seu Twitter
+
+364
+00:15:16,600 --> 00:15:19,180
+e é difícil de você separar essas coisas. Não
+
+365
+00:15:19,330 --> 00:15:20,530
+tive muita dificuldade
+
+366
+00:15:20,920 --> 00:15:22,940
+de pegar essas coisas e
+
+367
+00:15:23,060 --> 00:15:26,130
+por isso que é importante. É muito importante a gente não ter
+
+368
+00:15:26,400 --> 00:15:27,770
+não deixar essas coisas
+
+369
+00:15:28,070 --> 00:15:32,480
+vazarem para dentro de camadas para onde elas não deveriam ter vazado.
+
+370
+00:15:32,860 --> 00:15:34,270
+Você tem que tentar
+
+371
+00:15:34,590 --> 00:15:37,570
+separar essas coisas. Eu acho que isso é uma mensagem
+
+372
+00:15:37,880 --> 00:15:40,420
+que é importante, que é uma coisa que a gente repete.
+
+373
+00:15:40,420 --> 00:15:42,630
+Moda lado oriental do objeto, já desde
+
+374
+00:15:43,040 --> 00:15:45,120
+provalmente, desde que existe modelagem
+
+375
+00:15:46,120 --> 00:15:47,080
+a gente faz, Vão dizer,
+
+376
+00:15:50,360 --> 00:15:51,340
+mas,
+
+377
+00:15:51,630 --> 00:15:53,390
+-- a interesseira, mas olha
+-- como
+
+378
+00:15:54,160 --> 00:15:56,060
+-- como vai a Valência
+-- para experiência,
+
+379
+00:15:56,590 --> 00:15:59,540
+Primeiro contato com o trabalho dele foi naquele dia, é o principal
+
+380
+00:15:59,960 --> 00:16:00,190
+para que
+
+381
+00:16:01,110 --> 00:16:02,180
+se alguma coisa assim,
+
+382
+00:16:03,080 --> 00:16:04,420
+antes do Lincoln, aliás,
+
+383
+00:16:05,670 --> 00:16:08,720
+vem de três projetos. Na sequência, um deles. O primeiro, onde
+
+384
+00:16:09,300 --> 00:16:10,280
+era uma loja virtual.
+
+385
+00:16:10,280 --> 00:16:13,570
+Que agradará customizou a loja capital aberto em ASP da Locaweb.
+
+386
+00:16:14,180 --> 00:16:15,310
+Quem lembra disso aqui
+
+387
+00:16:15,770 --> 00:16:18,090
+era que eles aqui nos assuntos de cinco mil linhas,
+
+388
+00:16:18,520 --> 00:16:19,720
+em tudo acontece ali,
+
+389
+00:16:20,200 --> 00:16:24,070
+eu poder um projeto na Sonny onde era o projeto, controlava a venda de devedores,
+
+390
+00:16:24,070 --> 00:16:24,590
+de ações,
+
+391
+00:16:25,020 --> 00:16:25,620
+era tudo e joga
+
+392
+00:16:26,450 --> 00:16:27,300
+tudo na JK.
+
+393
+00:16:28,290 --> 00:16:30,440
+Aí eu fui trabalhar na verde fone para amanhecer.
+
+394
+00:16:31,210 --> 00:16:31,550
+Tudo
+
+395
+00:16:31,850 --> 00:16:33,470
+-- o que você
+-- completa e aí
+
+396
+00:16:33,610 --> 00:16:34,760
+para mim fazer sentido.
+
+397
+00:16:34,760 --> 00:16:38,540
+É possível que não dá para ser melhor quando ele aquele Vander introduziu Solide,
+
+398
+00:16:38,540 --> 00:16:39,330
+primeira vez.
+
+399
+00:16:39,330 --> 00:16:39,670
+Aedes
+
+400
+00:16:41,070 --> 00:16:42,310
+para separar as coisas, não
+
+401
+00:16:42,930 --> 00:16:45,320
+dá para ser um pouquinho melhor. Está tudo no mesmo lugar,
+
+402
+00:16:46,120 --> 00:16:46,600
+porque acho que
+
+403
+00:16:47,440 --> 00:16:47,880
+a galera
+
+404
+00:16:48,600 --> 00:16:49,240
+colocava
+
+405
+00:16:49,370 --> 00:16:52,130
+outros projetos que eu participei, estava tudo sempre no mesmo lugar e, para mim,
+
+406
+00:16:52,130 --> 00:16:55,430
+foi um divisor de águas na hora da para tentar moderar um pouco melhor
+
+407
+00:16:56,740 --> 00:17:00,330
+agora. Ouvir muito extremista na maneira de escrever. Acho que é isso que
+
+408
+00:17:01,300 --> 00:17:03,690
+você tem que ignorar. Quando eu falei, sem alguns
+
+409
+00:17:03,810 --> 00:17:07,130
+edifícios que se você for seguida à risca, o que ele fala é bem
+
+410
+00:17:07,940 --> 00:17:09,060
+bem extremista.
+
+411
+00:17:09,310 --> 00:17:12,760
+Banco de dados é um detalhe. Não sei o que o mundo, que o banco de dados é. Um detalhe
+
+412
+00:17:14,380 --> 00:17:14,650
+também.
+
+413
+00:17:14,650 --> 00:17:18,230
+Foi isso que me agradou no trabalho de lá, disse ela em dois mil e seis, dois mil e sete,
+
+414
+00:17:18,230 --> 00:17:19,530
+quando comecei o trabalho dele.
+
+415
+00:17:22,089 --> 00:17:23,630
+Mas eu concordo com tudo que você
+
+416
+00:17:23,740 --> 00:17:24,640
+comentou Maurício
+
+417
+00:17:25,069 --> 00:17:26,190
+Muito extremista,
+
+418
+00:17:26,430 --> 00:17:27,859
+infelizmente é muito extremista.
+
+419
+00:17:28,339 --> 00:17:29,540
+Do meu ponto de vista, claro.
+
+420
+00:17:32,510 --> 00:17:33,020
+A palavra
+
+421
+00:17:34,020 --> 00:17:34,740
+colocação.
+
+422
+00:17:35,500 --> 00:17:37,120
+Três pontinhos importantes. Aqui está o
+
+423
+00:17:37,930 --> 00:17:39,500
+primeiro ponto que acho que todo mundo concorda
+
+424
+00:17:39,850 --> 00:17:41,660
+que não faz sentido você misturar
+
+425
+00:17:44,890 --> 00:17:45,430
+Rimbaud
+
+426
+00:17:45,540 --> 00:17:47,360
+fortes a gente pensar imposta na data,
+
+427
+00:17:47,800 --> 00:17:49,310
+com regras de negócio que é uma coisa que a
+
+428
+00:17:49,310 --> 00:17:51,590
+gente tem que sofreu ao longo dos últimos vinte,
+
+429
+00:17:51,590 --> 00:17:52,230
+trinta anos.
+
+430
+00:17:52,230 --> 00:17:52,660
+Ou seja,
+
+431
+00:17:53,310 --> 00:17:55,060
+estão o controlo da regra de negócios.
+
+432
+00:17:55,310 --> 00:17:56,630
+Ela tem regras de negócio,
+
+433
+00:17:58,810 --> 00:18:01,910
+geralmente controle, tela, dá mais força e direção de cinderela e talvez
+
+434
+00:18:02,430 --> 00:18:05,110
+regras de negócio. Talvez você tivesse algum outro tipo de
+
+435
+00:18:05,650 --> 00:18:06,780
+raiva da aplicação.
+
+436
+00:18:07,130 --> 00:18:08,060
+Era muito comum que a gente
+
+437
+00:18:08,940 --> 00:18:09,440
+assim
+
+438
+00:18:09,590 --> 00:18:12,300
+presenciasse isso. Então, o primeiro ponto chave aqui do que
+
+439
+00:18:13,020 --> 00:18:14,010
+é a camada
+
+440
+00:18:14,160 --> 00:18:14,580
+de doze
+
+441
+00:18:14,680 --> 00:18:15,680
+países seria
+
+442
+00:18:16,090 --> 00:18:16,560
+aquela
+
+443
+00:18:16,730 --> 00:18:18,810
+Piai da aplicação que você isso põe para fora.
+
+444
+00:18:19,780 --> 00:18:23,190
+Então eu acho que nesse ponto ninguém discorda que isso é uma coisa super válida,
+
+445
+00:18:24,280 --> 00:18:28,250
+a mesma proposta do ano. Só Cuba na mesma proposta do idade da corrupção
+
+446
+00:18:28,830 --> 00:18:30,210
+de muitos anos atrás também.
+
+447
+00:18:30,710 --> 00:18:31,670
+E de qualquer um que
+
+448
+00:18:32,790 --> 00:18:33,960
+escrever, uma aplicação
+
+449
+00:18:34,320 --> 00:18:34,490
+que
+
+450
+00:18:34,620 --> 00:18:35,990
+cresça e que tenha
+
+451
+00:18:36,180 --> 00:18:39,410
+estabilidade e que possa ser conduzida de forma diferentes. Então,
+
+452
+00:18:39,710 --> 00:18:41,070
+nesse ponto, eu acho que tinha que estar
+
+453
+00:18:41,630 --> 00:18:43,060
+perfeito nas colocações.
+
+454
+00:18:43,830 --> 00:18:46,460
+Ele tem uma questão de em relações familiares e técnico que
+
+455
+00:18:47,850 --> 00:18:47,880
+é
+
+456
+00:18:47,990 --> 00:18:52,600
+difícil você pensar naquele nome, sangues e com o nome do serviço, onde os seguintes
+
+457
+00:18:54,380 --> 00:18:56,100
+fraude opção e cinto eles a senhora
+
+458
+00:18:56,700 --> 00:18:59,710
+nunca nacional, de quinze quinze. Que a intenção exata do usuário
+
+459
+00:19:00,280 --> 00:19:02,150
+e a gente dá um nome, então isso pode promover,
+
+460
+00:19:02,150 --> 00:19:03,600
+usar uma grande quantidade de classes.
+
+461
+00:19:03,600 --> 00:19:04,800
+Mas até eu acho que está tudo bem,
+
+462
+00:19:05,430 --> 00:19:07,810
+para minha grande incongruência do cantor que está aqui. Está
+
+463
+00:19:08,240 --> 00:19:09,050
+um passo para dentro,
+
+464
+00:19:09,210 --> 00:19:10,100
+não posso para fora,
+
+465
+00:19:10,340 --> 00:19:13,500
+para fora. Está tudo certo separar forma que sempre, mas na minha visão
+
+466
+00:19:14,000 --> 00:19:15,940
+é enviado porque nem sempre
+
+467
+00:19:16,330 --> 00:19:17,940
+os freios são intercambiáveis,
+
+468
+00:19:18,490 --> 00:19:19,880
+mas só o fato de você separar
+
+469
+00:19:20,040 --> 00:19:22,100
+porta para fora da porta para dentro de uma coisa boa.
+
+470
+00:19:22,650 --> 00:19:23,400
+O erro para mim
+
+471
+00:19:23,530 --> 00:19:24,310
+é uma camada de gente
+
+472
+00:19:25,350 --> 00:19:26,370
+rapidamente só para
+
+473
+00:19:27,620 --> 00:19:28,720
+transmitir uma ideia
+
+474
+00:19:29,520 --> 00:19:32,340
+orientação objeto é uma coisa muito boa porque ela pesava
+
+475
+00:19:32,500 --> 00:19:35,120
+criança. Basicamente esse objetivo, a orientação que já não é
+
+476
+00:19:35,260 --> 00:19:38,260
+simplesmente que a classe que só pode para a classe a continuação do procedural,
+
+477
+00:19:38,350 --> 00:19:38,910
+você tem que
+
+478
+00:19:39,200 --> 00:19:42,280
+expor comportamento e preservar características,
+
+479
+00:19:42,280 --> 00:19:43,930
+e assim você tem o controle de várias.
+
+480
+00:19:44,490 --> 00:19:46,320
+Quando você tem um projeto muito oriental objeto
+
+481
+00:19:46,510 --> 00:19:48,130
+você tem uma relação entre os objetos,
+
+482
+00:19:48,140 --> 00:19:49,870
+então você começa a agrupar seus objetos em
+
+483
+00:19:49,870 --> 00:19:51,460
+quase todos eles começam a ter referência.
+
+484
+00:19:51,490 --> 00:19:52,060
+Disse que os outros,
+
+485
+00:19:52,870 --> 00:19:53,900
+exatamente o conceito
+
+486
+00:19:54,210 --> 00:19:55,130
+do abrangente
+
+487
+00:19:55,480 --> 00:19:56,330
+que o Eric,
+
+488
+00:19:56,470 --> 00:19:57,070
+ancestrais
+
+489
+00:19:57,220 --> 00:19:58,270
+do homem devem design
+
+490
+00:19:58,690 --> 00:19:59,750
+e o ambiente em que
+
+491
+00:19:59,960 --> 00:20:01,840
+ele tem que ter um determinado tamanho
+
+492
+00:20:01,950 --> 00:20:03,980
+para que ele mantém a consistência transnacional.
+
+493
+00:20:03,980 --> 00:20:06,510
+Na hora de você faz a persistência por meio de repositório
+
+494
+00:20:07,190 --> 00:20:10,290
+para que ele não seja nem muito grande e muito desembolsado
+
+495
+00:20:10,630 --> 00:20:11,930
+e ocupa muito espaço de memória
+
+496
+00:20:12,250 --> 00:20:13,130
+e nem muito pequeno
+
+497
+00:20:13,490 --> 00:20:15,330
+para que a irregularidade seja tipo
+
+498
+00:20:15,850 --> 00:20:17,900
+um mapeamento de tabela. Praticamente
+
+499
+00:20:18,250 --> 00:20:20,130
+então uma linha tendo e difícil de obter
+
+500
+00:20:20,670 --> 00:20:22,750
+um bom amante. Ele não cita isso no livro dele,
+
+501
+00:20:23,360 --> 00:20:24,430
+tanto que quando eu vou,
+
+502
+00:20:24,900 --> 00:20:26,130
+eu tenho um curso sobre o
+
+503
+00:20:26,400 --> 00:20:28,560
+ataque, não só sobre isso. Sobre de entender
+
+504
+00:20:29,030 --> 00:20:29,570
+as coisas
+
+505
+00:20:29,970 --> 00:20:31,070
+eu sempre faço essa mescla.
+
+506
+00:20:31,540 --> 00:20:32,980
+Então eu começo explicando
+
+507
+00:20:33,440 --> 00:20:34,370
+pelo porta nada
+
+508
+00:20:35,010 --> 00:20:36,310
+traga o conceito do caminho que
+
+509
+00:20:36,820 --> 00:20:40,130
+substitua a camada de ente de cor do membro do design. Mas
+
+510
+00:20:40,600 --> 00:20:41,190
+aonde
+
+511
+00:20:41,580 --> 00:20:42,170
+houver
+
+512
+00:20:42,290 --> 00:20:42,960
+um domínio
+
+513
+00:20:43,100 --> 00:20:44,680
+suficientemente complexo, que
+
+514
+00:20:44,830 --> 00:20:45,910
+pague o custo disso,
+
+515
+00:20:46,230 --> 00:20:47,830
+porque essa tem aplicação muito simples,
+
+516
+00:20:48,460 --> 00:20:50,160
+vai ser burocrático, que é um pouco do que
+
+517
+00:20:50,540 --> 00:20:52,370
+foi colocado por vocês logo no início.
+
+518
+00:20:52,890 --> 00:20:55,530
+Então, para mim, esse é um tipo de design,
+
+519
+00:20:55,710 --> 00:20:56,960
+um tipo de opção
+
+520
+00:20:57,290 --> 00:21:00,870
+que serve quando você tem um tipo de domínio mais complexo.
+
+521
+00:21:01,140 --> 00:21:03,850
+Se você pensa na modelagem estratégica do domínio InDesign,
+
+522
+00:21:03,850 --> 00:21:06,210
+você separamos um domínio sobre domínios.
+
+523
+00:21:06,210 --> 00:21:08,270
+Uma pedalada de conta que se cada banda conta
+
+524
+00:21:08,540 --> 00:21:10,270
+uma história diferente, pode adotar um
+
+525
+00:21:10,660 --> 00:21:12,030
+escapou de em cinco de junho
+
+526
+00:21:12,720 --> 00:21:15,390
+em uma orientação domingo super rico em outros anos de poder.
+
+527
+00:21:15,790 --> 00:21:16,490
+Mas para mim,
+
+528
+00:21:16,660 --> 00:21:19,000
+sempre aquela mescla de postura da presidente,
+
+529
+00:21:19,140 --> 00:21:21,000
+ela é mais vencedora nesse caso
+
+530
+00:21:21,330 --> 00:21:22,700
+linear, que fica meio que
+
+531
+00:21:23,240 --> 00:21:24,680
+uma sombra disso
+
+532
+00:21:25,010 --> 00:21:26,100
+essa é uma ponta
+
+533
+00:21:26,460 --> 00:21:26,870
+boa,
+
+534
+00:21:27,560 --> 00:21:28,830
+só queria avaliava
+
+535
+00:21:30,440 --> 00:21:31,910
+-- não
+-- só só complementando
+
+536
+00:21:32,160 --> 00:21:33,470
+essa ideia do branas.
+
+537
+00:21:34,040 --> 00:21:37,200
+Eu acho legal quando você começa a perceber que na verdade,
+
+538
+00:21:37,880 --> 00:21:39,420
+tem a ver exatamente com isso que ele falou.
+
+539
+00:21:39,490 --> 00:21:42,740
+Você não precisa usar todas as camadas para todos seus casos de uso,
+
+540
+00:21:43,320 --> 00:21:44,480
+inclusive se pode ter
+
+541
+00:21:45,140 --> 00:21:48,230
+alguns casos mais simples nos quais você só tem.
+
+542
+00:21:48,230 --> 00:21:50,630
+O próprio caso de uso não entra mais para dentro.
+
+543
+00:21:50,630 --> 00:21:52,260
+Eu acho que quando você começa a fazer
+
+544
+00:21:52,640 --> 00:21:54,040
+essas adaptações
+
+545
+00:21:54,430 --> 00:21:55,870
+para o seu contexto é a coisa
+
+546
+00:21:55,980 --> 00:21:58,840
+começa a fazer mais sentido. Então deixa de fazer o jabá que
+
+547
+00:21:59,140 --> 00:22:02,750
+eu acho que meu livro mais simples é o meu livro Arquitetura limpa. Na prática,
+
+548
+00:22:03,300 --> 00:22:04,550
+ele resume as ideias
+
+549
+00:22:05,070 --> 00:22:05,530
+e
+
+550
+00:22:05,800 --> 00:22:06,920
+mostra um exemplo
+
+551
+00:22:07,220 --> 00:22:09,520
+nem cem páginas. Lá você consegue
+
+552
+00:22:10,120 --> 00:22:11,840
+pegar a essência da
+
+553
+00:22:12,090 --> 00:22:12,900
+arquitetura limpa.
+
+554
+00:22:13,550 --> 00:22:16,810
+E é isso que o Brasil falou. Também acho interessante essa parte. Ninguém reclama
+
+555
+00:22:17,360 --> 00:22:17,900
+de
+
+556
+00:22:18,280 --> 00:22:19,710
+ser. Para Frontini de Berkin,
+
+557
+00:22:20,270 --> 00:22:21,950
+isso é uma coisa que já faz faz muito tempo.
+
+558
+00:22:22,240 --> 00:22:23,680
+Seria parte esquerda da
+
+559
+00:22:24,480 --> 00:22:26,510
+arquitetura hexagonal Pode ser adeptos.
+
+560
+00:22:27,200 --> 00:22:29,970
+O Galo fica quando você quer
+
+561
+00:22:30,530 --> 00:22:33,350
+desacoplar coisas como o banco de dados e tal,
+
+562
+00:22:33,950 --> 00:22:36,830
+e aí aí já fica mais difícil fazer e não faz sentido
+
+563
+00:22:37,220 --> 00:22:40,070
+em todos os cinco. Os seus sistemas que você desenvolve
+
+564
+00:22:40,370 --> 00:22:42,420
+tem que ser adaptado ao seu contexto. Eu acho que
+
+565
+00:22:42,670 --> 00:22:44,640
+isso vale a pena a gente ter na cabeça que
+
+566
+00:22:44,960 --> 00:22:47,210
+o automóvel é muito enfático.
+
+567
+00:22:48,110 --> 00:22:49,560
+Então você tem que colocar um filtro
+
+568
+00:22:50,310 --> 00:22:50,570
+para
+
+569
+00:22:50,840 --> 00:22:51,620
+usar tudo
+
+570
+00:22:52,190 --> 00:22:55,640
+aquilo que ele coloca em todos os sistemas, têm que adaptar o seu contexto.
+
+571
+00:22:59,480 --> 00:23:00,540
+Eu acho que assim
+
+572
+00:23:01,060 --> 00:23:03,120
+a gente está assumindo que os
+
+573
+00:23:03,240 --> 00:23:04,100
+quinze
+
+574
+00:23:04,370 --> 00:23:05,120
+e
+
+575
+00:23:05,770 --> 00:23:07,980
+vamos exercer seu coisa do gênero
+
+576
+00:23:08,350 --> 00:23:09,090
+é uma
+
+577
+00:23:09,410 --> 00:23:10,340
+unanimidade.
+
+578
+00:23:11,060 --> 00:23:15,140
+Agora é, de fato uma unanimidade entre nós, a fita. Só
+
+579
+00:23:15,780 --> 00:23:20,400
+eu não sei, por exemplo, a Roberta, eu acho que tem críticas Roberta,
+
+580
+00:23:21,670 --> 00:23:23,120
+dependendo do contexto no
+
+581
+00:23:23,560 --> 00:23:26,220
+qual seria, se acontece você não usar esse tipo de
+
+582
+00:23:26,990 --> 00:23:28,210
+de organização de código,
+
+583
+00:23:29,600 --> 00:23:32,200
+que tipo de organização que se fala distribuindo?
+
+584
+00:23:32,430 --> 00:23:33,320
+Tipo
+
+585
+00:23:33,950 --> 00:23:35,730
+assim, de separar
+
+586
+00:23:36,200 --> 00:23:37,250
+a
+
+587
+00:23:37,970 --> 00:23:43,110
+Camara que está mais próxima da interface com o usuário do resto do sistema?
+
+588
+00:23:43,620 --> 00:23:44,260
+Porque eu não que a gente
+
+589
+00:23:44,640 --> 00:23:45,070
+pode
+
+590
+00:23:45,970 --> 00:23:48,480
+ter até um exemplo do Twitter. E lá que
+
+591
+00:23:49,690 --> 00:23:51,550
+ele dentro de um controle não tinha
+
+592
+00:23:53,450 --> 00:23:55,390
+-- isso
+-- é um pouco indesculpável.
+
+593
+00:23:58,040 --> 00:23:59,060
+Mas por que?
+
+594
+00:23:59,810 --> 00:24:00,650
+-- Porque
+-- aquilo
+
+595
+00:24:02,970 --> 00:24:04,140
+veja, Eu acho
+
+596
+00:24:04,400 --> 00:24:06,440
+que o foco, na verdade da
+
+597
+00:24:07,130 --> 00:24:09,210
+aplicação, quando a gente fala de
+
+598
+00:24:09,450 --> 00:24:12,070
+clima, arquitectura de padrões de uma dualidade,
+
+599
+00:24:14,030 --> 00:24:16,900
+o que todo mundo quer escrever, uma aplicação que seja
+
+600
+00:24:17,760 --> 00:24:20,580
+residente, fácil de manter a longo prazo. Isso que a gente
+
+601
+00:24:21,050 --> 00:24:23,890
+quer dizer que a gente fala de qualidade. Ela é fácil de entender,
+
+602
+00:24:24,220 --> 00:24:25,850
+era fácil modificar
+
+603
+00:24:26,210 --> 00:24:26,730
+de
+
+604
+00:24:27,520 --> 00:24:30,650
+manter em longo prazo e tem
+
+605
+00:24:32,800 --> 00:24:36,560
+diversas técnicas e princípios e padrões
+
+606
+00:24:36,560 --> 00:24:39,150
+para para fazer isso que não necessariamente
+
+607
+00:24:41,300 --> 00:24:44,590
+cuja modalidade não é necessariamente o único foco
+
+608
+00:24:44,930 --> 00:24:45,770
+de boa qualidade.
+
+609
+00:24:45,770 --> 00:24:49,290
+É um aspecto muito importante, de muita habilidade, mas não é o único.
+
+610
+00:24:50,990 --> 00:24:52,100
+Eu acho que
+
+611
+00:24:52,890 --> 00:24:54,020
+quando você tem um PIB,
+
+612
+00:24:54,970 --> 00:24:56,420
+ou seja, um sistema
+
+613
+00:24:56,730 --> 00:25:00,130
+cuja arquitetura não pode sequer ser inferida, porque
+
+614
+00:25:00,660 --> 00:25:02,330
+escritos de forma
+
+615
+00:25:03,490 --> 00:25:08,010
+completamente aleatórios e tem muitos padrões e difícil de entender onde
+
+616
+00:25:08,540 --> 00:25:11,130
+social escrever código novo onde aquele código deve ficar.
+
+617
+00:25:11,630 --> 00:25:13,470
+Esse não é o mundo que ninguém quer estar.
+
+618
+00:25:14,480 --> 00:25:18,530
+Então eu gosto de divisões de camadas. Eu acho que elas são importantes.
+
+619
+00:25:18,530 --> 00:25:20,420
+Eu acho que uma organização que permita
+
+620
+00:25:20,810 --> 00:25:22,380
+com que o time desenvolvimento
+
+621
+00:25:22,740 --> 00:25:25,930
+sempre que ele quiser alterar o código, inserindo novas funcionalidades,
+
+622
+00:25:25,930 --> 00:25:27,040
+sabe exatamente
+
+623
+00:25:27,440 --> 00:25:29,690
+onde esse código tem que entrar.
+
+624
+00:25:30,160 --> 00:25:34,690
+Isso é desejado. Isso é importante para manter a habilidade de longo prazo.
+
+625
+00:25:36,480 --> 00:25:38,150
+Você está falando de aplicação web
+
+626
+00:25:38,780 --> 00:25:40,570
+que segue sem vencer, por exemplo.
+
+627
+00:25:41,160 --> 00:25:43,390
+Não é legal que você tem acesso a
+
+628
+00:25:43,600 --> 00:25:46,080
+dados no controlador, exatamente por isso.
+
+629
+00:25:46,600 --> 00:25:48,220
+Agora é catastrófico,
+
+630
+00:25:49,370 --> 00:25:51,420
+sem ser catastróficas que depende muito,
+
+631
+00:25:51,780 --> 00:25:52,630
+seja conta que não
+
+632
+00:25:54,320 --> 00:25:55,670
+sistema muito pequeno
+
+633
+00:25:55,950 --> 00:25:57,700
+que não tem tantas alterações assim
+
+634
+00:25:58,170 --> 00:25:58,870
+que
+
+635
+00:25:59,220 --> 00:26:02,620
+é porque a ideia era de um trecho de código que estava inalterada sete anos,
+
+636
+00:26:02,620 --> 00:26:04,550
+então nunca deu dor de cabeça para ninguém,
+
+637
+00:26:05,130 --> 00:26:06,890
+não faz diferença realmente
+
+638
+00:26:07,280 --> 00:26:10,600
+encaixar três ou quatro novas classes ali para separar
+
+639
+00:26:11,150 --> 00:26:12,630
+esses conselhos.
+
+640
+00:26:13,130 --> 00:26:16,320
+Não acho que faça sabe, não acho que faça.
+
+641
+00:26:16,790 --> 00:26:19,450
+Eu acho que a coisa que mais me incomoda
+
+642
+00:26:20,240 --> 00:26:21,030
+do tom
+
+643
+00:26:21,400 --> 00:26:23,550
+desse livro e do tom desse autor
+
+644
+00:26:24,090 --> 00:26:28,190
+é com perdão do meu francês a cada ação de regramentos arte parece que
+
+645
+00:26:29,070 --> 00:26:30,850
+existe apenas uma forma
+
+646
+00:26:31,230 --> 00:26:33,610
+de escrever sistemas, essa é a forma
+
+647
+00:26:34,140 --> 00:26:37,050
+e quem faz a cinta correto. Quem não faz assim
+
+648
+00:26:37,250 --> 00:26:40,450
+está fadada Escrever esses temas, o índice difíceis de manter
+
+649
+00:26:41,320 --> 00:26:45,140
+e engraçado como comunidade, como a gente aceita isso
+
+650
+00:26:45,520 --> 00:26:48,760
+quando a gente também aceita um princípio que contradizem o
+
+651
+00:26:48,760 --> 00:26:50,560
+que é o princípio de que no festival de prata,
+
+652
+00:26:52,790 --> 00:26:54,430
+pouco controverso de que
+
+653
+00:26:55,250 --> 00:26:55,770
+desenha
+
+654
+00:26:56,210 --> 00:27:00,280
+sofrer, não existem soluções únicas que tudo depende, tudo acontece
+
+655
+00:27:00,640 --> 00:27:02,860
+e, ao mesmo tempo existe uma resistência
+
+656
+00:27:03,420 --> 00:27:04,040
+a
+
+657
+00:27:04,450 --> 00:27:05,460
+perceber que
+
+658
+00:27:05,740 --> 00:27:07,240
+os desenhos propostas para
+
+659
+00:27:07,430 --> 00:27:08,300
+pôr por crime
+
+660
+00:27:10,520 --> 00:27:12,550
+para o conjunto da obra do autor
+
+661
+00:27:13,970 --> 00:27:18,850
+sejam entendidos como os únicos coretos e que, por exemplo, como maioria,
+
+662
+00:27:18,850 --> 00:27:19,830
+estava falando como
+
+663
+00:27:20,200 --> 00:27:20,990
+os dois Maurício
+
+664
+00:27:21,550 --> 00:27:22,490
+estava falando.
+
+665
+00:27:22,890 --> 00:27:23,740
+Seja
+
+666
+00:27:24,210 --> 00:27:25,180
+interessante,
+
+667
+00:27:25,650 --> 00:27:26,920
+abstrai isso. O banco
+
+668
+00:27:28,320 --> 00:27:30,060
+bom, uma boa aplicação
+
+669
+00:27:30,350 --> 00:27:31,250
+bem feita.
+
+670
+00:27:31,580 --> 00:27:32,170
+Ela não
+
+671
+00:27:32,520 --> 00:27:35,630
+deve se preocupar com o qual é o mecanismo de Storti, como
+
+672
+00:27:36,220 --> 00:27:37,470
+quando, na verdade, eu acho que
+
+673
+00:27:37,860 --> 00:27:40,570
+porque esse complexo fica atrapalha muito, punibilidade.
+
+674
+00:27:41,360 --> 00:27:45,090
+Em vez de facilitar. Porque a decisão de qual mecanismo de histórias de vazar
+
+675
+00:27:45,430 --> 00:27:46,980
+é uma das mais importantes
+
+676
+00:27:47,230 --> 00:27:47,690
+no
+
+677
+00:27:48,320 --> 00:27:49,870
+planejamento de uma arquitetura
+
+678
+00:27:50,370 --> 00:27:52,430
+e tentar tornar invisível,
+
+679
+00:27:53,110 --> 00:27:55,130
+traz mais problemas na minha opinião.
+
+680
+00:27:55,910 --> 00:27:56,610
+Que
+
+681
+00:27:57,100 --> 00:27:57,930
+auxílios,
+
+682
+00:27:59,610 --> 00:28:00,790
+responde a pergunta mais
+
+683
+00:28:03,330 --> 00:28:04,510
+interessante
+
+684
+00:28:05,610 --> 00:28:06,360
+Questionamento
+
+685
+00:28:06,470 --> 00:28:08,350
+tem bastante gente querendo falar aqui.
+
+686
+00:28:08,740 --> 00:28:13,000
+Eu vou passar a palavra na ordem assim para o ponto de planície, por Diário cubano
+
+687
+00:28:13,490 --> 00:28:14,600
+Beleza, mais vala, Ponte
+
+688
+00:28:15,870 --> 00:28:16,270
+show,
+
+689
+00:28:16,820 --> 00:28:17,730
+Vou pagar que a
+
+690
+00:28:19,320 --> 00:28:20,560
+gente entende que são os
+
+691
+00:28:20,730 --> 00:28:21,250
+países.
+
+692
+00:28:21,480 --> 00:28:22,180
+Acho que
+
+693
+00:28:23,720 --> 00:28:24,390
+aumenta muito
+
+694
+00:28:25,030 --> 00:28:26,600
+e de certa forma é um
+
+695
+00:28:26,960 --> 00:28:28,410
+algo até aberto. Mas
+
+696
+00:28:28,550 --> 00:28:29,590
+para mim, acho com
+
+697
+00:28:30,030 --> 00:28:31,940
+Maurício somente um viaja
+
+698
+00:28:33,140 --> 00:28:35,980
+muito a data, mais de dez, quinze anos. A experiência
+
+699
+00:28:36,520 --> 00:28:38,130
+de quem já sofreu demais
+
+700
+00:28:38,710 --> 00:28:43,630
+com a ideia de gerar essas camadas em direção musiquei, a última de serviço,
+
+701
+00:28:43,630 --> 00:28:44,790
+o que chamam de Meligeni
+
+702
+00:28:45,090 --> 00:28:46,880
+tem esse nome foi mudando com o tempo,
+
+703
+00:28:47,310 --> 00:28:47,620
+mas
+
+704
+00:28:47,730 --> 00:28:49,210
+isso fazer muito sentido há
+
+705
+00:28:49,460 --> 00:28:51,830
+quinze anos atrás, talvez dez anos atrás,
+
+706
+00:28:52,080 --> 00:28:53,200
+na plataforma Java, onde
+
+707
+00:28:53,760 --> 00:28:54,390
+o meu dia a dia,
+
+708
+00:28:55,650 --> 00:28:58,540
+porque os freou que não eram maduro o suficiente para
+
+709
+00:28:58,650 --> 00:29:00,820
+conseguir tirar toda a que ele colocou, de
+
+710
+00:29:01,300 --> 00:29:05,510
+código de infra, que a gente era obrigado a ter que implementar a escrever,
+
+711
+00:29:05,950 --> 00:29:07,590
+o copiar e colar de algum lugar.
+
+712
+00:29:08,130 --> 00:29:10,790
+Só que isso mudou, isso mudou nos últimos
+
+713
+00:29:11,000 --> 00:29:13,290
+lá. Talvez dez anos para cá, nove, oito anos para cá,
+
+714
+00:29:13,960 --> 00:29:16,790
+você tem uma plataforma, como explica o mesmo, Já vêm
+
+715
+00:29:16,990 --> 00:29:17,830
+jogar a carteira.
+
+716
+00:29:18,940 --> 00:29:20,140
+Você consegue perceber que
+
+717
+00:29:20,340 --> 00:29:22,680
+o controle que antes a gente tenha de deixar
+
+718
+00:29:22,680 --> 00:29:25,450
+qualquer tipo de longas que negou qualquer indício.
+
+719
+00:29:25,450 --> 00:29:26,590
+Qualquer coisa relacionada
+
+720
+00:29:26,870 --> 00:29:28,150
+ao nosso modelo de domínio,
+
+721
+00:29:28,690 --> 00:29:30,090
+hoje não tem mais esse problema.
+
+722
+00:29:30,320 --> 00:29:33,310
+Hoje você pega um controle. Explica que basicamente uma classe, um pouso
+
+723
+00:29:33,720 --> 00:29:35,230
+com algumas anotações,
+
+724
+00:29:36,080 --> 00:29:36,600
+só
+
+725
+00:29:37,700 --> 00:29:39,060
+o controle está tão limpo,
+
+726
+00:29:39,150 --> 00:29:43,140
+tão simples onde foi o que absorveu toda a complexidade colocou,
+
+727
+00:29:43,720 --> 00:29:45,160
+tentou evitar durante anos
+
+728
+00:29:45,670 --> 00:29:45,910
+que
+
+729
+00:29:46,260 --> 00:29:46,770
+para mim,
+
+730
+00:29:46,990 --> 00:29:49,730
+na maioria dos casos, eu enxergo ele como meu música.
+
+731
+00:29:50,410 --> 00:29:51,450
+Para muitas pessoas,
+
+732
+00:29:51,890 --> 00:29:53,470
+isso é bem feito,
+
+733
+00:29:53,590 --> 00:29:54,020
+porque
+
+734
+00:29:54,380 --> 00:29:55,820
+eu enxergo ele como música.
+
+735
+00:29:56,300 --> 00:30:00,030
+A chance de que ele foi injetar um repositório um dois repositórios ali,
+
+736
+00:30:00,580 --> 00:30:02,640
+além dele que injeta repositor,
+
+737
+00:30:02,990 --> 00:30:05,860
+aproxima do banco de dados, está no controle.
+
+738
+00:30:06,050 --> 00:30:07,820
+É ainda mais doloroso para muita gente.
+
+739
+00:30:08,130 --> 00:30:12,490
+Mas se você pensar a camada de persistência, ela também foi extraída pelos free box.
+
+740
+00:30:12,950 --> 00:30:14,420
+Um repositório, diz presidenta,
+
+741
+00:30:14,420 --> 00:30:17,030
+nada mais é do que a interface com algumas poucas alterações.
+
+742
+00:30:18,970 --> 00:30:20,160
+O jogo pela internet,
+
+743
+00:30:20,570 --> 00:30:22,740
+você tem uma camada de abstração com a presidenta,
+
+744
+00:30:22,970 --> 00:30:24,220
+mais uma segunda camada,
+
+745
+00:30:24,220 --> 00:30:26,960
+Um pouco mais fila que haja um papel internética mostra ainda mais
+
+746
+00:30:27,340 --> 00:30:30,760
+a sua persistência no jogo da EBC. Até um pouco ele quer ele.
+
+747
+00:30:31,350 --> 00:30:32,400
+Então, qual o problema
+
+748
+00:30:32,680 --> 00:30:34,080
+de encarar um controle como
+
+749
+00:30:34,470 --> 00:30:34,850
+hoje?
+
+750
+00:30:35,360 --> 00:30:36,330
+Eu encaro como e
+
+751
+00:30:36,810 --> 00:30:40,580
+até que algo me diga o contrário e geralmente o que diz o contrário é
+
+752
+00:30:41,120 --> 00:30:42,110
+fácil testar,
+
+753
+00:30:43,060 --> 00:30:44,250
+está fácil entender.
+
+754
+00:30:44,960 --> 00:30:46,060
+Eu consigo escrever
+
+755
+00:30:46,290 --> 00:30:49,480
+um único teste que de integração o tempo quebrar em vários testes
+
+756
+00:30:49,690 --> 00:30:51,180
+para que isso fique mais fácil de
+
+757
+00:30:51,720 --> 00:30:53,930
+testar, a ter uma melhor cobertura e tudo mais
+
+758
+00:30:54,550 --> 00:30:55,300
+Não querem ou não,
+
+759
+00:30:55,740 --> 00:30:56,620
+A manutenção
+
+760
+00:30:57,330 --> 00:30:59,370
+é o que me guia junto com os testes.
+
+761
+00:30:59,900 --> 00:31:00,830
+Então só parecia claro,
+
+762
+00:31:00,930 --> 00:31:02,220
+Eu encaro que um controle
+
+763
+00:31:02,870 --> 00:31:03,450
+é sim
+
+764
+00:31:03,780 --> 00:31:04,770
+uma camada de música
+
+765
+00:31:05,140 --> 00:31:06,220
+em qualquer
+
+766
+00:31:06,880 --> 00:31:10,290
+literatura de arquitetura que alguém tenha líder. Essa minha percepção,
+
+767
+00:31:10,820 --> 00:31:11,970
+porque o meu abraço,
+
+768
+00:31:13,470 --> 00:31:15,340
+a primeira vez que faço ao entrar no projeto,
+
+769
+00:31:15,840 --> 00:31:16,520
+abraçar o
+
+770
+00:31:16,670 --> 00:31:18,320
+amor que eu abraço, freio
+
+771
+00:31:18,880 --> 00:31:19,100
+e
+
+772
+00:31:19,310 --> 00:31:21,840
+respeito, o que ele me pediu para fazer, em seguida,
+
+773
+00:31:21,840 --> 00:31:23,820
+eu abraço a linguagem de programação,
+
+774
+00:31:24,380 --> 00:31:25,770
+se a linguagem, o freio
+
+775
+00:31:25,910 --> 00:31:26,840
+entram em conflitos,
+
+776
+00:31:27,460 --> 00:31:28,430
+favor isso,
+
+777
+00:31:29,840 --> 00:31:30,240
+porque
+
+778
+00:31:30,380 --> 00:31:32,370
+eu vendi a minha alma, pois ninguém,
+
+779
+00:31:32,660 --> 00:31:33,320
+eu quero
+
+780
+00:31:34,430 --> 00:31:37,140
+os benefícios que tenho da minha alma para aquela plataforma.
+
+781
+00:31:40,120 --> 00:31:43,090
+Hoje em dia eu estou muito nessa linha do ponte aí,
+
+782
+00:31:43,630 --> 00:31:45,030
+mas ou estiver lá?
+
+783
+00:31:47,030 --> 00:31:48,920
+Eu acho que essa Casa perceber isso mesmo que
+
+784
+00:31:49,060 --> 00:31:51,510
+Roberta e o local comentaram. Porque se você
+
+785
+00:31:52,120 --> 00:31:53,180
+olha para aplicação
+
+786
+00:31:53,950 --> 00:31:54,270
+entre
+
+787
+00:31:54,490 --> 00:31:54,880
+os
+
+788
+00:31:57,610 --> 00:31:58,480
+como ela funciona
+
+789
+00:31:58,680 --> 00:31:59,470
+de maneira
+
+790
+00:31:59,660 --> 00:32:01,760
+bem abstrata, como que funciona basicamente
+
+791
+00:32:02,040 --> 00:32:03,650
+grande parte dos casos de uso
+
+792
+00:32:04,140 --> 00:32:05,170
+usuário mandada
+
+793
+00:32:05,380 --> 00:32:08,340
+socialmente a cidade, com a informação que você busca no banco de dados
+
+794
+00:32:08,640 --> 00:32:09,970
+você faz uma. As validações
+
+795
+00:32:10,260 --> 00:32:13,540
+você muda um pouquinho, cidade, você manda de volta para o banco de dados a demanda
+
+796
+00:32:13,840 --> 00:32:14,800
+por outro serviço,
+
+797
+00:32:16,410 --> 00:32:17,820
+uma grande parte da sociedade
+
+798
+00:32:18,220 --> 00:32:21,510
+para modelar esse tipo de coisa. Sempre ser de coisa muito requer estar muito chic
+
+799
+00:32:23,260 --> 00:32:26,630
+basic a separação de responsabilidades repositório despende aqui
+
+800
+00:32:27,520 --> 00:32:28,230
+foi uma variação
+
+801
+00:32:28,360 --> 00:32:30,090
+foram como é complicado um pouquinho ali. A
+
+802
+00:32:30,240 --> 00:32:32,350
+tratar isso é mais do que suficiente, Não precisa
+
+803
+00:32:33,400 --> 00:32:35,600
+e muito mais além. Eu acho que esse é o ponto na mesa.
+
+804
+00:32:35,670 --> 00:32:38,120
+Nem sempre aqueles vinte por cento de funcionalidade
+
+805
+00:32:38,120 --> 00:32:40,140
+que muito mais complicado para o sistema que
+
+806
+00:32:40,530 --> 00:32:42,400
+vai mudar o tempo inteiro. Que regra nova
+
+807
+00:32:42,520 --> 00:32:43,960
+regra nova sai? Disse. Acreditar
+
+808
+00:32:44,290 --> 00:32:45,280
+talvez ali vale a pena
+
+809
+00:32:45,520 --> 00:32:48,230
+dos animais, foi buscado na e talvez algumas das ideias,
+
+810
+00:32:48,340 --> 00:32:49,430
+do livro dele
+
+811
+00:32:49,830 --> 00:32:50,590
+faz sentido.
+
+812
+00:32:51,070 --> 00:32:52,720
+Mas acho que são pontos em que a aplicação de
+
+813
+00:32:53,570 --> 00:32:55,770
+uma grande parte das vezes não precisa de tudo isso.
+
+814
+00:32:57,350 --> 00:32:59,320
+Um exemplo atual no trabalho, na agem hoje
+
+815
+00:32:59,850 --> 00:33:00,330
+uma base
+
+816
+00:33:00,990 --> 00:33:02,630
+de código bem grande,
+
+817
+00:33:03,170 --> 00:33:05,580
+negócio, bem complicado. Mas se você realmente
+
+818
+00:33:06,310 --> 00:33:07,190
+quebra ele,
+
+819
+00:33:07,510 --> 00:33:10,240
+é isso que eu falei para dado válida. Capacidade do paciente
+
+820
+00:33:10,370 --> 00:33:10,840
+não? Então
+
+821
+00:33:11,190 --> 00:33:14,780
+precisa de muito mais do que uma separação básica, de responsabilidade
+
+822
+00:33:18,460 --> 00:33:19,130
+perfeito.
+
+823
+00:33:22,280 --> 00:33:23,190
+Linhares,
+
+824
+00:33:25,550 --> 00:33:29,720
+Não, aí é que eu acho que a superficialidade do livro atrapalha
+
+825
+00:33:29,890 --> 00:33:30,440
+demais,
+
+826
+00:33:30,970 --> 00:33:31,520
+porque
+
+827
+00:33:31,900 --> 00:33:32,170
+a gente
+
+828
+00:33:32,400 --> 00:33:35,990
+está chegando nesse nesses exemplos mais complexos.
+
+829
+00:33:36,360 --> 00:33:39,130
+Só que o livro ele não abraça esses exemplos
+
+830
+00:33:39,650 --> 00:33:42,670
+para você, para você ter até esquisito
+
+831
+00:33:43,320 --> 00:33:45,340
+pensar assim, Mas o único jeito
+
+832
+00:33:45,560 --> 00:33:46,420
+de você
+
+833
+00:33:47,040 --> 00:33:49,000
+entender e pegar as ideias do clima, que
+
+834
+00:33:49,520 --> 00:33:50,610
+se você tiver
+
+835
+00:33:51,040 --> 00:33:53,360
+lido um monte de literatura anterior. Você tem validade?
+
+836
+00:33:53,360 --> 00:33:54,730
+Aumentou dezanove, porque
+
+837
+00:33:55,050 --> 00:33:56,990
+ele passa exatamente quatro. Para
+
+838
+00:33:57,400 --> 00:33:58,840
+definido que a entidade
+
+839
+00:33:59,020 --> 00:34:00,450
+são quatro parágrafos,
+
+840
+00:34:01,230 --> 00:34:03,580
+quatro parágrafos do livro e definiu que a entidade
+
+841
+00:34:03,990 --> 00:34:04,390
+e
+
+842
+00:34:04,720 --> 00:34:07,320
+se você for ver o livro de
+
+843
+00:34:08,219 --> 00:34:10,409
+primeiro, que a entidade não é uma coisa só
+
+844
+00:34:10,860 --> 00:34:11,739
+no
+
+845
+00:34:11,900 --> 00:34:12,620
+ano
+
+846
+00:34:12,780 --> 00:34:13,469
+de dois mil dezanove
+
+847
+00:34:13,790 --> 00:34:14,150
+verdade é
+
+848
+00:34:14,260 --> 00:34:15,170
+um pedaço
+
+849
+00:34:15,469 --> 00:34:16,320
+da camada do modelo.
+
+850
+00:34:16,320 --> 00:34:18,870
+Tem várias coisas que formam a camada de modelo,
+
+851
+00:34:18,870 --> 00:34:20,670
+Tem que ter uma definição específica
+
+852
+00:34:20,920 --> 00:34:22,080
+para o que é uma entidade.
+
+853
+00:34:22,110 --> 00:34:24,870
+Como é que você é referência a identidade de um velho objeto? Então tem
+
+854
+00:34:25,199 --> 00:34:26,010
+várias coisas
+
+855
+00:34:26,199 --> 00:34:28,810
+em várias discussões que o livro
+
+856
+00:34:29,170 --> 00:34:30,780
+não sei, não sei porque ele se furta.
+
+857
+00:34:31,230 --> 00:34:34,730
+Não sei, não quero que ele não. Não pára para explicar por que a gente vai ter.
+
+858
+00:34:35,050 --> 00:34:36,590
+Essa ideia É o
+
+859
+00:34:37,100 --> 00:34:40,219
+ponto, falou que ele considera que os dois se quiser o controlo
+
+860
+00:34:40,840 --> 00:34:43,230
+que aí a gente vai entrar, aquela discussão de bandeiras,
+
+861
+00:34:43,409 --> 00:34:44,489
+dos limites,
+
+862
+00:34:44,870 --> 00:34:45,580
+mas
+
+863
+00:34:45,949 --> 00:34:46,750
+ele não dá
+
+864
+00:34:46,860 --> 00:34:48,429
+bons exemplos limites,
+
+865
+00:34:48,590 --> 00:34:49,739
+cada um padrão
+
+866
+00:34:50,120 --> 00:34:52,650
+para os casos de limite que a gente tem
+
+867
+00:34:52,820 --> 00:34:55,460
+mais uma vez. A gente volta no domingo, dia dezanove,
+
+868
+00:34:55,810 --> 00:34:58,970
+tem vários padrões diferentes. Inclusive
+
+869
+00:34:59,290 --> 00:35:00,340
+tem a opção
+
+870
+00:35:00,470 --> 00:35:01,550
+que o
+
+871
+00:35:01,730 --> 00:35:02,660
+ponto está dizendo. que
+
+872
+00:35:02,970 --> 00:35:05,010
+não faça nada. Abrace
+
+873
+00:35:05,480 --> 00:35:06,710
+abraço que está lá
+
+874
+00:35:07,080 --> 00:35:09,990
+e use o modelo desse jeito Não. Eu acho que
+
+875
+00:35:10,850 --> 00:35:16,100
+não ter nenhuma dessas discussões, não ter nenhum padrão, não ter nenhum nenhuma
+
+876
+00:35:16,610 --> 00:35:19,020
+discussão mais profunda sobre o que são essas coisas.
+
+877
+00:35:19,020 --> 00:35:20,770
+Como é que você usa essas coisas?
+
+878
+00:35:21,260 --> 00:35:23,550
+Eu acho que empobrece muito livro. Então, se você,
+
+879
+00:35:23,870 --> 00:35:25,810
+se você já leu o domingo dezanove,
+
+880
+00:35:26,510 --> 00:35:28,340
+você não vai ter nada de novo nesse livro.
+
+881
+00:35:28,680 --> 00:35:29,120
+Porque
+
+882
+00:35:30,040 --> 00:35:32,730
+as ideias nessa ideia de separação, essa ideia de você
+
+883
+00:35:32,950 --> 00:35:37,530
+criar essas camadas, você tem o modelo, inclusive isso Eunício falou
+
+884
+00:35:37,810 --> 00:35:40,250
+às vezes são modelação, banco, idade. Não dá uma entrevista,
+
+885
+00:35:40,450 --> 00:35:42,080
+Vai dizer. Às vezes é isso mesmo,
+
+886
+00:35:42,690 --> 00:35:44,330
+só o banco, dados, você está
+
+887
+00:35:45,730 --> 00:35:46,070
+pobre,
+
+888
+00:35:46,640 --> 00:35:48,110
+não tem muita coisa para colocar.
+
+889
+00:35:48,380 --> 00:35:52,650
+Então, eu acho que essas discussões de definir os padrões, definir
+
+890
+00:35:52,890 --> 00:35:56,260
+exemplos melhores não é um dos exemplos do livro,
+
+891
+00:35:56,990 --> 00:35:59,390
+também muito superficiais, tem um exemplo lá que
+
+892
+00:35:59,620 --> 00:36:01,920
+me mandou direto para o
+
+893
+00:36:02,270 --> 00:36:03,770
+jovem da prosa de fundação.
+
+894
+00:36:04,590 --> 00:36:06,720
+O que é um regular de dois mil? E guaraná de olha
+
+895
+00:36:07,090 --> 00:36:08,600
+com múltiplos
+
+896
+00:36:09,480 --> 00:36:13,640
+múltiplas camadas de entrada e saída, você não pode fazer a entidade vazar
+
+897
+00:36:13,850 --> 00:36:15,220
+lá para a camada web nem pode.
+
+898
+00:36:15,220 --> 00:36:18,080
+Vale fazer entidade vazar para a camada do banco de dados. Então,
+
+899
+00:36:18,470 --> 00:36:19,380
+eu acho que
+
+900
+00:36:20,040 --> 00:36:20,940
+não ter
+
+901
+00:36:21,960 --> 00:36:24,170
+uma discussão mais profunda
+
+902
+00:36:24,480 --> 00:36:28,630
+sobre esses temas, sobre o que a entidade, que a música, eis um exemplo os melhores
+
+903
+00:36:28,860 --> 00:36:29,290
+para
+
+904
+00:36:29,530 --> 00:36:30,420
+com, com padrões,
+
+905
+00:36:30,740 --> 00:36:31,460
+mostrando
+
+906
+00:36:31,710 --> 00:36:33,080
+os casos onde é que você usa
+
+907
+00:36:33,600 --> 00:36:36,860
+o gradiente, que a gente está inserido na hora que a gente vai
+
+908
+00:36:37,140 --> 00:36:39,070
+tomar uma decisão dessas. É uma coisa que,
+
+909
+00:36:39,660 --> 00:36:41,090
+para mim compareceu muito
+
+910
+00:36:41,420 --> 00:36:42,290
+a leitura do livro.
+
+911
+00:36:42,370 --> 00:36:45,840
+Eu entendo os conselhos porque eu li esses conceitos em outros lugares,
+
+912
+00:36:46,380 --> 00:36:48,430
+mas no livro é muito pouco.
+
+913
+00:36:48,570 --> 00:36:51,110
+É uma discussão muito superficial
+
+914
+00:36:51,430 --> 00:36:51,780
+e
+
+915
+00:36:52,040 --> 00:36:53,500
+que é difícil você tirar
+
+916
+00:36:53,880 --> 00:36:54,870
+essas coisas de
+
+917
+00:36:55,240 --> 00:36:58,380
+dentro dele. Se você não já consumiu muito. Material anterior
+
+918
+00:37:00,750 --> 00:37:01,780
+perfeito é.
+
+919
+00:37:01,910 --> 00:37:02,440
+Se
+
+920
+00:37:02,550 --> 00:37:03,050
+você
+
+921
+00:37:03,680 --> 00:37:04,820
+mencionou aí
+
+922
+00:37:04,930 --> 00:37:05,600
+o DVD
+
+923
+00:37:06,790 --> 00:37:08,850
+eu estava conversando com
+
+924
+00:37:09,690 --> 00:37:10,510
+sobre
+
+925
+00:37:10,640 --> 00:37:12,130
+a diferença entre
+
+926
+00:37:12,400 --> 00:37:13,620
+o hexagonal e que
+
+927
+00:37:14,890 --> 00:37:18,010
+deságua. Não é essa casca se ele não tem miolo
+
+928
+00:37:18,820 --> 00:37:21,710
+e aí o Canadá que tenta colocar o miolo.
+
+929
+00:37:22,190 --> 00:37:25,440
+Só que muitos foi oficialmente e é exatamente soberana.
+
+930
+00:37:25,440 --> 00:37:28,590
+Estava falando que o dele de complementa aquilo
+
+931
+00:37:29,690 --> 00:37:30,010
+é,
+
+932
+00:37:30,280 --> 00:37:31,410
+concordou com Maurício.
+
+933
+00:37:31,410 --> 00:37:34,630
+Nesse ponto, o bom amante, ele pegou, literalmente, carona
+
+934
+00:37:34,790 --> 00:37:35,840
+na obra que tem com o
+
+935
+00:37:36,090 --> 00:37:38,270
+que é uma excepcional obra, no sentido de
+
+936
+00:37:40,690 --> 00:37:43,710
+mexer com o seu emocional, no sentido de
+
+937
+00:37:43,970 --> 00:37:46,350
+trazer um pouco mais de ética para a nossa profissão
+
+938
+00:37:46,740 --> 00:37:50,250
+e se responsabilizar mais pelas ações pelo, como a gente implementa.
+
+939
+00:37:50,250 --> 00:37:51,840
+Esse é o grande ponto do QRCode.
+
+940
+00:37:52,100 --> 00:37:53,940
+Esse é o grande mérito dele, nada tão técnico.
+
+941
+00:37:54,610 --> 00:37:55,850
+É mais um livro de autoajuda.
+
+942
+00:37:56,440 --> 00:37:58,000
+Sei que muitos aqui concordam comigo. Mas
+
+943
+00:37:58,560 --> 00:38:00,950
+onde mais uma auto ajuda? E é muito bem vinda
+
+944
+00:38:01,700 --> 00:38:02,670
+do que propriamente um livro
+
+945
+00:38:03,030 --> 00:38:04,310
+técnico extremamente técnico,
+
+946
+00:38:04,690 --> 00:38:05,330
+que o arquiteto
+
+947
+00:38:05,730 --> 00:38:07,820
+pegou carona um pouco dessa forma do clim.
+
+948
+00:38:07,890 --> 00:38:10,090
+Tanto que ele não sou também o clima, cravos, manchas
+
+949
+00:38:10,540 --> 00:38:12,970
+o prédio e outros crimes que
+
+950
+00:38:13,670 --> 00:38:15,390
+são bem menos interessantes. Está
+
+951
+00:38:16,250 --> 00:38:16,840
+o tomate.
+
+952
+00:38:17,290 --> 00:38:17,670
+Ele não
+
+953
+00:38:17,880 --> 00:38:19,790
+pode trazer conceitos
+
+954
+00:38:20,800 --> 00:38:21,250
+assim
+
+955
+00:38:21,470 --> 00:38:23,260
+que ele deveria ter trazido por dois motivos.
+
+956
+00:38:23,960 --> 00:38:25,280
+O primeiro, a vitória com pena dele.
+
+957
+00:38:26,900 --> 00:38:28,690
+O segundo. Ele terá que escrever um livro
+
+958
+00:38:28,860 --> 00:38:29,830
+três vezes maior.
+
+959
+00:38:30,040 --> 00:38:32,110
+Como acho que Maurício falou alguém falou,
+
+960
+00:38:32,980 --> 00:38:33,570
+defendeu.
+
+961
+00:38:33,570 --> 00:38:36,750
+Um livro que tem mais ou menos sessenta páginas se apega depender, por exemplo,
+
+962
+00:38:36,750 --> 00:38:37,610
+do governo,
+
+963
+00:38:38,470 --> 00:38:42,350
+dos termina, caixa muito legal. São revolução entre grandes e que dar trabalho
+
+964
+00:38:43,380 --> 00:38:44,380
+abrangente, que é uma
+
+965
+00:38:45,580 --> 00:38:47,200
+grande objetivo no repositório.
+
+966
+00:38:47,540 --> 00:38:48,450
+Muito trabalho
+
+967
+00:38:48,920 --> 00:38:52,230
+e aí um bom amante. Ele se resumiu a falar de um papel chamado feito
+
+968
+00:38:52,380 --> 00:38:52,840
+exatamente a
+
+969
+00:38:53,110 --> 00:38:53,480
+assolar
+
+970
+00:38:53,890 --> 00:38:57,640
+o Gaeco. Ele foi descrito pelo mal que fala no PAC Anos. Alf interpreta porque
+
+971
+00:38:58,360 --> 00:39:00,620
+basicamente é uma abstração. Consiste ministério
+
+972
+00:39:01,350 --> 00:39:02,570
+banco de dados no sistema externo
+
+973
+00:39:03,300 --> 00:39:04,990
+e ficou muito cruel nesse sentido.
+
+974
+00:39:05,700 --> 00:39:06,100
+Então
+
+975
+00:39:06,820 --> 00:39:07,670
+é um erro. Assim,
+
+976
+00:39:08,160 --> 00:39:11,180
+o bordão pegou literalmente o bloco por acidente de dois mil e doze
+
+977
+00:39:11,390 --> 00:39:11,910
+imprimiu
+
+978
+00:39:12,370 --> 00:39:14,240
+E isso que o Maurício citou que tem
+
+979
+00:39:14,830 --> 00:39:16,490
+quatro parágrafos, falam sobre a gente,
+
+980
+00:39:16,820 --> 00:39:20,920
+então ele não deixa muito claro que ele quer com aquilo. Agora vamos pegar alguns
+
+981
+00:39:21,410 --> 00:39:22,570
+ganchos aqui, apenas
+
+982
+00:39:23,970 --> 00:39:24,810
+ponto chave Aqui
+
+983
+00:39:25,770 --> 00:39:30,020
+não existe bala de prata. O que acho que a Roberta comentou dez novo ensaio
+
+984
+00:39:30,700 --> 00:39:30,960
+Ou
+
+985
+00:39:31,440 --> 00:39:36,610
+existe um tipo de design que vai servir para todos os casos. Assim como existe um pneu
+
+986
+00:39:36,880 --> 00:39:38,350
+que vai ser bom na terra e no asfalto
+
+987
+00:39:39,340 --> 00:39:40,020
+não vai ser,
+
+988
+00:39:40,240 --> 00:39:43,580
+vai ter que dar para cada uma nossa falta vai ser bom na terra ou vai ser super
+
+989
+00:39:43,810 --> 00:39:45,870
+rápido no asfalto, mas vai deslizar na terra,
+
+990
+00:39:46,530 --> 00:39:48,840
+dizem a mesma coisa. Então que pode colocou
+
+991
+00:39:49,500 --> 00:39:50,520
+o meu controle,
+
+992
+00:39:50,990 --> 00:39:51,770
+ele é
+
+993
+00:39:52,170 --> 00:39:56,670
+meu musicais. E assim por diante da Itália, o Batman no texto já conecto.
+
+994
+00:39:56,670 --> 00:39:57,460
+De repente, no meu
+
+995
+00:39:57,740 --> 00:39:58,720
+time, já persisto,
+
+996
+00:40:00,260 --> 00:40:02,230
+mas isso por uma aplicação, por exemplo,
+
+997
+00:40:02,230 --> 00:40:04,530
+de folha de pagamento ou de financiamento imobiliário
+
+998
+00:40:05,000 --> 00:40:08,920
+vai ficar aquém do que poderia ser. E aí que você tirar grande proveito
+
+999
+00:40:09,390 --> 00:40:09,930
+de domingo,
+
+1000
+00:40:11,310 --> 00:40:15,380
+conta que se você entender quais são os ingredientes de você conseguir criar
+
+1001
+00:40:15,570 --> 00:40:17,370
+a preservação da cem variância
+
+1002
+00:40:17,660 --> 00:40:18,960
+que vai ser, o que vai te dar
+
+1003
+00:40:19,380 --> 00:40:23,110
+estabilidade no nível de unidade, destaca uma coisa difícil. Se você
+
+1004
+00:40:23,500 --> 00:40:24,400
+encarar aqui
+
+1005
+00:40:25,090 --> 00:40:27,890
+tudo, fica dando controle ou que tudo fica dando service,
+
+1006
+00:40:27,890 --> 00:40:29,020
+que é o que a gente costuma ver
+
+1007
+00:40:29,280 --> 00:40:32,740
+em código extremamente procedural, escrito nos últimos quinze, vinte anos.
+
+1008
+00:40:32,740 --> 00:40:33,460
+Todo mundo já
+
+1009
+00:40:33,890 --> 00:40:35,620
+deve ter passado, por isso ainda vai passar.
+
+1010
+00:40:36,090 --> 00:40:37,690
+Então tem que separar os mundos.
+
+1011
+00:40:37,890 --> 00:40:38,180
+Quem
+
+1012
+00:40:38,280 --> 00:40:39,890
+tem aplicação simples um crude,
+
+1013
+00:40:40,250 --> 00:40:41,250
+usa alguma coisa
+
+1014
+00:40:41,390 --> 00:40:44,940
+perto de um rei aos perto de um diálogo. Algo que digere código
+
+1015
+00:40:45,100 --> 00:40:45,890
+seja feliz.
+
+1016
+00:40:46,500 --> 00:40:46,820
+Agora,
+
+1017
+00:40:47,110 --> 00:40:48,670
+se você na com aplicação complexa,
+
+1018
+00:40:48,910 --> 00:40:51,830
+essas dependências, que é exatamente o dedo sólido.
+
+1019
+00:40:52,290 --> 00:40:53,180
+Deixando escreveu livro
+
+1020
+00:40:53,490 --> 00:40:55,480
+inclusive falando sobre isso que é
+
+1021
+00:40:55,920 --> 00:40:57,010
+razoável, ódios
+
+1022
+00:40:57,660 --> 00:40:59,520
+não dependam Lula do módulo
+
+1023
+00:40:59,860 --> 00:41:01,990
+O fato de você não acoplar o teu
+
+1024
+00:41:02,320 --> 00:41:03,820
+requerida pela regra de negócio
+
+1025
+00:41:04,360 --> 00:41:05,270
+não é tão óbvia assim.
+
+1026
+00:41:05,550 --> 00:41:06,940
+A morte das pessoas faz isso
+
+1027
+00:41:07,220 --> 00:41:08,320
+E, quando o problema, qual é o
+
+1028
+00:41:08,850 --> 00:41:09,720
+econômico e nove
+
+1029
+00:41:10,530 --> 00:41:13,200
+Se você é protestar para que está sempre no nível de integração.
+
+1030
+00:41:14,010 --> 00:41:15,820
+Não é questão de substituir o banco de dados.
+
+1031
+00:41:15,950 --> 00:41:17,460
+A questão é você vai impor
+
+1032
+00:41:17,670 --> 00:41:18,110
+ali
+
+1033
+00:41:19,390 --> 00:41:23,160
+uma necessidade de uso de tais patos nos intenso, distantes
+
+1034
+00:41:23,340 --> 00:41:23,730
+ou
+
+1035
+00:41:24,010 --> 00:41:27,690
+testes muito lentos, ou desencorajar os caixas e assim por diante.
+
+1036
+00:41:28,280 --> 00:41:28,800
+Então, assim,
+
+1037
+00:41:29,240 --> 00:41:31,170
+o trabalho do Bob Martin é bom.
+
+1038
+00:41:31,370 --> 00:41:31,850
+Hábitat
+
+1039
+00:41:32,280 --> 00:41:33,570
+definitivamente, não.
+
+1040
+00:41:33,850 --> 00:41:35,000
+Noventa não são. As pessoas não
+
+1041
+00:41:36,070 --> 00:41:38,090
+comentam o seguem somente a raiva,
+
+1042
+00:41:38,290 --> 00:41:39,170
+o trabalho dele é ruim.
+
+1043
+00:41:39,840 --> 00:41:40,850
+Posso dizer isso quando
+
+1044
+00:41:41,090 --> 00:41:41,420
+ela
+
+1045
+00:41:41,610 --> 00:41:44,190
+dez vezes, o que ele escreveu tentando extrair o máximo
+
+1046
+00:41:44,510 --> 00:41:46,550
+dos grupos de discussão que frequenta,
+
+1047
+00:41:46,680 --> 00:41:48,550
+principalmente para tentar ver as respostas
+
+1048
+00:41:49,110 --> 00:41:52,520
+que todo mundo faz perguntas Todo mundo faz o que não são respondidas, Por exemplo,
+
+1049
+00:41:52,520 --> 00:41:53,560
+musicais pode usar outro,
+
+1050
+00:41:54,610 --> 00:41:56,000
+o negócio que todo mundo se pergunta
+
+1051
+00:41:56,200 --> 00:41:57,530
+ele é evasivo na resposta.
+
+1052
+00:41:58,460 --> 00:41:59,590
+E aí você vai ver que
+
+1053
+00:41:59,710 --> 00:42:00,890
+o domingo vem. Design
+
+1054
+00:42:01,200 --> 00:42:03,300
+não vão governo, principalmente, trazendo a orientação,
+
+1055
+00:42:03,300 --> 00:42:04,720
+eventos pegando uma ideia de
+
+1056
+00:42:07,060 --> 00:42:09,730
+que você tentar desacoplar esses doze países
+
+1057
+00:42:09,960 --> 00:42:12,250
+e simplesmente publicar o evento,
+
+1058
+00:42:12,250 --> 00:42:15,060
+fato que aconteceu e deixar o sistema reagir em cima disso.
+
+1059
+00:42:15,610 --> 00:42:16,790
+Isso gera desacoplamento,
+
+1060
+00:42:17,960 --> 00:42:18,340
+só que
+
+1061
+00:42:18,540 --> 00:42:20,200
+para todo o tipo de sistema, quando não.
+
+1062
+00:42:20,850 --> 00:42:21,210
+Então,
+
+1063
+00:42:21,610 --> 00:42:22,850
+o trabalho do BOBBY
+
+1064
+00:42:22,990 --> 00:42:23,710
+Especial,
+
+1065
+00:42:23,870 --> 00:42:27,140
+ele não pode entrar em determinadas áreas porque isso onera demais.
+
+1066
+00:42:27,140 --> 00:42:29,370
+Livre aparece acredita copiando ainda mais.
+
+1067
+00:42:29,780 --> 00:42:30,480
+Então para mim,
+
+1068
+00:42:30,760 --> 00:42:31,700
+a grande sacada é
+
+1069
+00:42:32,470 --> 00:42:32,760
+porque
+
+1070
+00:42:33,510 --> 00:42:37,490
+eu não vejo como você abrir mão sejam aplicação pequena, seja a aplicação grande,
+
+1071
+00:42:37,710 --> 00:42:38,720
+porque se não você não tem
+
+1072
+00:42:39,520 --> 00:42:40,240
+estabilidade,
+
+1073
+00:42:40,600 --> 00:42:42,400
+você não tem isolamento da aplicação
+
+1074
+00:42:42,640 --> 00:42:43,520
+e você está sempre
+
+1075
+00:42:43,960 --> 00:42:44,480
+preso,
+
+1076
+00:42:44,800 --> 00:42:46,170
+ou o mecanismo de entrada
+
+1077
+00:42:46,370 --> 00:42:47,710
+ou no dispositivo ganhou
+
+1078
+00:42:47,850 --> 00:42:50,390
+então um pequeno grande. Eu acho que essas Conceição muito vagos
+
+1079
+00:42:51,170 --> 00:42:53,970
+orientação, domínio, vou postar aqui mais um domingo de design
+
+1080
+00:42:54,230 --> 00:42:54,950
+é opção
+
+1081
+00:42:55,300 --> 00:42:57,480
+para o projeto suficientemente complexos
+
+1082
+00:42:57,670 --> 00:43:00,480
+e não só para projetos. Vamos separar projeto de banda de contas,
+
+1083
+00:43:00,940 --> 00:43:01,360
+entendeu
+
+1084
+00:43:01,620 --> 00:43:02,640
+sobre domingo uma coisa
+
+1085
+00:43:02,970 --> 00:43:07,750
+projeto, empresa, outras pode ter um bombeiro conta que se dez que necessitam
+
+1086
+00:43:08,280 --> 00:43:10,020
+dessa abordagem por outro nome não?
+
+1087
+00:43:10,680 --> 00:43:10,990
+Então
+
+1088
+00:43:11,340 --> 00:43:12,250
+eu acho um pouco
+
+1089
+00:43:12,560 --> 00:43:15,250
+nessa linha e só se encontram queixa sobre o teor
+
+1090
+00:43:16,030 --> 00:43:17,170
+de novo a mesma coisa.
+
+1091
+00:43:17,630 --> 00:43:17,660
+A
+
+1092
+00:43:18,250 --> 00:43:21,530
+entidade é uma coisa a tabela do banco de dados, a outra
+
+1093
+00:43:23,490 --> 00:43:25,710
+estrutura de dados de entrada saída outra
+
+1094
+00:43:26,260 --> 00:43:27,400
+Em aplicação simples,
+
+1095
+00:43:27,590 --> 00:43:30,890
+esses conceitos são iguais em aplicação complexas, concessão diferentes,
+
+1096
+00:43:33,970 --> 00:43:35,180
+beleza, valor estável
+
+1097
+00:43:36,820 --> 00:43:37,830
+boa, não só
+
+1098
+00:43:38,260 --> 00:43:40,200
+complementando os comentários
+
+1099
+00:43:40,320 --> 00:43:41,360
+que estão excelentes
+
+1100
+00:43:41,910 --> 00:43:43,740
+essa ideia do ponto de lazer
+
+1101
+00:43:44,100 --> 00:43:45,710
+faz tudo no controle. Eu acho que
+
+1102
+00:43:46,720 --> 00:43:51,290
+pode ter muitas aplicações em que isso é o melhor mesmo a fazer. E o mais legal ainda.
+
+1103
+00:43:51,290 --> 00:43:54,370
+Acho que isso essa ideia que eu falei de adaptar pode ser que
+
+1104
+00:43:54,750 --> 00:43:56,220
+uma mesma aplicação
+
+1105
+00:43:56,840 --> 00:44:00,770
+para uma funcionalidade. Basta você fazer tudo no controle,
+
+1106
+00:44:00,910 --> 00:44:02,250
+aquilo ali não vai atrapalhar,
+
+1107
+00:44:02,840 --> 00:44:04,980
+mas isso tem um outro caso de uso mais complexo,
+
+1108
+00:44:04,980 --> 00:44:07,790
+no qual aí tudo bem você pode usar uma coisa mais sofisticada.
+
+1109
+00:44:07,790 --> 00:44:08,060
+Então
+
+1110
+00:44:08,350 --> 00:44:08,900
+acho legal
+
+1111
+00:44:09,630 --> 00:44:10,900
+ao sistema com uma coisa
+
+1112
+00:44:11,600 --> 00:44:14,020
+orgânica e na qual você pode adaptar
+
+1113
+00:44:14,270 --> 00:44:14,830
+de usar.
+
+1114
+00:44:15,090 --> 00:44:15,990
+Eu acho legal ser neta,
+
+1115
+00:44:16,240 --> 00:44:18,430
+pode ser na depois que um padrão arquitetural
+
+1116
+00:44:18,810 --> 00:44:19,460
+que você pode
+
+1117
+00:44:19,770 --> 00:44:21,110
+os pontos da sua aplicação.
+
+1118
+00:44:21,270 --> 00:44:23,090
+Não preciso usar em todos os lugares,
+
+1119
+00:44:23,650 --> 00:44:25,130
+mas vocês onde faz sentido
+
+1120
+00:44:25,550 --> 00:44:27,280
+tem um cara também que o time búlgaro,
+
+1121
+00:44:27,850 --> 00:44:29,190
+o que ele fala sobre isso?
+
+1122
+00:44:29,370 --> 00:44:30,620
+Ele fala sobre
+
+1123
+00:44:31,120 --> 00:44:32,910
+você primeiro você faz,
+
+1124
+00:44:33,170 --> 00:44:34,580
+você faria tudo no controle.
+
+1125
+00:44:35,020 --> 00:44:37,530
+É quando você começa a perceber as dores. Você
+
+1126
+00:44:37,860 --> 00:44:39,360
+pode refrator aquilo para
+
+1127
+00:44:39,820 --> 00:44:40,330
+melhorar.
+
+1128
+00:44:40,680 --> 00:44:42,140
+Eu acho isso uma visão bem
+
+1129
+00:44:42,370 --> 00:44:43,340
+positiva também.
+
+1130
+00:44:43,660 --> 00:44:45,820
+Veja você usar uma coisa mais descritiva,
+
+1131
+00:44:46,450 --> 00:44:49,090
+já de início, já dividia suas camadas
+
+1132
+00:44:50,700 --> 00:44:53,400
+das suas dores. Você vai é fator ano tem aquele outro livro
+
+1133
+00:44:54,800 --> 00:44:55,840
+muito peruanos também
+
+1134
+00:44:56,230 --> 00:44:57,230
+que essa entrega de você
+
+1135
+00:44:57,840 --> 00:45:00,200
+vez, ou seja, os aos padrões, você vai usar
+
+1136
+00:45:00,580 --> 00:45:03,570
+no momento em que você começa a sentir a dor naquele ponto.
+
+1137
+00:45:04,480 --> 00:45:06,680
+O segundo ponto que eu queria colocar isso para mim.
+
+1138
+00:45:07,610 --> 00:45:08,960
+Uma das maiores vantagens
+
+1139
+00:45:10,060 --> 00:45:10,330
+essas
+
+1140
+00:45:10,570 --> 00:45:11,040
+ideias
+
+1141
+00:45:12,070 --> 00:45:13,310
+de Lina Cptec
+
+1142
+00:45:13,490 --> 00:45:14,590
+Arquitetura hexagonal
+
+1143
+00:45:15,030 --> 00:45:15,290
+é
+
+1144
+00:45:15,580 --> 00:45:17,640
+você de fato poder testar as coisas
+
+1145
+00:45:18,050 --> 00:45:21,320
+de maneira separada. Você poder testar suas regras de negócio,
+
+1146
+00:45:22,380 --> 00:45:25,300
+sim se preocupar com o controlo de tal.
+
+1147
+00:45:25,800 --> 00:45:28,370
+Então eu acho que isso é um ganho muito grande
+
+1148
+00:45:29,350 --> 00:45:29,720
+e
+
+1149
+00:45:30,030 --> 00:45:31,820
+eu queria só fazer um link que o pessoal
+
+1150
+00:45:31,820 --> 00:45:34,650
+do mundo funcional já tem uma coisa bem parecida com
+
+1151
+00:45:35,040 --> 00:45:37,020
+pode ser adepta de arquiteturas, água. Não
+
+1152
+00:45:37,520 --> 00:45:40,190
+que ele chama de perto e Michel funcionam cor
+
+1153
+00:45:40,580 --> 00:45:42,750
+que a ideia de você ter um corpo funcional
+
+1154
+00:45:43,780 --> 00:45:45,270
+que a parte do seu domínio
+
+1155
+00:45:46,190 --> 00:45:46,740
+e aí
+
+1156
+00:45:47,080 --> 00:45:51,500
+ali você só tem funções puras e você pode testá las de maneira separada também.
+
+1157
+00:45:52,190 --> 00:45:55,370
+E você impuro série fex para as partes para,
+
+1158
+00:45:57,580 --> 00:45:59,740
+digamos, a parte mais externa da aplicação
+
+1159
+00:45:59,870 --> 00:46:01,490
+que tem a ver com essa ideia também. Aí
+
+1160
+00:46:02,790 --> 00:46:05,410
+seria comparável, caso de uso que no caso de uso, você
+
+1161
+00:46:05,780 --> 00:46:06,350
+de fato
+
+1162
+00:46:06,660 --> 00:46:08,740
+você conversaria com coisas externas.
+
+1163
+00:46:09,720 --> 00:46:11,400
+-- Então,
+-- eu acho legal a gente ver também
+
+1164
+00:46:11,860 --> 00:46:12,920
+que essas
+
+1165
+00:46:13,200 --> 00:46:16,430
+essas ideias elas aparecem em vários lugares na comunidade
+
+1166
+00:46:16,790 --> 00:46:18,110
+e elas vão convergindo,
+
+1167
+00:46:18,480 --> 00:46:21,360
+e óbvio que a gente tem que fazer esse trabalho, de saber filtrar,
+
+1168
+00:46:21,800 --> 00:46:22,660
+saber usá las
+
+1169
+00:46:23,140 --> 00:46:24,680
+da melhor maneira, adaptá las
+
+1170
+00:46:24,790 --> 00:46:26,040
+para o nosso contexto.
+
+1171
+00:46:28,040 --> 00:46:31,260
+Ônix e Linhares, eu posso só
+
+1172
+00:46:31,460 --> 00:46:31,950
+para você
+
+1173
+00:46:32,100 --> 00:46:34,170
+seis Comentar em cima de um exemplo.
+
+1174
+00:46:34,930 --> 00:46:38,990
+Então o Fernando Cruz? Nenhuma dessas três ele falou negócio crescente?
+
+1175
+00:46:39,370 --> 00:46:39,900
+Luciano,
+
+1176
+00:46:40,310 --> 00:46:44,530
+você vai fazer um sistema de pagamento e vai ter que escolher a diferentes
+
+1177
+00:46:44,840 --> 00:46:46,060
+fatores de decisão
+
+1178
+00:46:46,560 --> 00:46:48,120
+aprovação do pagamento de
+
+1179
+00:46:48,350 --> 00:46:49,130
+taxas.
+
+1180
+00:46:49,540 --> 00:46:52,090
+Digamos que a Estônia, e tem a taxa de um
+
+1181
+00:46:52,370 --> 00:46:54,530
+e meio por cento para qualquer bandeira,
+
+1182
+00:46:54,830 --> 00:46:56,450
+uma aprovação de setenta por cento
+
+1183
+00:46:56,730 --> 00:46:57,920
+de aprovação da influência.
+
+1184
+00:46:58,410 --> 00:47:01,980
+A Cielo tem taxa de quatro por cento, que é uma taxa meio ruim
+
+1185
+00:47:02,380 --> 00:47:04,510
+e aprovação de noventa e cinco por cento.
+
+1186
+00:47:05,030 --> 00:47:05,530
+Então,
+
+1187
+00:47:06,320 --> 00:47:09,100
+não tem nada a ver com a realidade, aqui passou, eu
+
+1188
+00:47:10,040 --> 00:47:14,490
+Stone. Ela tem uma aprovação menor e a Sérvia uma taxa maior.
+
+1189
+00:47:15,240 --> 00:47:17,610
+Se você escolhesse a ele fala disso,
+
+1190
+00:47:19,210 --> 00:47:20,380
+ele comenta isso.
+
+1191
+00:47:21,060 --> 00:47:21,530
+E aí
+
+1192
+00:47:21,690 --> 00:47:24,350
+você pode integrar com as duas, seriam A solução
+
+1193
+00:47:25,150 --> 00:47:27,550
+é usar a Estônia como principal e
+
+1194
+00:47:27,760 --> 00:47:28,470
+malbec
+
+1195
+00:47:28,680 --> 00:47:29,460
+para Cielo
+
+1196
+00:47:30,300 --> 00:47:31,960
+nessa briga para essa rede,
+
+1197
+00:47:32,120 --> 00:47:36,000
+com uma taxa de um e meio por cento de aprovação de noventa e sete
+
+1198
+00:47:36,210 --> 00:47:36,700
+por cento,
+
+1199
+00:47:37,100 --> 00:47:39,110
+então a mesma taxa da melhor
+
+1200
+00:47:39,430 --> 00:47:41,940
+e a formação muito melhor do que todas elas.
+
+1201
+00:47:42,250 --> 00:47:44,410
+Uma arquitetura bem definida teria que
+
+1202
+00:47:44,410 --> 00:47:47,160
+ser extremamente fácil de mudar as diferentes
+
+1203
+00:47:47,640 --> 00:47:48,420
+que você vai
+
+1204
+00:47:48,580 --> 00:47:50,710
+usar sem precisar alterar todas as camadas.
+
+1205
+00:47:51,190 --> 00:47:52,580
+Eu acho que assim, aqui
+
+1206
+00:47:52,960 --> 00:47:53,670
+o lance é
+
+1207
+00:47:54,510 --> 00:47:56,550
+essa, é uma coisa importante para o negócio,
+
+1208
+00:47:56,760 --> 00:47:58,630
+é uma opção que sequer deixar aberta.
+
+1209
+00:47:59,160 --> 00:47:59,560
+Então,
+
+1210
+00:48:00,940 --> 00:48:02,910
+a meu ver, a gente tem que ver,
+
+1211
+00:48:03,430 --> 00:48:05,000
+simplificar. O que
+
+1212
+00:48:06,260 --> 00:48:09,900
+não tem traz tanta vantagem do negócio deixar flexível
+
+1213
+00:48:10,470 --> 00:48:11,550
+aqueles pontos que
+
+1214
+00:48:12,170 --> 00:48:14,050
+teria vantagem do negócio flexível.
+
+1215
+00:48:14,740 --> 00:48:17,310
+Então, por exemplo, não há coisa de cursos online.
+
+1216
+00:48:17,310 --> 00:48:19,810
+Por exemplo, a CDN que a gente vai integrar
+
+1217
+00:48:20,130 --> 00:48:21,060
+a ser flexível.
+
+1218
+00:48:21,430 --> 00:48:22,580
+Isso é caso, realmente,
+
+1219
+00:48:23,470 --> 00:48:25,810
+no meu caso, lá do meu exemplo do livro, é
+
+1220
+00:48:26,360 --> 00:48:30,190
+o formato de Buckingham ser gerados, eu quero que sejam flexíveis
+
+1221
+00:48:31,280 --> 00:48:32,290
+então,
+
+1222
+00:48:32,610 --> 00:48:33,400
+mas o
+
+1223
+00:48:35,480 --> 00:48:35,890
+Brasil,
+
+1224
+00:48:38,100 --> 00:48:40,520
+nesse exemplo, que você, comentou o senador, tem a resposta
+
+1225
+00:48:42,230 --> 00:48:42,660
+Desculpa
+
+1226
+00:48:46,420 --> 00:48:47,540
+engraçado, desse exemplo,
+
+1227
+00:48:47,790 --> 00:48:47,990
+quando
+
+1228
+00:48:48,390 --> 00:48:49,280
+fala da CNN.
+
+1229
+00:48:49,880 --> 00:48:51,230
+Na minha cabeça, esse é o segundo
+
+1230
+00:48:51,860 --> 00:48:52,130
+CD,
+
+1231
+00:48:52,260 --> 00:48:54,490
+é uma coisa que nunca vai mudar aquilo que muda de CNPJ, mas
+
+1232
+00:48:54,600 --> 00:48:55,670
+acabou de falar que muda
+
+1233
+00:48:57,750 --> 00:48:58,450
+-- o
+-- índice de
+
+1234
+00:48:59,260 --> 00:49:03,050
+custo. É alta, sabe? É um grande, uma grande fonte de custos.
+
+1235
+00:49:03,910 --> 00:49:07,050
+Então você consegue uma eficiência melhor. Se conseguir algo.
+
+1236
+00:49:07,530 --> 00:49:10,740
+É mesmo exemplo aqui. No caso das diferentes,
+
+1237
+00:49:12,250 --> 00:49:15,290
+os atos, nesse ponto você precisa de flexibilidade. Então, por exemplo,
+
+1238
+00:49:15,630 --> 00:49:16,810
+a Adin como fintec,
+
+1239
+00:49:16,810 --> 00:49:20,240
+tenho certeza que na estreia da mesma coisa adicionam próxima diferente.
+
+1240
+00:49:20,280 --> 00:49:22,390
+Tem que ser fácil, certa, porque o negócio
+
+1241
+00:49:23,020 --> 00:49:23,610
+sequer
+
+1242
+00:49:24,070 --> 00:49:25,800
+leva de novos mercados. Você precisa implementar.
+
+1243
+00:49:25,800 --> 00:49:27,230
+Essas diferentes daqueles mercados
+
+1244
+00:49:27,520 --> 00:49:29,770
+têm que ser fácil no sistema nacional. Tem que fazer
+
+1245
+00:49:30,080 --> 00:49:32,100
+a pessoa abrir quatrocentos classes,
+
+1246
+00:49:32,550 --> 00:49:33,950
+implementar um novo diferente.
+
+1247
+00:49:35,070 --> 00:49:36,130
+Só que esse tipo de coisa
+
+1248
+00:49:37,940 --> 00:49:39,210
+para acionar está mais acho que
+
+1249
+00:49:39,630 --> 00:49:40,750
+à exceção do que a regra
+
+1250
+00:49:40,910 --> 00:49:42,450
+de aplicação da gente tem muito cruel,
+
+1251
+00:49:44,010 --> 00:49:45,210
+como o país. Ou seja, falaram
+
+1252
+00:49:46,820 --> 00:49:48,530
+um detalhe que eu queria comentador
+
+1253
+00:49:49,200 --> 00:49:52,100
+dos livros, porque ela estava tuitando nem a trabalhar dos tuítes.
+
+1254
+00:49:52,370 --> 00:49:55,020
+A gente comentou que o livro ele é opinião, neither nele,
+
+1255
+00:49:55,310 --> 00:49:56,880
+ele tem as ações fortes, edital,
+
+1256
+00:49:57,260 --> 00:49:58,220
+mas que parte do
+
+1257
+00:49:59,390 --> 00:50:01,130
+trabalho nós, quando nessas coisas é
+
+1258
+00:50:02,430 --> 00:50:03,790
+transferir para nosso contexto.
+
+1259
+00:50:03,790 --> 00:50:06,550
+Nesse trabalho, que é mais de engenharia, estão científica.
+
+1260
+00:50:06,690 --> 00:50:09,430
+É pegar mesmo, transfere para nosso contexto. Me lembro, por exemplo,
+
+1261
+00:50:10,620 --> 00:50:12,710
+os exemplos do Evan sempre como positivas,
+
+1262
+00:50:13,030 --> 00:50:14,570
+mas você lembra algo gigliotti
+
+1263
+00:50:14,920 --> 00:50:17,280
+Texas em dois mil e quatro, dois mil e cinco? Quando ele saiu,
+
+1264
+00:50:17,510 --> 00:50:19,900
+a galera colava código fonte de Cássia fala a
+
+1265
+00:50:19,900 --> 00:50:21,650
+gente porque é um repositório de acordo com ele,
+
+1266
+00:50:22,520 --> 00:50:25,260
+-- o que
+-- importa? Meu amigo seu Evans acha que é um repositório,
+
+1267
+00:50:25,720 --> 00:50:26,030
+Então
+
+1268
+00:50:26,420 --> 00:50:29,330
+é difícil analisar mesmo quando você não conteúdo novo. Então
+
+1269
+00:50:30,000 --> 00:50:32,030
+é óbvio que o Evan escrever muito melhor
+
+1270
+00:50:32,690 --> 00:50:35,580
+de uma maneira um pouco mais amigável. Por isso que as pessoas ficaram putas com ele.
+
+1271
+00:50:35,930 --> 00:50:38,020
+O ano com o Bope foi um pouquinho mais,
+
+1272
+00:50:39,140 --> 00:50:41,270
+mas sei como uma maneira de descrever. Mas acho que não,
+
+1273
+00:50:42,520 --> 00:50:44,790
+acho que todo o livro mentiram hoje porque nós somos mais
+
+1274
+00:50:44,930 --> 00:50:47,530
+mais maduras. Então você tem coisas que você
+
+1275
+00:50:48,170 --> 00:50:49,460
+não concorde em absoluto.
+
+1276
+00:50:50,440 --> 00:50:50,690
+Acho que
+
+1277
+00:50:50,890 --> 00:50:51,760
+tem que dar se,
+
+1278
+00:50:52,210 --> 00:50:53,100
+como fazem Portuguesa
+
+1279
+00:50:53,550 --> 00:50:53,960
+feito,
+
+1280
+00:50:54,240 --> 00:50:55,440
+integrar um pouquinho, eleger
+
+1281
+00:50:57,220 --> 00:51:00,400
+-- um
+-- pouquinho diferente para autor de deixar pular de alguma coisa de
+
+1282
+00:51:00,400 --> 00:51:03,940
+que você não concorda muito A única maneira de conseguir interpretar iniciativas.
+
+1283
+00:51:03,940 --> 00:51:04,470
+Eu acho
+
+1284
+00:51:06,750 --> 00:51:08,860
+isso me lembra muito, sic, outro raio
+
+1285
+00:51:09,100 --> 00:51:12,180
+que se você tem aquela coisa de se empolgar e depois
+
+1286
+00:51:14,600 --> 00:51:15,280
+se ferra
+
+1287
+00:51:15,930 --> 00:51:17,020
+natural
+
+1288
+00:51:17,210 --> 00:51:19,620
+isso acontece com ideias também de desenhar, de colher,
+
+1289
+00:51:20,220 --> 00:51:21,860
+mas valem olhares.
+
+1290
+00:51:24,070 --> 00:51:24,750
+-- Então
+-- aí
+
+1291
+00:51:25,290 --> 00:51:26,340
+eu vou
+
+1292
+00:51:26,740 --> 00:51:29,280
+esse caso. Esse caso é um caso interessante, porque
+
+1293
+00:51:30,020 --> 00:51:31,220
+quem trabalhou fazendo
+
+1294
+00:51:31,570 --> 00:51:32,920
+de coisa
+
+1295
+00:51:33,220 --> 00:51:35,950
+sabe que toda vez que você vai integrar
+
+1296
+00:51:36,150 --> 00:51:37,810
+um adquirente novo
+
+1297
+00:51:38,050 --> 00:51:39,260
+tem várias surpresas
+
+1298
+00:51:39,600 --> 00:51:40,440
+que você não
+
+1299
+00:51:40,870 --> 00:51:42,330
+planejou lá na sua arquitetura.
+
+1300
+00:51:42,950 --> 00:51:45,130
+Vai ter modos de trabalho que são diferentes de
+
+1301
+00:51:45,130 --> 00:51:46,750
+todos os modos de trabalho que você tem.
+
+1302
+00:51:47,040 --> 00:51:49,500
+Gente que trabalha só de um sol mandando
+
+1303
+00:51:49,720 --> 00:51:50,070
+arquivar.
+
+1304
+00:51:50,240 --> 00:51:52,080
+A CPI tem trabalha só via
+
+1305
+00:51:53,760 --> 00:51:55,770
+web. Tem gente que trabalha, só havia feito.
+
+1306
+00:51:55,770 --> 00:51:58,800
+Você tem que a lugar uma linha direta para esse cara.
+
+1307
+00:51:59,050 --> 00:51:59,350
+Tem
+
+1308
+00:51:59,950 --> 00:52:02,380
+uma máquina fisicamente, dentro do data center da escola.
+
+1309
+00:52:03,000 --> 00:52:03,480
+Tem
+
+1310
+00:52:03,810 --> 00:52:05,390
+um universo de coisas
+
+1311
+00:52:05,520 --> 00:52:06,430
+que você vai
+
+1312
+00:52:07,170 --> 00:52:08,220
+se surpreender
+
+1313
+00:52:08,500 --> 00:52:10,490
+quando você tiver fazendo integrações
+
+1314
+00:52:10,770 --> 00:52:11,680
+desse jeito. Então,
+
+1315
+00:52:11,850 --> 00:52:16,270
+você vai criar esse modelo? Eu acho que é importante
+
+1316
+00:52:16,560 --> 00:52:17,220
+que
+
+1317
+00:52:17,590 --> 00:52:19,860
+as pessoas entendam que vocês vão fazer isso,
+
+1318
+00:52:20,150 --> 00:52:22,960
+a minha crítica, que o livro não fala em hora nenhuma. Como é que se faz isso?
+
+1319
+00:52:23,770 --> 00:52:24,930
+A gente fala, fala, fala do
+
+1320
+00:52:25,960 --> 00:52:27,490
+eu vou até até dizer
+
+1321
+00:52:27,740 --> 00:52:28,670
+o livro, a maior.
+
+1322
+00:52:29,070 --> 00:52:30,470
+São seiscentos páginas,
+
+1323
+00:52:30,690 --> 00:52:35,500
+mas você vai ter muito mais do livro do Evans do que você vai conseguir tirar mesmo
+
+1324
+00:52:35,820 --> 00:52:38,490
+arrancando o último suco do clima
+
+1325
+00:52:39,440 --> 00:52:41,990
+o conteúdo, ele vai ser muito melhor.
+
+1326
+00:52:42,180 --> 00:52:44,170
+É chato! É um time chato para caralho.
+
+1327
+00:52:44,660 --> 00:52:45,540
+Eu não vou dizer que
+
+1328
+00:52:45,790 --> 00:52:49,140
+é um livro legal de lei no domingo. Organizar não lembra que é muito chato de lei,
+
+1329
+00:52:49,470 --> 00:52:52,450
+mas você pode poupar dança, pode, Deus, pagos para os que
+
+1330
+00:52:52,690 --> 00:52:55,510
+fazem mais sentido para você neste momento para você entender. Então,
+
+1331
+00:52:55,750 --> 00:52:59,150
+eu acho que o que vale mais a pena do que você
+
+1332
+00:52:59,640 --> 00:53:02,340
+atrás de ler o
+
+1333
+00:53:03,680 --> 00:53:06,060
+eu acho que tem tem recomendações.
+
+1334
+00:53:06,530 --> 00:53:07,240
+Ter que ele faz
+
+1335
+00:53:07,630 --> 00:53:09,480
+nenhuma recomendações meio enfáticas,
+
+1336
+00:53:09,670 --> 00:53:12,960
+-- que são ruins, são
+-- recomendações ruins, Tem também uma daqueles
+
+1337
+00:53:13,320 --> 00:53:13,790
+que ele faz
+
+1338
+00:53:14,610 --> 00:53:17,990
+dentro da sua equipe. Você vai fazer a distribuição
+
+1339
+00:53:18,320 --> 00:53:23,290
+do do seu domínio nela, como um já elevação já separado,
+
+1340
+00:53:23,580 --> 00:53:25,610
+mencionado, que você vai pegar, você vai
+
+1341
+00:53:25,850 --> 00:53:28,500
+voltar pra todo mundo? Então imagina numa empresa
+
+1342
+00:53:29,460 --> 00:53:32,940
+-- porque
+-- tem uma mil desenvolvedores nesses mil desenvolvedores.
+
+1343
+00:53:33,240 --> 00:53:34,090
+Formam aí,
+
+1344
+00:53:34,090 --> 00:53:37,900
+sem equipes diferentes e cada um produzindo as suas próprias bibliotecas.
+
+1345
+00:53:38,240 --> 00:53:39,280
+Imagina
+
+1346
+00:53:39,840 --> 00:53:41,980
+o desespero que você entender,
+
+1347
+00:53:41,980 --> 00:53:45,670
+a matriz independência e que vem são cada aplicação e separada.
+
+1348
+00:53:45,670 --> 00:53:46,260
+Vai estar
+
+1349
+00:53:46,510 --> 00:53:48,680
+se você está difícil muito cada coisinha comum,
+
+1350
+00:53:48,680 --> 00:53:52,090
+já que a pessoa tem que atualizar a dependência mudar o número de versão.
+
+1351
+00:53:53,410 --> 00:53:53,690
+Isso
+
+1352
+00:53:54,110 --> 00:53:56,930
+é uma das coisas que quando a gente foi fazer, o
+
+1353
+00:53:57,180 --> 00:53:57,240
+que
+
+1354
+00:53:57,340 --> 00:53:57,550
+foi
+
+1355
+00:53:57,920 --> 00:53:59,100
+na área de gestão. Hoje
+
+1356
+00:53:59,580 --> 00:54:02,000
+a gente tomou a decisão de que não ia ter,
+
+1357
+00:54:03,030 --> 00:54:04,920
+não entra de jeito nenhum biblioteca,
+
+1358
+00:54:05,480 --> 00:54:07,260
+porque a gente não queria deixar
+
+1359
+00:54:07,490 --> 00:54:10,210
+isso como sendo uma dependência que todo mundo
+
+1360
+00:54:10,500 --> 00:54:13,950
+e até que ficar atualizando, porque a gente saber que só era terrível
+
+1361
+00:54:14,220 --> 00:54:15,950
+para a saudação de Cláudio, teve essa experiência.
+
+1362
+00:54:15,950 --> 00:54:18,140
+Não foi legal, pessoal no Twitter. Mas a experiência
+
+1363
+00:54:18,370 --> 00:54:22,060
+não foi legal, porque é muito difícil de você fazer uma a coisa dessas funcionar.
+
+1364
+00:54:22,330 --> 00:54:23,060
+Quando você
+
+1365
+00:54:23,180 --> 00:54:24,790
+tem independência de regras de negócio,
+
+1366
+00:54:24,790 --> 00:54:27,090
+imagina que eu tenho um novo método de autenticação.
+
+1367
+00:54:27,390 --> 00:54:29,270
+Então, em vez de ter um lugar centralizado, deu,
+
+1368
+00:54:29,590 --> 00:54:30,610
+autorizou isso? Não.
+
+1369
+00:54:30,610 --> 00:54:33,480
+Agora tem cinquenta aplicações diferentes de equipes diferentes.
+
+1370
+00:54:33,610 --> 00:54:34,660
+Voltou a ser católicos?
+
+1371
+00:54:34,990 --> 00:54:36,230
+Imagino pesadelo
+
+1372
+00:54:36,600 --> 00:54:37,700
+que é você fazer
+
+1373
+00:54:38,000 --> 00:54:38,500
+uma coisa,
+
+1374
+00:54:38,920 --> 00:54:42,180
+não tem. Tem coisas realmente lá dentro, que são assim
+
+1375
+00:54:42,390 --> 00:54:43,800
+que você não deveria fazer.
+
+1376
+00:54:44,190 --> 00:54:47,620
+Você não deveria trabalhar desse jeito. Uma coisa que o Rodrigo falou
+
+1377
+00:54:48,070 --> 00:54:49,180
+que eu acho que precisa
+
+1378
+00:54:50,040 --> 00:54:50,530
+também
+
+1379
+00:54:51,090 --> 00:54:52,230
+de deixar um pouco mais claro.
+
+1380
+00:54:53,010 --> 00:54:55,390
+Não sei como. Rafael Freire não reclamou
+
+1381
+00:54:55,790 --> 00:54:56,670
+ainda que
+
+1382
+00:54:57,140 --> 00:54:58,690
+a aplicação rails
+
+1383
+00:54:58,940 --> 00:55:00,470
+não aplicação simples
+
+1384
+00:55:02,170 --> 00:55:02,950
+shopping faz
+
+1385
+00:55:03,410 --> 00:55:04,060
+podem meio
+
+1386
+00:55:06,250 --> 00:55:07,680
+hippie Rodrigues é pegando
+
+1387
+00:55:07,920 --> 00:55:09,520
+pagamento do mundo todo,
+
+1388
+00:55:10,080 --> 00:55:12,250
+São aplicações complexas que dá para você
+
+1389
+00:55:12,460 --> 00:55:14,720
+se você precisa a gente volta para
+
+1390
+00:55:15,000 --> 00:55:18,290
+aquela coisa que o Rafael ponto falou lá no início
+
+1391
+00:55:19,000 --> 00:55:19,390
+tem
+
+1392
+00:55:19,570 --> 00:55:20,250
+a
+
+1393
+00:55:20,570 --> 00:55:23,350
+vantagem é que você consegue fazer o simples
+
+1394
+00:55:23,580 --> 00:55:26,990
+e o complexo tudo junto. Não tem aplicação simples, aplicação complexa
+
+1395
+00:55:27,410 --> 00:55:30,400
+tem pedaços simples e pedaços complexos dentro da aplicação,
+
+1396
+00:55:30,730 --> 00:55:31,820
+Então não é uma coisa que
+
+1397
+00:55:31,990 --> 00:55:35,430
+simplesmente a a minha aplicação é complexa porque é uma aplicação de pagamento,
+
+1398
+00:55:36,290 --> 00:55:38,430
+vai ter lugares na sua aplicação da companhia
+
+1399
+00:55:38,900 --> 00:55:42,280
+Alex, Onde fazer que o ponto falou meter tudo dentro do controle,
+
+1400
+00:55:42,520 --> 00:55:44,210
+não vai ficar legal porque você
+
+1401
+00:55:44,460 --> 00:55:44,790
+é
+
+1402
+00:55:45,130 --> 00:55:48,600
+muito código, porque você precisa usar esse código, algum outro serviço,
+
+1403
+00:55:48,600 --> 00:55:49,430
+algum outro lugar.
+
+1404
+00:55:49,630 --> 00:55:51,420
+Então você vai conseguir separar isso aí,
+
+1405
+00:55:51,650 --> 00:55:53,850
+ou você pode simplesmente botar dentro do controle.
+
+1406
+00:55:53,990 --> 00:55:54,910
+Esse foi,
+
+1407
+00:55:55,140 --> 00:55:56,200
+pelo menos para mim
+
+1408
+00:55:56,440 --> 00:55:58,880
+lá lá. Dois mil e seis, dois mil e sete.
+
+1409
+00:55:59,980 --> 00:56:01,070
+O pulo do gato
+
+1410
+00:56:01,310 --> 00:56:03,830
+quando comecei a trabalhar com eles depois de sair do Java
+
+1411
+00:56:04,040 --> 00:56:07,200
+e ver que eu não precisa de toda essa complicação, se eu posso,
+
+1412
+00:56:07,490 --> 00:56:10,580
+eu tenho casos que são mais simples. Eu posso fazer simples aqui
+
+1413
+00:56:10,790 --> 00:56:14,230
+isso eu tenho casos que são muito mais complexas. Eu posso criar um modelo separado,
+
+1414
+00:56:14,440 --> 00:56:16,140
+Possui um serviço? Posso sim posto
+
+1415
+00:56:16,650 --> 00:56:16,940
+dez.
+
+1416
+00:56:17,070 --> 00:56:18,750
+Essa complexidade onde
+
+1417
+00:56:19,010 --> 00:56:19,490
+ela está
+
+1418
+00:56:19,840 --> 00:56:23,050
+então é porque você está trabalhando com correios, com diálogo,
+
+1419
+00:56:23,260 --> 00:56:25,880
+com perna peito. Você só está escrevendo aplicação simples.
+
+1420
+00:56:26,070 --> 00:56:28,730
+Você só pode escrever aplicação se você pode escrever
+
+1421
+00:56:28,930 --> 00:56:31,040
+muita gente, escreve muita gente, deu muito certo,
+
+1422
+00:56:31,040 --> 00:56:32,470
+escrevendo aplicações complexas.
+
+1423
+00:56:32,730 --> 00:56:34,010
+Usando essas ferramentas aí
+
+1424
+00:56:36,180 --> 00:56:36,210
+a
+
+1425
+00:56:36,370 --> 00:56:38,860
+gente aqui, para reforçar uma coisa que o Maurício falou que eu acho que
+
+1426
+00:56:39,200 --> 00:56:40,740
+é o principal desafio na prática
+
+1427
+00:56:41,050 --> 00:56:41,380
+que
+
+1428
+00:56:41,910 --> 00:56:44,000
+você criou administração, linda, maravilhosa,
+
+1429
+00:56:44,360 --> 00:56:46,300
+a próxima implementação vai ser diferente.
+
+1430
+00:56:46,410 --> 00:56:47,660
+Vai ter alguma coisa para mudar,
+
+1431
+00:56:48,250 --> 00:56:49,300
+mas que não hipsters
+
+1432
+00:56:50,520 --> 00:56:52,490
+pessoal gravou com com a área em um pessoal,
+
+1433
+00:56:52,770 --> 00:56:53,300
+bem como
+
+1434
+00:56:53,430 --> 00:56:55,720
+quando foi implementar o primeiro meio de pagamento brasileiro.
+
+1435
+00:56:56,390 --> 00:56:57,290
+Parcelamento
+
+1436
+00:56:57,530 --> 00:56:58,550
+ninguém. Parcela
+
+1437
+00:56:58,700 --> 00:57:02,140
+dos gregos, não entendi o que era o parcelamento da abstração que tinha para
+
+1438
+00:57:02,450 --> 00:57:03,700
+adquirentes, não funcionava
+
+1439
+00:57:03,990 --> 00:57:06,430
+sempre. A próxima apresentação vai ser um pouco diferente.
+
+1440
+00:57:06,430 --> 00:57:08,340
+Nem aí que entra o desafio. É como que você
+
+1441
+00:57:08,980 --> 00:57:12,550
+continua evoluindo essa ministração de maneira legal, sem começar poluiu,
+
+1442
+00:57:12,550 --> 00:57:13,440
+deixar estragar
+
+1443
+00:57:14,340 --> 00:57:14,760
+esse
+
+1444
+00:57:15,220 --> 00:57:17,470
+desafio cruel que esses livros não tocam tanto
+
+1445
+00:57:18,040 --> 00:57:18,670
+nos exemplos.
+
+1446
+00:57:18,670 --> 00:57:21,740
+Obviamente, tem que simplificar, precisam escrever um livro de cinco mil pastas.
+
+1447
+00:57:21,740 --> 00:57:22,000
+Mas
+
+1448
+00:57:22,700 --> 00:57:23,450
+como que você
+
+1449
+00:57:23,970 --> 00:57:25,310
+modifica a administração?
+
+1450
+00:57:25,570 --> 00:57:28,520
+Vai entender essas pequenas diferenças que ela sempre acabam acontecendo.
+
+1451
+00:57:28,520 --> 00:57:29,510
+Não esquece a chave
+
+1452
+00:57:29,910 --> 00:57:30,530
+no mundo real,
+
+1453
+00:57:31,710 --> 00:57:34,710
+pois é nada com o mundo real para destruir a sua
+
+1454
+00:57:35,180 --> 00:57:35,700
+infração.
+
+1455
+00:57:36,240 --> 00:57:36,570
+Mas o
+
+1456
+00:57:37,530 --> 00:57:38,840
+não só reforça uma coisa
+
+1457
+00:57:39,330 --> 00:57:39,630
+é
+
+1458
+00:57:39,760 --> 00:57:40,800
+o segundo maior. Isso falou
+
+1459
+00:57:41,200 --> 00:57:41,900
+Eu me referi
+
+1460
+00:57:42,130 --> 00:57:44,550
+único e exclusivamente um processo disso quer saúde
+
+1461
+00:57:44,800 --> 00:57:45,340
+padrão,
+
+1462
+00:57:46,290 --> 00:57:47,520
+uma linguagem de programação,
+
+1463
+00:57:47,910 --> 00:57:51,830
+seja com for, desde que ela tenha o devido suporte ao que você precisa fazer
+
+1464
+00:57:52,450 --> 00:57:53,320
+a capacidade de
+
+1465
+00:57:53,820 --> 00:57:55,210
+comunicar o computador
+
+1466
+00:57:55,330 --> 00:57:57,890
+em orientar para aquele processo, aquilo que você precisa.
+
+1467
+00:57:58,310 --> 00:58:00,030
+Não existe qualquer limitação em sua fala.
+
+1468
+00:58:01,250 --> 00:58:02,490
+Todos os momentos compostos
+
+1469
+00:58:02,930 --> 00:58:03,320
+em que
+
+1470
+00:58:03,630 --> 00:58:05,860
+não tem absolutamente nada, a ver uma linguagem como toda
+
+1471
+00:58:06,340 --> 00:58:08,640
+paixão Java, como proposta ao qual
+
+1472
+00:58:09,080 --> 00:58:12,650
+você a utilizá, salvo por questões de reformas, alguma outra implicação está,
+
+1473
+00:58:12,650 --> 00:58:13,000
+então
+
+1474
+00:58:13,360 --> 00:58:14,490
+longe, longe de mim,
+
+1475
+00:58:14,750 --> 00:58:18,090
+que afirmado alguma coisa nesse sentido. Meirelles quer fazer especificamente
+
+1476
+00:58:18,460 --> 00:58:19,200
+a olhar isso
+
+1477
+00:58:19,920 --> 00:58:20,670
+-- como
+-- padrão.
+
+1478
+00:58:21,480 --> 00:58:21,720
+E
+
+1479
+00:58:21,830 --> 00:58:23,890
+quando você começa a ter mais regras de negócio
+
+1480
+00:58:24,010 --> 00:58:25,990
+que vai acontecer aqui, é um jogo de prós e contras
+
+1481
+00:58:26,120 --> 00:58:26,930
+único, exclusivamente
+
+1482
+00:58:27,160 --> 00:58:29,150
+o que eu achei, comentou. Relação
+
+1483
+00:58:29,260 --> 00:58:29,990
+aos adquirentes
+
+1484
+00:58:30,910 --> 00:58:32,420
+Para mim tem muita aplicação com adquirente,
+
+1485
+00:58:33,210 --> 00:58:34,040
+pesquisa diferente
+
+1486
+00:58:34,940 --> 00:58:35,200
+e
+
+1487
+00:58:35,900 --> 00:58:36,760
+a ideia ali.
+
+1488
+00:58:37,470 --> 00:58:40,940
+Eu posso levar esse código de uma forma mais procedural e tem uma
+
+1489
+00:58:41,220 --> 00:58:43,780
+classe ou ter um arquivo muito grande, cheio de Michels,
+
+1490
+00:58:43,780 --> 00:58:46,210
+que ora faz uma diferente hora faz outro poço.
+
+1491
+00:58:46,210 --> 00:58:46,480
+Qual é o
+
+1492
+00:58:46,640 --> 00:58:48,100
+problema disso? A funcionar? Vai
+
+1493
+00:58:48,650 --> 00:58:50,370
+mais uma deixa muito. Nesse mesmo arquivo
+
+1494
+00:58:50,680 --> 00:58:52,720
+eu vou ter um acompanhamento um pouco maior que a tecnologia,
+
+1495
+00:58:53,010 --> 00:58:54,310
+Eventualmente vão fragilizar.
+
+1496
+00:58:54,650 --> 00:58:57,600
+Agora eu posso usar um padrão comum, adaptar ainda esta dependência,
+
+1497
+00:58:57,900 --> 00:58:59,240
+isolar essa implementação
+
+1498
+00:58:59,410 --> 00:59:01,030
+e definir um contrato que sirva para
+
+1499
+00:59:01,820 --> 00:59:04,450
+noventa por cento deles ou cem por cento deles. Pode?
+
+1500
+00:59:04,680 --> 00:59:05,670
+Pode acontecer como amores,
+
+1501
+00:59:05,670 --> 00:59:09,240
+Falou deles serem tão radicalmente diferentes ao ponto desse contratos sem válido
+
+1502
+00:59:10,370 --> 00:59:10,920
+precisam não
+
+1503
+00:59:11,400 --> 00:59:12,030
+faz outra coisa.
+
+1504
+00:59:12,860 --> 00:59:14,700
+Então, o tempo todo, aquele bando de conta que
+
+1505
+00:59:15,080 --> 00:59:18,600
+isso se refere à aplicação, tem parte simples e partes complexas. Na verdade,
+
+1506
+00:59:19,140 --> 00:59:19,910
+o domínio
+
+1507
+00:59:20,560 --> 00:59:23,950
+ele é composto em sobre domínios simples e complexos
+
+1508
+00:59:24,220 --> 00:59:24,970
+os complexos.
+
+1509
+00:59:24,970 --> 00:59:27,780
+Após tomar decisão de fazer o juramento pelo simples de outros,
+
+1510
+00:59:27,780 --> 00:59:29,290
+pode fazer todos do mesmo jeito
+
+1511
+00:59:29,760 --> 00:59:29,990
+e
+
+1512
+00:59:30,090 --> 00:59:30,460
+hora
+
+1513
+00:59:31,040 --> 00:59:32,430
+tem uma manutenção. Bilidade
+
+1514
+00:59:32,660 --> 00:59:35,830
+pior hora tem melhor decisão de cada um sabe
+
+1515
+00:59:36,280 --> 00:59:37,000
+funcionar,
+
+1516
+00:59:37,230 --> 00:59:38,720
+uma coisa garante tudo vai funcionar.
+
+1517
+00:59:38,940 --> 00:59:40,620
+A questão em que condições
+
+1518
+00:59:40,910 --> 00:59:41,530
+vai funcionar
+
+1519
+00:59:41,920 --> 00:59:42,250
+todos
+
+1520
+00:59:46,890 --> 00:59:47,400
+olha o ano
+
+1521
+00:59:48,550 --> 00:59:48,920
+cheio
+
+1522
+00:59:49,340 --> 00:59:50,340
+dela, distraído aqui
+
+1523
+00:59:52,230 --> 00:59:53,660
+vou aproveitar que o gasto Maurício
+
+1524
+00:59:54,840 --> 00:59:55,890
+ele falou sobre
+
+1525
+00:59:58,100 --> 00:59:59,390
+domingos complexa. A gente
+
+1526
+00:59:59,590 --> 01:00:00,060
+fala não
+
+1527
+01:00:00,310 --> 01:00:01,100
+você usa
+
+1528
+01:00:01,210 --> 01:00:04,680
+pmdb-. Você usa climbing o seu seccional consertou o domínio complexo.
+
+1529
+01:00:04,680 --> 01:00:05,590
+Então sim, completa. Mas
+
+1530
+01:00:06,120 --> 01:00:06,290
+isso é
+
+1531
+01:00:06,450 --> 01:00:08,630
+subjetivo, que significa até hoje.
+
+1532
+01:00:09,250 --> 01:00:09,990
+Eu tenho uma dúvida,
+
+1533
+01:00:10,540 --> 01:00:10,790
+o que
+
+1534
+01:00:10,990 --> 01:00:14,660
+considero complexo domínio complexo, sistema complexo ao meu tio
+
+1535
+01:00:15,670 --> 01:00:16,560
+e talvez porque eu venho
+
+1536
+01:00:16,780 --> 01:00:18,730
+muito do mundo corporativo
+
+1537
+01:00:19,130 --> 01:00:19,440
+onde
+
+1538
+01:00:19,840 --> 01:00:20,780
+manifesta, comentou.
+
+1539
+01:00:21,320 --> 01:00:23,190
+A gente vive de crude, então ele,
+
+1540
+01:00:23,450 --> 01:00:27,470
+oitenta por cento mais ali é o bom e velho crude. Talvez um relatório zinha
+
+1541
+01:00:27,620 --> 01:00:28,810
+PDF, bonitinho,
+
+1542
+01:00:29,300 --> 01:00:30,420
+um ponto sensível,
+
+1543
+01:00:31,860 --> 01:00:32,310
+Mas aí,
+
+1544
+01:00:33,500 --> 01:00:34,340
+o que é?
+
+1545
+01:00:34,710 --> 01:00:37,830
+O que é um mundo muito complexo? Então eu acho cobramos esta comentou.
+
+1546
+01:00:38,370 --> 01:00:38,810
+Levou.
+
+1547
+01:00:38,980 --> 01:00:40,600
+Tem muito clara as minhas
+
+1548
+01:00:41,010 --> 01:00:43,740
+portos em nada pela adaptação. Os graves Today.
+
+1549
+01:00:43,940 --> 01:00:46,560
+Quando tem o domínio complexo, quero separar, Quer testar
+
+1550
+01:00:46,670 --> 01:00:49,320
+especialmente teste de umidade. E eu acho que ele comentou até isso.
+
+1551
+01:00:49,940 --> 01:00:50,400
+Ela tem um
+
+1552
+01:00:50,670 --> 01:00:51,220
+complexo
+
+1553
+01:00:51,390 --> 01:00:52,160
+cuja complexo
+
+1554
+01:00:52,330 --> 01:00:53,040
+eu acho que não
+
+1555
+01:00:53,790 --> 01:00:55,660
+estão sendo sistemas, incorpora aquele. São cruz,
+
+1556
+01:00:55,920 --> 01:00:57,250
+micros serviços ao complexo.
+
+1557
+01:00:57,590 --> 01:00:59,070
+Se você pensar na aplicação, como tudo
+
+1558
+01:00:59,630 --> 01:01:01,640
+de autoria do serviço, Sim, ela é complexa.
+
+1559
+01:01:02,480 --> 01:01:02,870
+Mas
+
+1560
+01:01:03,590 --> 01:01:04,110
+o serviço
+
+1561
+01:01:04,300 --> 01:01:05,100
+não é complexa.
+
+1562
+01:01:05,310 --> 01:01:06,580
+Na base de código
+
+1563
+01:01:07,290 --> 01:01:10,210
+é complexa nas bordas, na comunicação. Então
+
+1564
+01:01:10,340 --> 01:01:13,610
+metrô serviço tirou toda a complexidade que o jovem não tinha que manter
+
+1565
+01:01:13,900 --> 01:01:16,460
+uma base de conde com dezenas de milhares de linhas,
+
+1566
+01:01:17,730 --> 01:01:19,480
+muito manter apenas algumas poucas
+
+1567
+01:01:19,960 --> 01:01:21,480
+centenas ou milhares de linhas.
+
+1568
+01:01:21,550 --> 01:01:25,180
+Poucas as últimas linhas porque suas classes e jogo. A complexidade nas bordas do
+
+1569
+01:01:25,350 --> 01:01:26,570
+serviço como esta está nas bolas,
+
+1570
+01:01:26,930 --> 01:01:30,090
+mas sim no serviço, me deu um luxo, a palavra luxo aqui
+
+1571
+01:01:30,550 --> 01:01:30,950
+de
+
+1572
+01:01:31,210 --> 01:01:34,160
+ter um código, mas sempre uma base de código mais simples,
+
+1573
+01:01:34,570 --> 01:01:36,180
+porque eu não abraço. Isso
+
+1574
+01:01:36,400 --> 01:01:38,150
+porque isso tem um código mais simples.
+
+1575
+01:01:38,530 --> 01:01:39,530
+Vão passar por um serviço
+
+1576
+01:01:39,660 --> 01:01:40,490
+que permite criar
+
+1577
+01:01:40,810 --> 01:01:43,150
+uma personalidade, um componente que tem uma
+
+1578
+01:01:43,270 --> 01:01:45,590
+responsabilidade bem definida,
+
+1579
+01:01:45,840 --> 01:01:47,600
+responsabilidade, bem definida, quer dizer que
+
+1580
+01:01:47,820 --> 01:01:48,740
+tudo o que ocorre ali
+
+1581
+01:01:48,930 --> 01:01:50,940
+está tudo intimamente ligado. Tempo
+
+1582
+01:01:51,270 --> 01:01:54,810
+eles têm um fortíssimo acoplamento, porque tudo, México mesmo contexto,
+
+1583
+01:01:55,040 --> 01:01:58,400
+se mexe o mesmo contexto, porque eu tenho que criar uma única mata de direção
+
+1584
+01:01:58,700 --> 01:01:59,970
+para separar as coisas,
+
+1585
+01:02:00,240 --> 01:02:00,660
+disse. Está
+
+1586
+01:02:00,760 --> 01:02:01,610
+tudo íntimo.
+
+1587
+01:02:02,310 --> 01:02:02,480
+A
+
+1588
+01:02:02,730 --> 01:02:04,900
+complexidade está nas bolas que geralmente consegue,
+
+1589
+01:02:05,090 --> 01:02:06,960
+Está distribuindo, está na entrada e na saída,
+
+1590
+01:02:07,340 --> 01:02:08,220
+quer ainda não,
+
+1591
+01:02:08,570 --> 01:02:09,610
+Eu vou ter esse acompanhamento.
+
+1592
+01:02:09,610 --> 01:02:11,790
+Quase borda Tem que saber qual o protocolo de entrada.
+
+1593
+01:02:12,000 --> 01:02:14,750
+E tem que saber algum foco com o protocolo de saída. Até porque
+
+1594
+01:02:15,010 --> 01:02:16,740
+as regras de negócio na questão
+
+1595
+01:02:16,900 --> 01:02:17,810
+da lógica de negócio,
+
+1596
+01:02:18,000 --> 01:02:21,670
+ela não está em um ponto na aplicação. Está espalhada por toda a aplicação
+
+1597
+01:02:22,190 --> 01:02:23,720
+dele, de como vai entrar
+
+1598
+01:02:23,930 --> 01:02:25,630
+se aquilo ali vaez com o tipo de
+
+1599
+01:02:26,030 --> 01:02:27,190
+protocolo de entrada.
+
+1600
+01:02:28,100 --> 01:02:28,720
+Tipagem
+
+1601
+01:02:28,900 --> 01:02:29,960
+até o banco de dados
+
+1602
+01:02:30,130 --> 01:02:31,130
+De forma A entidade afirma que
+
+1603
+01:02:31,360 --> 01:02:33,390
+boa parte da minha loja de negócio vão estar
+
+1604
+01:02:33,540 --> 01:02:37,430
+em como definir o esquema. Como é que define os tipos, como define as constantes?
+
+1605
+01:02:37,710 --> 01:02:39,950
+A concorrência ignora isso
+
+1606
+01:02:40,260 --> 01:02:41,530
+é dar um tiro no pé.
+
+1607
+01:02:42,590 --> 01:02:42,920
+E aí
+
+1608
+01:02:43,690 --> 01:02:44,580
+você fala, mas
+
+1609
+01:02:44,710 --> 01:02:45,390
+aproveita
+
+1610
+01:02:45,730 --> 01:02:47,250
+a vantagem de porte. Adapta
+
+1611
+01:02:47,650 --> 01:02:47,870
+nesse
+
+1612
+01:02:48,100 --> 01:02:50,180
+complexo que escreveu mais teste de unidade,
+
+1613
+01:02:50,420 --> 01:02:52,110
+mas seu tudo dentro do contexto conseguisse
+
+1614
+01:02:53,070 --> 01:02:53,370
+prosseguir.
+
+1615
+01:02:53,570 --> 01:02:53,820
+Esta
+
+1616
+01:02:54,070 --> 01:02:54,960
+é para generalizar
+
+1617
+01:02:55,410 --> 01:02:55,870
+onde
+
+1618
+01:02:56,180 --> 01:02:58,450
+a complexidade da nossa bolha está na comunicação remota.
+
+1619
+01:02:59,050 --> 01:03:01,330
+É burrice, disse uma palavra. É burrice
+
+1620
+01:03:01,620 --> 01:03:02,450
+ignorar
+
+1621
+01:03:03,130 --> 01:03:03,540
+isso,
+
+1622
+01:03:04,570 --> 01:03:07,060
+por isso testes de integração. Na minha opinião,
+
+1623
+01:03:07,280 --> 01:03:09,020
+faz muito mais sentido
+
+1624
+01:03:09,230 --> 01:03:10,710
+quando o trabalho com melhores serviços.
+
+1625
+01:03:11,060 --> 01:03:12,030
+Por dois motivos
+
+1626
+01:03:12,650 --> 01:03:13,220
+eu vou ser
+
+1627
+01:03:13,320 --> 01:03:15,510
+exercitados bordas, que é muita complexidade.
+
+1628
+01:03:15,510 --> 01:03:16,820
+Provavelmente a maioria dos bancos,
+
+1629
+01:03:17,730 --> 01:03:21,170
+eu tenho pouquíssima regra de negócio e amigo de código de aplicação,
+
+1630
+01:03:21,360 --> 01:03:23,270
+porque eu tenho um domingo, um subdomínio,
+
+1631
+01:03:23,500 --> 01:03:24,840
+Uma coisa de código muito
+
+1632
+01:03:24,970 --> 01:03:26,170
+acoplada, muito ritmo,
+
+1633
+01:03:27,140 --> 01:03:28,240
+Pouca coisa faz esta.
+
+1634
+01:03:28,980 --> 01:03:30,410
+Então, eu só queria deixar claro que chegou
+
+1635
+01:03:31,390 --> 01:03:33,120
+domingo o complexo. É difícil definir
+
+1636
+01:03:33,430 --> 01:03:36,130
+mais, dado que estou num contexto de micro serviço, onde eu tenho um pouco,
+
+1637
+01:03:36,130 --> 01:03:37,970
+o código tem o luxo de ter pouco código,
+
+1638
+01:03:38,170 --> 01:03:39,390
+então deveria abraçar,
+
+1639
+01:03:39,860 --> 01:03:42,570
+abraçar significa diminuir as que mais interessam
+
+1640
+01:03:42,800 --> 01:03:43,920
+abraçam, sem o que
+
+1641
+01:03:44,390 --> 01:03:45,200
+entender que
+
+1642
+01:03:45,430 --> 01:03:47,200
+eu estou em uma comunicação remota
+
+1643
+01:03:47,330 --> 01:03:48,470
+e que teste de integração
+
+1644
+01:03:48,680 --> 01:03:50,310
+acabou sendo muito melhor
+
+1645
+01:03:50,720 --> 01:03:52,810
+para a manutenção e para a vida útil do sistema.
+
+1646
+01:03:53,070 --> 01:03:53,880
+Só deixando claro que a
+
+1647
+01:03:54,750 --> 01:03:55,360
+minha opinião
+
+1648
+01:03:59,270 --> 01:03:59,770
+potável
+
+1649
+01:04:00,010 --> 01:04:00,670
+quer comentar
+
+1650
+01:04:01,900 --> 01:04:05,100
+um comentário. Eu achei interessante você trazer
+
+1651
+01:04:05,840 --> 01:04:08,080
+o assunto de microcefalia isso que eu acho que é
+
+1652
+01:04:08,490 --> 01:04:10,310
+bem característico. Uma coisa que,
+
+1653
+01:04:10,630 --> 01:04:12,680
+se a pessoa não souber fazer direito, faz
+
+1654
+01:04:13,030 --> 01:04:14,660
+muita cagada, Então
+
+1655
+01:04:15,000 --> 01:04:17,600
+eu acho interessante você tem isso sempre em mente,
+
+1656
+01:04:18,600 --> 01:04:19,380
+-- A
+-- verdade
+
+1657
+01:04:19,810 --> 01:04:20,170
+deixa!
+
+1658
+01:04:21,070 --> 01:04:22,370
+Deixa só comentar que
+
+1659
+01:04:22,970 --> 01:04:26,370
+um ano talvez decifre lá que eu fiz
+
+1660
+01:04:26,610 --> 01:04:27,320
+aí usando o
+
+1661
+01:04:27,520 --> 01:04:28,390
+esquema
+
+1662
+01:04:28,670 --> 01:04:29,210
+do
+
+1663
+01:04:31,160 --> 01:04:32,040
+para
+
+1664
+01:04:32,520 --> 01:04:33,790
+a entidade tal
+
+1665
+01:04:34,200 --> 01:04:37,990
+tinha um colega que fez um frio na comic os serviços
+
+1666
+01:04:38,350 --> 01:04:41,430
+de atendimento de dente França.
+
+1667
+01:04:41,550 --> 01:04:41,780
+Ela
+
+1668
+01:04:42,170 --> 01:04:47,140
+foi muito mais desastroso. Assim, esse realmente o cliente que
+
+1669
+01:04:47,660 --> 01:04:48,480
+deu certo
+
+1670
+01:04:51,810 --> 01:04:54,810
+foi o terror da manutenção. Só é só um detalhe,
+
+1671
+01:04:56,040 --> 01:04:57,370
+não é exata, É só isso
+
+1672
+01:04:57,630 --> 01:04:59,170
+que eu estava querendo complementar.
+
+1673
+01:05:00,320 --> 01:05:02,630
+Eu acho que é bom a gente sempre deixar isso claro
+
+1674
+01:05:03,180 --> 01:05:03,740
+para você
+
+1675
+01:05:04,140 --> 01:05:07,090
+obter benefícios deste gre técnica. Abordagens
+
+1676
+01:05:07,990 --> 01:05:11,460
+têm que estudar o negócio, saber usar, porque se não você vai se ferrar
+
+1677
+01:05:11,700 --> 01:05:14,980
+por melhor que seja a ideia por melhor que seja. A tecnologia
+
+1678
+01:05:15,790 --> 01:05:17,220
+conhece, por exemplo, gente que tem muita
+
+1679
+01:05:17,660 --> 01:05:19,280
+muita experiência com microcefalia isso
+
+1680
+01:05:19,450 --> 01:05:23,240
+tem sempre a ideia. Começa como nole, depois quebra como para micro serviço,
+
+1681
+01:05:23,590 --> 01:05:24,480
+Não cara, Se
+
+1682
+01:05:24,740 --> 01:05:27,560
+a mãe já se pessoas reteve muito, já fez muito sistema
+
+1683
+01:05:27,930 --> 01:05:29,790
+baseado microcervejaria. Tem experiência.
+
+1684
+01:05:29,790 --> 01:05:32,010
+O contexto casa com uso de micro service
+
+1685
+01:05:32,310 --> 01:05:34,240
+car pode começar a ter muito sucesso,
+
+1686
+01:05:34,900 --> 01:05:35,980
+mas é isso
+
+1687
+01:05:36,350 --> 01:05:38,850
+eu só queria enfatizar isso é que a pessoa,
+
+1688
+01:05:39,340 --> 01:05:43,850
+o pessoal tem que dominar essas técnicas, Essas ideias para poder aplicar bem,
+
+1689
+01:05:43,850 --> 01:05:44,250
+que serão
+
+1690
+01:05:44,790 --> 01:05:45,890
+você vai dar um tiro
+
+1691
+01:05:48,680 --> 01:05:50,530
+perfeito. Olhares,
+
+1692
+01:05:52,660 --> 01:05:53,150
+vamos
+
+1693
+01:05:53,440 --> 01:05:54,770
+para o caso das adquirente,
+
+1694
+01:05:55,070 --> 01:05:57,030
+que ainda fácil. No geral,
+
+1695
+01:05:57,590 --> 01:05:59,700
+ela tem duas coisas. Ela tem um predicado
+
+1696
+01:06:00,830 --> 01:06:03,820
+para verificar se se essa transação específica,
+
+1697
+01:06:04,050 --> 01:06:05,330
+se essa de querer que ela
+
+1698
+01:06:05,750 --> 01:06:06,430
+vai
+
+1699
+01:06:06,560 --> 01:06:08,220
+ser capaz de processar essa transação,
+
+1700
+01:06:08,270 --> 01:06:10,970
+então tem várias informações que você vai usar, você vai usar
+
+1701
+01:06:11,240 --> 01:06:11,760
+o
+
+1702
+01:06:12,170 --> 01:06:13,540
+o tipo de dinheiro
+
+1703
+01:06:14,250 --> 01:06:14,680
+real
+
+1704
+01:06:15,010 --> 01:06:15,290
+Dólar
+
+1705
+01:06:15,690 --> 01:06:16,290
+influencia
+
+1706
+01:06:16,550 --> 01:06:20,500
+a decisão. Qual país o cartão? O país emitido? Cartão seu cartão internacional?
+
+1707
+01:06:20,500 --> 01:06:20,730
+Não.
+
+1708
+01:06:21,130 --> 01:06:22,870
+Então a gente tem esse predicado que define
+
+1709
+01:06:23,200 --> 01:06:24,720
+qual vai ser executada
+
+1710
+01:06:25,190 --> 01:06:28,390
+e a gente tem a implementação da
+
+1711
+01:06:28,610 --> 01:06:30,380
+execução. Mesmo negócio Quer
+
+1712
+01:06:30,600 --> 01:06:31,790
+aquele padrão estratégia
+
+1713
+01:06:32,520 --> 01:06:34,040
+que a gente acostumada
+
+1714
+01:06:34,520 --> 01:06:34,550
+a
+
+1715
+01:06:35,680 --> 01:06:37,420
+esse problema do adquirente
+
+1716
+01:06:37,690 --> 01:06:40,680
+é um problema de roteamento que você tem uma aplicação web.
+
+1717
+01:06:41,570 --> 01:06:42,020
+Então
+
+1718
+01:06:43,000 --> 01:06:43,980
+esse problema
+
+1719
+01:06:44,170 --> 01:06:46,920
+é esse problema em si. Ele é complexo
+
+1720
+01:06:50,090 --> 01:06:50,600
+porque
+
+1721
+01:06:51,410 --> 01:06:54,110
+parece fácil de entender assim,
+
+1722
+01:06:54,760 --> 01:06:55,760
+É um problema que é
+
+1723
+01:06:56,340 --> 01:06:59,200
+por isso que eu gosto. Eu gosto do
+
+1724
+01:06:59,810 --> 01:07:02,210
+ponto porque o que é complexo, carpina complexos também
+
+1725
+01:07:03,110 --> 01:07:03,810
+é difícil porque
+
+1726
+01:07:04,610 --> 01:07:05,920
+a complexidade
+
+1727
+01:07:06,180 --> 01:07:07,490
+ela vai entrar
+
+1728
+01:07:08,180 --> 01:07:08,820
+quando
+
+1729
+01:07:09,220 --> 01:07:11,650
+começa a acontecer aquilo que unisse, falou.
+
+1730
+01:07:12,080 --> 01:07:16,820
+Agora eu tenho que fazer o pagamento em parcela E você,
+
+1731
+01:07:17,120 --> 01:07:19,440
+caralho? Nunca vi pagamento em parcela.
+
+1732
+01:07:19,840 --> 01:07:21,430
+Nunca existiu na minha vida
+
+1733
+01:07:21,700 --> 01:07:22,000
+e
+
+1734
+01:07:22,170 --> 01:07:24,810
+no Brasil, o pagamento em parcela é feito de um jeito.
+
+1735
+01:07:25,490 --> 01:07:28,010
+Se você vai para outros países da América Latina,
+
+1736
+01:07:28,350 --> 01:07:31,180
+o pagamento em parcela é feito de um outro jeito.
+
+1737
+01:07:31,900 --> 01:07:33,580
+Então, não dá nem pra você utilizar.
+
+1738
+01:07:33,580 --> 01:07:35,940
+Posso recusar diretamente aquilo que é do Brasil
+
+1739
+01:07:36,520 --> 01:07:38,420
+no nosso país. O parcelamento porque
+
+1740
+01:07:38,800 --> 01:07:41,670
+é outra coisa, é outra solução. Então, assim
+
+1741
+01:07:42,630 --> 01:07:44,590
+eu acho que quando, quando a gente
+
+1742
+01:07:44,930 --> 01:07:48,580
+fala de o que é simples e o que é complexo
+
+1743
+01:07:49,290 --> 01:07:52,150
+onde tem, eu acho que onde está complexo
+
+1744
+01:07:52,460 --> 01:07:55,480
+é onde você precisa de muito conhecimento,
+
+1745
+01:07:56,140 --> 01:08:00,810
+onde tem muita muita coisa sendo definida, muita regra que precisa existir
+
+1746
+01:08:01,100 --> 01:08:02,770
+ali para esse sistema
+
+1747
+01:08:03,740 --> 01:08:06,440
+funcionar, porque você você precisa manter
+
+1748
+01:08:06,680 --> 01:08:09,370
+todas essas coisas na sua cabeça? Onde é que
+
+1749
+01:08:09,520 --> 01:08:11,720
+como é que eu vou conseguir fazer? Separa para
+
+1750
+01:08:12,390 --> 01:08:13,790
+a implementação
+
+1751
+01:08:14,220 --> 01:08:16,100
+da decisão?
+
+1752
+01:08:16,550 --> 01:08:17,359
+É simples
+
+1753
+01:08:17,779 --> 01:08:20,399
+porque você tem um predicado, você tem execução que é
+
+1754
+01:08:20,689 --> 01:08:21,229
+estratégia.
+
+1755
+01:08:21,600 --> 01:08:24,340
+São dois padrões aí que a gente conhecem desde
+
+1756
+01:08:24,830 --> 01:08:28,120
+que saiu da faculdade, todo mundo ver essas coisas em sair da faculdade, mas
+
+1757
+01:08:28,420 --> 01:08:31,609
+implementar as regras diretamente, definir como essas coisas vão existir
+
+1758
+01:08:31,810 --> 01:08:33,250
+dentro do sistema maior.
+
+1759
+01:08:33,510 --> 01:08:35,990
+Aí é que vem a complexidade
+
+1760
+01:08:36,270 --> 01:08:37,680
+do negócio
+
+1761
+01:08:38,000 --> 01:08:39,550
+e você entender que
+
+1762
+01:08:40,319 --> 01:08:42,120
+ainda é coisa que vai quebrar sua arquitetura.
+
+1763
+01:08:42,120 --> 01:08:43,910
+Vai ter coisa que vai mudar Muita coisa que você
+
+1764
+01:08:43,910 --> 01:08:45,810
+vai ter que parar porque eu vou ter que rever.
+
+1765
+01:08:46,069 --> 01:08:49,100
+Estão entrando no outro país onde as coisas são diferentes,
+
+1766
+01:08:49,100 --> 01:08:50,510
+os meios de pagamento são diferentes
+
+1767
+01:08:50,790 --> 01:08:51,680
+e aí você vai
+
+1768
+01:08:52,140 --> 01:08:53,750
+fazendo a coisa funcionar
+
+1769
+01:08:53,880 --> 01:08:56,080
+é só você não entrar nesse negócio,
+
+1770
+01:08:56,450 --> 01:08:58,640
+eu vou isolar tudo vai ser perfeito, não vou conseguir.
+
+1771
+01:08:59,040 --> 01:09:02,069
+Não voltei mais que mudar nada, não vai ter que mudar coisa para parar,
+
+1772
+01:09:02,330 --> 01:09:04,700
+Ninguém consegue acertar na
+
+1773
+01:09:05,170 --> 01:09:08,290
+primeira vez, e a sua arquitetura você vai ter que
+
+1774
+01:09:08,529 --> 01:09:09,210
+e lentamente
+
+1775
+01:09:09,319 --> 01:09:10,160
+evoluindo.
+
+1776
+01:09:10,380 --> 01:09:12,260
+Eu gosto muito dessa ideia, de
+
+1777
+01:09:13,359 --> 01:09:16,520
+que são evolutivas, que elas vão evoluindo junto com aplicação,
+
+1778
+01:09:16,779 --> 01:09:17,160
+porque
+
+1779
+01:09:17,529 --> 01:09:20,520
+é mais fácil você evoluindo com os problemas
+
+1780
+01:09:20,779 --> 01:09:22,600
+que você tentar entender todos os programas
+
+1781
+01:09:22,710 --> 01:09:24,560
+que você já tem experiência nessa com a pessoa.
+
+1782
+01:09:24,890 --> 01:09:27,020
+Eu trabalho com pagamentos faz dez anos. Eu
+
+1783
+01:09:27,340 --> 01:09:28,180
+botei filhos.
+
+1784
+01:09:28,330 --> 01:09:29,479
+Trabalhar com Adquirência
+
+1785
+01:09:29,689 --> 01:09:30,569
+em cinquenta
+
+1786
+01:09:30,710 --> 01:09:32,580
+países diferentes foram então. Ou seja,
+
+1787
+01:09:32,689 --> 01:09:33,970
+provavelmente já viu muita coisa.
+
+1788
+01:09:34,140 --> 01:09:36,290
+Você vai conseguir arquitetura, arquitetura, tudo. Mas
+
+1789
+01:09:36,540 --> 01:09:38,000
+é difícil acesso a pessoa.
+
+1790
+01:09:38,399 --> 01:09:39,180
+Na maior parte das vezes,
+
+1791
+01:09:39,180 --> 01:09:42,260
+a gente não têm tanto conhecimento assim para para tomar suas decisões e
+
+1792
+01:09:42,580 --> 01:09:43,810
+definir essas coisas. Então
+
+1793
+01:09:46,850 --> 01:09:47,649
+é entender que
+
+1794
+01:09:48,319 --> 01:09:52,670
+quanto mais conhecimento você precisa para colocar dentro do sistema,
+
+1795
+01:09:53,920 --> 01:09:57,090
+vou dizer agora o que eu gostei da porta, do livro, do
+
+1796
+01:09:57,550 --> 01:09:59,260
+tomate, que escrever só
+
+1797
+01:10:01,120 --> 01:10:03,440
+como se fosse um experimento científico.
+
+1798
+01:10:05,150 --> 01:10:08,520
+Isso, isso isso está pronta e foi uma coisa que me marcou.
+
+1799
+01:10:09,280 --> 01:10:11,700
+Gostei dessa definição
+
+1800
+01:10:11,950 --> 01:10:15,010
+-- dele. ter essa visão, porque é exatamente isso,
+-- Podia ser o Twitter,
+
+1801
+01:10:16,600 --> 01:10:17,480
+isso
+
+1802
+01:10:17,600 --> 01:10:19,570
+não dá para você discutir isso
+
+1803
+01:10:19,990 --> 01:10:23,440
+de uma forma mais longa dentro do livro. Eu acho que isso é uma parada muito.
+
+1804
+01:10:23,440 --> 01:10:25,360
+Valeu a chegar cinco agentes que deve soltar.
+
+1805
+01:10:25,730 --> 01:10:29,090
+A gente vai com pequenos experimentos, construindo o conhecimento,
+
+1806
+01:10:29,450 --> 01:10:32,400
+com desconstruindo o entendimento do que está acontecendo ali.
+
+1807
+01:10:32,710 --> 01:10:33,320
+Você vai.
+
+1808
+01:10:33,540 --> 01:10:35,850
+Você vai sempre. Nesse caminho de pequenos experimentos,
+
+1809
+01:10:36,170 --> 01:10:39,170
+você faz um pequeno experimento aqui. Agora só está faltando outra coisa,
+
+1810
+01:10:39,380 --> 01:10:43,040
+vai lá melhor essa outra coisa melhor a sua arquitetura, coloca mais uma opção lá.
+
+1811
+01:10:43,230 --> 01:10:45,290
+Você vai lentamente fazendo negócio crescer
+
+1812
+01:10:45,670 --> 01:10:48,060
+com essa ideia de que a escrever software
+
+1813
+01:10:48,420 --> 01:10:51,020
+é trabalhar com experimentos científicos.
+
+1814
+01:10:52,630 --> 01:10:53,450
+E
+
+1815
+01:10:53,870 --> 01:10:54,760
+assim
+
+1816
+01:10:55,240 --> 01:10:56,700
+alguém já leu.
+
+1817
+01:10:58,820 --> 01:10:59,940
+Eu acho que o
+
+1818
+01:11:00,820 --> 01:11:02,130
+partido tem uma pegada também
+
+1819
+01:11:03,300 --> 01:11:05,150
+dessa. Pelo que vocês postaram ali,
+
+1820
+01:11:06,460 --> 01:11:08,420
+parece que tem essa essa ideia
+
+1821
+01:11:09,290 --> 01:11:09,980
+de
+
+1822
+01:11:10,190 --> 01:11:11,550
+ser descobrindo
+
+1823
+01:11:12,800 --> 01:11:14,160
+e mudando.
+
+1824
+01:11:14,610 --> 01:11:17,330
+Tem isso olhar só só para ser comentou. Acho que se realizou,
+
+1825
+01:11:18,570 --> 01:11:19,840
+tem, tem, tem isso.
+
+1826
+01:11:20,550 --> 01:11:22,460
+Acho que hoje não vale mais a pena.
+
+1827
+01:11:23,250 --> 01:11:23,830
+Ele não
+
+1828
+01:11:24,370 --> 01:11:27,310
+está meio velho na época para avaliar mais apenas
+
+1829
+01:11:27,640 --> 01:11:30,150
+as que hoje o fundamento, as opções
+
+1830
+01:11:31,410 --> 01:11:31,710
+só
+
+1831
+01:11:32,790 --> 01:11:34,620
+de maior porte se eles cobrem
+
+1832
+01:11:34,880 --> 01:11:36,600
+mais. Mas eles seguem
+
+1833
+01:11:36,950 --> 01:11:39,430
+muito essa ideia que está com tempo livre. Leia o livro
+
+1834
+01:11:39,610 --> 01:11:42,260
+Vale a pena essa ideia, mas esses dois livros,
+
+1835
+01:11:42,560 --> 01:11:44,570
+eles abordam também essa
+
+1836
+01:11:45,630 --> 01:11:45,990
+ideia
+
+1837
+01:11:46,790 --> 01:11:47,160
+legal.
+
+1838
+01:11:47,770 --> 01:11:48,020
+Obra
+
+1839
+01:11:48,480 --> 01:11:48,810
+vai lá
+
+1840
+01:11:49,760 --> 01:11:50,400
+não só para
+
+1841
+01:11:50,740 --> 01:11:51,080
+fechar.
+
+1842
+01:11:52,040 --> 01:11:54,710
+Para mim, o princípio mais importante é o tal do quinze
+
+1843
+01:11:55,500 --> 01:11:56,190
+cinco, Então
+
+1844
+01:11:56,720 --> 01:11:57,120
+eu acho que
+
+1845
+01:11:57,810 --> 01:11:58,800
+estou muito aí com
+
+1846
+01:11:59,980 --> 01:12:00,610
+Maurício.
+
+1847
+01:12:01,580 --> 01:12:04,130
+Sofreu um grande experimento, sabe? Envolvem algum.
+
+1848
+01:12:04,130 --> 01:12:07,080
+Em alguns casos, até sorte, sabe Se você pegar o caminho certo
+
+1849
+01:12:07,500 --> 01:12:09,990
+-- para você, não tem um grande trabalho
+-- depois.
+
+1850
+01:12:10,730 --> 01:12:12,100
+Então, para mim, a melhor alternativa
+
+1851
+01:12:12,260 --> 01:12:12,600
+foi
+
+1852
+01:12:13,230 --> 01:12:14,890
+manter o sol. Está mais simples, possível
+
+1853
+01:12:15,420 --> 01:12:15,660
+e
+
+1854
+01:12:15,880 --> 01:12:16,980
+me dando passos
+
+1855
+01:12:17,110 --> 01:12:19,670
+que a gente conseguiu manter uma boa curva de aprendizado para equipe,
+
+1856
+01:12:19,940 --> 01:12:20,610
+um bom clima
+
+1857
+01:12:21,200 --> 01:12:22,250
+e gerencial. Doador
+
+1858
+01:12:23,570 --> 01:12:25,190
+pode doer por dois motivos
+
+1859
+01:12:26,070 --> 01:12:28,090
+e é mais comum, às vezes até mesmo do
+
+1860
+01:12:28,330 --> 01:12:29,050
+seu. Escolheu
+
+1861
+01:12:30,020 --> 01:12:32,440
+arquitetura ou entre aspas, o design errado
+
+1862
+01:12:32,750 --> 01:12:35,010
+e acredita de, forçando uma burocracia se, enfim,
+
+1863
+01:12:35,430 --> 01:12:35,950
+do que
+
+1864
+01:12:36,560 --> 01:12:36,990
+pela
+
+1865
+01:12:37,090 --> 01:12:39,210
+interne. Bilidade está prejudicada, às vezes também dói.
+
+1866
+01:12:39,960 --> 01:12:40,280
+Então,
+
+1867
+01:12:40,530 --> 01:12:43,490
+talvez se você conseguia perceber essa dor no momento certo,
+
+1868
+01:12:43,490 --> 01:12:45,620
+tomar as decisões certas com coragem,
+
+1869
+01:12:46,020 --> 01:12:49,140
+e aí pode ter um teste de integração como ponto citou
+
+1870
+01:12:49,350 --> 01:12:52,140
+para votação de Wendy, O texto só para constar coragem,
+
+1871
+01:12:52,550 --> 01:12:53,970
+Você tem a coragem necessária
+
+1872
+01:12:54,550 --> 01:12:55,880
+e o Tasso garante isso
+
+1873
+01:12:56,180 --> 01:12:56,830
+para você
+
+1874
+01:12:57,050 --> 01:12:59,710
+tomar a ação na hora certa. Na hora que precisa,
+
+1875
+01:12:59,960 --> 01:13:04,260
+você mitiga muito achismo e muita coisa que você talvez não vai precisar.
+
+1876
+01:13:04,830 --> 01:13:06,410
+E assim você consegue estabelecer
+
+1877
+01:13:06,740 --> 01:13:08,810
+a melhor experiência possível que as pessoas estão trabalhando
+
+1878
+01:13:09,140 --> 01:13:11,740
+e o melhor fluxo de valor de negócio do cliente. Final
+
+1879
+01:13:12,390 --> 01:13:13,640
+para mim é o melhor caminho,
+
+1880
+01:13:14,010 --> 01:13:16,920
+Segue sendo esta Casa não está discutindo uma coisa muito específica
+
+1881
+01:13:17,240 --> 01:13:17,620
+falando de
+
+1882
+01:13:18,040 --> 01:13:18,600
+quando Cunha,
+
+1883
+01:13:19,510 --> 01:13:20,780
+mas não nos espaços atrás.
+
+1884
+01:13:21,150 --> 01:13:23,210
+Eu acho que o que vale muito essa postura
+
+1885
+01:13:23,660 --> 01:13:26,450
+de humildade frente ao problema que você não conhece.
+
+1886
+01:13:27,010 --> 01:13:29,600
+E aí você tem a capacidade de ao longo do trajeto
+
+1887
+01:13:32,040 --> 01:13:33,800
+coragem para tomar as ações
+
+1888
+01:13:33,990 --> 01:13:34,730
+também o seu ponto
+
+1889
+01:13:38,190 --> 01:13:38,720
+boa,
+
+1890
+01:13:39,830 --> 01:13:41,960
+perfeito, muito bem colocado, Umburanas
+
+1891
+01:13:42,740 --> 01:13:43,300
+isso
+
+1892
+01:13:44,040 --> 01:13:47,990
+que salvamos encerrando assim vamos fazer uma rodada de
+
+1893
+01:13:49,420 --> 01:13:51,360
+esta terceira sem fazer uma
+
+1894
+01:13:51,530 --> 01:13:53,120
+liminar que morreu e aí
+
+1895
+01:13:54,870 --> 01:13:55,320
+sim,
+
+1896
+01:13:56,170 --> 01:13:58,130
+mas não é uma pergunta que faça sentido,
+
+1897
+01:13:58,540 --> 01:14:00,720
+Então pode ser considerações finais
+
+1898
+01:14:01,120 --> 01:14:01,540
+também.
+
+1899
+01:14:03,510 --> 01:14:04,610
+Eu queria,
+
+1900
+01:14:04,760 --> 01:14:06,680
+eu queria abrir a palavra,
+
+1901
+01:14:06,680 --> 01:14:10,950
+muita gente que está aqui que eu admiro e tal e muito obrigado por ter comparecido
+
+1902
+01:14:11,980 --> 01:14:13,550
+também pensam mais,
+
+1903
+01:14:13,700 --> 01:14:14,770
+muita gente mesmo
+
+1904
+01:14:15,430 --> 01:14:16,670
+e
+
+1905
+01:14:17,280 --> 01:14:18,160
+mas não dar,
+
+1906
+01:14:18,610 --> 01:14:21,680
+Então vamos nessa rodada. Roberta
+
+1907
+01:14:23,260 --> 01:14:27,620
+você tem alguma coisa, colocassem em considerações finais e aprendeu algo aqui.
+
+1908
+01:14:28,710 --> 01:14:32,200
+Assim a empresa sempre essas discussões são muito ricas.
+
+1909
+01:14:34,220 --> 01:14:34,710
+Eu acho
+
+1910
+01:14:34,820 --> 01:14:36,260
+que uma coisa que eu
+
+1911
+01:14:36,410 --> 01:14:39,480
+estava a atenção da medida que a discussão estava se desenrolando,
+
+1912
+01:14:40,440 --> 01:14:43,190
+que fica sempre muito na minha cabeça, marcação de desperdício.
+
+1913
+01:14:44,940 --> 01:14:47,130
+Sou um pouco cria da época,
+
+1914
+01:14:47,570 --> 01:14:48,420
+discutia muito
+
+1915
+01:14:49,280 --> 01:14:50,860
+desenvolvimento e tentar estado
+
+1916
+01:14:51,060 --> 01:14:52,520
+digital e eu lembrei
+
+1917
+01:14:52,950 --> 01:14:55,810
+quando por isso, forma de experimento de experimentação,
+
+1918
+01:14:56,410 --> 01:14:59,660
+lembrei de um artigo de pesquisa
+
+1919
+01:14:59,770 --> 01:15:01,630
+na área de engenharia de sorte. Eu
+
+1920
+01:15:02,110 --> 01:15:03,660
+trabalhei com pesquisa durante um
+
+1921
+01:15:04,000 --> 01:15:04,820
+curto espaço
+
+1922
+01:15:05,060 --> 01:15:06,020
+ali durante o mestrado
+
+1923
+01:15:06,910 --> 01:15:08,710
+e era um artigo que se deve saber
+
+1924
+01:15:10,090 --> 01:15:11,360
+sobre
+
+1925
+01:15:12,130 --> 01:15:13,100
+o qual
+
+1926
+01:15:14,510 --> 01:15:16,140
+a quantidade de código morto
+
+1927
+01:15:16,300 --> 01:15:17,360
+nos projetos
+
+1928
+01:15:17,500 --> 01:15:19,490
+quanto código A gente escreve que no fim
+
+1929
+01:15:20,010 --> 01:15:23,870
+ou nunca executado, muito pouco executado, acaba não servindo para nada.
+
+1930
+01:15:25,020 --> 01:15:28,220
+E um dos exemplos que mais marcou nesse artigo era justamente
+
+1931
+01:15:28,690 --> 01:15:32,900
+a investigação em vários repositórios de código de Célio
+
+1932
+01:15:33,330 --> 01:15:34,940
+de Aplicações, que era feliz
+
+1933
+01:15:35,410 --> 01:15:39,410
+mostrando que mais de oitenta por cento dos parâmetros de configuração
+
+1934
+01:15:39,730 --> 01:15:43,840
+de comandos em serviços nunca eram utilizados para os usuários das séries,
+
+1935
+01:15:44,560 --> 01:15:48,470
+e isso código na gente, toda a linha de código que você adiciona
+
+1936
+01:15:49,990 --> 01:15:52,900
+um sistema numa aplicação ela
+
+1937
+01:15:53,620 --> 01:15:55,320
+ela vem com custo, não é
+
+1938
+01:15:55,640 --> 01:15:57,070
+ação, era adiciona,
+
+1939
+01:15:57,700 --> 01:16:00,620
+tem porque alguém vai precisar para a traria para entender
+
+1940
+01:16:01,020 --> 01:16:04,230
+aquela aquela velha máxima de que o melhor código, aquele que a gente não escreve.
+
+1941
+01:16:06,550 --> 01:16:07,230
+E
+
+1942
+01:16:07,650 --> 01:16:09,120
+eu acho que casa muito bem
+
+1943
+01:16:09,550 --> 01:16:11,700
+com a discussão, porque sempre
+
+1944
+01:16:12,030 --> 01:16:12,980
+a gente tem que sempre
+
+1945
+01:16:13,300 --> 01:16:14,080
+avaliar
+
+1946
+01:16:14,210 --> 01:16:15,050
+esse traidor
+
+1947
+01:16:15,410 --> 01:16:16,470
+do quanto a gente está
+
+1948
+01:16:16,870 --> 01:16:19,680
+complexo, ficando o nosso código nosso sofrer por
+
+1949
+01:16:20,120 --> 01:16:22,850
+opções e flexibilidades que a gente acabará não
+
+1950
+01:16:23,470 --> 01:16:25,980
+de fato, utilizando. Enquanto isso,
+
+1951
+01:16:26,990 --> 01:16:29,540
+existem concorrentes, existem outras
+
+1952
+01:16:29,840 --> 01:16:31,240
+outras pessoas, outros times,
+
+1953
+01:16:31,240 --> 01:16:34,090
+outras aplicações sendo construídas que estão mais focadas
+
+1954
+01:16:34,500 --> 01:16:34,980
+e
+
+1955
+01:16:35,640 --> 01:16:38,730
+depois entregar só três funcionando.
+
+1956
+01:16:39,230 --> 01:16:42,060
+E o pelo menos? A minha filosofia como
+
+1957
+01:16:42,580 --> 01:16:46,020
+desenvolvedora sempre foi fazer a coisa mais simples que pudesse funcionar
+
+1958
+01:16:46,430 --> 01:16:49,120
+e adaptá la quando e se fosse preciso capital
+
+1959
+01:16:50,790 --> 01:16:51,340
+para isso.
+
+1960
+01:16:52,970 --> 01:16:53,500
+O alvo,
+
+1961
+01:16:55,370 --> 01:16:57,040
+muito muito, muito bom.
+
+1962
+01:16:59,450 --> 01:17:01,430
+Vamos lá? Linhares, Tem alguma
+
+1963
+01:17:01,720 --> 01:17:02,770
+consideração final?
+
+1964
+01:17:04,660 --> 01:17:05,330
+Leão
+
+1965
+01:17:05,900 --> 01:17:06,720
+Apesar de favor,
+
+1966
+01:17:07,450 --> 01:17:08,280
+para vocês
+
+1967
+01:17:08,760 --> 01:17:09,440
+verem
+
+1968
+01:17:09,700 --> 01:17:10,840
+essa discussão
+
+1969
+01:17:10,970 --> 01:17:12,030
+de
+
+1970
+01:17:12,480 --> 01:17:13,340
+mais profunda,
+
+1971
+01:17:13,680 --> 01:17:14,920
+leia o fundamental usou
+
+1972
+01:17:16,330 --> 01:17:19,400
+para entender o que a arquitetura de software para ver os fundamentos,
+
+1973
+01:17:19,800 --> 01:17:20,310
+questões
+
+1974
+01:17:21,150 --> 01:17:24,290
+os tipos de arquitetura, Quais são os tempos de comunicação?
+
+1975
+01:17:24,630 --> 01:17:25,330
+Quais são,
+
+1976
+01:17:26,410 --> 01:17:28,750
+como a gente está produzindo aplicações hoje?
+
+1977
+01:17:29,510 --> 01:17:31,260
+Então, tem. A gente tem
+
+1978
+01:17:31,600 --> 01:17:32,930
+muito material
+
+1979
+01:17:33,400 --> 01:17:37,950
+incrível olhar a procura feita. A gente tem de material disponível hoje
+
+1980
+01:17:38,280 --> 01:17:39,440
+para você entender um pouco mais.
+
+1981
+01:17:39,440 --> 01:17:42,380
+Sobre sobre sempre, coisa, me perguntaram o motorista, mas eu posso.
+
+1982
+01:17:44,390 --> 01:17:47,880
+Posso dizer que o clima de ataque será uma meta sem ter lido. Não, você não pode.
+
+1983
+01:17:48,110 --> 01:17:49,490
+Se você não deu apoio do livro,
+
+1984
+01:17:49,630 --> 01:17:50,580
+-- você não fala
+-- do livro.
+
+1985
+01:17:51,240 --> 01:17:54,040
+Se você não entende o que está lá, não sabe porque é problemático
+
+1986
+01:17:55,500 --> 01:17:56,890
+as ideias que estão na deve. Então
+
+1987
+01:17:57,170 --> 01:17:58,170
+é melhor você não dizer
+
+1988
+01:17:58,690 --> 01:18:01,340
+a mesma coisa bonita ao Paraná. Todo mundo viu no blog lá que
+
+1989
+01:18:01,630 --> 01:18:03,760
+que o Clube Norte fica falando coisas,
+
+1990
+01:18:04,130 --> 01:18:06,810
+pega o livro, vai além disso, vai ver o que está escrito lá para ver
+
+1991
+01:18:07,770 --> 01:18:10,450
+quais são as ideias que estão sendo definidas lá Para você poder,
+
+1992
+01:18:10,660 --> 01:18:13,510
+entendeu o que vai usar, o que não vai usar. Então a gente tem
+
+1993
+01:18:13,950 --> 01:18:16,370
+muito material, a gente tem muita coisa que ajuda,
+
+1994
+01:18:17,670 --> 01:18:19,290
+inclusive a gente tem que agradecer
+
+1995
+01:18:19,870 --> 01:18:21,290
+porque na hora que
+
+1996
+01:18:21,390 --> 01:18:22,660
+eu e o ponto é o ponto que ele
+
+1997
+01:18:22,870 --> 01:18:24,790
+querendo pagar de jovem, aí nós vamos
+
+1998
+01:18:25,250 --> 01:18:26,150
+ponto tem a mesma idade.
+
+1999
+01:18:27,070 --> 01:18:28,050
+Velho homem
+
+2000
+01:18:28,510 --> 01:18:30,150
+começou a trabalhar junto praticamente
+
+2001
+01:18:31,470 --> 01:18:33,560
+e nessa época a gente não tinha
+
+2002
+01:18:34,550 --> 01:18:35,080
+toda a
+
+2003
+01:18:35,210 --> 01:18:37,420
+bibliografia. Toda essa oportunidade de discutir
+
+2004
+01:18:37,670 --> 01:18:41,730
+essas coisas, você pega um livro como o desanimo, deita intensiva para queixa. Se
+
+2005
+01:18:42,050 --> 01:18:45,750
+a gente tivesse acessível quinze anos atrás, a gente evitado em fazer muito a meta
+
+2006
+01:18:46,110 --> 01:18:46,890
+que a gente escreveu.
+
+2007
+01:18:47,430 --> 01:18:48,990
+A gente fez muita merda nesses
+
+2008
+01:18:49,440 --> 01:18:51,200
+dezesseis, dezoito anos, que
+
+2009
+01:18:51,310 --> 01:18:52,370
+está escrevendo software,
+
+2010
+01:18:52,660 --> 01:18:55,860
+porque a gente estava aprendendo as pessoas, estavam aprendendo
+
+2011
+01:18:56,420 --> 01:18:57,230
+essas merdas.
+
+2012
+01:18:57,230 --> 01:19:00,650
+Então, escreveu os livros e mostra Agora olha todas as medidas que a gente fez,
+
+2013
+01:19:00,860 --> 01:19:02,480
+aprenda não fazer essas metas,
+
+2014
+01:19:02,860 --> 01:19:05,910
+então peguem esse material. Leiam também o
+
+2015
+01:19:06,200 --> 01:19:07,380
+livro do Aquiles.
+
+2016
+01:19:07,820 --> 01:19:12,350
+Pega, vamos, vamos, vamos estudar um pouco mais ou entender um pouco mais
+
+2017
+01:19:12,510 --> 01:19:15,740
+para a gente escrever só foi melhor para hoje e para o futuro, porque
+
+2018
+01:19:16,050 --> 01:19:17,900
+no fim das contas a você que vai se rasgar
+
+2019
+01:19:18,130 --> 01:19:20,460
+dando manutenção, essa merda que você produziu hoje.
+
+2020
+01:19:20,880 --> 01:19:21,450
+Então
+
+2021
+01:19:21,730 --> 01:19:23,940
+de um jeito ou de outro, a gente que vai ter que pagar essa conta.
+
+2022
+01:19:24,230 --> 01:19:26,070
+Então vamos fazer um pouco melhor
+
+2023
+01:19:26,290 --> 01:19:28,990
+para a gente não ter tanta dor de cabeça e no longo prazo,
+
+2024
+01:19:30,030 --> 01:19:30,900
+duas lições.
+
+2025
+01:19:30,900 --> 01:19:35,980
+Então Roberto falou que o nosso código oitenta por cento inútil e que o marido
+
+2026
+01:19:41,680 --> 01:19:43,180
+fazendo o facto estão aí, já que
+
+2027
+01:19:44,430 --> 01:19:48,770
+várias falar que a gente vai sofrer com o código. A gente mesmo produz
+
+2028
+01:19:49,600 --> 01:19:52,810
+essa segunda e realmente isso desoneração
+
+2029
+01:19:53,590 --> 01:19:55,940
+obra nas considerações finais,
+
+2030
+01:19:58,090 --> 01:20:00,290
+considerações finais Basicamente, agradecer a todas as
+
+2031
+01:20:00,590 --> 01:20:03,230
+empregadas, mas que a discussão sempre nosso, muito,
+
+2032
+01:20:03,780 --> 01:20:04,310
+muito, barro
+
+2033
+01:20:05,170 --> 01:20:05,660
+minha,
+
+2034
+01:20:06,590 --> 01:20:07,070
+sigam
+
+2035
+01:20:07,360 --> 01:20:07,670
+o
+
+2036
+01:20:07,800 --> 01:20:09,160
+conselho do equipe de cinto.
+
+2037
+01:20:09,450 --> 01:20:12,370
+No fim das contas, o legado vai ser ter uma nova estátua. Então
+
+2038
+01:20:12,860 --> 01:20:12,890
+a
+
+2039
+01:20:13,020 --> 01:20:13,920
+modalidade com ela
+
+2040
+01:20:14,020 --> 01:20:15,080
+da melhor forma possível
+
+2041
+01:20:15,580 --> 01:20:15,820
+e
+
+2042
+01:20:16,680 --> 01:20:17,580
+tenta sempre
+
+2043
+01:20:17,830 --> 01:20:19,450
+um passo à frente, nem que seja para
+
+2044
+01:20:20,020 --> 01:20:20,910
+não usar.
+
+2045
+01:20:21,140 --> 01:20:23,540
+Então vale muito conselho memórias colocou
+
+2046
+01:20:24,740 --> 01:20:28,230
+após estudar Domingo vem design, nem que seja para dizer aqui não se aplica,
+
+2047
+01:20:28,930 --> 01:20:32,450
+mas, pelo menos, se tivesse peso do teu coração e tirar essa
+
+2048
+01:20:32,860 --> 01:20:35,300
+síndrome, às vezes está pegando o caminho errado.
+
+2049
+01:20:35,310 --> 01:20:37,610
+Na maior parte das vezes, o caminho simples, ao melhor
+
+2050
+01:20:37,960 --> 01:20:38,650
+um pouco, não não
+
+2051
+01:20:38,980 --> 01:20:40,330
+um pouco do que Ponte falou ali,
+
+2052
+01:20:40,530 --> 01:20:41,330
+eu concordo.
+
+2053
+01:20:41,840 --> 01:20:43,560
+Boa parte das vezes o
+
+2054
+01:20:44,650 --> 01:20:45,290
+direto
+
+2055
+01:20:45,410 --> 01:20:49,160
+vai atender, vai resolver e vai ser melhor saída no teste de integração.
+
+2056
+01:20:49,160 --> 01:20:50,660
+Vai ser o mais assertivo,
+
+2057
+01:20:51,350 --> 01:20:51,680
+então.
+
+2058
+01:20:52,740 --> 01:20:53,220
+E cinto
+
+2059
+01:20:54,290 --> 01:20:57,490
+esteja sempre à nossa frente, nem que seja para saber que você não precisa daquilo
+
+2060
+01:20:58,680 --> 01:21:01,720
+e o seu seu curso, como é que eu pego cobrando?
+
+2061
+01:21:03,060 --> 01:21:05,360
+A gente está na turma número oito
+
+2062
+01:21:05,630 --> 01:21:07,120
+Meu curso, basicamente ele reúne
+
+2063
+01:21:09,770 --> 01:21:10,150
+Fernanda
+
+2064
+01:21:11,060 --> 01:21:12,950
+entram no importe mandatos discutindo
+
+2065
+01:21:13,300 --> 01:21:14,050
+tecnicamente
+
+2066
+01:21:14,530 --> 01:21:15,120
+sólido
+
+2067
+01:21:15,450 --> 01:21:16,210
+em patamares.
+
+2068
+01:21:17,790 --> 01:21:19,120
+Muito nesse viés está
+
+2069
+01:21:19,500 --> 01:21:19,810
+assim.
+
+2070
+01:21:20,040 --> 01:21:21,020
+Aonde você
+
+2071
+01:21:21,410 --> 01:21:22,810
+talvez precise mudar isso?
+
+2072
+01:21:22,980 --> 01:21:24,010
+E como você faria
+
+2073
+01:21:24,880 --> 01:21:26,150
+uma? Muito atrás. Essa
+
+2074
+01:21:26,510 --> 01:21:27,080
+clareza
+
+2075
+01:21:27,210 --> 01:21:27,980
+para as pessoas
+
+2076
+01:21:28,200 --> 01:21:30,270
+que a gente vai dez da escrita de código,
+
+2077
+01:21:30,550 --> 01:21:32,110
+até a estruturação disso
+
+2078
+01:21:32,440 --> 01:21:33,840
+seja em micros serviços,
+
+2079
+01:21:34,200 --> 01:21:34,520
+então
+
+2080
+01:21:34,730 --> 01:21:37,650
+não entrariam no Canadá, Então você vai encontrar bastante informação,
+
+2081
+01:21:39,200 --> 01:21:39,820
+boa
+
+2082
+01:21:40,320 --> 01:21:40,820
+creche,
+
+2083
+01:21:41,970 --> 01:21:42,440
+valeu
+
+2084
+01:21:43,390 --> 01:21:44,240
+neste vamos lá
+
+2085
+01:21:44,990 --> 01:21:47,640
+considerações finais e fala do seu livro também
+
+2086
+01:21:48,340 --> 01:21:49,010
+cumpre
+
+2087
+01:21:49,250 --> 01:21:49,800
+muito bom.
+
+2088
+01:21:52,630 --> 01:21:53,490
+Eu vou fazer chamar
+
+2089
+01:21:57,130 --> 01:21:59,530
+esse livro É muito mais sobre avisar de arquitetura,
+
+2090
+01:21:59,590 --> 01:22:01,790
+muito mais sobre como organizar classes e
+
+2091
+01:22:02,460 --> 01:22:04,510
+criar código flexível distrital
+
+2092
+01:22:05,310 --> 01:22:06,370
+em menos de arquitetura.
+
+2093
+01:22:07,330 --> 01:22:07,630
+E
+
+2094
+01:22:08,280 --> 01:22:11,090
+poderia ter um nível muito legal quando se fala de design, mas acho que é
+
+2095
+01:22:11,240 --> 01:22:12,630
+uma influência de verdade.
+
+2096
+01:22:13,080 --> 01:22:14,320
+Foi o grupo de objectos
+
+2097
+01:22:14,730 --> 01:22:16,400
+Sistemas Guarda de BAe testes
+
+2098
+01:22:17,270 --> 01:22:20,780
+quando havia apegadas dois autores, assim como eles. Programa em como eles deixam
+
+2099
+01:22:21,430 --> 01:22:23,200
+as abstrações emergirem,
+
+2100
+01:22:23,710 --> 01:22:24,820
+influenciou bastante a
+
+2101
+01:22:25,060 --> 01:22:26,000
+gente, fala bem pouco.
+
+2102
+01:22:27,010 --> 01:22:30,580
+Recife humanidade para isso não são tão populares aí na comunidade, mas unido,
+
+2103
+01:22:30,580 --> 01:22:31,020
+bem bom,
+
+2104
+01:22:31,590 --> 01:22:32,680
+dói um pouco leve, porque
+
+2105
+01:22:32,980 --> 01:22:34,830
+muitos código e suingue ele que ninguém
+
+2106
+01:22:35,330 --> 01:22:36,940
+gosta mais três pais
+
+2107
+01:22:37,420 --> 01:22:38,680
+colocar um botão na tela,
+
+2108
+01:22:39,040 --> 01:22:39,760
+mas a ideia
+
+2109
+01:22:40,430 --> 01:22:43,250
+de como esse programa bem legal, me influenciou bastante.
+
+2110
+01:22:43,450 --> 01:22:45,190
+Então, fica essa recomendação
+
+2111
+01:22:45,680 --> 01:22:46,770
+e boa noite a gente,
+
+2112
+01:22:47,430 --> 01:22:48,640
+inclusive
+
+2113
+01:22:49,170 --> 01:22:53,740
+esse livro, eles chegam a uma arquitetura hexagonal. A gente pode dizer que
+
+2114
+01:22:54,120 --> 01:22:55,110
+chega nesse ponto,
+
+2115
+01:22:56,760 --> 01:22:57,970
+já chegamos a um tema.
+
+2116
+01:22:58,590 --> 01:23:00,940
+Pode ser adaptado do livro Boa Boa Pergunta
+
+2117
+01:23:01,220 --> 01:23:02,870
+Mas tem bastante discussões
+
+2118
+01:23:03,280 --> 01:23:05,310
+sobre como modelo a classe que são flexíveis,
+
+2119
+01:23:05,310 --> 01:23:08,770
+como fazer com que parte do sistema sejam fáceis de serem trocadas etc.
+
+2120
+01:23:08,860 --> 01:23:09,080
+E tal?
+
+2121
+01:23:09,640 --> 01:23:13,470
+Mas acho que eles são um pouco mais pragmáticos ali. Na decisão deles,
+
+2122
+01:23:15,620 --> 01:23:16,390
+sim, sim.
+
+2123
+01:23:18,340 --> 01:23:18,980
+O Ponte
+
+2124
+01:23:19,900 --> 01:23:20,380
+formular
+
+2125
+01:23:20,570 --> 01:23:22,580
+-- considerações finais
+-- feita
+
+2126
+01:23:24,080 --> 01:23:26,300
+vou falar sobre Olímpico. Eu não li o livro do crime
+
+2127
+01:23:27,370 --> 01:23:27,680
+não
+
+2128
+01:23:28,880 --> 01:23:29,780
+deixar que um
+
+2129
+01:23:30,560 --> 01:23:31,420
+reflexão que
+
+2130
+01:23:31,750 --> 01:23:32,230
+eu tenho
+
+2131
+01:23:32,560 --> 01:23:33,340
+uma carreira, que é
+
+2132
+01:23:33,680 --> 01:23:35,370
+o cuidado de ser dogmático.
+
+2133
+01:23:35,780 --> 01:23:36,000
+Um
+
+2134
+01:23:36,420 --> 01:23:37,610
+pragmático, eu
+
+2135
+01:23:38,370 --> 01:23:38,560
+já
+
+2136
+01:23:38,790 --> 01:23:40,690
+ministro, minha carreira e jovem. Seu
+
+2137
+01:23:40,860 --> 01:23:42,240
+entendimento do mundo
+
+2138
+01:23:42,800 --> 01:23:43,360
+do mercado
+
+2139
+01:23:44,110 --> 01:23:45,480
+dogmático, a seguir
+
+2140
+01:23:45,890 --> 01:23:49,300
+com Bobby a seguir domingo, dezanove, a pé da letra,
+
+2141
+01:23:49,880 --> 01:23:52,570
+Henrique só é dois sofrimento está, Então eu tento
+
+2142
+01:23:53,020 --> 01:23:56,010
+balancear isso com um pouco mais de pragmatismo.
+
+2143
+01:23:56,250 --> 01:23:57,270
+E um dos
+
+2144
+01:23:58,260 --> 01:23:59,850
+pilares do pragmatismo é que o uso
+
+2145
+01:24:00,220 --> 01:24:00,400
+do
+
+2146
+01:24:00,640 --> 01:24:01,000
+efeito
+
+2147
+01:24:01,570 --> 01:24:02,720
+não brinca. O seu sonho
+
+2148
+01:24:02,870 --> 01:24:05,730
+já dizia Mark fala em seu livro de dois mil e dois já dizia
+
+2149
+01:24:06,260 --> 01:24:09,330
+era que todos em seu livro de dois mil e quatro não brigo seus freios.
+
+2150
+01:24:09,620 --> 01:24:10,050
+Hoje
+
+2151
+01:24:10,220 --> 01:24:12,360
+não há qualquer motivo de obrigar com meu rei.
+
+2152
+01:24:12,360 --> 01:24:14,610
+És obrigado, memorável obrigar aqui como
+
+2153
+01:24:14,980 --> 01:24:15,290
+última,
+
+2154
+01:24:15,680 --> 01:24:18,040
+porque estão fazendo mais de oitenta por cento do trabalho sujo.
+
+2155
+01:24:18,530 --> 01:24:21,110
+Eu só tenho que me preocupar com regras de negócio e é
+
+2156
+01:24:21,490 --> 01:24:23,590
+isso que se tenta fazer a mais de vinte anos,
+
+2157
+01:24:23,780 --> 01:24:25,600
+deixando desenvolvendo a desenvolvedora. Só
+
+2158
+01:24:25,880 --> 01:24:27,430
+se preocupar com regras de negócio,
+
+2159
+01:24:27,920 --> 01:24:31,590
+mas conta simplista de hoje. A gente gosta de complicar, então não sei se valer
+
+2160
+01:24:32,070 --> 01:24:33,420
+talvez no início da sua carreira,
+
+2161
+01:24:33,800 --> 01:24:35,000
+investir tanto
+
+2162
+01:24:35,190 --> 01:24:38,800
+em estilos arquiteturas não é que você não vai estudar fundamentos, orientação,
+
+2163
+01:24:38,800 --> 01:24:39,900
+objeto para a
+
+2164
+01:24:40,000 --> 01:24:40,750
+profissional
+
+2165
+01:24:41,270 --> 01:24:42,920
+ou mesmo só de alguns
+
+2166
+01:24:43,020 --> 01:24:43,920
+padrões de projeto.
+
+2167
+01:24:44,290 --> 01:24:47,770
+Só acho que talvez não vale tanto a pena você investir nessa briga e
+
+2168
+01:24:47,940 --> 01:24:48,980
+dogmática de
+
+2169
+01:24:49,120 --> 01:24:50,830
+estimular eleitorais hexagonal,
+
+2170
+01:24:51,070 --> 01:24:52,770
+klin ou qualquer outro
+
+2171
+01:24:53,130 --> 01:24:53,650
+quando
+
+2172
+01:24:53,790 --> 01:24:56,950
+boa parte do seu trabalho vai ser domina vai Souza, um fenômeno então
+
+2173
+01:24:57,220 --> 01:24:58,730
+domingo ele foi morto, então
+
+2174
+01:24:59,050 --> 01:24:59,790
+então acho que
+
+2175
+01:25:00,130 --> 01:25:00,780
+deixa aí
+
+2176
+01:25:01,480 --> 01:25:02,450
+essa sessão com isso
+
+2177
+01:25:04,520 --> 01:25:05,300
+perfeito
+
+2178
+01:25:05,930 --> 01:25:08,640
+aprender o seu primeiro porque não? Se
+
+2179
+01:25:08,930 --> 01:25:11,470
+não tem, tem porque é um fator que não é um detalhe
+
+2180
+01:25:14,120 --> 01:25:14,890
+Otávio,
+
+2181
+01:25:15,010 --> 01:25:16,510
+o Flamengo, que é um detalhe,
+
+2182
+01:25:16,950 --> 01:25:17,500
+brincadeira.
+
+2183
+01:25:18,520 --> 01:25:19,810
+Considerações finais Notável,
+
+2184
+01:25:22,080 --> 01:25:24,400
+Obrigado nossa, achei bem legal discussão
+
+2185
+01:25:25,260 --> 01:25:26,090
+e
+
+2186
+01:25:26,800 --> 01:25:29,300
+e isso eu sou entusiasta do estudo e
+
+2187
+01:25:29,550 --> 01:25:30,860
+professor universitário.
+
+2188
+01:25:31,310 --> 01:25:34,860
+Então eu fico muito feliz de ver pessoas na linha de frente que deve mesmo
+
+2189
+01:25:35,700 --> 01:25:39,810
+recomendando que se lê que se leia mais livros, que o pessoal, estude mesmo.
+
+2190
+01:25:39,810 --> 01:25:40,740
+Acho que vale a pena
+
+2191
+01:25:41,090 --> 01:25:42,360
+esse tipo de recomendação,
+
+2192
+01:25:42,600 --> 01:25:43,110
+porque
+
+2193
+01:25:43,310 --> 01:25:44,630
+como o governo se falou,
+
+2194
+01:25:44,970 --> 01:25:46,630
+mesmo que seja para você saber
+
+2195
+01:25:47,240 --> 01:25:48,140
+onde não usar
+
+2196
+01:25:48,280 --> 01:25:49,180
+certas coisas,
+
+2197
+01:25:49,700 --> 01:25:50,490
+então
+
+2198
+01:25:50,800 --> 01:25:53,420
+só esse recado final mesmo. Acho que vale a pena. A gente
+
+2199
+01:25:53,920 --> 01:25:54,210
+a prova
+
+2200
+01:25:54,320 --> 01:25:55,250
+se aprofundar
+
+2201
+01:25:56,140 --> 01:25:56,940
+nas coisas,
+
+2202
+01:25:57,290 --> 01:25:58,470
+porque se não se acaba sendo
+
+2203
+01:26:00,130 --> 01:26:01,030
+mais peixe robô
+
+2204
+01:26:01,290 --> 01:26:02,830
+fazendo as coisas, sem pensar,
+
+2205
+01:26:03,140 --> 01:26:04,170
+sem saber exatamente
+
+2206
+01:26:04,760 --> 01:26:05,420
+o que está fazendo,
+
+2207
+01:26:05,950 --> 01:26:08,970
+então acho legal essa profundidade, a gente pegar esses livros.
+
+2208
+01:26:09,070 --> 01:26:10,250
+Eu gosto muito livre que o
+
+2209
+01:26:10,720 --> 01:26:12,980
+que o Maniche recomendou também
+
+2210
+01:26:14,200 --> 01:26:14,810
+e, de fato, não
+
+2211
+01:26:15,160 --> 01:26:17,580
+pode ser adepto as mesmas. Foi um dos primeiros livros que
+
+2212
+01:26:17,990 --> 01:26:20,860
+fala. Não sei nem se eu não sei se ele for no extremo, mas
+
+2213
+01:26:21,590 --> 01:26:23,220
+no próprio clima, até que
+
+2214
+01:26:24,090 --> 01:26:27,240
+ele fala desse livro como se fosse um dos primeiros a
+
+2215
+01:26:27,790 --> 01:26:29,900
+utilizar esse tipo. Disse que este
+
+2216
+01:26:31,010 --> 01:26:33,410
+eu lembro que chega é parecido
+
+2217
+01:26:33,990 --> 01:26:34,050
+com
+
+2218
+01:26:34,400 --> 01:26:34,430
+o
+
+2219
+01:26:35,360 --> 01:26:35,700
+grupo
+
+2220
+01:26:35,910 --> 01:26:36,550
+de atletas
+
+2221
+01:26:38,710 --> 01:26:41,210
+eu tenho. Eu seguiu o exemplo sabe?
+
+2222
+01:26:42,230 --> 01:26:43,320
+Meu filho é um trabalho,
+
+2223
+01:26:44,160 --> 01:26:45,400
+mas
+
+2224
+01:26:46,690 --> 01:26:47,670
+eles chegam a
+
+2225
+01:26:47,890 --> 01:26:48,890
+algo parecido.
+
+2226
+01:26:50,550 --> 01:26:51,820
+Sim, É isso mesmo?
+
+2227
+01:26:52,500 --> 01:26:55,020
+Espetacular, apesar de eu ser mais
+
+2228
+01:26:55,580 --> 01:26:58,460
+gostar mais do estilo de tempo demais, clássico
+
+2229
+01:26:58,900 --> 01:26:59,660
+do estilo quente
+
+2230
+01:26:59,930 --> 01:27:00,250
+mesmo.
+
+2231
+01:27:00,820 --> 01:27:01,870
+Mas
+
+2232
+01:27:02,400 --> 01:27:06,780
+então, isso eu acho que alegou desconhecer todos os tipo, estilos de programação,
+
+2233
+01:27:06,780 --> 01:27:08,280
+de desenvolvimento, tender
+
+2234
+01:27:09,640 --> 01:27:11,120
+e saber isso também tem.
+
+2235
+01:27:11,610 --> 01:27:13,350
+Vai ter esses temas também, assim,
+
+2236
+01:27:14,010 --> 01:27:15,640
+a cultura muito diversa, dependendo
+
+2237
+01:27:16,050 --> 01:27:17,250
+da empresa que você, esta
+
+2238
+01:27:17,700 --> 01:27:19,380
+empresa está fechada com
+
+2239
+01:27:19,800 --> 01:27:20,150
+o frio.
+
+2240
+01:27:20,480 --> 01:27:22,030
+Então, por exemplo, tem amigos,
+
+2241
+01:27:22,450 --> 01:27:23,040
+tem um
+
+2242
+01:27:24,520 --> 01:27:25,680
+Toni que é meu amigão
+
+2243
+01:27:26,790 --> 01:27:27,940
+principal em dinheiro da
+
+2244
+01:27:28,040 --> 01:27:28,420
+abuso,
+
+2245
+01:27:28,570 --> 01:27:29,140
+abuso.
+
+2246
+01:27:29,920 --> 01:27:30,980
+Ela é feita em cima
+
+2247
+01:27:31,750 --> 01:27:32,850
+no
+
+2248
+01:27:33,470 --> 01:27:34,040
+jogo,
+
+2249
+01:27:34,330 --> 01:27:35,090
+então, assim
+
+2250
+01:27:35,360 --> 01:27:36,680
+tem problema. Isso não tem problema,
+
+2251
+01:27:37,250 --> 01:27:40,590
+deve, funciona muito bem. É o aplicativo, É claro, você
+
+2252
+01:27:41,090 --> 01:27:42,340
+que você fechou com o freio,
+
+2253
+01:27:43,780 --> 01:27:45,610
+posso. Pode ser que tem algum risco nisso?
+
+2254
+01:27:46,790 --> 01:27:47,710
+O frevo aqui, elemento,
+
+2255
+01:27:47,980 --> 01:27:50,730
+pode ser que seja menos estável do que a linguagem.
+
+2256
+01:27:51,420 --> 01:27:54,640
+Então está dependendo de uma coisa que talvez seja menos estável. Mas
+
+2257
+01:27:55,020 --> 01:27:56,360
+é um treinador que sempre tem
+
+2258
+01:27:57,320 --> 01:27:58,720
+estreita, oficina, vida,
+
+2259
+01:27:59,850 --> 01:28:01,060
+então acho que vale a pena.
+
+2260
+01:28:01,660 --> 01:28:03,160
+Só queria deixar esse recado final
+
+2261
+01:28:03,400 --> 01:28:05,110
+só se aprofundar mesmo. Estudar
+
+2262
+01:28:05,540 --> 01:28:06,700
+através de livros
+
+2263
+01:28:06,860 --> 01:28:08,950
+que realmente aprofunda nesses temas
+
+2264
+01:28:09,550 --> 01:28:12,560
+para fazer as coisas de qualquer jeito nas costas
+
+2265
+01:28:13,110 --> 01:28:13,930
+e
+
+2266
+01:28:14,580 --> 01:28:16,230
+fazer cada vez melhor. Como
+
+2267
+01:28:16,800 --> 01:28:20,420
+Linhares falou você que vai ter que cuidar do legado depois
+
+2268
+01:28:20,920 --> 01:28:21,510
+valeu galera,
+
+2269
+01:28:22,830 --> 01:28:23,230
+pois é
+
+2270
+01:28:23,510 --> 01:28:25,550
+lotado. Tenham livre muito bom,
+
+2271
+01:28:25,660 --> 01:28:26,580
+eu estou lendo
+
+2272
+01:28:26,760 --> 01:28:27,520
+que
+
+2273
+01:28:28,520 --> 01:28:31,420
+o cinto, mas consegue ser mais ponderada do
+
+2274
+01:28:32,350 --> 01:28:34,480
+livro acabado. Tem quatrocentos parelhos,
+
+2275
+01:28:35,090 --> 01:28:35,690
+Impressionante,
+
+2276
+01:28:37,390 --> 01:28:40,030
+um corte sendo adaptadas, aparece mesmo unido, Alexandre
+
+2277
+01:28:40,540 --> 01:28:41,160
+aparece
+
+2278
+01:28:41,690 --> 01:28:42,600
+aparelham
+
+2279
+01:28:46,460 --> 01:28:48,720
+E então é isso pessoal?
+
+2280
+01:28:49,050 --> 01:28:49,690
+Aí
+
+2281
+01:28:49,980 --> 01:28:52,310
+a gente não falou um monte de coisas que
+
+2282
+01:28:52,990 --> 01:28:54,360
+a gente abordou na
+
+2283
+01:28:55,110 --> 01:28:55,730
+tipo
+
+2284
+01:28:56,940 --> 01:28:58,440
+o que é design
+
+2285
+01:28:58,730 --> 01:29:00,140
+e arquitetura
+
+2286
+01:29:00,900 --> 01:29:01,430
+E
+
+2287
+01:29:02,070 --> 01:29:05,920
+voltava só ficou a mencionar fomos, ocorreu perto Michel,
+
+2288
+01:29:05,920 --> 01:29:07,620
+tem tanta coisa interessante assim,
+
+2289
+01:29:08,290 --> 01:29:09,220
+mas
+
+2290
+01:29:09,850 --> 01:29:12,810
+isso se não a gente vai ficar aqui para sempre conversando,
+
+2291
+01:29:13,560 --> 01:29:17,630
+mas muito obrigado, Desculpa aí o antílope,
+
+2292
+01:29:17,970 --> 01:29:19,280
+a Gleice,
+
+2293
+01:29:19,840 --> 01:29:21,340
+Rinaldo,
+
+2294
+01:29:21,660 --> 01:29:25,500
+várias outras pessoas aí que eu não consegui dar a palavra
+
+2295
+01:29:25,630 --> 01:29:26,260
+que não
+
+2296
+01:29:28,650 --> 01:29:29,810
+estão aparecendo aqui
+
+2297
+01:29:30,390 --> 01:29:32,700
+e várias outras que não vou mencionar porque
+
+2298
+01:29:32,700 --> 01:29:34,200
+se não vou ficar falando aqui para sempre,
+
+2299
+01:29:34,250 --> 01:29:35,970
+mas muito obrigado por comparecer.
+
+2300
+01:29:35,970 --> 01:29:36,540
+Aí pessoal,
+
+2301
+01:29:36,710 --> 01:29:39,100
+eu vou ter que ouvir isso quinze vezes
+
+2302
+01:29:39,780 --> 01:29:41,220
+para absorver
+
+2303
+01:29:42,010 --> 01:29:43,520
+todo o conhecimento aqui.
+
+2304
+01:29:44,430 --> 01:29:47,320
+Então muito obrigado, eu vou finalizar que então
+
+2305
+01:29:47,940 --> 01:29:48,320
+beleza
+
+2306
+01:29:48,990 --> 01:29:49,060
+de
+
+2307
+01:29:49,220 --> 01:29:49,710
+salvação
+
+2308
+01:29:50,920 --> 01:29:51,540
+valeu

@@ -1,0 +1,2893 @@
+1
+00:00:00,462 --> 00:00:12,602
+[Alexandre Aquiles] Mas é... Então vamos lá pessoal. Meu nome é Alexandre Aquiles.
+Eu não vou falar onde eu trabalho, acho que vocês devem saber, né?
+
+2
+00:00:12,702 --> 00:00:26,122
+[Alexandre Aquiles] Porque aqui o negócio é entre a gente mesmo, né?
+Tipo... Então é... papo nosso aqui mesmo. E aí... Eu lancei um livro recentemente, né?
+
+3
+00:00:26,222 --> 00:00:39,394
+[Alexandre Aquiles] Desbravando SOLID. Deixa eu fazer o jabá já, né?
+Desbravando SOLID. E aí eu fiz esse livro. E, no capítulo final, assim né...
+
+4
+00:00:39,494 --> 00:00:53,074
+[Alexandre Aquiles] Eu chego numa Arquitetura Hexagonal. Pelo menos eu acho que eu chego. Então vamos ver se
+eu cheguei mesmo hoje. Pode ser uma pauta. Mas aí... Aí eu postei lá
+
+5
+00:00:53,174 --> 00:01:10,386
+[Alexandre Aquiles] no twitter referenciando um Hipsters que
+o Linhares e a Roberta Arcoverde e o Otávio Lemos e o Vinícius Dias e o Rodrigo Ferreira
+
+6
+00:01:10,486 --> 00:01:26,726
+[Alexandre Aquiles] e o Paulo da Caelum, da Alura, eles estavam discutindo sobre Clean Architecture e aí repercutiu.
+Então vários comentários, várias threads diferentes e tal.
+
+7
+00:01:26,894 --> 00:01:41,354
+[Alexandre Aquiles] Então é sobre isso que a gente vai falar. E aí eu coloquei um título meio marqueteiro, né?
+"Clean Arch morreu?" Até estava falando com o Aniche e com o Linhares,
+
+8
+00:01:41,454 --> 00:01:51,134
+[Alexandre Aquiles] que tipo, é para fazer uma referência àquele papo lá do
+"Is TDD Dead", né? Que teve entre o cara do Rails e o Kent Beck.
+
+9
+00:01:51,234 --> 00:01:56,938
+[Alexandre Aquiles] Então é uma brincadeira, na verdade, né, pessoal?
+Então, se a gente quiser falar assim, "Clean Arch morreu?"
+
+10
+00:01:57,038 --> 00:02:06,218
+[Alexandre Aquiles] vamos falar que não e aí a gente pode fechar aqui.
+Mas a brincadeira é a gente discutir um pouco sobre isso e tal.
+
+11
+00:02:06,318 --> 00:02:20,518
+[Alexandre Aquiles] E aí eu queria que os oradores... Aí, eu vou chamando...
+Eu queria que vocês falassem o nome e... define em uma frase assim, sabe?
+
+12
+00:02:21,178 --> 00:02:29,874
+[Alexandre Aquiles] O que é Clean Architecture?
+Então eu vou começar aí com o Linhares. Vamos lá, Linhares. Manda brasa aí.
+
+13
+00:02:33,134 --> 00:02:48,234
+[Mauricio Linhares] Já, já tá querendo a confusão.
+Dessa vez eu vou roubar o que eu achei, o comentário que mais representa o que eu senti lendo
+
+14
+00:02:48,334 --> 00:03:02,858
+[Mauricio Linhares] o livro. É o comentário que o Aniche fez no Twitter, que é conteúdo requentado.
+Pegou o conteúdo que ele tinha dos outros livros, requentou, mudou de nome e
+
+15
+00:03:02,958 --> 00:03:14,058
+[Mauricio Linhares] botou lá, né? Eu ainda fiquei sem entender o que efetivamente é a tal da Clean Architecture
+que parece com tudo que a gente já viu antes, só que com coisas com nomes diferentes.
+
+16
+00:03:14,158 --> 00:03:15,344
+[Mauricio Linhares] Então eu tô meio confuso ainda.
+
+17
+00:03:15,444 --> 00:03:27,958
+[Alexandre Aquiles] Boa. Vou na ordem aqui que tá aparecendo pra mim. Então, ô Branas, se apresenta aí pra galera e, tipo, "o que é Clean Architecture" em uma frase.
+
+18
+00:03:27,958 --> 00:03:35,659
+[Rodrigo Branas] Ah, beleza cara. Bom, eu sou só mais um apaixonado por programação que tem um canal no YouTube e,
+
+19
+00:03:35,659 --> 00:03:42,970
+[Rodrigo Branas] pra mim, eu concordo bastante com o que o Mauricio [Linhares] comentou, é um conteúdo sim um pouco, é uma mescla de
+
+20
+00:03:42,970 --> 00:03:55,370
+[Rodrigo Branas] óbvio, superficial e requentado. Mas, de certa forma, faz bastante sentido até a fronteira
+com a camada de domínio que a gente vai discutir aqui hoje, então pra mim ele é um pouco
+
+21
+00:03:55,370 --> 00:04:06,382
+[Rodrigo Branas] um clone do Ports & Adapters e uma pitada de DDD.
+Mas por isso que eu acho ele superficial, mas depois eu entro um pouco mais nos detalhes.
+
+22
+00:04:06,382 --> 00:04:21,062
+[Alexandre Aquiles] Certo, beleza. Aniche, você se apresenta e coloca uma definição sucinta assim.
+Eu sei que essas coisas não são para acadêmicos, mas vai lá.
+
+23
+00:04:24,430 --> 00:04:32,690
+[Mauricio Aniche] E aí, gente? Meu nome é Maurício. E definir Clean Architecture em uma frase é difícil, hein?
+Mas acho que o que ele tentou naquele livro é mostrar
+
+24
+00:04:32,690 --> 00:04:40,490
+[Mauricio Aniche] como tentar criar aplicações que vão sobreviver ao tempo, né?
+Que sejam fáceis de mudar, fáceis de evoluir, fáceis de testar.
+
+25
+00:04:40,490 --> 00:04:46,030
+[Mauricio Aniche] Se ele conseguiu isso no livro, é uma coisa que a gente vai discutir, né?
+Mas acho que a ideia da Clean Architecture é essa.
+
+26
+00:04:46,030 --> 00:04:56,494
+[Alexandre Aquiles] Certo. E o próximo que está aparecendo aqui, entrou aqui, é o Ponte.
+Ô Ponte, você nem sabe o que está acontecendo agora, né?
+
+27
+00:04:58,134 --> 00:05:05,214
+[Rafael Ponte] Eu cheguei e peguei o bonde andando aqui, ouvi o comecinho, mas...
+Não vou me repetir muito, né? Meu nome é Rafael Ponte, aqui.
+
+28
+00:05:05,614 --> 00:05:11,694
+[Rafael Ponte] Conhecido como Marajá dos Legados, então vim defender os legados.
+Embora as pessoas não gostem, mas...
+
+29
+00:05:12,814 --> 00:05:20,946
+[Rafael Ponte] Uma definição rápida de Clean Arch, dado o meu pouco conhecimento, né?
+Até o que eu estudo é: um excesso de camadas e de indireção
+
+30
+00:05:21,038 --> 00:05:27,798
+[Rafael Ponte] para blindar meia dúzia de classes. Pronto, é assim que eu enxergo na maioria dos projetos que eu tenho visto.
+
+31
+00:05:27,798 --> 00:05:34,798
+[Alexandre Aquiles] Caramba. Essa foi contundente. Eu senti uma mágoa aí.
+
+32
+00:05:34,798 --> 00:05:52,190
+[Alexandre Aquiles] Mas... Ô Otávio. Otávio Lemos, beleza? Então, diga aí, se apresente e fale aí a sua definição.
+Ah, eu esqueci de falar assim, tipo, façam seu jabás aí também.
+
+33
+00:05:54,158 --> 00:06:04,098
+[Otávio Lemos] Bom pessoal, meu nome é Otávio Lemos, eu sou professor universitário, sou professor da Universidade Federal de São Paulo há 13 anos.
+
+34
+00:06:04,158 --> 00:06:14,198
+[Otávio Lemos] E há 3 anos eu comecei um canal no YouTube, mais ou menos na mesma linha do Branas, falando sobre desenvolvimento de software, engenharia de software.
+
+35
+00:06:14,198 --> 00:06:21,686
+[Otávio Lemos] E nessa mesma época que eu conheci essas ideias aí do Bob Martin.
+
+36
+00:06:21,686 --> 00:06:29,150
+[Otávio Lemos] Bom, pra mim é, de fato, me parece um... Ele mesmo fala isso, né? Que é um conjunto de ideias
+
+37
+00:06:29,150 --> 00:06:41,150
+[Otávio Lemos] que foram se desenvolvendo sobre arquitetura de software no sentido de organização de código
+e não de arquitetura de solução ou infra, né? Mais no sentido de design mesmo.
+
+38
+00:06:41,150 --> 00:06:55,366
+[Otávio Lemos] Mas é um conjunto de ideias antigas, se a gente for ver, porque aparece lá no...
+Ele fala do Ivar Jacobson lá, que é aquele desenvolvimento de software guiado por casos de uso.
+
+39
+00:06:55,966 --> 00:07:03,046
+[Otávio Lemos] E depois tem outras abordagens como Ports & Adapters
+ou Arquitetura Hexagonal do Alistair Cockburn.
+
+40
+00:07:03,526 --> 00:07:14,926
+[Otávio Lemos] Então, assim, é um punhado de ideias. E me parece que o objetivo é esse.
+Você ter uma arquitetura na qual você promove
+
+41
+00:07:15,526 --> 00:07:26,542
+[Otávio Lemos] as suas regras de negócio e tenta desacoplá-las
+de outros interesses do sistema. Claro que você pode abusar disso, qualquer tecnologia, qualquer abordagem você pode
+
+42
+00:07:26,542 --> 00:07:32,609
+[Otávio Lemos] abusar e em vez de ser um benefício, ser uma coisa que vai te atrapalhar.
+
+43
+00:07:32,609 --> 00:07:43,142
+[Alexandre Aquiles] Certo, eu vou chamar a Roberta. Ela participou do podcast, do famoso podcast aí.
+
+44
+00:07:43,142 --> 00:07:51,718
+[Alexandre Aquiles] Então Roberta, vou convidar você aqui. Te coloquei aqui numa fria, numa enrascada hein.
+
+45
+00:07:51,718 --> 00:07:57,132
+[Alexandre Aquiles] Mas eu tinha falado com a Roberta já, deixa eu ver aqui ó, convidar para falar. Ah, apareceu aqui.
+
+46
+00:07:57,132 --> 00:08:09,534
+[Roberta Arcoverde] Pois é, Clean Arch pra mim, de acordo também com o que o Otávio falou,
+me parece uma parada que nem é Clean nem é Arch, né?
+
+47
+00:08:09,534 --> 00:08:23,966
+[Roberta Arcoverde] É design e não é Clean no sentido de não ser simples, né?
+No sentido de adicionar um pouco de complexidade para tentar definir abstrações e isolar interesses
+
+48
+00:08:23,966 --> 00:08:37,366
+[Roberta Arcoverde] que, na minha opinião, sempre que se tenta isolar, o trade-off é que você abre mão
+de coisas mais sofisticadas que você poderia estar utilizando e que informam o design do
+
+49
+00:08:37,366 --> 00:08:49,458
+[Roberta Arcoverde] sistema. E abrir mão dessas coisas deliberadamente em nome de uma suposta flexibilidade para
+a estrutura mude no futuro, para mim, soa um pouco inocente.
+
+50
+00:08:49,458 --> 00:09:00,494
+[Roberta Arcoverde] Então, talvez seja a melhor forma que eu encontraria de definir por tudo que eu li e que a gente tem discutido nesses dias.
+
+51
+00:09:01,294 --> 00:09:10,794
+[Alexandre Aquiles] Beleza. Então só pra colocar uns termos que foram aparecendo aí.
+Tipo, tem muito essa coisa de ser algo antigo, né?
+
+52
+00:09:10,794 --> 00:09:22,274
+[Alexandre Aquiles] Eu lembro de fazer diagrama UML, aí tinha o diagrama de robustez,
+que tinha lá o Entidade, Controller e Boundary, né? O ECB.
+
+53
+00:09:22,274 --> 00:09:31,942
+[Alexandre Aquiles] E, tipo, tá lá, o Otávio até falou aí do tal do Ivar Jacobson e era isso, né?
+Tipo, vem lá do UML, inclusive eu acho que antes de existir o UML na verdade.
+
+54
+00:09:31,942 --> 00:09:54,142
+[Alexandre Aquiles] Aí tem essa coisa de... Eu acho que a Roberta falou, o Ponte falou que talvez...
+Muitas abstrações, muitas indireções. E eu acho que é isso que a Roberta falou, visa flexibilidade.
+
+55
+00:09:54,142 --> 00:10:06,354
+[Alexandre Aquiles] Tanto o Otávio como a Roberta falaram aí de design.
+Então talvez o nome arquitetura seja estranho, então arquitetura limpa, talvez seja um design limpo.
+
+56
+00:10:06,354 --> 00:10:22,934
+[Alexandre Aquiles] E aí eu tava vendo aqui, tipo, tava lembrando, né, até coloquei um tweet lá de 2017 que eu tava bem radical, digamos.
+E aí eu lembro que eu e o Rodrigo [Ferreira], a gente tava querendo estudar sobre arquitetura.
+
+57
+00:10:22,934 --> 00:10:34,398
+[Alexandre Aquiles] E aí tinham 3 livros que estavam sendo...
+lançados. Um era o "Building Evolutionary Architectures", lá em 2017.
+
+58
+00:10:34,398 --> 00:10:42,238
+[Alexandre Aquiles] Que era da ThoughtWorks, que o Aniche chegou a mencionar [nas threads],
+assim, tem um negócio de fitness function e tal.
+
+59
+00:10:42,238 --> 00:10:54,798
+[Alexandre Aquiles] Eu não li, para falar a verdade. Aí tinha um que era o "Design It", que é bem sobre arquitetura,
+sobre trade-offs, estilos arquiteturais e tal, que era da Pragmatic Programmer.
+
+60
+00:10:54,798 --> 00:11:08,490
+[Alexandre Aquiles] Só que ele não tinha arquitetura no nome. E tinha o "Clean Architecture" que era sobre design mas tinha arquitetura no nome.
+E foi o que eu escolhi ler. E aí...
+
+61
+00:11:08,490 --> 00:11:12,400
+[Mauricio Linhares] Você pulou os dois melhores e pegou o pior.
+
+62
+00:11:12,400 --> 00:11:14,950
+[Alexandre Aquiles] Tipo isso.
+
+63
+00:11:14,950 --> 00:11:25,630
+[Alexandre Aquiles] Mas aí eu fui tentar aplicar em um freela. Eu e um camarada de Android assim.
+A gente estava querendo reaproveitar o modelo.
+
+64
+00:11:27,278 --> 00:11:42,078
+[Alexandre Aquiles] Foi um desastre nesse caso específico. Porque eu acho que o modelo é diferente
+de uma aplicação Android e da API, que é o que eu estava fazendo.
+
+65
+00:11:42,798 --> 00:11:52,998
+[Alexandre Aquiles] E assim, eu não sofri muito porque o negócio não foi para frente.
+Mas eu acho que eu teria sofrido. Aí, pessoal, o que eu queria
+
+66
+00:11:53,238 --> 00:12:04,734
+[Alexandre Aquiles] é fazer uma brincadeira aqui... Ô Linhares, você leu o livro, né? Vamos falar um pouco sobre o livro em si.
+Só que eu quero, foi o Allan Silva que, eu não sei se ele está aqui,
+
+67
+00:12:04,734 --> 00:12:13,934
+[Alexandre Aquiles] mas o Allan Silva que ele deu a ideia assim de,
+o Linhares falar que ele achou de bom no livro.
+
+68
+00:12:13,934 --> 00:12:17,394
+[Alexandre Aquiles] Então, destaque aí, Linhares, o que você achou de bom no livro.
+
+69
+00:12:21,326 --> 00:12:23,621
+[Mauricio Linhares] Bicho, aí é difícil.
+
+70
+00:12:23,621 --> 00:12:27,599
+[Alexandre Aquiles] Dá uma forçada aí. Pensa um pouquinho.
+
+71
+00:12:27,599 --> 00:12:39,326
+[Mauricio Linhares] Ai, ai. É porque, é porque... Esse livro me levou para muitos momentos traumáticos do passado.
+
+72
+00:12:39,326 --> 00:12:50,098
+[Mauricio Linhares] Porque muito do que está sendo discutido, das coisas que estão sendo faladas,
+são coisas que a gente queria matar ali no meio dos anos 2000, no Java.
+
+73
+00:12:50,318 --> 00:13:05,318
+[Mauricio Linhares] Você pega o livro do Rod Johnson, que foi o livro que deu nascimento ao Spring,
+tem muito essa discussão de como era complicado você criar separação porque a gente tinha toda essa coisa de
+
+74
+00:13:05,318 --> 00:13:18,318
+[Mauricio Linhares] tudo tem um lugar, tem o Session Bean, tem o Entity Bean, tem um monte de Java Beans, EJB, essa porra toda.
+E ele vem com essas ideias. Nesse livro, acho que esse é o livro do Rod Johnson.
+
+75
+00:13:19,086 --> 00:13:25,926
+[Mauricio Linhares] Ele tem muitas das ideias que a gente vê aqui
+de você criar essa separação, de você não deixar o framework ficar dentro da sua aplicação,
+
+76
+00:13:25,926 --> 00:13:32,186
+[Mauricio Linhares] porque a gente sofria muito para escrever aplicações
+e testar aplicações por causa do peso que o framework
+
+77
+00:13:32,186 --> 00:13:40,386
+[Mauricio Linhares] e as coisas do Java tinham em cima da sua plataforma.
+E daí surge o Spring, e daí surge o jeito que a gente está escrevendo
+
+78
+00:13:40,386 --> 00:13:56,478
+[Mauricio Linhares] aplicações Enterprise em Java modernas. E eu acho que essa coisa de você separar...
+é importante, né? Eu acho que isso, nisso ele acerta no livro que você realmente precisa separar
+
+79
+00:13:56,478 --> 00:14:10,558
+[Mauricio Linhares] essas coisas. Isso é uma coisa que a gente vem fazendo, assim, desde o primeiro livro de
+modelagem e design orientado a objetos que eu lembro de ter lido, que eu acho que é o de UML do
+
+80
+00:14:10,558 --> 00:14:24,770
+[Mauricio Linhares] Grady Booch, né? Que era um dos livros que eram recomendados pra gente na época da faculdade.
+E era isso... E isso era uma recomendação, né? Que você não quer que essas coisas elas entrem dentro do seu código, né?
+
+81
+00:14:24,770 --> 00:14:35,530
+[Mauricio Linhares] Mas você não vai fazer isso de uma forma radical, né?
+Como lá no teu tweet que eu coloco, ah, não quero nem botar as anotações no meu objeto.
+
+82
+00:14:35,530 --> 00:14:47,570
+[Mauricio Linhares] Aí você tá indo longe demais no negócio, né?
+Porque a grande preocupação que a gente tinha na época não era de você ter referência ao framework, né?
+
+83
+00:14:47,982 --> 00:15:00,882
+[Mauricio Linhares] era como é que eu consigo testar e usar e fazer operações em cima dessas soluções
+localmente na minha máquina, fazer teste unitário, fazer TDD,
+
+84
+00:15:00,882 --> 00:15:10,522
+[Mauricio Linhares] você conseguir fazer o design da sua aplicação através dos testes,
+e eu acho que essa eu vou dizer que é uma das poucas coisas que eu acho que são legais,
+
+85
+00:15:10,522 --> 00:15:19,346
+[Mauricio Linhares] mas o foda é porque ele é mais radical do que o seu tweet.
+E é difícil de você separar essas coisas no livro.
+
+86
+00:15:19,346 --> 00:15:30,606
+[Mauricio Linhares] Eu tive muita dificuldade de pegar essas coisas e...
+Ah, porra, isso aqui é importante. É muito importante a gente não deixar essas coisas vazarem para dentro de camadas
+
+87
+00:15:30,606 --> 00:15:39,066
+[Mauricio Linhares] para onde elas não deveriam ter vazado. Você tem que tentar separar essas coisas.
+Eu acho que isso é uma mensagem que é importante,
+
+88
+00:15:39,066 --> 00:15:45,146
+[Mauricio Linhares] que é uma coisa que a gente repete em modelagem orientada ao objeto já,
+provavelmente desde que existe modelagem...
+
+89
+00:15:46,062 --> 00:15:48,506
+[Mauricio Linhares] orientada a objetos.
+
+90
+00:15:48,506 --> 00:15:55,982
+[Mauricio Aniche] Mas olha como vai de experiência para experiência, né?
+
+91
+00:15:55,982 --> 00:16:02,582
+[Mauricio Aniche] Então, o meu primeiro contato com o trabalho dele foi naquele "Agile Principles, Practices and Patterns", alguma coisa assim, né?
+
+92
+00:16:02,902 --> 00:16:11,342
+[Mauricio Aniche] Foi antes do Clean Code, aliás. E eu vim... Eu estava vindo de 3 projetos na sequência.
+Um deles, o primeiro, onde era uma loja virtual que a galera customizou,
+
+93
+00:16:11,342 --> 00:16:20,014
+[Mauricio Aniche] a loja virtual aberta em ASP da Locaweb. quem lembra disso aqui, né? E eram aqueles arquivos ASP de 5 mil linhas, e tudo acontecia
+ali.
+
+94
+00:16:20,014 --> 00:16:23,502
+[Mauricio Aniche] Aí eu pulei para um projeto na Sony, onde era o projeto que controlava a venda
+
+95
+00:16:23,502 --> 00:16:28,030
+[Mauricio Aniche] de DVDs da Sony, era tudo em JSP, e tudo na JSP.
+
+96
+00:16:28,030 --> 00:16:35,262
+[Mauricio Aniche] Aí eu fui trabalhar na Verifone, programar em C, tudo num arquivo C completo.
+E aí, para mim, não fazia sentido, não é possível
+
+97
+00:16:35,262 --> 00:16:42,342
+[Mauricio Aniche] que não dava para ser melhor. E quando eu li aquele livro onde ele introduziu o SOLID
+pela primeira vez lá, etc. e tal, eu falei, porra, até que dá para separar as coisas,
+
+98
+00:16:42,342 --> 00:16:50,654
+[Mauricio Aniche] né? dá pra ser um pouquinho melhor, não precisa estar tudo no mesmo lugar.
+Porque acho que a galera colocava, nos projetos que eu participei,
+
+99
+00:16:50,654 --> 00:16:55,534
+[Mauricio Aniche] estava tudo sempre no mesmo lugar. E pra mim foi um divisor de águas, ele dizia,
+dá pra tentar modelar um pouquinho melhor.
+
+100
+00:16:56,734 --> 00:17:02,934
+[Mauricio Aniche] Agora, óbvio, ele é muito extremista na maneira de escrever.
+Acho que é isso que você tem que ignorar quando lê.
+
+101
+00:17:02,934 --> 00:17:12,854
+[Mauricio Aniche] Eu falei em algum tweet disso, que se você for seguir a risca ali, o que ele fala, ele é bem extremista.
+"Banco de dados é um detalhe" Não sei em que mundo que banco de dados é um detalhe, né?
+
+102
+00:17:12,854 --> 00:17:26,298
+[Mauricio Aniche] Mas acho que pra mim foi isso que me agradou no trabalho dele lá, sei lá, em 2006, 2007,
+quando eu comecei a ler o trabalho dele. Mas eu concordo em tudo que você comentou, Mauricio, que é muito extremista, né?
+
+103
+00:17:26,298 --> 00:17:30,417
+[Mauricio Aniche] Infelizmente é muito extremista, do meu ponto de vista, claro.
+
+104
+00:17:33,793 --> 00:17:37,338
+[Rodrigo Branas] Eu ia colocar só 3 pontinhos importantes aqui, tá?
+
+105
+00:17:37,338 --> 00:17:47,570
+[Rodrigo Branas] O primeiro ponto que eu acho que todo mundo concorda é que não faz sentido você misturar
+o inbound driver, ou a inbound port, se a gente pensar em Ports & Adapters,
+
+106
+00:17:47,822 --> 00:17:56,822
+[Rodrigo Branas] com regra de negócio, que é uma coisa que a gente sempre sofreu ao longo dos últimos 20, 30 anos, ou seja,
+o teu controller tem regra de negócio, a tua tela tem regra de negócio,
+
+107
+00:17:56,822 --> 00:18:10,822
+[Rodrigo Branas] geralmente o controller e tela, mas se você tivesse um CLI, talvez ele pudesse ter regra de negócio,
+talvez se você tivesse algum outro tipo de driver da aplicação, era muito comum que a gente presenciasse isso.
+
+108
+00:18:10,822 --> 00:18:19,618
+[Rodrigo Branas] Então o primeiro ponto-chave aqui do Clean Architecture é a camada de use cases, que seria...
+aquela API da application que você expõe pra fora, certo?
+
+109
+00:18:19,618 --> 00:18:28,618
+[Rodrigo Branas] Então, acho que nesse ponto, ninguém discorda que isso é uma coisa super válida, né?
+É a mesma proposta do Alistair Cockburn, a mesma proposta do Ivar Jacobson,
+
+110
+00:18:28,618 --> 00:18:36,078
+[Rodrigo Branas] de muitos anos atrás também, e de qualquer um que
+queira escrever uma aplicação que cresça e que tenha
+
+111
+00:18:36,078 --> 00:18:43,078
+[Rodrigo Branas] testabilidade e que possa ser conduzida de formas diferentes. Então,
+nesse ponto aí, eu acho que o Clean Architecture está perfeito nas colocações.
+
+112
+00:18:43,470 --> 00:18:50,350
+[Rodrigo Branas] Ele tem uma questãozinha em relação a Screaming Architecture,
+que é sempre difícil você pensar naquele nome Service.
+
+113
+00:18:50,350 --> 00:18:58,070
+[Rodrigo Branas] E qual é o nome do Service? É Order Service, Client Service, Product Service?
+Então, ele diz assim, olha, vamos criar um negócio chamado Use Case,
+
+114
+00:18:58,070 --> 00:19:03,570
+[Rodrigo Branas] que é a intenção exata do usuário, e a gente dá um nome,
+então isso pode pulverizar uma grande quantidade de classes,
+
+115
+00:19:03,570 --> 00:19:10,310
+[Rodrigo Branas] mas até aí eu acho que está tudo bem. Para mim, a grande incongruência do Clean Architecture
+está em um passo para dentro, não um passo para fora.
+
+116
+00:19:10,310 --> 00:19:22,218
+[Rodrigo Branas] Para fora... Tá tudo certo, separar frameworks e drivers, na minha visão, é inviável porque nem sempre os frameworks são intercambiáveis,
+mas só o fato de você separar porta pra fora, porta pra dentro, já é uma coisa boa.
+
+117
+00:19:22,218 --> 00:19:32,958
+[Rodrigo Branas] O erro pra mim é na camada de entities, tá?
+Rapidamente, só pra transmitir aqui a minha ideia, orientação a objetos é uma coisa muito boa porque ela preserva invariância.
+
+118
+00:19:32,958 --> 00:19:38,298
+[Rodrigo Branas] Basicamente esse é o objetivo da orientação a objetos.
+Não é simplesmente criar classe, porque você pode criar classe e continuar sendo procedural.
+
+119
+00:19:38,298 --> 00:19:46,430
+[Rodrigo Branas] Então você tem que... expor comportamento e preservar características
+e assim você tem controle de invariância. Quando você tem um projeto muito orientado a objetos,
+
+120
+00:19:46,430 --> 00:19:52,350
+[Rodrigo Branas] você tem uma relação entre os objetos. Então você começa a agrupar esses objetos em clusters.
+Eles começam a ter referência uns pros outros.
+
+121
+00:19:52,350 --> 00:20:01,870
+[Rodrigo Branas] Esse é exatamente o conceito do aggregate que o Eric Evans traz em Domain Driven Design.
+E o aggregate tem que ter um determinado tamanho
+
+122
+00:20:01,870 --> 00:20:06,578
+[Rodrigo Branas] pra que ele mantenha a consistência transacional
+na hora de você fazer a persistência por meio de repositório.
+
+123
+00:20:07,182 --> 00:20:15,702
+[Rodrigo Branas] Para que ele não seja nem muito grande e muito desengonçado
+e ocupe muito espaço em memória e nem muito pequeno para que a granularidade seja tipo
+
+124
+00:20:15,702 --> 00:20:23,262
+[Rodrigo Branas] um mapeamento de tabela praticamente, né? Então é uma linha tênue e difícil de obter.
+E o Bob Martin não cita isso no livro dele.
+
+125
+00:20:23,262 --> 00:20:31,422
+[Rodrigo Branas] Tanto que quando eu vou... Eu tenho um curso sobre Clean Architecture, não só sobre isso, né?
+Sobre DDD, SOLID e outras coisas. E eu sempre faço essa mescla.
+
+126
+00:20:31,422 --> 00:20:38,462
+[Rodrigo Branas] Então eu começo explicando pelo Ports & Adapters...
+trago o conceito de Clean Architecture e substituo a camada de Entity
+
+127
+00:20:38,462 --> 00:20:46,062
+[Rodrigo Branas] por Domain Driven Design, mas aonde houver um domínio
+suficientemente complexo que pague o custo disso.
+
+128
+00:20:46,062 --> 00:20:52,662
+[Rodrigo Branas] Porque se eu tenho uma aplicação muito simples, vai ser burocrático,
+que é um pouco do que foi colocado por vocês logo no início.
+
+129
+00:20:52,662 --> 00:21:00,962
+[Rodrigo Branas] Então, para mim, esse é um tipo de design, um tipo de opção,
+que serve quando você tem um tipo de domínio mais complexo.
+
+130
+00:21:01,102 --> 00:21:07,362
+[Rodrigo Branas] Se você pensa na modelagem estratégica do Domain Driven Design,
+você separa um domínio em subdomínios, mapeia bounded contexts,
+
+131
+00:21:07,362 --> 00:21:15,742
+[Rodrigo Branas] e cada bounded context é uma história diferente. Você pode adotar um scaffolding simples em um
+e uma orientação a domínio super rica em outros usando DDD.
+
+132
+00:21:15,742 --> 00:21:24,962
+[Rodrigo Branas] Mas para mim, sempre aquela mescla de Ports & Adapters e DDD,
+ela é mais vencedora nesse caso. Clean Arch fica meio que numa sombra disso.
+
+133
+00:21:24,962 --> 00:21:26,350
+[Rodrigo Branas] Esse é o meu ponto.
+
+134
+00:21:26,350 --> 00:21:29,880
+[Alexandre Aquiles] Boa. Só queria... Vai lá, Otávio.
+
+135
+00:21:29,880 --> 00:21:37,274
+[Otávio Lemos] Só complementando essa ideia do Branas, eu acho legal quando você começa a perceber que, na verdade,
+
+136
+00:21:37,274 --> 00:21:49,314
+[Otávio Lemos] tem a ver exatamente com isso que ele falou. Você não precisa usar todas as camadas para todos os seus casos de uso.
+Inclusive, você pode ter alguns casos de uso mais simples, nos quais você só tem o próprio caso de uso,
+
+137
+00:21:49,314 --> 00:21:58,994
+[Otávio Lemos]não entra mais para dentro. Eu acho que quando você começa a fazer essas adaptações para o seu contexto,
+aí a coisa começa a fazer mais sentido. Então deixa eu fazer o jabá aqui.
+
+138
+00:21:59,118 --> 00:22:07,518
+[Otávio Lemos]Eu acho que o meu livro é mais simples, né?
+O meu livro, "Arquitetura Limpa na Prática", ele resume as ideias e mostra um exemplo, né?
+
+139
+00:22:07,518 --> 00:22:16,038
+[Otávio Lemos] E em 100 páginas lá você consegue pegar a essência da arquitetura limpa.
+E é isso que o Branas falou também, eu acho interessante essa parte.
+
+140
+00:22:16,038 --> 00:22:22,238
+[Otávio Lemos] Ninguém reclama de separar front-end e back-end.
+Isso é uma coisa que a gente já faz faz muito tempo.
+
+141
+00:22:22,238 --> 00:22:33,490
+[Otávio Lemos] Seria a parte esquerda da Arquitetura Hexagonal, ou Ports & Adapters.
+O galho fica quando você quer desacoplar coisas como banco de dados e tal,
+
+142
+00:22:33,490 --> 00:22:44,430
+[Otávio Lemos] e aí já fica mais difícil de fazer e não faz sentido em todos os sistemas que você desenvolve.
+Tem que ser adaptado ao seu contexto. Então acho que isso vale a pena a gente ter na cabeça, né?
+
+143
+00:22:44,430 --> 00:22:57,398
+[Otávio Lemos] Que o Uncle Bob é muito enfático, né? Então você tem que colocar um filtro ali, não dá pra usar tudo aquilo que ele coloca em todos os sistemas,
+tem que adaptar pro seu contexto.
+
+144
+00:22:57,398 --> 00:23:06,398
+[Alexandre Aquiles] Sei. Eu acho que assim, a gente está assumindo que use case e vamos dizer,
+
+145
+00:23:06,398 --> 00:23:15,278
+[Alexandre Aquiles] service, ou coisa do gênero, é uma unanimidade.
+Agora, é de fato uma unanimidade entre nós aqui, pessoal?
+
+146
+00:23:15,278 --> 00:23:26,238
+[Alexandre Aquiles] Eu não sei, por exemplo, a Roberta, eu acho que tem críticas, né, Roberta?
+Isso dependendo do contexto, né? Qual seria esse contexto para você não usar esse tipo de...
+
+147
+00:23:26,990 --> 00:23:29,617
+[Alexandre Aquiles] de organização de código?
+
+148
+00:23:29,617 --> 00:23:32,548
+[Roberta Arcoverde] Que tipo de organização que você fala? Distribuído?
+
+149
+00:23:32,548 --> 00:23:39,790
+[Alexandre Aquiles] Tipo, assim, de separar a camada que está mais próxima
+
+150
+00:23:39,790 --> 00:23:45,790
+[Alexandre Aquiles] da interface com o usuário do resto do sistema.
+Porque eu lembro que a gente participou de um...
+
+151
+00:23:45,870 --> 00:23:51,855
+[Alexandre Aquiles] Tem até um exemplo de um tweet lá que tinha até SQL
+dentro de um controller, não tinha?
+
+152
+00:23:51,855 --> 00:23:57,006
+[Roberta Arcoverde] Ah, não. Mas isso aí é um pouco indesculpável.
+
+153
+00:23:57,006 --> 00:24:00,813
+[Alexandre Aquiles] Tá. Mas por que que... Por que aquilo?
+
+154
+00:24:00,813 --> 00:24:19,670
+[Roberta Arcoverde] Eu acho que o foco da aplicação, quando a gente fala de Clean Architecture, de padrões, de modularidade, o que todo mundo quer, escrever uma aplicação que seja resiliente e fácil de manter a longo prazo.
+
+155
+00:24:19,670 --> 00:24:29,870
+[Roberta Arcoverde] É isso que a gente quer dizer quando a gente fala de qualidade.
+Ela é fácil de entender, ela é fácil de modificar, ela é fácil de manter em longo prazo.
+
+156
+00:24:29,870 --> 00:24:44,814
+[Roberta Arcoverde] E tem... diversas técnicas e princípios e padrões para fazer isso que não necessariamente...
+cuja modularidade não é necessariamente o único foco.
+
+157
+00:24:44,814 --> 00:24:59,614
+[Roberta Arcoverde] Modularidade é um aspecto muito importante de manutenibilidade, mas não é um único.
+Eu acho que quando você tem um Big Ball of Mud, ou seja, um sistema cuja arquitetura não pode sequer ser inferida
+
+158
+00:24:59,614 --> 00:25:08,165
+[Roberta Arcoverde] porque ele é escrito de formas completamente aleatórias e tem muitos padrões e é difícil de entender onde, 
+
+159
+00:25:08,165 --> 00:25:13,466
+[Roberta Arcoverde] se você vai escrever código novo, onde aquele código deve ficar, esse não é um mundo que ninguém quer estar.
+
+160
+00:25:13,466 --> 00:25:18,547
+[Roberta Arcoverde] Eu gosto de divisões de camadas, eu acho que elas são importantes.
+
+161
+00:25:18,547 --> 00:25:29,618
+[Roberta Arcoverde] Eu acho que uma organização que permita com que o time de desenvolvimento, sempre que ele quiser alterar o código ou inserir uma nova funcionalidade, ele saiba exatamente aonde esse código tem que entrar.
+
+162
+00:25:30,126 --> 00:25:40,566
+[Roberta Arcoverde] Isso é desejável, isso é importante para a manutenibilidade de longo prazo.
+Se você está falando de aplicação web que segue MVC, por exemplo,
+
+163
+00:25:41,126 --> 00:25:52,686
+[Roberta Arcoverde] não é legal que você tenha acesso a dados no controlador exatamente por isso.
+Agora, é catastrófico? Também não sei se é catastrófico, acho que depende muito. Pode ser que seja, pode ser que não.
+
+164
+00:25:53,406 --> 00:26:02,714
+[Roberta Arcoverde] Se é um sistema muito pequeno, que não tem tantas alterações assim.
+Nesse exemplo que eu dei era de um trecho de código que tava inalterado há sete anos,
+
+165
+00:26:02,714 --> 00:26:16,714
+[Roberta Arcoverde] então nunca deu dor de cabeça pra ninguém. Então faz diferença realmente encaixar 3 ou 4 novas classes ali pra separar esses concerns?
+Não acho que faça, sabe? Não acho que faça.
+
+166
+00:26:16,714 --> 00:26:27,406
+[Roberta Arcoverde] Eu acho que a coisa que mais me incomoda do tom desse livro e do tom desse autor é, com o perdão do meu francês, a cagação de regra mesmo, sabe?
+
+167
+00:26:27,406 --> 00:26:41,246
+[Roberta Arcoverde] Parece que existe apenas uma forma de escrever sistemas, essa é a forma,
+e quem faz assim tá correto, quem não faz assim tá fadado a escrever sistemas ruins, difíceis de manter.
+
+168
+00:26:41,246 --> 00:26:48,566
+[Roberta Arcoverde] E é engraçado como comunidade como a gente aceita isso,
+quando a gente também aceita um princípio que contradiz isso,
+
+169
+00:26:48,566 --> 00:26:58,574
+[Roberta Arcoverde] que é o princípio de que não existe bala de prata, né?
+É pouco controverso de que em design e arquitetura de software não existam soluções únicas,
+
+170
+00:26:58,574 --> 00:27:15,374
+[Roberta Arcoverde] que tudo depende de contexto, e ao mesmo tempo existe uma resistência a perceber que
+os designs propostos por Clean Architecture e pelo conjunto da obra do autor, sejam entendidos
+
+171
+00:27:15,374 --> 00:27:27,534
+[Roberta Arcoverde] como os únicos corretos, e que por exemplo, como o Maurício estava falando, como os dois Maurícios
+estavam falando, seja interessante abstrair o seu banco de dados.
+
+172
+00:27:27,534 --> 00:27:40,574
+[Roberta Arcoverde] Ah não, é uma boa aplicação, bem feita, ela não deve se preocupar com qual é o mecanismo
+de storage, quando na verdade eu acho que isso complexifica e atrapalha a manutenibilidade,
+
+173
+00:27:40,574 --> 00:27:49,894
+[Roberta Arcoverde] ao invés de facilitar, porque a decisão de qual mecanismo de storage você vai usar
+é uma das mais importantes no planejamento de uma arquitetura.
+
+174
+00:27:50,318 --> 00:28:01,118
+[Roberta Arcoverde] E tentar torná-la invisível traz mais problemas, na minha opinião, do que auxílios.
+Não sei se eu respondi a tua pergunta.
+
+175
+00:28:01,658 --> 00:28:13,458
+[Alexandre Aquiles] Sim, sim. É interessante esse questionamento.
+Tem bastante gente querendo falar aqui. Eu vou passar a palavra na ordem, assim, pro Ponte, pro Aniche, pro Linhares, pro Branas.
+
+176
+00:28:13,458 --> 00:28:15,846
+[Alexandre Aquiles] Beleza? Mas vai lá, Ponte. 
+
+177
+00:28:15,846 --> 00:28:19,086
+[Rafael Ponte] Show. Vou pegar aqui a tua pergunta, né? 
+
+178
+00:28:19,086 --> 00:28:24,846
+[Rafael Ponte] Como é que a gente entende o que são use cases, né? Acho que o Clean Arch comenta muito, né?
+
+179
+00:28:24,846 --> 00:28:41,646
+[Rafael Ponte] E de certa forma é algo até aberto, né? Mas para mim, acho que o Mauricio Aniche, o Linhares já... de muita data aí, mais de 10, 15 anos de experiência, a gente já sofreu demais com a ideia de gerar essas camadas indireção, né?
+
+180
+00:28:41,646 --> 00:28:50,538
+[Rafael Ponte] Use cases, a gente chama de service, outros chamam de Manager. Então esse nome foi mudando com o tempo, né?
+Mas isso fazia muito sentido há 15 anos atrás,
+
+181
+00:28:50,578 --> 00:28:58,258
+[Rafael Ponte] talvez 10 anos atrás, eu falando aqui na plataforma Java, onde é o meu dia a dia,
+porque os frameworks não eram maduros o suficiente
+
+182
+00:28:58,278 --> 00:29:03,358
+[Rafael Ponte] para conseguir tirar todo aquele glue code,
+aquele código de infra que a gente era obrigado
+
+183
+00:29:03,378 --> 00:29:12,298
+[Rafael Ponte] a ter que implementar, escrever, ou copiar e colar de algum lugar.
+Só que isso mudou, isso mudou nos últimos, sei lá, talvez 10 anos para cá,
+
+184
+00:29:12,318 --> 00:29:22,278
+[Rafael Ponte] 9, 8 anos para cá. Você pega uma plataforma como Spring,
+ou mesmo Java EE, que hoje é o Jakarta EE, e você consegue perceber que o controller que antes a gente temia
+
+185
+00:29:22,318 --> 00:29:28,318
+[Rafael Ponte] de deixar qualquer tipo de lógica de negócio,
+qualquer if, qualquer coisa relacionada ao nosso modelo de domínio,
+
+186
+00:29:28,678 --> 00:29:35,318
+[Rafael Ponte] hoje não tem mais esse problema. Hoje você pegar um controller do Spring
+basicamente é uma classe, um POJO, com algumas anotações.
+
+187
+00:29:36,038 --> 00:29:42,598
+[Rafael Ponte] E só! O controller está tão limpo, tão simples,
+onde o framework absorveu toda a complexidade,
+
+188
+00:29:42,638 --> 00:29:50,058
+[Rafael Ponte] o glue code que a gente... tentou evitar durante anos,
+que, para mim, na maioria dos casos, eu enxergo ele como meu use case.
+
+189
+00:29:50,338 --> 00:29:58,658
+[Rafael Ponte] E para muitas pessoas, isso é bem feio, porque
+se eu enxergo ele como use case, a chance são de que eu vou injetar um repositório,
+
+190
+00:29:58,698 --> 00:30:05,938
+[Rafael Ponte] um ou dois repositórios ali. E a ideia de que injetar repositório
+aproxima do banco de dados e está no controller
+
+191
+00:30:06,038 --> 00:30:15,650
+[Rafael Ponte] é ainda mais doloroso para muita gente. Mas se você pensar, a camada de persistência
+também foi abstraída pelos frameworks. Um repositório de Spring Data, nada mais é do que uma interface
+
+192
+00:30:15,670 --> 00:30:22,850
+[Rafael Ponte] com algumas poucas anotações. E se você usa o JPA e o Hibernate,
+então você tem uma camada de abstração com o Spring Data,
+
+193
+00:30:22,910 --> 00:30:30,810
+[Rafael Ponte] mais uma segunda camada um pouco mais funda que a JPA e o Hibernate
+que abstrai ainda mais a sua persistência, o JDBC e até um pouco o SQL ali.
+
+194
+00:30:31,310 --> 00:30:38,470
+[Rafael Ponte] Então qual é o problema de encarar o controller como um use case?
+Hoje, eu encaro ele como um use case até que algo me diga o contrário.
+
+195
+00:30:38,510 --> 00:30:48,038
+[Rafael Ponte] E geralmente o que me diz o contrário é... Tá fácil testar?
+Tá fácil entender? Eu consigo escrever um único teste aqui de integração?
+
+196
+00:30:48,038 --> 00:30:57,318
+[Rafael Ponte] Ou tenho que quebrar em vários testes para que isso fique mais fácil de testar,
+ter uma melhor cobertura e tudo mais? Então, querendo ou não, a manutenção
+
+197
+00:30:57,318 --> 00:31:08,158
+[Rafael Ponte] é o que me guia junto com os testes. Então só para deixar claro, eu encaro que um controller
+é sim uma camada de use case em qualquer literatura de arquitetura
+
+198
+00:31:08,158 --> 00:31:14,982
+[Rafael Ponte] que alguém tenha lido aí. Essa é a minha percepção, porque eu abraço...
+os frameworks que eu uso. A primeira regra que eu faço ao entrar em um
+
+199
+00:31:14,982 --> 00:31:24,662
+[Rafael Ponte] projeto é abraçar o framework. Eu abraço framework e respeito o que ele me pede
+para fazer. Em seguida eu abraço a linguagem de programação. Se a
+
+200
+00:31:24,662 --> 00:31:35,482
+[Rafael Ponte] linguagem e o framework entram em conflito, eu favoreço o framework, porque
+eu vendi a minha alma para o Spring e eu quero os benefícios de ter
+
+201
+00:31:35,482 --> 00:31:38,243
+[Rafael Ponte] vendido minha alma para aquela plataforma.
+
+202
+00:31:38,243 --> 00:31:47,022
+[Alexandre Aquiles] Hoje em dia eu estou muito nessa linha do Ponte. Mas, ô Aniche, vai lá!
+
+203
+00:31:47,022 --> 00:31:54,822
+[Mauricio Aniche] Eu acho que a sacada é perceber isso mesmo que a Roberta e o Rafael comentaram,
+porque se você olha para a aplicação Enterprise,
+
+204
+00:31:57,602 --> 00:32:06,302
+[Mauricio Aniche] como que ela funciona? De maneira bem abstrata, como que funciona basicamente
+grande parte dos casos de uso? O usuário manda dado, você aumenta esse dado
+
+205
+00:32:06,322 --> 00:32:11,422
+[Mauricio Aniche] com a informação que você busca no banco de dados,
+você faz umas validações, você muda um pouquinho esse dado,
+
+206
+00:32:11,442 --> 00:32:18,230
+[Mauricio Aniche] você manda de volta para o banco de dados ou manda para um outro serviço web.
+Uma grande parte das funcionalidades são isso.
+
+207
+00:32:18,230 --> 00:32:26,730
+[Mauricio Aniche] E para modelar esse tipo de coisa, você não precisa de coisa muito requintada, muito chique, entendeu?
+Uma básica separação de responsabilidade, os repositórios do Spring aqui,
+
+208
+00:32:26,730 --> 00:32:34,310
+[Mauricio Aniche] põe uma validaçãozinha se for um pouquinho complicado, um pouquinho ali, etc. e tal,
+Isso é mais o que o suficiente, né? Não precisa ir muito mais além.
+
+209
+00:32:34,310 --> 00:32:41,710
+[Mauricio Aniche] Eu acho que esse é o ponto, né? Mas aí tem sempre aqueles 20% de funcionalidade
+que é muito mais complicada no teu sistema, que vai mudar o tempo inteiro,
+
+210
+00:32:41,710 --> 00:32:46,682
+[Mauricio Aniche] que regra nova entra, regra nova sai, etc. e tal.
+talvez ali vale a pena um design mais rebuscado,
+
+211
+00:32:46,682 --> 00:32:53,362
+[Mauricio Aniche] e talvez algumas das ideias do livro dele façam sentido.
+Mas acho que esse é o ponto, que a aplicação de indústria,
+
+212
+00:32:53,362 --> 00:32:59,402
+[Mauricio Aniche] uma grande parte das vezes, não precisa de tudo isso.
+E o meu exemplo atual, eu trabalho na Adyen hoje,
+
+213
+00:32:59,402 --> 00:33:08,222
+[Mauricio Aniche] é uma base de código bem grande, um negócio bem complicado,
+mas se você realmente quebra ele, é isso que eu falei,
+
+214
+00:33:08,222 --> 00:33:14,758
+[Mauricio Aniche] pega dado, valida e passa o dado para frente, entendeu?
+Não precisa de muito mais do que uma separação básica de responsabilidade.
+
+215
+00:33:18,478 --> 00:33:25,540
+[Alexandre Aquiles] Perfeito. Ô Linhares. Vai lá.
+
+216
+00:33:25,540 --> 00:33:36,178
+[Mauricio Linhares]  Então, aí é que eu acho que a superficialidade do livro atrapalha demais.
+Porque a gente está chegando nesses exemplos mais complexos,
+
+217
+00:33:36,318 --> 00:33:52,630
+[Mauricio Linhares] só que o livro não abraça esses exemplos. É até esquisito pensar assim,
+mas o único jeito de você... entender e pegar as ideias do Clean Architecture é se você tiver lido um monte de literatura anterior,
+
+218
+00:33:52,630 --> 00:34:00,850
+[Mauricio Linhares] se você tiver lido o Domain Driven Design, porque ele passa exatamente 4 parágrafos
+definindo o que é entidade. São 4 parágrafos.
+
+219
+00:34:00,850 --> 00:34:10,810
+[Mauricio Linhares] Ele pega 4 parágrafos do livro e define o que é entidade.
+E se você for ver o livro do Eric Evans, primeiro que entidade não é uma coisa só.
+
+220
+00:34:10,810 --> 00:34:18,870
+[Mauricio Linhares] Lá no Domain Driven Design, entidade é um pedaço.
+da camada do modelo. Tem várias coisas que formam a camada do modelo.
+
+221
+00:34:18,870 --> 00:34:24,470
+[Mauricio Linhares] Tem uma definição específica para o que é uma entidade,
+como é que você diferencia uma entidade de um value object.
+
+222
+00:34:24,470 --> 00:34:33,750
+[Mauricio Linhares] Então tem várias coisas, tem várias discussões que o livro...
+Eu não sei por que ele se furta. Eu não sei por que ele não para para explicar,
+
+223
+00:34:33,750 --> 00:34:40,630
+[Mauricio Linhares] porque a gente vai ter essa ideia que o Ponte falou,
+que ele considera que os use cases é o controller.
+
+224
+00:34:40,630 --> 00:34:52,686
+[Mauricio Linhares] Que aí a gente vai entrar naquela discussão de boundaries, dos limites.
+Mas ele não dá bons exemplos de limites. Cadê o padrão para dar os casos de limites que a gente tem?
+
+225
+00:34:52,686 --> 00:35:08,846
+[Mauricio Linhares] Mais uma vez a gente volta lá no Domain Driven Design, tem vários padrões diferentes e inclusive tem a opção que o Ponte está dizendo que é:
+Não faça nada, abrace o que está lá e use o modelo desse jeito.
+
+226
+00:35:08,846 --> 00:35:19,030
+[Mauricio Linhares] Então, eu acho que não ter nenhuma dessas discussões, não ter nenhum padrão,
+não ter nenhuma discussão mais profunda sobre o que são essas coisas,
+
+227
+00:35:19,030 --> 00:35:28,530
+[Mauricio Linhares] como é que você usa essas coisas. Eu acho que empobrece muito o livro.
+E se você já leu o Domain Driven Design, você não vai tirar nada de novo desse livro.
+
+228
+00:35:28,530 --> 00:35:37,530
+[Mauricio Linhares] Porque as ideias, essa ideia de separação, essa ideia de você criar essas camadas,
+de você ter o modelo, inclusive isso que o Aniche falou.
+
+229
+00:35:37,742 --> 00:35:43,822
+[Mauricio Linhares] E às vezes seu modelo é só o banco de dados, e lá no Domain Driven Design ele vai dizer,
+às vezes é isso mesmo, é só o banco de dados.
+
+230
+00:35:43,822 --> 00:35:54,142
+[Mauricio Linhares] Você tá ali, por enquanto, você tá pobre, né?
+Você não tem muita coisa pra colocar. Então, eu acho que essas discussões de definir os padrões, definir exemplos melhores, né?
+
+231
+00:35:54,142 --> 00:36:04,422
+[Mauricio Linhares] Eu achei os exemplos do livro também muito superficiais.
+Tem um exemplo lá que me mandou direto pra o Java Enterprise Edition da Sun, né?
+
+232
+00:36:04,422 --> 00:36:14,858
+[Mauricio Linhares] Que é um livro lá de 2000, Guaraná de Rolha.
+com múltiplas camadas de entrada e saída, e você não pode fazer a entidade vazar lá para a camada web,
+
+233
+00:36:14,858 --> 00:36:24,358
+[Mauricio Linhares] nem pode fazer a entidade vazar para a camada do banco de dados.
+Então, eu acho que não ter uma discussão mais profunda
+
+234
+00:36:24,358 --> 00:36:33,398
+[Mauricio Linhares] sobre esses termos, sobre o que é entidade, o que é use case, com exemplos melhores,
+com pattern, com padrões, mostrando os casos, onde é que você usa e...
+
+235
+00:36:33,582 --> 00:36:42,622
+[Mauricio Linhares] o gradiente que a gente está inserido na hora que a gente vai tomar uma decisão dessas
+é uma coisa que, pra mim, empobreceu muito a leitura do livro.
+
+236
+00:36:42,622 --> 00:36:54,582
+[Mauricio Linhares] Eu entendo os conceitos porque eu li esses conceitos em outros lugares, mas no livro
+é muito pouco, é uma discussão muito superficial e que é difícil de você tirar essas coisas
+
+237
+00:36:54,582 --> 00:37:00,030
+[Mauricio Linhares] de dentro deles se você não já consumiu muito material anterior.
+
+238
+00:37:00,030 --> 00:37:09,630
+[Alexandre Aquiles] Perfeito. Você mencionou aí o DDD, né? E eu lembro que eu tava conversando com o Hugo [Marques]
+
+239
+00:37:09,630 --> 00:37:18,750
+[Alexandre Aquiles] sobre qual a diferença entre Hexagonal e Clean Architecture.
+O Hexagonal é nessa casca, ele não tem miolo, né?
+
+240
+00:37:18,750 --> 00:37:26,630
+[Alexandre Aquiles] E aí o Clean Architecture tenta colocar um miolo,
+só que muito superficialmente, né? E é exatamente o que o Branas tava falando, né?
+
+241
+00:37:26,630 --> 00:37:29,452
+[Alexandre Aquiles] Que o DDD complementa aquilo, né, Branas?
+
+242
+00:37:29,452 --> 00:37:46,390
+[Rodrigo Branas] Eu concordo ali com o Mauricio nesse ponto. O Bob Martin, ele pegou literalmente carona na obra Clean Code,
+que é uma excepcional obra no sentido de te mexer com o seu emocional, no sentido de trazer um pouco mais de ética para nossa profissão
+
+243
+00:37:46,390 --> 00:37:53,990
+[Rodrigo Branas] e se responsabilizar mais pelas ações, pelo código que a gente implementa.
+Esse é o grande ponto do Clean Code, esse é o grande mérito dele, nada tão técnico.
+
+244
+00:37:53,990 --> 00:38:04,318
+[Rodrigo Branas] É mais um livro de autoajuda, não sei se muitos aqui concordam comigo, mas...
+Clean Code é mais uma auto-ajuda e é muito bem-vinda do que propriamente um livro técnico, extremamente técnico.
+
+245
+00:38:04,318 --> 00:38:15,318
+[Rodrigo Branas] Clean Architecture pegou carona um pouco nessa fama do Clean, tanto que ele lançou também o Clean Craftsmanship,
+o Clean Agile e outros Cleans que são bem menos interessantes.
+
+246
+00:38:15,318 --> 00:38:30,022
+[Rodrigo Branas] O Bob Martin não pôde trazer conceitos que ele deveria ter trazido por dois motivos.
+O primeiro ele estaria copiando o DDD. O segundo, ele teria que escrever um livro três vezes maior.
+
+247
+00:38:30,022 --> 00:38:35,542
+[Rodrigo Branas] Como acho que o Mauricio falou, alguém falou,
+DDD é um livro que tem mais ou menos 600 páginas.
+
+248
+00:38:35,542 --> 00:38:43,142
+[Rodrigo Branas] Você pega DDD, por exemplo, do Vaughn Vernon, DDD do Steve Miller [Scott Millett?], que eu acho muito legal,
+são livros extremamente grandes e que dá trabalho você definir.
+
+249
+00:38:43,142 --> 00:38:52,342
+[Rodrigo Branas] O que é um aggregate? O que é uma entity? O que é um value object? O que é um repository?
+É muito trabalho. E aí o Bob Martin, ele se resumiu a falar de um pattern chamado gateway.
+
+250
+00:38:52,342 --> 00:38:58,318
+[Rodrigo Branas] Vocês devem ter visto isso lá. O Gateway foi descrito pelo Martin Fowler,
+no "Patterns of Enterprise Application Architecture",
+
+251
+00:38:58,318 --> 00:39:05,618
+[Rodrigo Branas] que basicamente é uma abstração para um sistema externo.
+Ponto. O banco de dados é um sistema externo. E ficou muito cru nesse sentido.
+
+252
+00:39:05,618 --> 00:39:16,738
+[Rodrigo Branas] Então, não é que é um erro, assim, né? O Bob pegou, literalmente, o blog post dele de 2012 e imprimiu.
+É isso que o Mauricio citou, que tem 4 parágrafos falando sobre Entity.
+
+253
+00:39:16,738 --> 00:39:22,738
+[Rodrigo Branas] Então, ele não deixa muito claro o que ele quer com aquilo.
+Agora, vamos pegar alguns ganchos aqui apenas, né?
+
+254
+00:39:23,950 --> 00:39:35,310
+[Rodrigo Branas] Ponto chave aqui. Não existe bala de prata, o que acho que a Roberta comentou.
+There is no one size fits all. Não existe um tipo de design que vai servir para todos os casos,
+
+255
+00:39:35,310 --> 00:39:42,590
+[Rodrigo Branas] assim como não existe um pneu que vai ser bom na terra e no asfalto.
+O pneu vai trepidar pra caramba no asfalto e vai ser bom na terra,
+
+256
+00:39:42,590 --> 00:39:49,230
+[Rodrigo Branas] ou vai ser super rápido no asfalto, mas vai deslizar na terra.
+Design é a mesma coisa. Então o que o Ponte colocou,
+
+257
+00:39:49,230 --> 00:39:59,875
+[Rodrigo Branas] ah, o meu controller, ele é... o meu use case e assim por diante, daí dali eu boto uma annotation, já conecto de repente no meu ORM e já persisto.
+Show!
+
+258
+00:39:59,875 --> 00:40:04,918
+[Rodrigo Branas] Mas isso para uma aplicação, por exemplo, de folha de pagamento ou de financiamento imobiliário,
+
+259
+00:40:04,918 --> 00:40:17,918
+[Rodrigo Branas] vai ficar aquém do que poderia ser e aí que você tira grande proveito de Domain Driven Design,
+de bounded context, de você entender quais são os aggregates, de você conseguir criar a preservação dessa invariância,
+
+260
+00:40:17,918 --> 00:40:26,422
+[Rodrigo Branas] que vai ser o que vai te dar testabilidade no nível de unidade, que é uma coisa difícil,
+se você encarar que tudo fica dentro do controller
+
+261
+00:40:26,422 --> 00:40:32,722
+[Rodrigo Branas] ou que tudo fica dentro do service, que é o que a gente costuma ver
+em código extremamente procedural, escrito nos últimos 15, 20 anos,
+
+262
+00:40:32,722 --> 00:40:40,222
+[Rodrigo Branas] todo mundo aqui já deve ter passado por isso ou ainda vai passar.
+Então, tem que separar os mundos. Quem tem uma aplicação simples, um CRUD,
+
+263
+00:40:40,222 --> 00:40:48,642
+[Rodrigo Branas] usa alguma coisa perto de um Rails, perto de um Django,
+algo que te gere código e seja feliz. Agora, se você vai para uma aplicação complexa,
+
+264
+00:40:48,878 --> 00:40:59,738
+[Rodrigo Branas] Essas dependências, que é exatamente o D do SOLID, que o Alexandre escreveu o livro, inclusive,
+falando sobre isso, que é "High Level Modules Should Not Depend On Low Level Modules".
+
+265
+00:40:59,738 --> 00:41:07,178
+[Rodrigo Branas] É o fato de você não acoplar o teu SQL da tua regra de negócio.
+E não é tão óbvio assim. A maior parte das pessoas faz isso.
+
+266
+00:41:07,178 --> 00:41:13,978
+[Rodrigo Branas] E qual é o problema? Qual é o drawback? Qual é o trade-off?
+É que se você for testar, você vai ter que testar sempre no nível de integração.
+
+267
+00:41:13,978 --> 00:41:24,746
+[Rodrigo Branas] Não é questão de substituir o banco de dados.
+A questão é você vai impor... ali uma necessidade de uso de test patterns, uso intenso de stubs, ou ter testes muito
+
+268
+00:41:24,746 --> 00:41:32,506
+[Rodrigo Branas] lentos ou desencorajar os testes e assim por diante.
+Então assim, o trabalho do Bob Martin é bom no Clean Architecture?
+
+269
+00:41:32,506 --> 00:41:43,586
+[Rodrigo Branas] Definitivamente não. 99% das pessoas não leu o livro e comentam ou seguem somente a hype.
+O trabalho dele é ruim. Posso dizer isso tendo lido, sei lá, 10 vezes o que ele escreveu e tentando extrair
+
+270
+00:41:43,586 --> 00:41:50,110
+[Rodrigo Branas] ao máximo dos grupos de discussão que ele frequenta.
+principalmente para tentar ver as ...
+
+271
+00:41:50,110 --> 00:41:58,390
+[Rodrigo Branas] as perguntas que todo mundo faz e que não são respondidas.
+Por exemplo, um use case pode usar outro? E esse é um negócio que todo mundo pergunta, ele é evasivo na resposta.
+
+272
+00:41:58,390 --> 00:42:03,790
+[Rodrigo Branas] E aí você vai ver que o Domain Driven Design,
+no  Vaughn Vernon, principalmente, trazendo orientação a eventos,
+
+273
+00:42:03,790 --> 00:42:09,910
+[Rodrigo Branas] pegando uma ideia de Event Driven Architecture,
+e de você tentar desacoplar esses use cases
+
+274
+00:42:09,910 --> 00:42:17,806
+[Rodrigo Branas] e simplesmente publicar o evento, o fato que aconteceu,
+e deixar o sistema reagir em cima disso. Isso gera desacoplamento, entende?
+
+275
+00:42:17,806 --> 00:42:25,686
+[Rodrigo Branas] Só que é para todo tipo de sistema? Claro que não.
+Então, o trabalho do Bob é superficial. Ele não pôde entrar em determinadas áreas,
+
+276
+00:42:25,686 --> 00:42:35,206
+[Rodrigo Branas] porque isso irá onerar demais o livro e aparecer que ele está copiando ainda mais.
+Então, para mim, a grande sacada é: Ports & Adapters, eu não vejo como você abrir mão,
+
+277
+00:42:35,206 --> 00:42:42,606
+[Rodrigo Branas] seja uma aplicação pequena, seja uma aplicação grande,
+porque senão você não tem testabilidade. Você não tem isolamento da aplicação
+
+278
+00:42:42,606 --> 00:42:50,750
+[Rodrigo Branas] e você está sempre preso... ou no mecanismo de entrada ou no dispositivo de I.O.
+Então, pequeno ou grande, eu acho que esses conceitos são muito válidos.
+
+279
+00:42:50,750 --> 00:42:57,750
+[Rodrigo Branas] Orientação a domínio, vou puxar aqui mais o Domain Driven Design,
+é opção para projetos suficientemente complexos.
+
+280
+00:42:57,750 --> 00:43:04,750
+[Rodrigo Branas] E não só para projetos, vamos separar projetos de bounded context.
+Subdomínio é uma coisa, projeto, empresa é outra.
+
+281
+00:43:04,750 --> 00:43:12,306
+[Rodrigo Branas] Você pode ter um bounded context de 10 que necessitam dessa abordagem.
+Os outros 9 não. Então, eu acho que eu vou um pouco...
+
+282
+00:43:12,558 --> 00:43:28,898
+[Rodrigo Branas] nessa linha. E só para fechar sobre o DTO, de novo a mesma coisa, entidade é uma coisa, tabela de banco de dados é outra,
+estrutura de dado de entrada e saída é outra. Em aplicação simples esses conceitos são iguais,
+
+283
+00:43:28,898 --> 00:43:33,085
+[Rodrigo Branas] em aplicação complexa esses conceitos são diferentes. Valeu?
+
+284
+00:43:33,085 --> 00:43:36,085
+[Alexandre Aquiles] Beleza, vai lá Otávio.
+
+285
+00:43:36,085 --> 00:43:41,898
+[Otávio Lemos] Boa, só complementando os comentários que estão excelentes, né?
+
+286
+00:43:41,898 --> 00:43:49,998
+[Otávio Lemos] Essa ideia do Ponte de, quer dizer, faz tudo no Controller, eu acho que
+pode ter muitas aplicações em que isso é o melhor mesmo a fazer.
+
+287
+00:43:49,998 --> 00:43:58,798
+[Otávio Lemos] E o mais legal ainda, eu acho que essa é a ideia que eu falei de adaptar, né?
+Pode ser que numa mesma aplicação, para uma funcionalidade,
+
+288
+00:43:58,798 --> 00:44:07,770
+[Otávio Lemos] basta você fazer tudo no controller, aquilo ali não vai atrapalhar.
+Mas aí você tem um outro caso de uso mais complexo no qual aí tudo bem, você pode usar uma coisa mais sofisticada.
+
+289
+00:44:07,770 --> 00:44:21,250
+[Otávio Lemos] Então, eu acho legal encarar o sistema como uma coisa orgânica e na qual você pode adaptar e usar.
+Eu acho legal essa ideia de Ports & Adapters como padrão arquitetural que você pode usar em alguns pontos da sua aplicação.
+
+290
+00:44:21,250 --> 00:44:30,590
+[Otávio Lemos] Não precisa usar em todos os lugares. Você usa onde faz sentido.
+Tem um cara também que é o Jimmy Bogard, que ele fala sobre isso, né? Ele fala sobre...
+
+291
+00:44:31,118 --> 00:44:40,586
+[Otávio Lemos] você primeiro, por exemplo, faria tudo no controller.
+E aí quando você começa a perceber as dores você pode refatorar aquilo para melhorar.
+
+292
+00:44:40,586 --> 00:44:49,118
+[Otávio Lemos] Eu acho isso uma visão bem positiva também.
+Em vez de você usar uma coisa mais prescritiva já de início, já dividir as suas camadas
+
+293
+00:44:49,118 --> 00:44:57,078
+[Otávio Lemos] a partir das suas dores você vai refatorando.
+Tem aquele outro livro "Refactoring to Patterns" também, que essa é a idea.
+
+294
+00:44:57,078 --> 00:45:06,078
+[Otávio Lemos] Ao invés de você usar os padrões, você vai usar no momento em que você começar a sentir a dor naquele ponto.
+O segundo ponto que eu queria colocar é isso.
+
+295
+00:45:06,078 --> 00:45:14,718
+[Otávio Lemos] Para mim, uma das maiores vantagens dessas ideias,
+de Clean Architecture, Arquitetura Hexagonal,
+
+296
+00:45:14,718 --> 00:45:25,438
+[Otávio Lemos] é você de fato poder testar as coisas de maneira separada.
+Você poder testar suas regras de negócio sem se preocupar com o controller e tal.
+
+297
+00:45:25,438 --> 00:45:37,090
+[Otávio Lemos] Então eu acho que isso é um ganho muito grande.
+Eu queria só fazer um link, que o pessoal do mundo funcional já tem uma coisa bem parecida com Ports & Adapters e arquitetura hexagonal,
+
+298
+00:45:37,090 --> 00:45:51,650
+[Otávio Lemos] que eles chamam lá de "Imperative Shell, Functional Core", que é a ideia de você ter um core funcional,
+que é a parte do seu domínio, e aí ali você só tem funções puras, você pode testá-las de maneira separada também,
+
+299
+00:45:51,650 --> 00:46:08,886
+[Otávio Lemos] e você empurra os side effects para as partes, para a parte mais externa da aplicação.
+que tem a ver com essa ideia também. E aí seria comparável ao caso de uso, que no caso de uso você de fato conversaria com coisas externas.
+
+300
+00:46:08,886 --> 00:46:25,886
+[Otávio Lemos] Então eu acho legal a gente ver também que essas ideias aparecem em vários lugares na comunidade e elas vão convergindo.
+E óbvio que a gente tem que fazer esse trabalho de saber filtrar e saber usá-las da melhor maneira, adaptá-las para o nosso contexto.
+
+301
+00:46:28,014 --> 00:46:37,534
+[Alexandre Aquiles] Aniche e Linhares, eu posso só... Para vocês comentarem em cima de um exemplo.
+Então o Fernando Cruz, numa dessas threads,
+
+302
+00:46:37,554 --> 00:46:46,174
+[Alexandre Aquiles] ele falou um negócio interessante. Falou assim "você vai fazer um sistema de pagamento
+e vai ter que escolher adquirentes, fatores de decisão,
+
+303
+00:46:46,494 --> 00:46:58,350
+[Alexandre Aquiles] aprovação do pagamento, taxas. Digamos que a Stone tenha taxa de 1,5% para qualquer bandeira,
+uma aprovação de 70%. Uma aprovação meio ruim.
+
+304
+00:46:58,370 --> 00:47:09,530
+[Alexandre Aquiles] A Cielo tem taxa de 4%, que é uma taxa meio ruim, e aprovação de 95%."
+Então, ele colocou... Não tem nada a ver com a realidade aqui, pessoal.
+
+305
+00:47:09,550 --> 00:47:20,970
+[Alexandre Aquiles] A Stone tem uma aprovação menor e a Cielo tem uma taxa maior.
+Se você escolher... E aí ele fala disso. Ele comenta isso.
+
+306
+00:47:20,990 --> 00:47:29,542
+[Alexandre Aquiles] E aí "você pode integrar com as duas, seria uma solução.
+usar a Stone como principal e fallback para Cielo."
+
+307
+00:47:30,262 --> 00:47:39,262
+[Alexandre Aquiles] "Nessa briga, aparece a rede com uma taxa de 1,5%
+e aprovação de 97%. Então, a mesma taxa da melhor
+
+308
+00:47:39,382 --> 00:47:45,782
+[Alexandre Aquiles] "e é uma aprovação muito melhor do que todas elas.
+Uma arquitetura bem definida teria que ser extremamente fácil"
+
+309
+00:47:45,802 --> 00:47:56,678
+[Alexandre Aquiles] "de mudar a adquirente que você vai usar sem precisar alterar todas as camadas."
+Eu acho que aqui o lance é... Essa é uma coisa importante para o negócio, né?
+
+310
+00:47:56,698 --> 00:48:08,498
+[Alexandre Aquiles] É uma opção que você quer deixar aberta. Então, eu acho que, assim, ao meu ver, a gente tem que
+simplificar o que não traz tanta vantagem para o negócio
+
+311
+00:48:08,518 --> 00:48:17,278
+[Alexandre Aquiles] e deixar flexível aqueles pontos que teriam vantagem para o negócio ser flexível.
+Então, por exemplo, numa coisa de cursos online,
+
+312
+00:48:17,298 --> 00:48:30,354
+[Alexandre Aquiles] por exemplo, a CDN que a gente vai integrar precisa ser flexível.
+Isso é caso real mesmo. No meu caso lá, do meu exemplo do livro é, os formatos de ebook que vão ser gerados, eu quero que sejam flexíveis.
+
+313
+00:48:31,214 --> 00:48:37,626
+[Alexandre Aquiles] Então, é, mas ô Aniche, manda brasa aí.
+
+314
+00:48:49,570 --> 00:48:56,050
+[Mauricio Aniche] na minha cabeça, CDN é uma coisa que você nunca vai mudar.
+Quem que muda de CDN? Mas você acabou de falar que muda, né?
+
+315
+00:48:56,050 --> 00:49:07,310
+[Alexandre Aquiles] É porque o custo é alto, sabe? É uma grande fonte de custo, sabe?
+Então, você consegue uma eficiência melhor se você conseguir algo...
+
+316
+00:49:07,310 --> 00:49:11,879
+[Alexandre Aquiles] É o mesmo exemplo aqui do caso das adquirentes, né?
+
+317
+00:49:11,879 --> 00:49:15,406
+[Mauricio Aniche] Exato, e nesse ponto você precisa de flexibilidade, né? Então, por exemplo,
+
+318
+00:49:15,406 --> 00:49:22,606
+[Mauricio Aniche] a Adyen como Fintech, tenho certeza que na Stripe é a mesma coisa, adicionar um próximo adquirente
+tem que ser fácil, certo? Porque é o Negócio, né?
+
+319
+00:49:22,606 --> 00:49:32,046
+[Mauricio Aniche] Você quer invadir novos mercados, você precisa implementar os adquirentes daqueles mercados.
+Tem que ser fácil no sistema, né? Você não tem que fazer a pessoa abrir 400 classes
+
+320
+00:49:32,046 --> 00:49:44,470
+[Mauricio Aniche] para implementar um novo adquirente. Só que esse tipo de coisa, para ser honesto, é mais, acho que...
+a exceção do que arrega nesse tipo de aplicação, porque a gente tem muito CRUD, como todos
+
+321
+00:49:44,470 --> 00:49:55,430
+[Mauricio Aniche] vocês já falaram. Um detalhe que eu queria comentar do livro, porque a galera estava
+tweetando, eu estava lendo os tweets, e a gente comentou que o livro é opinionated,
+
+322
+00:49:55,430 --> 00:50:03,966
+[Mauricio Aniche] ele tem as decisões fortes ali e tal, acho que parte do trabalho nosso quando lê essas
+coisas é... transferir para o nosso contexto, né?
+
+323
+00:50:03,986 --> 00:50:08,466
+[Mauricio Aniche] Esse trabalho que é mais de engenharia e não é tão científico, né?
+A ideia é pegar mesmo e transferir para o nosso contexto.
+
+324
+00:50:08,486 --> 00:50:16,486
+[Mauricio Aniche] Aí eu me lembro, por exemplo, a gente está dando os exemplos do Evans sempre como positivos,
+mas se você lembra lá o GUJ, o.NET Architects em 2004, 2005,
+
+325
+00:50:16,506 --> 00:50:22,446
+[Mauricio Aniche] quando o livro saiu, a galera colava código fonte de classe ali e falava,
+gente, isso aqui é um repositório de acordo com o Evans?
+
+326
+00:50:22,466 --> 00:50:29,906
+[Mauricio Aniche] Pouco importa, meu amigo, se o Evans acha que aquilo é um repositório.
+Então, é difícil generalizar mesmo, né? Quando você lê um conteúdo novo e tal.
+
+327
+00:50:29,926 --> 00:50:35,894
+[Mauricio Aniche] É óbvio que o Evans escreveu isso muito melhor.
+De uma maneira um pouco mais amigável, por isso que as pessoas não ficam tão putas com ele.
+
+328
+00:50:35,894 --> 00:50:46,494
+[Mauricio Aniche] O Uncle Bob foi ali um pouquinho mais seco, né, na maneira de descrever.
+Mas acho que esse é um... Acho que todo livro que a gente lê hoje, porque nós somos mais maduros e tal,
+
+329
+00:50:46,494 --> 00:50:54,214
+[Mauricio Aniche] você tem coisas que você não concorda em absoluto, né?
+Acho que tem que dar esse, como fala em português, leap of faith, né?
+
+330
+00:50:54,214 --> 00:51:04,522
+[Mauricio Aniche] Você tem que dar um pouquinho ali de... um pouquinho de fé ali para o autor e deixar pular ali alguma coisa que você não concorda muito.
+A única maneira de conseguir interpretar esses livros, eu acho.
+
+331
+00:51:06,762 --> 00:51:20,222
+[Alexandre Aquiles] Isso me lembra muito o ciclo do hype, né? Que tipo, você tem aquela coisa de se empolgar e depois se ferra.
+É natural. Isso acontece com ideias também de design de código.
+
+332
+00:51:20,222 --> 00:51:22,583
+[Alexandre Aquiles] Mas vai lá, ô Linhares.
+
+333
+00:51:22,583 --> 00:51:39,741
+[Mauricio Linhares] Esse caso é um caso interessante porque quem trabalhou fazendo esse tipo de coisa sabe que toda vez que você vai integrar um adquirente novo, tem várias surpresas, né?
+
+334
+00:51:39,741 --> 00:51:47,010
+[Mauricio Linhares] Que você não planejou lá na sua arquitetura, né? Vai ter modos de trabalho que são diferentes de todos os modos de trabalho que você tem.
+
+335
+00:51:47,010 --> 00:51:58,754
+[Mauricio Linhares] Tem gente que trabalha só mandando arquivo via FTP, tem gente que trabalha só via...
+API web, tem gente que trabalha só via API que você tem que alugar uma linha direta para esse cara,
+
+336
+00:51:58,754 --> 00:52:11,414
+[Mauricio Linhares] às vezes você tem que ter uma máquina fisicamente dentro do data center desse cara,
+então tem um universo de coisas que você vai se surpreender quando você estiver fazendo integrações desse jeito.
+
+337
+00:52:11,414 --> 00:52:23,118
+[Mauricio Linhares] Então você vai criar esse modelo, e eu acho que é importante que as pessoas entendam que vocês vão fazer isso.
+A minha crítica é que o livro não fala em hora nenhuma como é que você faz isso.
+
+338
+00:52:23,118 --> 00:52:39,198
+[Mauricio Linhares] A gente fala, fala, fala do Evans, eu vou até dizer, o livro é maior, são 600 páginas,
+mas você vai tirar muito mais do livro do Evans do que você vai conseguir tirar mesmo arrancando o último suco do Clean Architecture.
+
+339
+00:52:39,198 --> 00:52:49,198
+[Mauricio Linhares] O conteúdo vai ser muito melhor, é chato, é um livro chato pra caralho, eu não vou dizer que é um livro legal de ler,
+o Domain Driven Design é um livro que é muito chato de ler.
+
+340
+00:52:49,486 --> 00:53:03,806
+[Mauricio Linhares] Mas você pode ler por pedaço, você pode ler os patterns que fazem mais sentido para você nesse momento, para você entender.
+Então eu acho que vale mais a pena do que você ir atrás de ler o Clean Architecture.
+
+341
+00:53:03,806 --> 00:53:18,046
+[Mauricio Linhares] E eu acho que sim, tem recomendações que ele faz, umas recomendações meio enfáticas, que são ruins, são recomendações ruins.
+Tá entendendo? Uma das que ele faz é que dentro da sua equipe você vai fazer a distribuição...
+
+342
+00:53:18,350 --> 00:53:26,750
+[Mauricio Linhares] do seu domínio lá como um JAR. Vai ser um JAR separado, versionado,
+que você vai pegar e você vai botar pra todo mundo.
+
+343
+00:53:26,750 --> 00:53:35,410
+[Mauricio Linhares] Então imagina numa empresa que tem lá mil desenvolvedores,
+esses mil desenvolvedores formam 100 equipes diferentes
+
+344
+00:53:35,410 --> 00:53:43,390
+[Mauricio Linhares] e cada um produzindo as suas próprias bibliotecas.
+Imagina o desespero que é você entender a matriz de dependência
+
+345
+00:53:43,390 --> 00:53:49,054
+[Mauricio Linhares] e que versão cada aplicação separada vai estar,
+se você está distribuindo cada coisinha como um JAR
+
+346
+00:53:49,054 --> 00:53:56,374
+[Mauricio Linhares] que a pessoa tem que atualizar a dependência
+e mudar o número de versão. Isso é até uma das coisas que quando a gente foi fazer
+
+347
+00:53:56,374 --> 00:54:09,054
+[Mauricio Linhares] o API Gateway na Digital Ocean, a gente tomou a decisão de que não ia ter biblioteca.
+Não ia ter de jeito nenhum biblioteca, porque a gente não queria deixar isso como sendo uma dependência
+
+348
+00:54:09,054 --> 00:54:14,054
+[Mauricio Linhares] que todo mundo ia ter que ficar atualizando
+porque a gente sabia que isso era terrível.
+
+349
+00:54:14,254 --> 00:54:18,934
+[Mauricio Linhares] o pessoal da SoundCloud teve essa experiência, não foi legal,
+o pessoal do Twitter teve essa experiência, não foi legal,
+
+350
+00:54:18,934 --> 00:54:24,734
+[Mauricio Linhares] porque é muito difícil você fazer uma coisa dessas funcionar
+quando você tem dependência de regra de negócio.
+
+351
+00:54:24,734 --> 00:54:30,434
+[Mauricio Linhares] Então, imagina que eu tenho um novo método de autenticação,
+então, em vez de eu ter um lugar centralizado onde eu atualizo isso,
+
+352
+00:54:30,434 --> 00:54:38,814
+[Mauricio Linhares] agora eu tenho 50 aplicações diferentes, de equipes diferentes que vão todas ter que atualizar.
+Imagina o pesadelo que é você fazer uma coisa dessas.
+
+353
+00:54:38,814 --> 00:54:45,650
+[Mauricio Linhares] Então, tem coisas realmente lá dentro que são, assim,
+que você não deveria fazer. Você não deveria trabalhar desse jeito.
+
+354
+00:54:45,650 --> 00:54:58,790
+[Mauricio Linhares] Tem uma coisa que o Rodrigo [Branas] falou que eu acho que precisa de deixar um pouco mais claro.
+Não sei como o Rafael Freire não reclamou aí ainda que a aplicação Rails
+
+355
+00:54:58,790 --> 00:55:12,350
+[Mauricio Linhares] não é aplicação simples, minha gente. Shopify roda em Rails, o Stripe roda em Rails,
+pegando pagamento do mundo todo, são aplicações complexas que dá pra você...
+
+356
+00:55:12,462 --> 00:55:24,862
+[Mauricio Linhares] Se você precisa, a gente volta para aquela coisa que o Rafael Ponte falou lá no início.
+A vantagem é que você consegue fazer o simples e o complexo tudo juntos.
+
+357
+00:55:24,862 --> 00:55:30,542
+[Mauricio Linhares] Não tem aplicação simples e aplicação complexa.
+Tem pedaços simples e pedaços complexos dentro de uma aplicação.
+
+358
+00:55:30,542 --> 00:55:38,542
+[Mauricio Linhares] Então não é uma coisa que simplesmente, a minha aplicação é complexa porque é uma aplicação de pagamento.
+Não é, bicho. Você vai ter lugares na sua aplicação onde é...
+
+359
+00:55:38,670 --> 00:55:46,150
+[Mauricio Linhares] complexo, onde fazer o que o Ponte falou, meter tudo dentro do controller, não vai ficar legal, porque você é muito código,
+
+360
+00:55:46,150 --> 00:55:51,630
+[Mauricio Linhares] porque você precisa reusar esse código em algum outro serviço,
+em algum outro lugar, então você vai conseguir separar isso aí,
+
+361
+00:55:51,630 --> 00:55:59,950
+[Mauricio Linhares] ou você pode simplesmente botar dentro do controller.
+E esse foi, pelo menos para mim, lá em 2006, 2007,
+
+362
+00:55:59,950 --> 00:56:07,230
+[Mauricio Linhares] o pulo do gato, quando eu comecei a trabalhar com Rails,
+depois de sair do Java, e ver que, porra, eu não preciso de toda essa complicação, se eu posso...
+
+363
+00:56:07,406 --> 00:56:14,366
+[Mauricio Linhares] Se eu tenho casos que são mais simples, eu posso fazer simples aqui.
+E se eu tenho casos que são mais complexos, eu posso criar um modelo separado,
+
+364
+00:56:14,366 --> 00:56:23,906
+[Mauricio Linhares] posso criar um serviço, posso deixar essa complexidade aonde ela está.
+Então, não é porque você está trabalhando com Rails, com Django, com PHP,
+
+365
+00:56:23,906 --> 00:56:27,866
+[Mauricio Linhares] que você só está escrevendo a aplicação simples,
+e você só pode escrever a aplicação simples.
+
+366
+00:56:27,866 --> 00:56:34,066
+[Mauricio Linhares] Você pode escrever, muita gente escreve, muita gente deu muito certo
+escrevendo aplicações complexas usando essas ferramentas aí.
+
+367
+00:56:35,566 --> 00:56:40,809
+[Mauricio Aniche] Deixa eu pular a fila rapidinho aqui para reforçar uma coisa que o Mauricio [Linhares] falou, que eu acho que é o principal desafio na prática.
+
+368
+00:56:40,809 --> 00:56:46,546
+[Mauricio Aniche] Que você criou sua abstração linda, maravilhosa, a próxima implementação vai ser diferente, entendeu?
+
+369
+00:56:46,546 --> 00:56:57,446
+[Mauricio Aniche] Vai ter alguma coisa para mudar. Eu acho que no Hipsters, que o pessoal gravou com a Adyen, o pessoal até brincou, né?
+Que quando foi implementar o primeiro meio de pagamento brasileiro, parcelamento.
+
+370
+00:56:57,446 --> 00:57:03,726
+[Mauricio Aniche] Ninguém parcela, os gringos aqui não entendiam que era parcelamento, né?
+Então a abstração que tinha para adquirente não funcionava.
+
+371
+00:57:03,982 --> 00:57:09,982
+[Mauricio Aniche] Sempre a próxima implementação vai ser um pouco diferente.
+E aí que entra o desafio, como que você continua evoluindo
+
+372
+00:57:09,982 --> 00:57:17,982
+[Mauricio Aniche] essa abstração de maneira legal sem começar a poluir ela e deixar ela estragar?
+Acho que esse é o desafio cruel, que esses livros não tocam tanto.
+
+373
+00:57:17,982 --> 00:57:21,982
+[Mauricio Aniche] Nos exemplinhos, obviamente, eles têm que simplificar,
+porque senão eles vão escrever um livro de 5 mil páginas,
+
+374
+00:57:21,982 --> 00:57:28,482
+[Mauricio Aniche] mas como que você modifica sua abstração para entender
+essas pequenas diferenças que elas sempre acabam acontecendo?
+
+375
+00:57:28,482 --> 00:57:31,246
+[Mauricio Aniche] Acho que essa é a chave no mundo real.
+
+376
+00:57:31,246 --> 00:57:37,246
+[Alexandre Aquiles] Pois é, nada como o mundo real para destruir a sua abstração. Mas vai lá, Branas.
+
+377
+00:57:37,246 --> 00:57:41,146
+[Rodrigo Branas] Não, eu só ia reforçar uma coisa, até em cima do que o Mauricio [Linhares] falou.
+
+378
+00:57:41,146 --> 00:57:52,266
+[Rodrigo Branas] Eu me referi, unique exclusivamente, ao processo de scaffolding padrão, tá?
+Uma linguagem de programação, seja ela qual for, desde que ela tenha o devido suporte ao que você precisa fazer,
+
+379
+00:57:52,266 --> 00:58:00,266
+[Rodrigo Branas] você tem a capacidade de comunicar ao computador e orientar para aquele processo aquilo que você precisa.
+Não existe qualquer limitação, isso eu falo em...
+
+380
+00:58:01,262 --> 00:58:12,702
+[Rodrigo Branas] todos os momentos que eu posso em que não tem absolutamente nada a ver uma linguagem como PHP, Ruby, Python, Java
+com o propósito ao qual você a utiliza salvo por questões de performance e alguma outra implicação, tá?
+
+381
+00:58:12,702 --> 00:58:27,022
+[Rodrigo Branas] Então, longe de mim ter afirmado alguma coisa nesse sentido. Me referi ao scaffolding, especificamente a olhar isso como padrão
+e quando você começa a ter mais regras de negócio, o que vai acontecer aqui é um jogo de prós e contras, única e exclusivamente.
+
+382
+00:58:27,022 --> 00:58:34,174
+[Rodrigo Branas] O que o Alexandre comentou em relação aos adquirentes...
+Eu já implementei muita aplicação com adquirentes, com 10, 15 adquirentes.
+
+383
+00:58:34,174 --> 00:58:45,254
+[Rodrigo Branas] E a ideia ali é, eu posso levar esse código de uma forma mais procedural
+e ter uma classe, ou ter um arquivo muito grande, cheio de if/else que hora faz um adquirente,
+
+384
+00:58:45,254 --> 00:58:51,254
+[Rodrigo Branas] hora faz outro? Posso. Qual é o problema disso?
+Vai funcionar? Vai. Mas eu vou mexer muito nesse mesmo arquivo.
+
+385
+00:58:51,254 --> 00:58:59,254
+[Rodrigo Branas] Eu vou ter um acoplamento um pouco maior com a tecnologia e eu eventualmente vou fragilizar.
+Agora eu posso usar um padrão como um adapter, inverter a dependência, isolar essa implementação?
+
+386
+00:58:59,374 --> 00:59:09,294
+[Rodrigo Branas] e definir um contrato que sirva para 90% deles ou 100% deles, pode?
+Pode acontecer, como o Mauricio [Linhares] falou, deles serem tão radicalmente diferentes ao ponto desse contrato ser inválido?
+
+387
+00:59:09,294 --> 00:59:14,774
+[Rodrigo Branas] Pode. Se não der, não deu. Faz de outra forma, entendeu?
+Então, o tempo todo aqui é bounded context.
+
+388
+00:59:14,774 --> 00:59:23,934
+[Rodrigo Branas] O que o Mauricio [Linhares] se refere à aplicação tem partes simples e partes complexas.
+Na verdade, o domínio é decomposto em subdomínios simples e complexos.
+
+389
+00:59:24,174 --> 00:59:33,234
+[Rodrigo Branas] Os complexos, você pode tomar uma decisão de fazer de um jeito, os simples de outro,
+você pode fazer todos do mesmo jeito e ora ter uma manutenibilidade pior,
+
+390
+00:59:33,234 --> 00:59:38,874
+[Rodrigo Branas] ora ter melhor, a decisão é de cada um, sabe?
+Funcionar, uma coisa eu garanto, tudo vai funcionar.
+
+391
+00:59:38,874 --> 00:59:42,254
+[Rodrigo Branas] A questão é em que condições vai funcionar, só isso.
+
+392
+00:59:46,862 --> 00:59:51,244
+[Alexandre Aquiles] Puxa aí, Ponte! Deu uma distraída aqui, foi mal.
+
+393
+00:59:51,244 --> 00:59:53,822
+[Rafael Ponte] Ah, não, legal, legal. De boa. Eu vou aproveitar que o gancho do Maurício [Linhares], né?
+
+394
+00:59:53,822 --> 01:00:03,502
+[Rafael Ponte] Que ele falou sobre... sobre domínios complexos, né?
+A gente costuma falar, não, você usa esse DDD, você usa Clean, você usa Hexagonal,
+
+395
+01:00:03,502 --> 01:00:12,422
+[Rafael Ponte] você tem um domínio complexo, você tem um sistema complexo, mas isso é tão subjetivo,
+o que significa? Até hoje eu tenho uma dúvida do que eu considero complexo,
+
+396
+01:00:12,422 --> 01:00:18,646
+[Rafael Ponte] um domínio complexo, um sistema complexo, algo do tipo, tá?
+E aí talvez porque eu venho muito do mundo corporativo, né?
+
+397
+01:00:18,646 --> 01:00:26,206
+[Rafael Ponte]  E aí é onde a Aniche até comentou. A gente vive de CRUD, né?
+Então ali 80% ou mais é o bom e velho CRUD
+
+398
+01:00:26,206 --> 01:00:35,906
+[Rafael Ponte] e talvez um relatoriozinho ali em PDF bonitinho, ou em .CSV.
+Mas aí a pergunta que fica é o que um domínio complexo?
+
+399
+01:00:36,106 --> 01:00:42,146
+[Rafael Ponte]  Eu acho que o Branas já até comentou, né?
+Então eu devo ter muito claro as minhas Ports & Adapters,
+
+400
+01:00:42,146 --> 01:00:48,150
+[Rafael Ponte] os drivers, tudo ali. Quando eu tenho um domínio complexo, eu quero separar,
+eu quero testar, especialmente teste de unidade,
+
+401
+01:00:48,210 --> 01:00:55,710
+[Rafael Ponte]  acho que ele comentou até isso. E eu me pergunto, vamos ver o que é complexo.
+CRUD é complexo? Eu acho que não, mas 80% dos sistemas corporativos são CRUDs.
+
+402
+01:00:55,890 --> 01:01:01,910
+[Rafael Ponte] Microsserviços é complexo? Se você pensar numa aplicação com um todo,
+adotando microsserviços, sim, ela é complexa,
+
+403
+01:01:02,450 --> 01:01:09,910
+[Rafael Ponte] mas o microsserviço não é complexa na base de código,
+ela é complexa nas bordas, na comunicação.
+
+404
+01:01:09,990 --> 01:01:16,550
+[Rafael Ponte] Então, o microsserviço tirou toda a complexidade
+que o desenvolvedor tinha que manter numa base de código com dezenas de milhares de linhas
+
+405
+01:01:16,990 --> 01:01:22,630
+[Rafael Ponte] e fez o desenvolvedor manter apenas algumas poucas
+centenas ou milhares de linhas, pouquíssimas linhas,
+
+406
+01:01:22,670 --> 01:01:30,150
+[Rafael Ponte] pouquíssimas classes e jogou a complexidade nas bordas.
+Então o microsserviço está nas bordas. Mas se o microsserviço me deu o luxo, ó a palavra luxo aqui
+
+407
+01:01:30,510 --> 01:01:38,350
+[Rafael Ponte] de ter um código mais simples, uma base de código mais simples,
+por que eu não abraço isso? Porque se eu tenho um código mais simples,
+
+408
+01:01:38,510 --> 01:01:43,110
+[Rafael Ponte] vamos pensar, o microsserviço me permite criar
+uma funcionalidade, um componente que tem uma...
+
+409
+01:01:43,278 --> 01:01:50,638
+[Rafael Ponte] responsabilidade bem definida. Responsabilidade bem definida quer dizer que
+tudo que ocorre ali está tudo intimamente ligado.
+
+410
+01:01:50,638 --> 01:01:58,678
+[Rafael Ponte] Eles têm um fortíssimo acoplamento porque tudo mexe com o mesmo contexto.
+Se mexe o mesmo contexto, para que eu tenho que criar N camadas de indireção
+
+411
+01:01:58,678 --> 01:02:07,358
+[Rafael Ponte] para separar as coisas? E se está tudo íntimo e a complexidade está nas bordas,
+que geralmente em microsserviços é sistema distribuído e está na entrada e na saída,
+
+412
+01:02:07,358 --> 01:02:11,838
+[Rafael Ponte] querendo ou não, eu vou ter esse acoplamento com as bordas.
+Eu tenho que saber qual o protocolo de entrada
+
+413
+01:02:11,950 --> 01:02:17,910
+[Rafael Ponte] e tenho que saber de alguma forma qual protocolo de saída.
+Até porque as regras de negócio, que a gente chama a lógica de negócio,
+
+414
+01:02:17,950 --> 01:02:23,830
+[Rafael Ponte] ela não está em um único ponto na aplicação,
+ela está espalhada por toda a aplicação. Desde de como vai entrar,
+
+415
+01:02:23,870 --> 01:02:31,870
+[Rafael Ponte] se aquilo ali vai, qual tipo de protocolo de entrada, de tipagem,
+até o banco de dados. Quando eu falo banco de dados, estou falando que boa parte
+
+416
+01:02:31,910 --> 01:02:37,550
+[Rafael Ponte] das minhas lógicas de negócio vão estar em como eu defini meu schema,
+como é que eu defini os tipos, como é que eu defini as constraints.
+
+417
+01:02:37,590 --> 01:02:47,262
+[Rafael Ponte] A concorrência, ignorar isso é dar um tiro no pé.
+E aí o Branas até falou, ah, mas aproveita a vantagem de Ports & Adapters
+
+418
+01:02:47,262 --> 01:02:52,062
+[Rafael Ponte] nesse domínio complexo, é que eu escrevo mais teste de unidade.
+Mas se eu estou dentro do contexto de microserviços,
+
+419
+01:02:52,062 --> 01:02:57,322
+[Rafael Ponte] vamos se amarrar ao contexto de microsserviços aqui,
+até para não generalizar, onde a complexidade está nas bordas,
+
+420
+01:02:57,322 --> 01:03:07,262
+[Rafael Ponte] está na comunicação remota, é burrice, desculpa a palavra,
+é burrice ignorar isso. Por isso, teste de integração, na minha opinião,
+
+421
+01:03:07,262 --> 01:03:15,486
+[Rafael Ponte] faz muito mais sentido quando eu trabalho com microsserviços.
+Por dois motivos. Eu vou sempre exercitar as bordas, que é onde está a complexidade,
+
+422
+01:03:15,526 --> 01:03:23,426
+[Rafael Ponte] e provavelmente a maioria dos bugs. Eu tenho pouquíssima regra de negócio a nível de código de aplicação,
+porque eu tenho um domínio, um subdomínio,
+
+423
+01:03:23,486 --> 01:03:30,586
+[Rafael Ponte] uma quantidade de código muito acoplada, muito íntima,
+e que pouca coisa faz. Então, eu só queria deixar claro que tipo...
+
+424
+01:03:31,386 --> 01:03:38,086
+[Rafael Ponte] Domínio complexo é difícil definir, mas dado que eu estou num contexto de microsserviço
+onde eu tenho pouco código, eu tenho o luxo de ter pouco código,
+
+425
+01:03:38,146 --> 01:03:47,190
+[Rafael Ponte] então eu deveria abraçar. Abraçar significa diminuir as camadas de direção,
+abraçar o framework, entender que estou em uma comunicação remota
+
+426
+01:03:47,270 --> 01:03:52,950
+[Rafael Ponte] e que testes de integração acabam sendo muito melhores
+para a manutenção e para a vida útil do sistema.
+
+427
+01:03:53,030 --> 01:03:55,310
+[Rafael Ponte] Só deixando claro que é minha opinião.
+
+428
+01:03:58,414 --> 01:04:00,747
+[Alexandre Aquiles] Otávio, quer comentar?
+
+429
+01:04:00,747 --> 01:04:12,274
+[Otávio Lemos] É só um comentário, eu achei interessante você trazer o assunto de microsserviço,
+porque eu acho que é bem característico, uma coisa que se a pessoa não souber fazer direito,
+
+430
+01:04:12,274 --> 01:04:17,514
+[Otávio Lemos] faz muita cagada, né? Então, eu acho interessante você ter isso sempre em mente.
+
+431
+01:04:17,514 --> 01:04:26,574
+[Alexandre Aquiles] Otávio, deixa só comentar aqui, tipo, um ano antes talvez desse freela que eu fiz...
+
+432
+01:04:26,574 --> 01:04:42,054
+[Alexandre Aquiles] aí usando esse esquema do XML para mapear a entidade e tal,
+tinha um colega que fez um freela com microsserviços de atendimento de dentista, não sei o que lá,
+
+433
+01:04:42,054 --> 01:04:54,814
+[Alexandre Aquiles] foi muito mais desastroso assim, e esse realmente o cliente quis e deu certo, sabe?
+E foi o terror da manutenção. Só um detalhe.
+
+434
+01:04:56,046 --> 01:05:02,926
+[Otávio Lemos] Não, é só isso que eu estava querendo complementar.
+E eu acho que é bom a gente sempre deixar isso claro.
+
+435
+01:05:02,926 --> 01:05:10,206
+[Otávio Lemos] Para você obter benefícios desse tipo de técnica e abordagem,
+você tem que estudar o negócio, saber usar.
+
+436
+01:05:10,206 --> 01:05:19,246
+[Otávio Lemos] Porque senão você vai se ferrar. Por melhor que seja a ideia, por melhor que seja a tecnologia.
+Eu conheço, por exemplo, gente que tem muita experiência com microsserviços.
+
+437
+01:05:19,246 --> 01:05:23,447
+[Otávio Lemos] Tem sempre essa ideia, começa com monólito, depois quebra para microserviços.
+
+438
+01:05:23,447 --> 01:05:32,226
+[Otávio Lemos] Não cara, se o cara manja, se o pessoal já teve um monte, já fez um monte de sistema baseado em microsserviço, já tem experiência, o contexto casa com o uso de microsserviço,
+
+439
+01:05:32,226 --> 01:05:37,994
+[Otávio Lemos] o cara pode começar e ter muito sucesso. Então, mas é isso, eu só queria enfatizar isso,
+
+440
+01:05:37,994 --> 01:05:46,570
+[Otávio Lemos] é que a pessoa, o pessoal tem que dominar essas técnicas, essas ideias para poder aplicar bem, que senão você vai dar um tiro no pé.
+
+441
+01:05:48,459 --> 01:05:52,606
+[Alexandre Aquiles] Perfeito. Ô, Linhares. Vai lá!
+
+442
+01:05:52,606 --> 01:05:58,606
+[Mauricio Linhares] Vamos voltar para o caso das adquirentes, né?
+Que a interface, no geral, ela tem duas coisas.
+
+443
+01:05:58,626 --> 01:06:08,286
+[Mauricio Linhares] Ela tem um predicado, né? Que é para verificar se essa transação é específica, né?
+Se essa adquirente vai ser capaz de processar essa transação.
+
+444
+01:06:08,306 --> 01:06:16,346
+[Mauricio Linhares]  Então, tem várias informações que você vai usar.
+Você vai usar o tipo do dinheiro, né? Você está usando real, está usando dólar, isso aí influencia...
+
+445
+01:06:16,526 --> 01:06:25,046
+[Mauricio Linhares] a decisão qual país do cartão, o país emitido do cartão,
+se é cartão internacional ou não. Então, a gente tem esse predicado que define qual vai ser executada
+
+446
+01:06:25,046 --> 01:06:34,326
+[Mauricio Linhares] e a gente tem a implementação da execução mesmo do negócio,
+que é aquele padrão Estratégia que a gente está acostumado.
+
+447
+01:06:34,326 --> 01:06:47,102
+[Mauricio Linhares] Esse problema do adquirente é o problema de roteamento que você tem numa aplicação web.
+Então, esse problema... Esse problema em si, ele é complexo?
+
+448
+01:06:49,742 --> 01:06:51,269
+[Mauricio Linhares] É, porque...
+
+449
+01:06:51,269 --> 01:06:54,542
+[Alexandre Aquiles] Parece fácil de entender, assim.
+
+450
+01:06:54,542 --> 01:07:00,022
+[Mauricio Linhares] É, ele é um problema que ele é... Por isso que eu gosto desse negócio do Ponte,
+
+451
+01:07:00,222 --> 01:07:11,622
+[Mauricio Linhares] porque o que é complexo, o que é que não é complexo também?
+É difícil porque a complexidade, ela vai entrar quando começa a acontecer aquilo que o Aniche falou.
+
+452
+01:07:12,046 --> 01:07:19,846
+[Mauricio Linhares] Agora eu tenho que fazer o pagamento em parcela.
+E você, caralho, eu nunca vi pagamento em parcela.
+
+453
+01:07:19,846 --> 01:07:28,326
+[Mauricio Linhares] Nunca existiu na minha vida. E no Brasil, o pagamento em parcela é feito de um jeito.
+Se você vai para outros países da América Latina,
+
+454
+01:07:28,326 --> 01:07:35,926
+[Mauricio Linhares] o pagamento em parcela é feito de outro jeito.
+Então não dá nem para você dizer, eu posso reusar diretamente aquilo que é do Brasil
+
+455
+01:07:35,926 --> 01:07:48,706
+[Mauricio Linhares] e o que é dos outros países do parcelamento,
+porque é outra coisa, é outra solução. Eu acho que quando a gente fala de o que é simples e o que é complexo,
+
+456
+01:07:48,706 --> 01:08:04,506
+[Mauricio Linhares] eu acho que onde está complexo, é onde você precisa de muito conhecimento,
+onde tem muita coisa sendo definida, muita regra que precisa existir ali para esse sistema funcionar,
+
+457
+01:08:04,506 --> 01:08:11,794
+[Mauricio Linhares] porque você precisa manter todas essas coisas na sua cabeça.
+Como é que eu vou conseguir separar
+
+458
+01:08:11,918 --> 01:08:25,918
+[Mauricio Linhares]  a implementação da decisão é simples. Porque você tem o predicado e você tem a execução que é a Estratégia.
+São dois padrões que a gente conhece desde que saiu da faculdade.
+
+459
+01:08:25,918 --> 01:08:31,718
+[Mauricio Linhares] Todo mundo vê essas coisas desde que saiu da faculdade.
+Mas implementar as regras diretamente, definir como essas coisas vão existir
+
+460
+01:08:31,718 --> 01:08:44,546
+[Mauricio Linhares] dentro do sistema maior, aí é que vem a complexidade do negócio.
+E você entender que... vai ter coisa que vai quebrar sua arquitetura, vai ter coisa que vai mudar, vai ter coisa que você vai ter que parar
+
+461
+01:08:44,546 --> 01:08:50,508
+[Mauricio Linhares] Pô, aqui eu vou ter que rever, eu tô entrando num outro país onde as coisas são diferentes, os meios de pagamento são diferentes
+
+462
+01:08:50,508 --> 01:08:58,886
+[Mauricio Linhares] E aí você vai fazendo a coisa funcionar. É só você não entrar nesse negócio, ah, eu vou isolar tudo, vai ser perfeito, eu não vou conseguir
+
+463
+01:08:58,886 --> 01:09:02,353
+[Mauricio Linhares] não vou ter mais que mudar nada, não, você vai ter que mudar coisa pra caralho, né?
+
+464
+01:09:02,353 --> 01:09:14,478
+[Mauricio Linhares] Ninguém consegue acertar na primeira vez e a sua arquitetura
+você vai ter que ir lentamente evoluindo, por isso que eu gosto muito dessa ideia de arquiteturas que são evolutivas,
+
+465
+01:09:14,478 --> 01:09:20,678
+[Mauricio Linhares] que elas vão evoluindo junto com a aplicação,
+porque é mais fácil você ir evoluindo com os problemas
+
+466
+01:09:20,678 --> 01:09:24,758
+[Mauricio Linhares] do que você tentar entender todos os problemas.
+Não sei se você já tem experiência, né? Você foi uma pessoa...
+
+467
+01:09:24,758 --> 01:09:31,638
+[Mauricio Linhares] Ah, eu trabalho com pagamentos faz 10 anos,
+eu botei, fiz, trabalhei com adquirência em 50 países diferentes.
+
+468
+01:09:31,638 --> 01:09:36,358
+[Mauricio Linhares] Foda! Então você já provavelmente já viu muita coisa,
+você vai conseguir arquiteturar tudo, mas...
+
+469
+01:09:36,494 --> 01:09:43,374
+[Mauricio Linhares] É difícil você ser essa pessoa. Na maior parte das vezes, a gente não tem tanto conhecimento assim
+para tomar essas decisões e definir essas coisas.
+
+470
+01:09:43,374 --> 01:09:53,214
+[Mauricio Linhares] Então é entender que quanto mais conhecimento você precisa
+para colocar dentro do sistema, porque eu...
+
+471
+01:09:53,214 --> 01:10:03,454
+[Mauricio Linhares] Pronto, e vou dizer agora o que eu gostei da porra do livro do Bob Martin,
+que escrever software é como se fosse um experimento científico.
+
+472
+01:10:05,102 --> 01:10:14,022
+[Mauricio Linhares] Isso, isso, isso tá pronto. Aí foi uma coisa que me marcou.
+Gostei dessa definição. Dele ter essa visão, porque é exatamente isso mesmo.
+
+473
+01:10:14,022 --> 01:10:25,342
+[Mauricio Linhares] Dá para você discutir isso de uma forma mais longa dentro do livro.
+Eu acho que isso é uma parada muito válida e eu acho que é assim que a gente escreve software.
+
+474
+01:10:25,702 --> 01:10:32,342
+[Mauricio Linhares] A gente vai com pequenos experimentos, construindo o conhecimento,
+construindo o entendimento do que está acontecendo ali.
+
+475
+01:10:32,654 --> 01:10:39,334
+[Mauricio Linhares] E você vai sempre nesse caminho de pequenos experimentos.
+Você faz um pequeno experimento aqui, agora isso aqui está afetando outra coisa,
+
+476
+01:10:39,334 --> 01:10:45,534
+[Mauricio Linhares] Vai lá, melhora essa outra coisa, melhora sua arquitetura, coloca mais uma opção lá,
+e você vai lentamente fazendo o negócio crescer.
+
+477
+01:10:45,534 --> 01:10:51,214
+[Mauricio Linhares] Com essa ideia de que escrever software é trabalhar com experimentos científicos.
+
+478
+01:10:52,534 --> 01:10:58,894
+[Alexandre Aquiles] E, assim, alguém já leu o "Building Evolutionary Architectures"?
+
+479
+01:10:58,894 --> 01:11:09,402
+[Alexandre Aquiles] Eu acho que o "Software Architecture: the Hard Parts" tem uma pegada também
+dessa pelo que vocês postaram ali, parece que tem essa ideia de
+
+480
+01:11:09,402 --> 01:11:17,402
+[Alexandre Aquiles] você ir descobrindo e mudando. Tem isso, Linhares? Só para você comentar,
+acho que você já leu, né?
+
+481
+01:11:17,402 --> 01:11:23,842
+[Mauricio Linhares] Tem, tem isso. Acho que hoje não vale mais a pena ler ele não,
+
+482
+01:11:23,842 --> 01:11:31,002
+[Mauricio Linhares] ele já está meio velhinho, na época valia mais a pena.
+Acho que hoje o "Fundamentals of Software Architecture"
+
+483
+01:11:31,002 --> 01:11:41,190
+[Mauricio Linhares] e o "Software Architecture: The Hard Parts", eles cobrem mais, mas eles seguem muito essa ideia.
+Quem está com tempo livre, lê o livro, vale a pena ter essa ideia,
+
+484
+01:11:41,190 --> 01:11:46,238
+[Mauricio Linhares] mas esses dois livros, eles abordam também essa ideia.
+
+485
+01:11:46,238 --> 01:11:49,482
+[Alexandre Aquiles] Legal. Ô Branas, vai lá.
+
+486
+01:11:49,482 --> 01:11:51,990
+[Rodrigo Branas] Não, só para fechar aqui.
+
+487
+01:11:51,990 --> 01:12:00,510
+[Rodrigo Branas] Para mim, o princípio mais importante é o tal do KISS, que é o Keep It Simple.
+Então, eu acho que estou muito aí com a opinião do Maurício [Linhares].
+
+488
+01:12:01,102 --> 01:12:10,702
+[Rodrigo Branas] Software é um grande experimento, sabe? Envolve em alguns casos até sorte, sabe?
+De você pegar o caminho certo pra você não ter um grande retrabalho depois.
+
+489
+01:12:10,702 --> 01:12:17,102
+[Rodrigo Branas] Então, pra mim, a melhor alternativa sempre foi
+manter o software o mais simples possível e ir dando passos
+
+490
+01:12:17,102 --> 01:12:25,602
+[Rodrigo Branas] pra gente conseguir manter uma boa curva de aprendizado pra equipe,
+um bom clima e ir gerenciando a dor. Pode doer por dois motivos.
+
+491
+01:12:26,030 --> 01:12:35,390
+[Rodrigo Branas] E é mais comum, às vezes, até mesmo doer, porque você escolheu a "arquitetura"
+ou o "design" errado, e aquilo está te forçando numa burocracia sem fim,
+
+492
+01:12:35,390 --> 01:12:45,950
+[Rodrigo Branas] do que doer pela manutenibilidade que está prejudicada.
+Às vezes também dói. Então, talvez, se você conseguir perceber essa dor no momento certo, tomar as decisões certas com coragem,
+
+493
+01:12:45,950 --> 01:12:53,950
+[Rodrigo Branas] e aí pode ter um teste de integração, ali, como o Ponte citou, pode ter um teste  end-to-end,
+o teste só está aí pode te dar coragem. Se você tem a coragem necessária.
+
+494
+01:12:54,510 --> 01:13:04,770
+[Rodrigo Branas] e o teste te garante isso. Para você tomar a ação na hora certa e na hora que precisa,
+você mitiga muito achismo e muita coisa que você talvez não vá precisar
+
+495
+01:13:04,770 --> 01:13:11,930
+[Rodrigo Branas] e assim você consegue estabelecer a melhor experiência possível
+para as pessoas que estão trabalhando e o melhor fluxo de valor de negócio para o cliente final.
+
+496
+01:13:11,930 --> 01:13:17,210
+[Rodrigo Branas] Então, para mim, o melhor caminho segue sendo esse.
+Às vezes a gente está discutindo uma coisa muito específica,
+
+497
+01:13:17,210 --> 01:13:23,270
+[Rodrigo Branas] falando de DDD, falando de Clean Arch, mas dando uns passos atrás,
+eu acho que o que vale muito é essa postura
+
+498
+01:13:23,630 --> 01:13:33,870
+[Rodrigo Branas] de humildade frente ao problema que você não conhece, e aí você ter a capacidade
+de, ao longo do trajeto, ter coragem para tomar as ações.
+
+499
+01:13:33,870 --> 01:13:35,670
+[Rodrigo Branas] Para mim, esse é o ponto.
+
+500
+01:13:38,286 --> 01:13:49,046
+[Alexandre Aquiles] Boa. Perfeito, muito bem colocado, Branas. É isso.
+Pessoal, vamos encerrando assim, vamos fazer uma rodada de tipo...
+
+501
+01:13:49,046 --> 01:13:58,406
+[Alexandre Aquiles] Estava pensando assim, fazer uma... "Clean Arch morreu", e aí?
+Sim ou não? Mas não é uma pergunta que faça sentido, né?
+
+502
+01:13:58,406 --> 01:14:09,146
+[Alexandre Aquiles] Então, pode ter considerações finais. Tá bem?
+Eu queria abrir a palavra para muita gente que está aqui que eu admiro e tal,
+
+503
+01:14:09,146 --> 01:14:20,726
+[Alexandre Aquiles] e muito obrigado por ter comparecido. Está bem pessoal, mas muita gente mesmo.
+Mas não dá, né? Então vamos fazer essa rodada?
+
+504
+01:14:20,726 --> 01:14:28,222
+[Alexandre Aquiles] Roberta, você tem alguma coisa a colocar assim, considerações finais?
+Você aprendeu algo aqui?
+
+505
+01:14:28,222 --> 01:14:32,457
+[Roberta Arcoverde] Ah, sempre, sempre. Essas discussões são muito ricas.
+
+506
+01:14:32,457 --> 01:14:43,278
+[Roberta Arcoverde]  Eu acho que uma coisa que eu estava pensando à medida que a discussão estava se desenrolando,
+que fica sempre muito na minha cabeça, é a questão de desperdício.
+
+507
+01:14:43,278 --> 01:14:55,918
+[Roberta Arcoverde] Eu sou um pouco cria da época que se discutia muito Lean, desenvolvimento, tentar evitar desperdício e tal.
+E eu lembrei, quando o Linhares falou de experimento e de experimentação,
+
+508
+01:14:55,918 --> 01:15:04,926
+[Roberta Arcoverde]  eu lembrei de um artigo de pesquisa da área de Engenharia de Software.
+Eu trabalhei com pesquisa durante um curto espaço,
+
+509
+01:15:04,926 --> 01:15:17,606
+[Roberta Arcoverde]  trabalhei durante o mestrado, e era um artigo que se debruçava
+sobre a quantidade de código morto nos projetos,
+
+510
+01:15:17,606 --> 01:15:28,286
+[Roberta Arcoverde] quanto código a gente escreve que, no fim, ou nunca é executado, ou muito pouco é executado,
+acaba não servindo para nada. E um dos exemplos que mais me marcou nesse artigo era justamente
+
+511
+01:15:28,654 --> 01:15:39,454
+[Roberta Arcoverde] uma investigação em vários repositórios de código de CLIs,
+de aplicações que eram CLIs, mostrando que mais de 80% dos parâmetros de configuração
+
+512
+01:15:39,714 --> 01:15:48,454
+[Roberta Arcoverde] de comandos em CLIs nunca eram utilizados pelos usuários dessas CLIs.
+E isso é código, né, gente? Toda linha de código que você adiciona
+
+513
+01:15:49,934 --> 01:16:00,718
+[Roberta Arcoverde] num sistema, numa aplicação, ela vem com um custo, não é de graça.
+Ela adiciona... porque alguém vai precisar parar para ler, para entender.
+
+514
+01:16:00,718 --> 01:16:15,518
+[Roberta Arcoverde] Aquela velha máxima de que o melhor código é aquele que a gente não escreve.
+E eu acho que isso casa muito bem com a discussão, porque é sempre, a gente tem que sempre avaliar esse trade-off,
+
+515
+01:16:15,518 --> 01:16:24,518
+[Roberta Arcoverde] do quanto a gente está complexificando o nosso código, o nosso software,
+por opções e flexibilidades que a gente acabará não de fato utilizando.
+
+516
+01:16:24,518 --> 01:16:35,978
+[Roberta Arcoverde] Enquanto isso... Existem concorrentes, existem outras pessoas, outros times,
+outras aplicações sendo construídas que estão mais focadas em deliverables,
+
+517
+01:16:35,998 --> 01:16:46,058
+[Roberta Arcoverde] em entregar software funcionando. Pelo menos a minha filosofia como desenvolvedora
+sempre foi fazer a coisa mais simples que pudesse funcionar
+
+518
+01:16:46,378 --> 01:16:52,668
+[Roberta Arcoverde] e adaptá-la quando e se fosse preciso adaptá-la. Então era isso.
+
+519
+01:16:52,668 --> 01:17:04,542
+[Alexandre Aquiles] Uau! Muito bom. Vamos lá, Linhares. Tem alguma consideração final?
+
+520
+01:17:04,542 --> 01:17:13,542
+[Mauricio Linhares] Leiam Domain Driven Design, por favor.
+Para vocês verem essa discussão de uma forma mais profunda.
+
+521
+01:17:13,542 --> 01:17:24,402
+[Mauricio Linhares] Leiam "Fundamentals of Software Architecture" para entender o que é a arquitetura do software,
+para ver os fundamentos, questões de... os tipos de arquitetura, quais são os tipos de comunicação.
+
+522
+01:17:24,654 --> 01:17:38,054
+[Mauricio Linhares] como a gente está produzindo aplicações hoje.
+Então, a gente tem muito material. É incrível olhar a bibliografia que a gente tem de material disponível hoje
+
+523
+01:17:38,054 --> 01:17:47,114
+[Mauricio Linhares] para você entender um pouco mais sobre esse tipo de coisa.
+Me perguntaram no Twitter, mas eu posso dizer que o Clean Architecture é uma merda sem ter lido?
+
+524
+01:17:47,114 --> 01:17:53,954
+[Mauricio Linhares] Não, você não pode. Se você não leu a porra do livro, você não fala do livro.
+Se você não entende o que é que está lá, você não sabe por que é que é problemático.
+
+525
+01:17:54,414 --> 01:18:02,414
+[Mauricio Linhares] as ideias que estão lá dentro, então é melhor você não dizer.
+É a mesma coisa que o menino estava falando, todo mundo viu no blog que o Clean Arch
+
+526
+01:18:02,414 --> 01:18:10,414
+[Mauricio Linhares] e fica falando as coisas, você pega o livro e vai ler, bicho, vai ver o que está escrito lá,
+vai ver quais são as ideias que estão sendo definidas lá para você poder
+
+527
+01:18:10,414 --> 01:18:19,414
+[Mauricio Linhares] entender o que vai usar e o que não vai usar. Então a gente tem muito material,
+a gente tem muita coisa que ajuda, inclusive a gente tem que agradecer,
+
+528
+01:18:19,414 --> 01:18:26,894
+[Mauricio Linhares] porque na época que eu e o Ponte, o Ponte querendo pagar de jovem aí. Ele não é jovem, o Ponte tem a mesma idade.
+
+529
+01:18:26,894 --> 01:18:38,394
+[Mauricio Linhares] É velho igual a mim. A gente começou a trabalhar junto praticamente.
+E nessa época a gente não tinha toda essa bibliografia, toda essa oportunidade de discutir essas coisas.
+
+530
+01:18:38,394 --> 01:18:47,394
+[Mauricio Linhares] Você pega um livro como o "Designing Data Intensive Applications",
+se a gente tivesse esse livro 15 anos atrás, a gente tinha evitado fazer muita merda que a gente escreveu.
+
+531
+01:18:47,394 --> 01:18:58,726
+[Mauricio Linhares] A gente fez muita merda nesses 16, 18 anos que a gente está escrevendo software.
+Porque a gente tava aprendendo. As pessoas estavam aprendendo essas merdas e estão escrevendo os livros e mostrando
+
+532
+01:18:58,726 --> 01:19:07,326
+[Mauricio Linhares] olha todas as merdas que a gente fez, aprenda a não fazer essas merdas
+Então peguem esse material, leiam também o livro do Aquiles
+
+533
+01:19:07,326 --> 01:19:15,486
+[Mauricio Linhares] Vamos estudar um pouquinho mais, vamos entender um pouquinho mais.
+Pra gente escrever software melhor pra hoje e pro futuro.
+
+534
+01:19:15,486 --> 01:19:24,070
+[Mauricio Linhares] Porque no fim das contas é você que vai se rasgar dando manutenção a essa merda que você produziu hoje.
+Então... De um jeito ou de outro, a gente que vai ter que pagar essa conta.
+
+535
+01:19:24,070 --> 01:19:29,743
+[Mauricio Linhares] Então, vamos fazer um pouquinho melhor para a gente não ter tanta dor de cabeça aí no longo prazo.
+
+536
+01:19:29,743 --> 01:19:37,409
+[Alexandre Aquiles] Duas lições então. A Roberta falou que o nosso código 80% é inútil e o Mauricio falou que...
+
+537
+01:19:37,409 --> 01:19:40,210
+[Roberta Arcoverde] Que isso? Eu falei isso não.
+
+538
+01:19:40,210 --> 01:19:43,310
+[Alexandre Aquiles] Estou brincando. Estou fazendo factoide aqui.
+
+539
+01:19:43,310 --> 01:19:53,318
+[Alexandre Aquiles] E o Mauricio [Linhares] falou que a gente vai sofrer com o código que a gente mesmo produz.
+Essa segunda aí realmente é isso mesmo, né pessoal?
+
+540
+01:19:53,318 --> 01:19:57,018
+[Alexandre Aquiles] Ô, Branas, considerações finais...
+
+541
+01:19:57,018 --> 01:20:04,718
+[Rodrigo Branas] Considerações finais... basicamente agradecer a todos aí, obrigado.
+Acho que a discussão é sempre muito válida.
+
+542
+01:20:04,718 --> 01:20:15,318
+[Rodrigo Branas] Por mim, sigam o conselho do Keep It Simple. No fim das contas, o legado vai ser teu, a dor vai ser tua.
+Então aprenda a lidar com ela, da melhor forma possível.
+
+543
+01:20:15,318 --> 01:20:28,190
+[Rodrigo Branas] E tenta sempre... um passo a frente, nem que seja pra não usar. Vale muito o conselho que o Mauricio [Linhares] colocou.
+Cara, você pode estudar Domain Driven Design, nem que seja pra dizer, aqui não se aplica.
+
+544
+01:20:28,190 --> 01:20:37,510
+[Rodrigo Branas] Mas pelo menos você tira esse peso do teu coração e tira essa síndrome, às vezes,
+de estar pegando o caminho errado. Na maior parte das vezes o caminho simples é o melhor.
+
+545
+01:20:37,510 --> 01:20:50,802
+[Rodrigo Branas] Um pouco do que o Ponte falou ali, eu concordo. Boa parte das vezes o simples e o direto...
+vai atender, vai resolver e vai ser a melhor saída e o teste de integração vai ser o mais assertivo.
+
+546
+01:20:50,802 --> 01:20:58,416
+[Rodrigo Branas] Então, Keep It Simple, esteja sempre um passo à frente, nem que seja para saber que você não precisou daquilo.
+
+547
+01:20:58,416 --> 01:21:02,502
+[Alexandre Aquiles] E o seu curso, como é que eu pego, Branas? Fala aí.
+
+548
+01:21:02,502 --> 01:21:13,582
+[Rodrigo Branas] A gente está na turma número 8, o meu curso basicamente ele reúne desde Refactoring, Test Driven Development...
+entrando em Ports & Adapters, discutindo Clean Architecture,
+
+549
+01:21:13,602 --> 01:21:24,642
+[Rodrigo Branas] entrando em DDD, SOLID, Design Patterns, CQRS,
+e muito nesse viés, tá? Assim, é aonde você talvez precise usar isso e como você faria.
+
+550
+01:21:24,662 --> 01:21:30,482
+[Rodrigo Branas] Mas muito para trazer essa clareza para as pessoas, né?
+Então a gente vai desde a escrita de código
+
+551
+01:21:30,502 --> 01:21:36,282
+[Rodrigo Branas] até a estruturação disso, seja em microserviços, né?
+Então é só entrar aí no meu canal no YouTube,
+
+552
+01:21:36,302 --> 01:21:39,067
+[Rodrigo Branas] você vai encontrar bastante informação.
+
+553
+01:21:39,067 --> 01:21:52,158
+[Alexandre Aquiles] Boa. Valeu! Aniche, vamos lá? Considerações finais e fala do seu livro também.
+Eu comprei. Muito bom.
+
+554
+01:21:52,158 --> 01:21:59,630
+[Mauricio Aniche] Eu não vou fazer jabá aqui não, Alexandre.
+Mas o que eu ia falar, eu acho que esse livro é muito mais sobre design do que arquitetura, né?
+
+555
+01:21:59,630 --> 01:22:12,670
+[Mauricio Aniche] É muito mais sobre como organizar classes e criar código flexível, etc. e tal.
+E bem menos de arquitetura, né? E o DDD é um livro muito legal quando se fala de design, mas acho que o que me influenciou de verdade
+
+556
+01:22:12,670 --> 01:22:20,670
+[Mauricio Aniche] foi o "Growing Object-Oriented Systems Guided By Tests".
+E quando eu vi a pegada dos dois autores ali, em como eles programam, em como eles deixam...
+
+557
+01:22:21,422 --> 01:22:26,982
+[Mauricio Aniche] as abstrações emergirem, acho que me influenciou bastante.
+É um livro que a gente fala bem pouco, né?
+
+558
+01:22:26,982 --> 01:22:36,342
+[Mauricio Aniche] Porque o Steve Freeman e Nat Pryce não são tão populares aí na comunidade,
+mas é um livro bem bom. Dói um pouco ler porque um monte de código em Swing ali que ninguém gosta mais, né?
+
+559
+01:22:36,342 --> 01:22:46,782
+[Mauricio Aniche] Três páginas pra colocar um botão na tela, mas a ideia ali de como eles programam é bem legal, me influenciou bastante.
+Então fica aí essa recomendação. E boa noite aí, gente.
+
+560
+01:22:47,374 --> 01:22:55,626
+[Alexandre Aquiles] Inclusive, Aniche, esse livro chega a uma arquitetura hexagonal. A gente pode dizer que chega nesse ponto, não?
+
+561
+01:22:55,626 --> 01:23:01,054
+[Mauricio Aniche] Eu acho que eles não usam o termo Ports & Adapters no livro, boa pergunta,
+
+562
+01:23:01,054 --> 01:23:09,214
+[Mauricio Aniche] mas eles têm bastante discussões sobre como modelar classes que são flexíveis,
+como fazer com que partes dos sistemas sejam fáceis de serem trocadas, etc.
+
+563
+01:23:09,214 --> 01:23:15,767
+[Mauricio Aniche] Mas acho que eles são um pouco mais pragmáticos na discussão deles.
+
+564
+01:23:15,767 --> 01:23:22,102
+[Alexandre Aquiles] Sim, sim. Ô Ponte, vamos lá, considerações finais.
+
+565
+01:23:22,102 --> 01:23:33,102
+[Rafael Ponte] Eita, não vou falar sobre o livro porque eu não li o livro do Clean Arch.
+Então é mais para deixar aqui uma reflexão que eu tenho, do tipo, da minha carreira,
+
+566
+01:23:33,102 --> 01:23:43,542
+[Rafael Ponte] que é o cuidado de ser dogmático ou pragmático.
+Eu já fui, no início da minha carreira, ali, jovem, sem muito entendimento do mundo, do mercado,
+
+567
+01:23:43,542 --> 01:23:56,190
+[Rafael Ponte]  já fui dogmático, já segui Uncle Bob, já segui Domain Driven Design ao pé da letra
+e vi que só é dor e sofrimento. Então eu tento balancear isso com um pouco mais de pragmatismo.
+
+568
+01:23:56,230 --> 01:24:02,950
+[Rafael Ponte] E um dos pilares do pragmatismo que eu uso é
+"don't fight your frameworks". Não brigue com seus frameworks.
+
+569
+01:24:02,990 --> 01:24:09,550
+[Rafael Ponte] Já dizia Martin Fowler em seu livro de 2002, já dizia
+Eric Evans em seu livro de 2004. Não brigue com seus frameworks.
+
+570
+01:24:09,590 --> 01:24:15,390
+[Rafael Ponte] E hoje não há qualquer motivo de eu brigar com meu Rails,
+ou brigar com meu Laravel, ou eu brigar aqui com meu Spring Boot.
+
+571
+01:24:15,694 --> 01:24:20,614
+[Rafael Ponte] Porque eles tão fazendo mais de 80% do trabalho sujo.
+Eu só tenho que me preocupar com a regra de negócio,
+
+572
+01:24:20,614 --> 01:24:27,894
+[Rafael Ponte] e é isso que a gente tenta fazer há mais de 20 anos,
+deixar o desenvolvedor, a desenvolvedora, só se preocupar com a regra de negócio.
+
+573
+01:24:27,894 --> 01:24:33,774
+[Rafael Ponte] Mas quando está simples e tedioso, a gente gosta de complicar.
+Então eu não sei se vale, talvez no início da sua carreira,
+
+574
+01:24:33,774 --> 01:24:44,014
+[Rafael Ponte] investir tanto em estilos arquiteturais. Não é que você não vai estudar fundamentos, orientação a objetos,
+ou um paradigma funcional, ou mesmo SOLID, ou alguns padrões de projeto.
+
+575
+01:24:44,302 --> 01:24:53,062
+[Rafael Ponte] Só acho que talvez não vale tanta pena você investir nessa briga dogmática
+de estilos arquiteturais, Hexagonal, Clean ou qualquer outro,
+
+576
+01:24:53,102 --> 01:25:02,422
+[Rafael Ponte] quando boa parte do seu trabalho vai ser usar um framework.
+Então domine aquele framework, tá bom? Então acho que deixo essa sessão com isso.
+
+577
+01:25:04,558 --> 01:25:20,118
+[Alexandre Aquiles] Perfeito. Aprendam seu framework. Porque o framework não é um detalhe.
+Ou o framework é um detalhe? Brincadeira. Considerações finais, Otávio?
+
+578
+01:25:20,118 --> 01:25:30,898
+[Otávio Lemos] Pô, pessoal, obrigado. Nossa, achei bem legal a discussão.
+É isso, né? Eu sou entusiasta do estudo, sou professor universitário.
+
+579
+01:25:31,374 --> 01:25:42,436
+[Otávio Lemos] Então eu fico muito feliz de ver o pessoal na linha de frente, que é dev mesmo, recomendando que se leia mais livros, que o pessoal estude mesmo, acho que vale a pena esse tipo de recomendação.
+
+580
+01:25:42,436 --> 01:25:49,374
+[Otávio Lemos] Porque é como o Branas falou, mesmo que seja pra você saber onde não usar certas coisas.
+
+581
+01:25:49,374 --> 01:26:05,502
+[Otávio Lemos] Então só esse recado final mesmo, acho que vale a pena a gente se aprofundar nas coisas, porque senão você acaba sendo um...
+vira uma espécie de robô fazendo as coisas sem pensar, sem saber exatamente o que está fazendo.
+
+582
+01:26:05,502 --> 01:26:13,162
+[Otávio Lemos] Então acho legal essa profundidade, de a gente pegar esses livros.
+Eu gosto muito do livro que o Aniche recomendou também.
+
+583
+01:26:13,162 --> 01:26:18,542
+[Otávio Lemos]  E de fato, ele usa Ports & Adapters mesmo.
+Acho que foi um dos primeiros livros que fala...
+
+584
+01:26:18,542 --> 01:26:31,106
+[Otávio Lemos] Não sei se ele fala o termo, mas no próprio Clean Architecture ele fala desse livro como se fosse um dos primeiros a...
+utilizar esse tipo de estilo arquitetural.
+
+585
+01:26:31,106 --> 01:26:33,706
+[Alexandre Aquiles] Eu lembro que chega em algo parecido mesmo.
+
+586
+01:26:33,706 --> 01:26:49,486
+[Alexandre Aquiles] Esse "Growing Objects Guided by Tests", eu segui o exemplo, sabe?
+Eu fiz lá, deu um trabalho do caramba. Mas foi bem legal. E eles chegam em algo parecido, né, Otávio?
+
+587
+01:26:50,486 --> 01:27:01,962
+[Otávio Lemos]  Sim, é isso mesmo. E o livro é espetacular. Apesar de eu gostar mais do estilo de TDD mais clássico, do estilo do Kent Beck mesmo, mas...
+
+588
+01:27:01,962 --> 01:27:12,862
+[Otávio Lemos] Então é isso. Acho que é legal a gente conhecer todos os tipos, estilos de programação,
+de desenvolvimento, TDD, etc. E saber isso também tem, vai ter esses temas.
+
+589
+01:27:12,862 --> 01:27:23,794
+[Otávio Lemos] Também assim, a cultura é muito diversa, dependendo da empresa que você tá...  a empresa tá fechada com o framework. Então, por exemplo, eu tenho amigos, eu tenho...
+
+590
+01:27:24,462 --> 01:27:34,462
+[Otávio Lemos]  o Tony, que é meu amigão, que é Principal Engineer da Buser.
+A Buser, ela é feita em cima do Django.
+
+591
+01:27:34,462 --> 01:27:42,662
+[Otávio Lemos] Então assim, tem problema isso? Não tem problema.
+Funciona muito bem o aplicativo. Claro, você fechou com o framework.
+
+592
+01:27:42,662 --> 01:27:55,734
+[Otávio Lemos] Pode ser que tenha algum risco nisso. Quer dizer, o framework pode ser que seja menos estável do que a linguagem.
+Então você está dependendo de uma coisa que talvez seja menos estável, mas é um trade-off,
+
+593
+01:27:55,734 --> 01:28:09,014
+[Otávio Lemos] sempre tem esses trade-offs na vida. Então acho que vale a pena, só queria deixar esse recado final,
+que o pessoal se aprofundar mesmo, estudar, através de livros que realmente aprofundam esses temas,
+
+594
+01:28:09,014 --> 01:28:22,799
+[Otávio Lemos] para não fazer as coisas de qualquer jeito nas coxas e fazer cada vez melhor,
+como o Linhares falou, você que vai ter que cuidar do legado depois. Valeu, galera.
+
+595
+01:28:22,799 --> 01:28:32,210
+[Alexandre Aquiles] Pois é. E o Otávio tem um livro aí muito bom.
+Eu estou lendo. E é sucinto, mas consegue ser mais ponderado do que o...
+
+596
+01:28:32,230 --> 01:28:35,912
+[Alexandre Aquiles] o livro do Uncle Bob que tem 400 páginas. É impressionante.
+
+597
+01:28:37,050 --> 01:28:42,056
+[Mauricio Aniche] E o termo Ports & Adapters aparece mesmo no livro, Alexandre. Tô com ele aberto aqui.
+
+598
+01:28:42,056 --> 01:29:00,326
+[Alexandre Aquiles] Ah, legal. Legal. E então é isso, pessoal.
+Aí... A gente não falou um monte de coisas que a gente abordou na thread lá, tipo o que é design, o que é arquitetura.
+
+599
+01:29:00,326 --> 01:29:13,166
+[Alexandre Aquiles] E o Otávio só chegou a mencionar a Functional Core / Imperative Shell. Tem tanta coisa interessante assim, né?
+Mas é isso. Senão a gente vai ficar aqui para sempre conversando, né?
+
+600
+01:29:13,166 --> 01:29:26,398
+[Alexandre Aquiles] Mas muito obrigado. Desculpa aí, o Hugo, o Juan Lopes, a Gleice.
+o Rinaldo e várias outras pessoas aí que eu não consegui dar a palavra, né, porque senão...
+
+601
+01:29:26,398 --> 01:29:39,278
+[Alexandre Aquiles] que estão aparecendo aqui. E várias outras que eu não vou mencionar porque senão eu vou ficar falando
+aqui pra sempre. Mas muito obrigado por comparecer aí, pessoal. Eu vou ter que ouvir isso 15 vezes
+
+602
+01:29:39,278 --> 01:29:51,534
+[Alexandre Aquiles] pra absorver todo o conhecimento aqui. Então muito obrigado e eu vou finalizar aqui então. Beleza?
+Tchau, tchau pessoal! Valeu!
+
